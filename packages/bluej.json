@@ -1,8 +1,8 @@
 {
   "display-name": "Bluej",
   "package-name": "bluej",
-  "latest-version": " 5.0.0",
-  " 5.0.0": {
+  "latest-version": "5.0.0",
+  "5.0.0": {
     "url": "https://www.bluej.org/download/files/BlueJ-windows-500.msi",
     "file-type": ".msi",
     "install-switches": ["/qn"],
