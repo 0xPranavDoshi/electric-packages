@@ -8,7 +8,7 @@
         "latest-version": "0.10.0",
         "0.10.0": {
             "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.10.0/kind-windows-amd64#/kind.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "kind.exe"
             ],

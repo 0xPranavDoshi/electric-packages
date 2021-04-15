@@ -8,7 +8,7 @@
         "latest-version": "0.5.0",
         "0.5.0": {
             "url": "https://github.com/lycheeverse/lychee/releases/download/v0.5.0/lychee-v0.5.0-windows-x86_64.exe#/lychee.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "lychee.exe"
             ],

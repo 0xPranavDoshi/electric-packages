@@ -8,7 +8,7 @@
         "latest-version": "1.5.6.6000",
         "1.5.6.6000": {
             "url": "https://downloads.sourceforge.net/project/mpcbe/MPC-BE/Release%20builds/1.5.6/MPC-BE.1.5.6.6000.x64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

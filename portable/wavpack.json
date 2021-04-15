@@ -8,7 +8,7 @@
         "latest-version": "5.4.0",
         "5.4.0": {
             "url": "https://github.com/dbry/WavPack/releases/download/5.4.0/wavpack-5.4.0-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "wavpack.exe",
                 "wvunpack.exe",

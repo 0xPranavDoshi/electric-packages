@@ -1,20 +1,25 @@
 {
-  "display-name": "Git Large File Storage",
-  "package-name": "git-lfs",
-  "latest-version": "2.13.2",
-  "2.13.2": {
-    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-windows-v2.13.2.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NOCANCEL",
-      "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
-    ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "Git Large File Storage",
+    "package-name": "git-lfs",
+    "latest-version": "2.13.2",
+    "2.13.2": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-windows-v2.13.2.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "AE451345061F0C99AD7F56E6D2C3F7A633067093256785EC5F8C6C92934E41B3"
+    }
 }

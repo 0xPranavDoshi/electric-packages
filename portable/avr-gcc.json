@@ -8,7 +8,7 @@
         "latest-version": "10.2.0",
         "10.2.0": {
             "url": "https://dl.bintray.com/lumito/public/projects/avr-gcc/10.2.0/avr-gcc-10.2.0-x64-windows.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\avr-addr2line.exe",
                 "bin\\avr-ar.exe",

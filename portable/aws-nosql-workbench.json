@@ -8,7 +8,7 @@
         "latest-version": "2.2.0",
         "2.2.0": {
             "url": "https://s3.amazonaws.com/nosql-workbench/NoSQL%20Workbench-win-2.2.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

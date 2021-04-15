@@ -1,13 +1,17 @@
 {
-  "display-name": "Powertoys",
-  "package-name": "powertoys",
-  "latest-version": "0.31.2",
-  "0.31.2": {
-    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.31.2/PowerToysSetup-0.31.2-x64.exe",
-    "file-type": ".exe",
-    "install-switches": ["--silent", "--skip_dotnet_install"],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Powertoys",
+    "package-name": "powertoys",
+    "latest-version": "0.31.2",
+    "0.31.2": {
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.31.2/PowerToysSetup-0.31.2-x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent",
+            "--skip_dotnet_install"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "AD0DBF3F05EEE32A41FD79CA1F9DB2AF104E746370F345EEFB273FBD719E7616"
+    }
 }

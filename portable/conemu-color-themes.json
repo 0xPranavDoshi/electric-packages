@@ -8,7 +8,7 @@
         "latest-version": ".june.2020.2",
         ".june.2020.2": {
             "url": "https://github.com/joonro/ConEmu-Color-Themes/archive/v.june.2020.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Install-ConEmuTheme.ps1"
             ],

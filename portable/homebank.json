@@ -8,7 +8,7 @@
         "latest-version": "5.5.1",
         "5.5.1": {
             "url": "http://homebank.free.fr/public/HomeBank-5.5.1-setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

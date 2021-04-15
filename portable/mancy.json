@@ -8,7 +8,7 @@
         "latest-version": "3.2.0",
         "3.2.0": {
             "url": "https://github.com/princejwesley/Mancy/releases/download/v3.2.0/Mancy-win32-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Mancy.exe"
             ],

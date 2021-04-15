@@ -8,7 +8,7 @@
         "latest-version": "1.8.0",
         "1.8.0": {
             "url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-windows-64-bit.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

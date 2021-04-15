@@ -8,7 +8,7 @@
         "latest-version": "0.74",
         "0.74": {
             "url": "https://the.earth.li/~sgtatham/putty/latest/w64/puttytel.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "puttytel.exe"
             ],

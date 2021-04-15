@@ -8,7 +8,7 @@
         "latest-version": "0.14.0",
         "0.14.0": {
             "url": "https://github.com/extrawurst/gitui/releases/download/v0.14.0/gitui-win.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "gitui.exe"
             ],

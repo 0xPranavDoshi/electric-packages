@@ -8,7 +8,7 @@
         "latest-version": "1.8.1420",
         "1.8.1420": {
             "url": "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

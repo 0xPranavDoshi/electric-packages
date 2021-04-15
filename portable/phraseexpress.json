@@ -8,7 +8,7 @@
         "latest-version": "15.0.86d",
         "15.0.86d": {
             "url": "https://www.phraseexpress.com/PhraseExpress_USB.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "PhraseExpress.exe"
             ],

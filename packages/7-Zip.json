@@ -1,14 +1,23 @@
 {
-  "display-name": "7-Zip",
-  "package-name": "7-Zip",
-  "latest-version": "19.00",
-  "19.00": {
-    "url": "https://www.7-zip.org/a/7z1900-x64.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "threads": 2,
-    "dependencies": []
-  }
+    "display-name": "7-Zip",
+    "package-name": "7-Zip",
+    "latest-version": "19.00",
+    "19.00": {
+        "url": "https://www.7-zip.org/a/7z1900-x64.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "threads": 2,
+        "dependencies": [],
+        "checksum": "A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC"
+    }
 }

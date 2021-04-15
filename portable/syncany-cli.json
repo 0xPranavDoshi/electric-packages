@@ -8,7 +8,7 @@
         "latest-version": "0.4.9",
         "0.4.9": {
             "url": "https://www.syncany.org/dist/releases/syncany-cli-0.4.9-alpha.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "bin\\sy.bat",
                 "bin\\syncany.bat"

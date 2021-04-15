@@ -8,7 +8,7 @@
         "latest-version": "0.22.3",
         "0.22.3": {
             "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.22.3/mdcat-0.22.3-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "mdcat.exe"
             ],

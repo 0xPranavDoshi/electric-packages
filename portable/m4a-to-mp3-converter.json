@@ -8,7 +8,7 @@
         "latest-version": "X.89",
         "X.89": {
             "url": "https://www.maniactools.com/soft/m4a-to-mp3-converter.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

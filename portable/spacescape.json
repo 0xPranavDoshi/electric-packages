@@ -8,7 +8,7 @@
         "latest-version": "0.5.1",
         "0.5.1": {
             "url": "https://downloads.sourceforge.net/project/spacescape/win/spacescape-0.5.1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Spacescape.exe"
             ],

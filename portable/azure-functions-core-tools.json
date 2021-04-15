@@ -8,7 +8,7 @@
         "latest-version": "3.0.3442",
         "3.0.3442": {
             "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.3442/Azure.Functions.Cli.win-x64.3.0.3442.zip#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "func.exe"
             ],

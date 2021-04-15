@@ -8,7 +8,7 @@
         "latest-version": "1.12.5",
         "1.12.5": {
             "url": "https://github.com/gopasspw/gopass/releases/download/v1.12.5/gopass-1.12.5-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gopass.exe"
             ],

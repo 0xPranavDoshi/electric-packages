@@ -8,7 +8,7 @@
         "latest-version": "3.9.5",
         "3.9.5": {
             "url": "https://github.com/tagspaces/tagspaces/releases/download/v3.9.5/tagspaces-win-3.9.5.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "TagSpaces.exe",

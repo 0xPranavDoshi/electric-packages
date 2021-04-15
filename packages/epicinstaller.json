@@ -1,13 +1,22 @@
 {
-  "display-name": "Epic Games Launcher",
-  "package-name": "epicinstaller",
-  "latest-version": "12.1.1",
-  "12.1.1": {
-    "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-12.1.1.msi",
-    "file-type": ".msi",
-    "install-switches": ["/passive", "/quiet", "/norestart"],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
-    "custom-location": "/TARGETDIR=",
-    "dependencies": []
-  }
+    "display-name": "Epic Games Launcher",
+    "package-name": "epicinstaller",
+    "latest-version": "12.1.1",
+    "12.1.1": {
+        "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-12.1.1.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "/TARGETDIR=",
+        "dependencies": [],
+        "checksum": "B6464A18CBC852599D0DC45323C1C053746692AB6429E50B31C5AB2FE85A40AF"
+    }
 }

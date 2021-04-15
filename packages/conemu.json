@@ -1,13 +1,18 @@
 {
-	"display-name": "ConEmu",
-	"package-name": "conemu",
-	"latest-version": "21.2.6.0",
-	"21.2.6.0": {
-		"url": "https://github.com/Maximus5/ConEmu/releases/download/v21.02.06/ConEmuSetup.210206.exe",
-		"file-type": ".exe",
-		"install-switches": ["/p:x64,adm", "/qn", "/norestart"],
-	    "uninstall-switches": [],
-	    "custom-location": "APPLICATIONFOLDER=",
-	    "dependencies": []
-	}
+    "display-name": "ConEmu",
+    "package-name": "conemu",
+    "latest-version": "21.2.6.0",
+    "21.2.6.0": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.02.06/ConEmuSetup.210206.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "APPLICATIONFOLDER=",
+        "dependencies": [],
+        "checksum": "F52D248FB1FE923ABF28A7ADDDFCD76C4E207C70672898F6277ACCB502DA5779"
+    }
 }

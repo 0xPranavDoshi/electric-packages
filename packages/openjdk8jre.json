@@ -33,7 +33,8 @@
                 "bin\\javaw.exe",
                 "bin\\jjs.exe",
                 "bin\\keytool.exe"
-            ]
+            ],
+            "checksum": "322EB0CF5F073A9F029F42073E724439A1B4F70BC4FD99DDD06FD14E472600E9"
         }
     }
 }

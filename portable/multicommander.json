@@ -8,7 +8,7 @@
         "latest-version": "11.0.0.2770",
         "11.0.0.2770": {
             "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(11.0.0.2770).zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MultiCommander.exe"
             ],

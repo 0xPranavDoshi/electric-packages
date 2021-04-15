@@ -11,6 +11,7 @@
         ],
         "uninstall-switches": [],
         "custom-location": "",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "B811F2C047A3E828517C234BD4AA4883E1EC591D88FAD21289AE68A6915A6665"
     }
 }

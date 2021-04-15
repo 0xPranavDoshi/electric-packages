@@ -8,7 +8,7 @@
         "latest-version": "0.4.5.7",
         "0.4.5.7": {
             "url": "https://dist.torproject.org/torbrowser/10.0.14/tor-win64-0.4.5.7.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "Tor\\tor.exe",

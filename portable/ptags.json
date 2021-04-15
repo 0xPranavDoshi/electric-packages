@@ -8,7 +8,7 @@
         "latest-version": "0.3.2",
         "0.3.2": {
             "url": "https://github.com/dalance/ptags/releases/download/v0.3.2/ptags-v0.3.2-x86_64-win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ptags.exe"
             ],

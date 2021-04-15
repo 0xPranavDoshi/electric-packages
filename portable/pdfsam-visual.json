@@ -8,7 +8,7 @@
         "latest-version": "3.0.11",
         "3.0.11": {
             "url": "https://github.com/torakiki/pdfsam-visual-public/releases/download/v3.0.11/pdfsam-visual_3.0.11-windows_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

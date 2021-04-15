@@ -8,7 +8,7 @@
         "latest-version": "3.10.18",
         "3.10.18": {
             "url": "https://github.com/gpodder/gpodder/releases/download/3.10.18/windows-gpodder-3.10.18-portable.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "data\\bin\\gpo.exe",
                 "data\\bin\\gpodder.exe"

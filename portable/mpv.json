@@ -8,7 +8,7 @@
         "latest-version": "0.33.0",
         "0.33.0": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/stable/mpv-0.33.0-x86_64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mpv.com"
             ],

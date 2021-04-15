@@ -8,7 +8,7 @@
         "latest-version": "6.1.0",
         "6.1.0": {
             "url": "https://github.com/superpowers/superpowers-app/releases/download/v6.1.0/superpowers-v6.1.0-win-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Superpowers.exe"
             ],

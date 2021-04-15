@@ -8,7 +8,7 @@
         "latest-version": "8.0.23",
         "8.0.23": {
             "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.23-winx64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "MySQLWorkbench.exe",
                 "mysql.exe",

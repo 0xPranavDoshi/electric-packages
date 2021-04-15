@@ -8,7 +8,7 @@
         "latest-version": "1.8.2",
         "1.8.2": {
             "url": "https://github.com/ksnip/ksnip/releases/download/v1.8.2/ksnip-1.8.2-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ksnip.exe"
             ],

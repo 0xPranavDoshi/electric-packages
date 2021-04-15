@@ -8,7 +8,7 @@
         "latest-version": "2.5.1",
         "2.5.1": {
             "url": "https://github.com/OpenShot/openshot-qt/releases/download/v2.5.1/OpenShot-v2.5.1-x86_64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

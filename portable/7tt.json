@@ -8,7 +8,7 @@
         "latest-version": "5.10",
         "5.10": {
             "url": "https://rammichael.com/downloads/7tt_setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "7+ Taskbar Tweaker.exe"
             ],

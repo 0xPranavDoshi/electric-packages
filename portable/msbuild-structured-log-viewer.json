@@ -8,7 +8,7 @@
         "latest-version": "2.1.404",
         "2.1.404": {
             "url": "https://github.com/KirillOsenkov/MSBuildStructuredLog/releases/download/v2.1.404/MSBuildStructuredLogViewer-2.1.404-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "StructuredLogViewer.exe"
             ],

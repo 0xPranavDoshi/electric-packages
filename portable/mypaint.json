@@ -8,7 +8,7 @@
         "latest-version": "2.0.1",
         "2.0.1": {
             "url": "https://github.com/mypaint/mypaint/releases/download/v2.0.1/mypaint-w64-2.0.1-standalone.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mypaint.exe"
             ],

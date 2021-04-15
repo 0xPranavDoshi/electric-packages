@@ -8,7 +8,7 @@
         "latest-version": "4.9.2",
         "4.9.2": {
             "url": "https://repo.anaconda.com/miniconda/Miniconda3-py38_4.9.2-Windows-x86_64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "python.exe",
                 "pythonw.exe",

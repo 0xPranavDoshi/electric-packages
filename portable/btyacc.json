@@ -8,7 +8,7 @@
         "latest-version": "3.0",
         "3.0": {
             "url": "https://downloads.sourceforge.net/project/gnuwin32/btyacc/3.0/btyacc-3.0-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\btyacc.exe"
             ],

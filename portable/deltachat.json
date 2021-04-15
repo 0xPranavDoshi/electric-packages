@@ -8,7 +8,7 @@
         "latest-version": "1.15.5",
         "1.15.5": {
             "url": "https://download.delta.chat/desktop/v1.15.5/DeltaChat%201.15.5.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

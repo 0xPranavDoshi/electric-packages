@@ -8,7 +8,7 @@
         "latest-version": "37.1-3",
         "37.1-3": {
             "url": "https://github.com/visualfc/liteide/releases/download/x37.1/liteidex37.1-3.windows-qt5.9.5.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\liteide.exe"
             ],

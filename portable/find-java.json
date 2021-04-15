@@ -8,7 +8,7 @@
         "latest-version": "13",
         "13": {
             "url": "https://gist.githubusercontent.com/se35710/43693e679701387d722206eff1e85f5f/raw/b6a69d34b16092f710fc134a4a6ee19c0e7d3c36/find-java.ps1",
-            "file-type": "ps1",
+            "file-type": ".ps1",
             "bin": [
                 "find-java.ps1"
             ],

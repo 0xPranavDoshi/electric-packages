@@ -8,7 +8,7 @@
         "latest-version": "2.3",
         "2.3": {
             "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.3/LightBulb.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "LightBulb.exe"
             ],

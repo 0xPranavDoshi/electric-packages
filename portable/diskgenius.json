@@ -8,7 +8,7 @@
         "latest-version": "5.4.1.1178",
         "5.4.1.1178": {
             "url": "http://download.eassos.cn/DG5411178_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "DiskGenius.exe"
             ],

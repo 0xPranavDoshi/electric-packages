@@ -8,7 +8,7 @@
         "latest-version": "0.7.1",
         "0.7.1": {
             "url": "https://github.com/dandavison/delta/releases/download/0.7.1/delta-0.7.1-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "delta.exe"
             ],

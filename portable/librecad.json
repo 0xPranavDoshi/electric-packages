@@ -8,7 +8,7 @@
         "latest-version": "2.1.3",
         "2.1.3": {
             "url": "https://github.com/LibreCAD/LibreCAD/releases/download/2.1.3/LibreCAD-Installer-2.1.3.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "LibreCAD.exe"
             ],

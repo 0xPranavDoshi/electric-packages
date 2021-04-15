@@ -23,7 +23,7 @@
                 "http://repo.msys2.org/msys/x86_64/openssl-1.1.1.e-1-x86_64.pkg.tar.xz",
                 "http://repo.msys2.org/msys/x86_64/zlib-1.2.11-1-x86_64.pkg.tar.xz"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 [
                     "usr\\bin\\sh.exe",

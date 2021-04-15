@@ -8,7 +8,7 @@
         "latest-version": "2.0.10",
         "2.0.10": {
             "url": "https://mosquitto.org/files/binary/win64/mosquitto-2.0.10-install-windows-x64.exe#dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mosquitto.exe",
                 "mosquitto_passwd.exe",

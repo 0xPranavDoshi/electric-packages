@@ -8,7 +8,7 @@
         "latest-version": "5.6.1-12",
         "5.6.1-12": {
             "url": "https://files.lhmouse.com/nano-win/nano-win_9518_v5.6.1-12-g9242f0f8.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": [],

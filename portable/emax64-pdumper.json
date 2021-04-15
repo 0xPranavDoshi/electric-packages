@@ -8,7 +8,7 @@
         "latest-version": "20180619",
         "20180619": {
             "url": "https://github.com/m-parashar/emax64/releases/download/pdumper-20180619/emax64-pdumper-bin-20180619.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\runemacs.exe",
                 "bin\\emacs.exe",

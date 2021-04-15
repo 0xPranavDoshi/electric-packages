@@ -8,7 +8,7 @@
         "latest-version": "3.1.64",
         "3.1.64": {
             "url": "https://www.backuptrans.com/download/exe/android-line-transfer_x64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "15.14.0",
         "15.14.0": {
             "url": "https://nodejs.org/dist/v15.14.0/node-v15.14.0-win-x64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": [

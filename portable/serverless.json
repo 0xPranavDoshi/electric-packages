@@ -8,7 +8,7 @@
         "latest-version": "2.35.0",
         "2.35.0": {
             "url": "https://github.com/serverless/serverless/releases/download/v2.35.0/serverless-win-x64.exe#/serverless.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "serverless.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "9.33",
         "9.33": {
             "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

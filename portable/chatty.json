@@ -8,7 +8,7 @@
         "latest-version": "0.14",
         "0.14": {
             "url": "https://github.com/chatty/chatty/releases/download/v0.14/Chatty_0.14_win_standalone.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Chatty.exe"
             ],

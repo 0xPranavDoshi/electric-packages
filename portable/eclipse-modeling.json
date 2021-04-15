@@ -8,7 +8,7 @@
         "latest-version": "2021-03",
         "2021-03": {
             "url": "http://download.eclipse.org/technology/epp/downloads/release/2021-03/R/eclipse-modeling-2021-03-R-win32-x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

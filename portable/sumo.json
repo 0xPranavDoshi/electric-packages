@@ -8,7 +8,7 @@
         "latest-version": "5.12.10.486",
         "5.12.10.486": {
             "url": "https://www.kcsoftwares.com/files/sumo.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "SUMo.exe"
             ],

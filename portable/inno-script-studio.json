@@ -8,7 +8,7 @@
         "latest-version": "2.5.1",
         "2.5.1": {
             "url": "https://www.kymoto.org/downloads/ISStudio_Latest.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

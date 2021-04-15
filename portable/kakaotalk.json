@@ -8,7 +8,7 @@
         "latest-version": "3.2.5.2742",
         "3.2.5.2742": {
             "url": "http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

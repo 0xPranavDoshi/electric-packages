@@ -8,7 +8,7 @@
         "latest-version": "6.6.1.809",
         "6.6.1.809": {
             "url": "https://dl.enpass.io/stable/windows/setup/6.6.1.809/Enpass-setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "Enpass.exe"
             ],

@@ -12,7 +12,8 @@
             "extract-dir": "upx",
             "bin": [
                 "upx.exe"
-            ]
+            ],
+            "checksum": "806403C20B41284194CF68634F5D0B19E5D37EA0A0719A87955CA90A5D952FA1"
         }
     }
 }

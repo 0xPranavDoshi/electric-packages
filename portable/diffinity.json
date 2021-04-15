@@ -8,7 +8,7 @@
         "latest-version": "0.9.3",
         "0.9.3": {
             "url": "http://www.truehumandesign.se/download/diffinityInstaller.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Diffinity.exe"
             ],

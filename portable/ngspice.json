@@ -8,7 +8,7 @@
         "latest-version": "34",
         "34": {
             "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/34/ngspice-34_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\ngspice_con.exe",
                 [

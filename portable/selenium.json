@@ -8,7 +8,7 @@
         "latest-version": "3.141.59",
         "3.141.59": {
             "url": "https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar#/selenium.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "selenium.jar"
             ],

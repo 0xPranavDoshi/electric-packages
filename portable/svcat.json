@@ -8,7 +8,7 @@
         "latest-version": "0.3.1",
         "0.3.1": {
             "url": "https://download.svcat.sh/cli/v0.3.1/windows/amd64/svcat.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "svcat.exe"
             ],

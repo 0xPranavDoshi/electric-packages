@@ -8,7 +8,7 @@
         "latest-version": "0.0.21",
         "0.0.21": {
             "url": "https://github.com/qmk/qmk_toolbox/releases/download/0.0.21/qmk_toolbox.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "qmk_toolbox.exe"
             ],

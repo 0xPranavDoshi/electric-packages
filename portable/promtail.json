@@ -8,7 +8,7 @@
         "latest-version": "2.2.1",
         "2.2.1": {
             "url": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-amd64.exe.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

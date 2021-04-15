@@ -1,13 +1,22 @@
 {
-  "display-name": "Microsoft CLI 2.0 for Azure",
-  "package-name": "azure-cli",
-  "latest-version": "2.19.1",
-  "2.19.1": {
-    "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.19.1.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "Microsoft CLI 2.0 for Azure",
+    "package-name": "azure-cli",
+    "latest-version": "2.19.1",
+    "2.19.1": {
+        "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.19.1.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "01928A7CE325B49FF5B1D294404801AC6A4203CFB328A26F3A62B3A001CF1584"
+    }
 }

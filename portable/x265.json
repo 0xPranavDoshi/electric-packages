@@ -8,7 +8,7 @@
         "latest-version": "3.5+9-bf91444",
         "3.5+9-bf91444": {
             "url": "http://msystem.waw.pl/x265/x265-3.5+9-bf91444_vs2019-AVX2.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": []

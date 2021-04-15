@@ -37,7 +37,7 @@
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-xz-5.2.5-1-any.pkg.tar.xz",
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.2.11-7-any.pkg.tar.xz"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\gdb.exe",
                 "bin\\gdbserver.exe"

@@ -8,7 +8,7 @@
         "latest-version": "4.3.7.25118",
         "4.3.7.25118": {
             "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "Bcomp.exe"
             ],

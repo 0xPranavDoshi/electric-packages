@@ -1,14 +1,15 @@
 {
-  "display-name": "Logitech Gaming Hub",
-  "package-name": "logitech-gaming-hub",
-  "latest-version": "latest",
-  "latest": {
-    "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
-    "file-type": ".exe",
-    "run-test": true,
-    "install-switches": [],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Logitech Gaming Hub",
+    "package-name": "logitech-gaming-hub",
+    "latest-version": "latest",
+    "latest": {
+        "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
+        "file-type": ".exe",
+        "run-test": true,
+        "install-switches": [],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "534DD2AAA0B2B1464DC49DB4C47851A1B038D2F07E8D95EA69E468D6B172857C"
+    }
 }

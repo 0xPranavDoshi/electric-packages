@@ -8,7 +8,7 @@
         "latest-version": "4.2.3",
         "4.2.3": {
             "url": "https://github.com/torakiki/pdfsam/releases/download/v4.2.3/pdfsam-4.2.3-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pdfsam.exe"
             ],

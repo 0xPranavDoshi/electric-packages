@@ -8,7 +8,7 @@
         "latest-version": "3.0.13",
         "3.0.13": {
             "url": "https://github.com/exercism/cli/releases/download/v3.0.13/exercism-windows-64bit.zip#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "exercism.exe"
             ],

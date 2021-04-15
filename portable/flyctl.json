@@ -8,7 +8,7 @@
         "latest-version": "0.0.210",
         "0.0.210": {
             "url": "https://github.com/superfly/flyctl/releases/download/v0.0.210/flyctl_0.0.210_Windows_x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "flyctl.exe",
                 [

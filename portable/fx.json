@@ -8,7 +8,7 @@
         "latest-version": "20.0.2",
         "20.0.2": {
             "url": "https://github.com/antonmedv/fx/releases/download/20.0.2/fx-win.exe.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "fx.exe"
             ],

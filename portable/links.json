@@ -8,7 +8,7 @@
         "latest-version": "2.22",
         "2.22": {
             "url": "http://links.twibright.com/download/binaries/win32/Links-2.22-64bit-install.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "links.exe"
             ],

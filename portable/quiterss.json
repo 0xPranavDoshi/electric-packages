@@ -8,7 +8,7 @@
         "latest-version": "0.19.4",
         "0.19.4": {
             "url": "https://quiterss.org/files/0.19.4_/QuiteRSS-0.19.4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

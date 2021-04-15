@@ -8,7 +8,7 @@
         "latest-version": "0.6.6",
         "0.6.6": {
             "url": "https://github.com/pencil2d/pencil/releases/download/v0.6.6/pencil2d-win64-0.6.6.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pencil2d.exe"
             ],

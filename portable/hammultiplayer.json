@@ -8,7 +8,7 @@
         "latest-version": "0.117.38154.1909",
         "0.117.38154.1909": {
             "url": "http://hammultiplayer.org/Softs/HamMultiPlayer.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "HamMultiPlayer.exe"
             ],

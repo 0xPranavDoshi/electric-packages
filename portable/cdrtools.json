@@ -8,7 +8,7 @@
         "latest-version": "3.02a09",
         "3.02a09": {
             "url": "https://downloads.sourceforge.net/project/tumagcc/schily-cdrtools-3.02a09.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "btcflash.exe",
                 "cdda2wav.exe",

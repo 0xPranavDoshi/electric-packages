@@ -8,7 +8,7 @@
         "latest-version": "1.51",
         "1.51": {
             "url": "http://www.malsmith.net/download/?obj=yori/1.51/win32/ysetup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "yori.exe"
             ],

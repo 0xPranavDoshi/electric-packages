@@ -8,7 +8,7 @@
         "latest-version": "2.3.1",
         "2.3.1": {
             "url": "https://www.deepl.com/windows/download/x64/2_3_1/DeepL-2.3.1-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "DeepL\\DeepL.exe"
             ],

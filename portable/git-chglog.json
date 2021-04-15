@@ -8,7 +8,7 @@
         "latest-version": "0.14.1",
         "0.14.1": {
             "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.14.1/git-chglog_0.14.1_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "git-chglog.exe"
             ],

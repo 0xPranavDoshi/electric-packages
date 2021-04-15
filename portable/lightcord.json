@@ -8,7 +8,7 @@
         "latest-version": "0.1.5",
         "0.1.5": {
             "url": "https://github.com/Lightcord/Lightcord/releases/download/0.1.5/lightcord-win32-ia32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

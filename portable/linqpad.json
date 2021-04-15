@@ -8,7 +8,7 @@
         "latest-version": "6.12.4",
         "6.12.4": {
             "url": "http://download.linqpad.net/public/LINQPad6.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

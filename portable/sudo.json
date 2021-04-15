@@ -8,7 +8,7 @@
         "latest-version": "0.2020.01.26",
         "0.2020.01.26": {
             "url": "https://raw.githubusercontent.com/lukesampson/psutils/c7116ac143ca81f223e6091d0974f45ac241eb1d/sudo.ps1",
-            "file-type": "ps1",
+            "file-type": ".ps1",
             "bin": [
                 "sudo.ps1"
             ],

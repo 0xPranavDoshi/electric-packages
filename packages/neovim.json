@@ -22,7 +22,8 @@
                 "bin\\win32yank.exe",
                 "bin\\winpty-agent.exe",
                 "bin\\xxd.exe"
-            ]
+            ],
+            "checksum": "8C24D43F315BD263BF99D4FCB9D7C30897981F95B6E88ADFA5F944B72CE48947"
         }
     }
 }

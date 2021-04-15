@@ -8,7 +8,7 @@
         "latest-version": "1.7.94",
         "1.7.94": {
             "url": "https://github.com/RipMeApp/ripme/releases/download/1.7.94/ripme.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "ripme.jar"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "v0.1.1-alpha",
         "v0.1.1-alpha": {
             "url": "https://github.com/deevus/CsvToSql/archive/v0.1.1-alpha.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ConvertCsvTo-Sql.ps1"
             ],

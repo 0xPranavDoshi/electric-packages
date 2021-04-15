@@ -8,7 +8,7 @@
         "latest-version": "0.39.4",
         "0.39.4": {
             "url": "https://www.giuspen.com/software/cherrytree_0.39.4_win32_portable.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\cherrytree.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.1.0",
         "1.1.0": {
             "url": "https://github.com/beakerbrowser/beaker/releases/download/1.1.0/beaker-browser-setup-1.1.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Beaker Browser.exe",
                 [

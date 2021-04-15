@@ -8,7 +8,7 @@
         "latest-version": "1.12.6",
         "1.12.6": {
             "url": "https://github.com/xyproto/algernon/releases/download/1.12.6/algernon-1.12.6.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "algernon.exe"
             ],

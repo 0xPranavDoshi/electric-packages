@@ -8,7 +8,7 @@
         "latest-version": "5.0.10",
         "5.0.10": {
             "url": "https://github.com/tporadowski/redis/releases/download/v5.0.10/Redis-x64-5.0.10.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "redis-benchmark.exe",
                 "redis-check-aof.exe",

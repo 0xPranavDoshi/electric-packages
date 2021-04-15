@@ -8,7 +8,7 @@
         "latest-version": "0.94",
         "0.94": {
             "url": "https://github.com/RodZill4/godot-procedural-textures/releases/download/0.94/material_maker_0_94_windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "material_maker.exe"
             ],

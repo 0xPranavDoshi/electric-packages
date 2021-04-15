@@ -8,7 +8,7 @@
         "latest-version": "2.10.0",
         "2.10.0": {
             "url": "https://github.com/linkerd/linkerd2/releases/download/stable-2.10.0/linkerd2-cli-stable-2.10.0-windows.exe#/linkerd.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "linkerd.exe"
             ],

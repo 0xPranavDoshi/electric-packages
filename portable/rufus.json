@@ -8,7 +8,7 @@
         "latest-version": "3.13",
         "3.13": {
             "url": "https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13p.exe#/rufus.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "rufus.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "30b5757",
         "30b5757": {
             "url": "https://farmanager.com/files/Far30b5757.x64.20210310.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "far.exe"
             ],

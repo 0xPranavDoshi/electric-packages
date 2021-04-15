@@ -8,7 +8,7 @@
         "latest-version": "1.0.9",
         "1.0.9": {
             "url": "https://github.com/acaudwell/Logstalgia/releases/download/logstalgia-1.0.9/logstalgia-1.0.9.win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "logstalgia.exe"
             ],

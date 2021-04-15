@@ -8,7 +8,7 @@
         "latest-version": "8.0.3",
         "8.0.3": {
             "url": "https://windows.php.net/downloads/releases/php-8.0.3-Win32-vs16-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "php.exe",
                 "php-cgi.exe",

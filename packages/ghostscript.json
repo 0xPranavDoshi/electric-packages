@@ -1,13 +1,18 @@
 {
-  "display-name": "Ghost Script",
-  "package-name": "ghostscript",
-  "latest-version": "9.53.3",
-  "9.53.3": {
-    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/gs9533w64.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "Ghost Script",
+    "package-name": "ghostscript",
+    "latest-version": "9.53.3",
+    "9.53.3": {
+        "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/gs9533w64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "A1AC8A2D0409CC02D5BCBA9451BBE2EC8694498DB5CF2D27DEBE7687529C4A05"
+    }
 }

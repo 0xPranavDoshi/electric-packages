@@ -8,7 +8,7 @@
         "latest-version": "7.02-4430",
         "7.02-4430": {
             "url": "https://www.hwinfo.com/files/hwi_702.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

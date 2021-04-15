@@ -8,7 +8,7 @@
         "latest-version": "5.35",
         "5.35": {
             "url": "https://dl.bandisoft.com/honeyview/HONEYVIEW-SETUP.EXE",
-            "file-type": "EXE",
+            "file-type": ".EXE",
             "bin": [
                 "Honeyview.exe"
             ],

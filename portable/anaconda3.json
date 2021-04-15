@@ -8,7 +8,7 @@
         "latest-version": "2020.11",
         "2020.11": {
             "url": "https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "python.exe",
                 "pythonw.exe",

@@ -8,7 +8,7 @@
         "latest-version": "2021.01.12.01",
         "2021.01.12.01": {
             "url": "https://packages.chocolatey.org/buck.2021.01.12.01.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "buck.bat"
             ],

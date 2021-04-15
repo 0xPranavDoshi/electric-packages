@@ -8,7 +8,7 @@
         "latest-version": "6.7.6",
         "6.7.6": {
             "url": "https://github.com/concourse/concourse/releases/download/v6.7.6/fly-6.7.6-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "fly.exe"
             ],

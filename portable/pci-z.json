@@ -8,7 +8,7 @@
         "latest-version": "2.0-2017.07.01",
         "2.0-2017.07.01": {
             "url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

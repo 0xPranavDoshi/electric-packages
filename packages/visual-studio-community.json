@@ -1,13 +1,17 @@
 {
-  "display-name": "Microsoft Visual Studio Community Edition",
-  "package-name": "visual-studio-community",
-  "latest-version": "16.9",
-  "16.9": {
-    "url": "https://aka.ms/vs/16/release/vs_Community.exe",
-    "file-type": ".exe",
-    "install-switches": ["--quiet", "--norestart"],
-    "uninstall-switches": [],
-    "custom-location": "--installPath=",
-    "dependencies": []
-  }
+    "display-name": "Microsoft Visual Studio Community Edition",
+    "package-name": "visual-studio-community",
+    "latest-version": "16.9",
+    "16.9": {
+        "url": "https://aka.ms/vs/16/release/vs_Community.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--quiet",
+            "--norestart"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "--installPath=",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
 }

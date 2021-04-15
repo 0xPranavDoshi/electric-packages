@@ -8,7 +8,7 @@
         "latest-version": "1.16",
         "1.16": {
             "url": "http://potrace.sourceforge.net/download/1.16/potrace-1.16.win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "potrace.exe",
                 "mkbitmap.exe"

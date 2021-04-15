@@ -8,7 +8,7 @@
         "latest-version": "0.7",
         "0.7": {
             "url": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v0.7/Pixelorama.v0.7.Windows.64-bit.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Pixelorama.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "12.0.2172",
         "12.0.2172": {
             "url": "https://dl5.oo-software.com/files/ooregeditor12/120/ooregeditor.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

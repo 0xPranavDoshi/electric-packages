@@ -8,7 +8,7 @@
         "latest-version": "2.4.1.0",
         "2.4.1.0": {
             "url": "https://github.com/xupefei/Locale-Emulator/releases/download/v2.4.1.0/Locale.Emulator.2.4.1.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "LEGUI.exe",

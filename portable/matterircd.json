@@ -8,7 +8,7 @@
         "latest-version": "0.24.0",
         "0.24.0": {
             "url": "https://github.com/42wim/matterircd/releases/download/v0.24.0/matterircd-0.24.0-windows-64bit.exe#/matterircd.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "matterircd.exe"
             ],

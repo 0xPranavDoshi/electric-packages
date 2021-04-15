@@ -8,7 +8,7 @@
         "latest-version": "1.9.6.1-alpha",
         "1.9.6.1-alpha": {
             "url": "https://github.com/MattMcManis/Axiom/releases/download/v1.9.6.1-alpha/Axiom.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Axiom.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "02.28.10",
         "02.28.10": {
             "url": "https://downloads.sourceforge.net/project/inadyn-mt/inadyn-mt/inadyn-mt.v.02.28.10/inadyn-mt.v.02.28.10.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "bin\\win32\\inadyn-mt.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.14.0",
         "1.14.0": {
             "url": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe#/dasel.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "dasel.exe"
             ],

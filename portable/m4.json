@@ -11,7 +11,7 @@
                 "https://downloads.sourceforge.net/project/gnuwin32/m4/1.4.14-1/m4-1.4.14-1-bin.zip",
                 "https://downloads.sourceforge.net/project/gnuwin32/m4/1.4.14-1/m4-1.4.14-1-dep.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\m4.exe"
             ],

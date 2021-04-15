@@ -11,6 +11,7 @@
         ],
         "uninstall-switches": [],
         "custom-location": "/installpath=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "5F4EA0C55AF099F97CB569A927C3A290C211F17EDCFC65009F5B9253B9827925"
     }
 }

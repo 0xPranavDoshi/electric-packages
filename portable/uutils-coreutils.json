@@ -8,7 +8,7 @@
         "latest-version": "0.0.6",
         "0.0.6": {
             "url": "https://github.com/uutils/coreutils/releases/download/0.0.6/coreutils-0.0.6-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "coreutils.exe",
                 [

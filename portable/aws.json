@@ -8,7 +8,7 @@
         "latest-version": "2.1.37",
         "2.1.37": {
             "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.37.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "aws.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.8.1",
         "1.8.1": {
             "url": "https://cdn.theunarchiver.com/downloads/unarWindows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "lsar.exe",
                 "unar.exe"

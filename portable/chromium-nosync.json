@@ -8,7 +8,7 @@
         "latest-version": "67.0.3396.99-r550428",
         "67.0.3396.99-r550428": {
             "url": "https://github.com/henrypp/chromium/releases/download/v67.0.3396.99-r550428-win64/chromium-nosync.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "chrome.exe",
                 [

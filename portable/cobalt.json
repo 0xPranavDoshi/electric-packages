@@ -8,7 +8,7 @@
         "latest-version": "0.16.4",
         "0.16.4": {
             "url": "https://github.com/cobalt-org/cobalt.rs/releases/download/v0.16.4/cobalt-v0.16.4-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "cobalt.exe"
             ],

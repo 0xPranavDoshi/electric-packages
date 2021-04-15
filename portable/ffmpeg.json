@@ -8,7 +8,7 @@
         "latest-version": "4.4-4",
         "4.4-4": {
             "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-04-11-12-36/ffmpeg-n4.4-4-gacb339bb88-win64-gpl-4.4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\ffmpeg.exe",
                 "bin\\ffplay.exe",

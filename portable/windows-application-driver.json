@@ -8,7 +8,7 @@
         "latest-version": "1.2.1",
         "1.2.1": {
             "url": "https://github.com/Microsoft/WinAppDriver/releases/download/v1.2.1/WindowsApplicationDriver_1.2.1.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "Windows Application Driver\\WinAppDriver.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.3.5",
         "3.3.5": {
             "url": "https://github.com/henrypp/memreduct/releases/download/v.3.3.5/memreduct-3.3.5-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "memreduct.exe"
             ],

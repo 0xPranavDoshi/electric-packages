@@ -1,16 +1,19 @@
 {
-  "display-name": "Bazel",
-  "package-name": "bazel",
-  "is-portable": true,
-  "portable": {
     "display-name": "Bazel",
     "package-name": "bazel",
-    "latest-version": "4.0.0",
-    "4.0.0": {
-      "url": "https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-windows-x86_64.zip",
-      "file-type": ".zip",
-      "extract-dir": "bazel",
-      "bin": ["bazel.exe"]
+    "is-portable": true,
+    "portable": {
+        "display-name": "Bazel",
+        "package-name": "bazel",
+        "latest-version": "4.0.0",
+        "4.0.0": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-windows-x86_64.zip",
+            "file-type": ".zip",
+            "extract-dir": "bazel",
+            "bin": [
+                "bazel.exe"
+            ],
+            "checksum": "C6E8D4F58A6B5465CCB581E0ADC879DBBEC9004093A39FD17F579AAA0F23A507"
+        }
     }
-  }
 }

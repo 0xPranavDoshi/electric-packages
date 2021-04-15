@@ -8,7 +8,7 @@
         "latest-version": "3.3.11",
         "3.3.11": {
             "url": "https://www.apache.org/dist/tinkerpop/3.3.11/apache-tinkerpop-gremlin-server-3.3.11-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\gremlin-server.bat"
             ],

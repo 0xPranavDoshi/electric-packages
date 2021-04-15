@@ -8,7 +8,7 @@
         "latest-version": "10.20",
         "10.20": {
             "url": "https://github.com/rivy/PCRE/releases/download/10.20/pcre2grep-10.20-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pcre2grep.exe",
                 "pcre2test.exe",

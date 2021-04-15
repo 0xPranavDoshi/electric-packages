@@ -8,7 +8,7 @@
         "latest-version": "1.8.0.86",
         "1.8.0.86": {
             "url": "https://github.com/CobaltFusion/DebugViewPP/releases/download/v1.8.0.48-x64/DebugView%2B%2B.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "DebugView++.exe",
                 [

@@ -8,7 +8,7 @@
         "latest-version": "0.9.49",
         "0.9.49": {
             "url": "https://launchpad.net/i2p/trunk/0.9.49/%2Bdownload/i2pinstall_0.9.49_windows.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "I2P.exe",
                 "I2Psvc.exe"

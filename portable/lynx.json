@@ -11,7 +11,7 @@
                 "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe",
                 "https://slproweb.com/download/Win32OpenSSL_Light-1_1_1j.exe"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 [
                     "lynx.exe",

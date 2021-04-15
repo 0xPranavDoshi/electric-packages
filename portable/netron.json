@@ -8,7 +8,7 @@
         "latest-version": "4.8.8",
         "4.8.8": {
             "url": "https://github.com/lutzroeder/netron/releases/download/v4.8.8/Netron-Setup-4.8.8.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Netron.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.4.00b14",
         "0.4.00b14": {
             "url": "https://docs.google.com/uc?export=download&id=1ySJO2ywT6LoVRV2cb3n7qYcaUGJ7ES4J#/pietty.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pietty.exe"
             ],

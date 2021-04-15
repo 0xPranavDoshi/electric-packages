@@ -8,7 +8,7 @@
         "latest-version": "20.10.2",
         "20.10.2": {
             "url": "https://raw.githubusercontent.com/EventStore/Downloads/master/win/EventStore-OSS-Windows-2019-v20.10.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "EventStore.ClusterNode.exe",

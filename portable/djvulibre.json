@@ -8,7 +8,7 @@
         "latest-version": "3.5.28-4.12",
         "3.5.28-4.12": {
             "url": "https://downloads.sourceforge.net/project/djvu/DjVuLibre_Windows/3.5.28+4.12/DjVuLibre-3.5.28_DjView-4.12_Setup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bzz.exe",
                 "c44.exe",

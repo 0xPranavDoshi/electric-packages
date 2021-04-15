@@ -8,7 +8,7 @@
         "latest-version": "1.6.0",
         "1.6.0": {
             "url": "https://github.com/Kyrodan/KeeAnywhere/releases/download/v1.6.0/KeeAnywhere-1.6.0.plgx#/KeeAnywhere.plgx",
-            "file-type": "plgx",
+            "file-type": ".plgx",
             "bin": [],
             "shortcuts": [],
             "persist": []

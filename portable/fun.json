@@ -8,7 +8,7 @@
         "latest-version": "3.6.21",
         "3.6.21": {
             "url": "https://funcruft-release.oss-accelerate.aliyuncs.com/fun/fun-v3.6.21-win.exe.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "fun.exe"
             ],

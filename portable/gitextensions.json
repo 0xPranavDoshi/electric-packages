@@ -8,7 +8,7 @@
         "latest-version": "3.4.3.9999",
         "3.4.3.9999": {
             "url": "https://github.com/gitextensions/gitextensions/releases/download/v3.4.3/GitExtensions-Portable-3.4.3.9999-d4b0f48bb.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "GitExtensions.exe",
                 [

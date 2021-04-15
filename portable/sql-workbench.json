@@ -8,7 +8,7 @@
         "latest-version": "127",
         "127": {
             "url": "https://www.sql-workbench.eu/Workbench-Build127-with-optional-libs.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "sqlwbconsole.cmd"
             ],

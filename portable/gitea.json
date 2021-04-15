@@ -8,7 +8,7 @@
         "latest-version": "1.14.0",
         "1.14.0": {
             "url": "https://dl.gitea.io/gitea/1.14.0/gitea-1.14.0-windows-4.0-amd64.exe.xz",
-            "file-type": "xz",
+            "file-type": ".xz",
             "bin": [
                 "gitea.exe"
             ],

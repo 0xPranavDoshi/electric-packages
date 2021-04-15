@@ -8,7 +8,7 @@
         "latest-version": "3.10.0",
         "3.10.0": {
             "url": "http://www.angusj.com/pdftkb/pdftkb_setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

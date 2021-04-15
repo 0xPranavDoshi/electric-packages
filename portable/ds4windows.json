@@ -8,7 +8,7 @@
         "latest-version": "3.0.2",
         "3.0.2": {
             "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v3.0.2/DS4Windows_3.0.2_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "DS4Windows.exe"
             ],

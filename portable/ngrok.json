@@ -8,7 +8,7 @@
         "latest-version": "2.3.38",
         "2.3.38": {
             "url": "https://bin.equinox.io/a/kDgjLwTH9Ur/ngrok-2.3.38-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ngrok.exe"
             ],

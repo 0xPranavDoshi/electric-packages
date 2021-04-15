@@ -8,7 +8,7 @@
         "latest-version": "86.0.4185.0-r769185",
         "86.0.4185.0-r769185": {
             "url": "https://github.com/macchrome/chromium/releases/download/v86.0.4185.0-r769185-Win64/Chrome-bin.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "chrome.exe",
                 [

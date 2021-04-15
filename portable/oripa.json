@@ -8,7 +8,7 @@
         "latest-version": "1.45",
         "1.45": {
             "url": "https://github.com/oripa/oripa/releases/download/v1.45_release/oripa-1.45.jar#/oripa.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "oripa.jar"
             ],

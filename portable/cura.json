@@ -8,7 +8,7 @@
         "latest-version": "4.8.0",
         "4.8.0": {
             "url": "https://github.com/Ultimaker/Cura/releases/download/4.8.0/Ultimaker_Cura-4.8.0-amd64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "CuraCLI.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.4.4",
         "3.4.4": {
             "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-3.4.4-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "sourcetree.exe"
             ],

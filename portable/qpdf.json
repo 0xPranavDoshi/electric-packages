@@ -8,7 +8,7 @@
         "latest-version": "10.3.1",
         "10.3.1": {
             "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.3.1/qpdf-10.3.1-bin-mingw64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\qpdf.exe"
             ],

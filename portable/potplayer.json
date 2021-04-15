@@ -8,7 +8,7 @@
         "latest-version": "210318",
         "210318": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/210318/PotPlayerSetup64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

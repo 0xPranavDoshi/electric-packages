@@ -8,7 +8,7 @@
         "latest-version": "3.9.2",
         "3.9.2": {
             "url": "https://github.com/martinrotter/rssguard/releases/download/3.9.2/rssguard-3.9.2-407646a8-win64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

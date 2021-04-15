@@ -8,7 +8,7 @@
         "latest-version": "0.17.2.0",
         "0.17.2.0": {
             "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.17.2.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "monerod.exe",
                 "monero-wallet-rpc.exe",

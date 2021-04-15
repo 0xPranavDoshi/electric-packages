@@ -8,7 +8,7 @@
         "latest-version": "1.8.3",
         "1.8.3": {
             "url": "https://github.com/NetchX/Netch/releases/download/1.8.3/Netch.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Netch.exe"
             ],

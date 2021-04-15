@@ -8,7 +8,7 @@
         "latest-version": "2.3.0",
         "2.3.0": {
             "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.3.0_20210407.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

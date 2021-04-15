@@ -8,7 +8,7 @@
         "latest-version": "1.27.0",
         "1.27.0": {
             "url": "https://azuredatastudio-update.azurewebsites.net/1.27.0/win32-x64-archive/stable#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\azuredatastudio.cmd"
             ],

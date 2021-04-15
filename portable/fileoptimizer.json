@@ -8,7 +8,7 @@
         "latest-version": "14.60.2600",
         "14.60.2600": {
             "url": "https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/14.60.2600/FileOptimizerFull.7z.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

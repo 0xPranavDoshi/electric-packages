@@ -1,3 +1,6 @@
+# Auto-Update Module Inspired By Scoop
+# https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate
+
 import requests
 import click
 
@@ -163,7 +166,26 @@ def update(
 
             url = data['auto-update']['url']
 
-            url = url.replace('<version>', replace)
+            versions = {
+                '<version>': replace
+            }
+
+            versions['<underscore-version>'] = replace.replace('.', '_')
+            versions['<dash-version>'] = replace.replace('.', '-')
+            versions['<clean-version>'] = replace.replace('.', '')
+
+            if len(versions.split('.')) == 4:
+                versions['<major-version>'] = replace.split('.')[0]
+                versions['<minor-version>'] = replace.split('.')[1]
+                versions['<patch-version>'] = replace.split('.')[2]
+                versions['<build-version>'] = replace.split('.')[3]
+            elif len(versions.split('.')) == 3:
+                versions['<major-version>'] = replace.split('.')[0]
+                versions['<minor-version>'] = replace.split('.')[1]
+                versions['<build-version>'] = replace.split('.')[2]
+            
+            for v in versions:
+                url = url.replace(list(v.keys())[0], list(v.values())[0])
 
             for value in res_tup:
                 url = url.replace(list(value.keys())[0], list(value.values())[0])
@@ -225,9 +247,28 @@ def update(
                 replace = web_version
 
             url = data['auto-update']['url']
+            
+            versions = {
+                '<version>': replace
+            }
 
-            url = url.replace('<version>', replace)
+            versions['<underscore-version>'] = replace.replace('.', '_')
+            versions['<dash-version>'] = replace.replace('.', '-')
+            versions['<clean-version>'] = replace.replace('.', '')
 
+            if len(versions.split('.')) == 4:
+                versions['<major-version>'] = replace.split('.')[0]
+                versions['<minor-version>'] = replace.split('.')[1]
+                versions['<patch-version>'] = replace.split('.')[2]
+                versions['<build-version>'] = replace.split('.')[3]
+            elif len(versions.split('.')) == 3:
+                versions['<major-version>'] = replace.split('.')[0]
+                versions['<minor-version>'] = replace.split('.')[1]
+                versions['<build-version>'] = replace.split('.')[2]
+            
+            for v in versions:
+                url = url.replace(list(v.keys())[0], list(v.values())[0])
+            
             for value in res_tup:
                 url = url.replace(list(value.keys())[0], list(value.values())[0])
 
@@ -306,14 +347,19 @@ def update(
 
             print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
 
-            int_web_version = int(web_version.strip().replace(
-                'v', '').replace('V', '').replace('.', ''))
+            try:
+                int_web_version = int(web_version.strip().replace(
+                    'v', '').replace('V', '').replace('.', ''))
+            except:
+                print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
+                sys.exit()
 
             try:
                 int_current_version = int(latest_version.strip().replace(
                     'v', '').replace('V', '').replace('.', ''))
             except:
                 print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
+                sys.exit()
 
             if int_current_version < int_web_version:
                 print(
@@ -352,7 +398,27 @@ def update(
 
                 url = data['auto-update']['url']
 
-                url = url.replace('<version>', replace)
+                versions = {
+                '<version>': replace
+                }
+
+                versions['<underscore-version>'] = replace.replace('.', '_')
+                versions['<dash-version>'] = replace.replace('.', '-')
+                versions['<clean-version>'] = replace.replace('.', '')
+
+                if len(versions.split('.')) == 4:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
+                    versions['<patch-version>'] = replace.split('.')[2]
+                    versions['<build-version>'] = replace.split('.')[3]
+                elif len(versions.split('.')) == 3:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
+                    versions['<build-version>'] = replace.split('.')[2]
+                
+                for v in versions:
+                    url = url.replace(list(v.keys())[0], list(v.values())[0])
+
 
                 for value in res_tup:
                     url = url.replace(list(value.keys())[0], list(value.values())[0])
@@ -415,7 +481,26 @@ def update(
 
                 url = data['auto-update']['url']
 
-                url = url.replace('<version>', replace)
+                versions = {
+                '<version>': replace
+                }
+
+                versions['<underscore-version>'] = replace.replace('.', '_')
+                versions['<dash-version>'] = replace.replace('.', '-')
+                versions['<clean-version>'] = replace.replace('.', '')
+
+                if len(versions.split('.')) == 4:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
+                    versions['<patch-version>'] = replace.split('.')[2]
+                    versions['<build-version>'] = replace.split('.')[3]
+                elif len(versions.split('.')) == 3:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
+                    versions['<build-version>'] = replace.split('.')[2]
+                
+                for v in versions:
+                    url = url.replace(list(v.keys())[0], list(v.values())[0])
 
                 for value in res_tup:
                     url = url.replace(list(value.keys())[0], list(value.values())[0])

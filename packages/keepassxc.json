@@ -1,13 +1,22 @@
 {
-  "display-name": "KeePassXC",
-  "package-name": "keepassxc",
-  "latest-version": "2.6.4",
-  "2.6.4": {
-    "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.6.4/KeePassXC-2.6.4-Win64.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "KeePassXC",
+    "package-name": "keepassxc",
+    "latest-version": "2.6.4",
+    "2.6.4": {
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.6.4/KeePassXC-2.6.4-Win64.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "55A9657AE6D18646A1B978E3A3EC087FF540EAB70781A21A48C8461BC44E7671"
+    }
 }

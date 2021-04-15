@@ -8,7 +8,7 @@
         "latest-version": "16.0.0",
         "16.0.0": {
             "url": "https://download2.gluonhq.com/scenebuilder/16.0.0/install/windows/SceneBuilder-16.0.0.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "SceneBuilder.exe"
             ],

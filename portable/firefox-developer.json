@@ -8,7 +8,7 @@
         "latest-version": "88.0b9",
         "88.0b9": {
             "url": "https://archive.mozilla.org/pub/devedition/releases/88.0b9/win64/en-US/Firefox%20Setup%2088.0b9.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "firefox.exe",

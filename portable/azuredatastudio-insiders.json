@@ -8,7 +8,7 @@
         "latest-version": "nightly",
         "nightly": {
             "url": "https://azuredatastudio-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\azuredatastudio-insiders.cmd"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.97.2",
         "0.97.2": {
             "url": "https://downloads.sourceforge.net/project/dia-installer/dia/0.97.2/dia_0.97.2_win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\dia.exe"
             ],

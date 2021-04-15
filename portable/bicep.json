@@ -8,7 +8,7 @@
         "latest-version": "0.3.255",
         "0.3.255": {
             "url": "https://github.com/Azure/bicep/releases/download/v0.3.255/bicep-win-x64.exe#/bicep.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "bicep.exe"
             ],

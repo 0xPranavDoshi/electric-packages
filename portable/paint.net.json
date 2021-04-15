@@ -8,7 +8,7 @@
         "latest-version": "4.2.15",
         "4.2.15": {
             "url": "https://www.dotpdn.com/files/paint.net.4.2.15.install.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "paintdotnet.exe"
             ],

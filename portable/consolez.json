@@ -8,7 +8,7 @@
         "latest-version": "1.19.0.19104",
         "1.19.0.19104": {
             "url": "https://github.com/cbucher/console/releases/download/1.19.0/ConsoleZ.x64.1.19.0.19104.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "console.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.56.3",
         "0.56.3": {
             "url": "https://github.com/Azure/aks-engine/releases/download/v0.56.3/aks-engine-v0.56.3-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "aks-engine.exe"
             ],

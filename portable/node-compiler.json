@@ -8,7 +8,7 @@
         "latest-version": "1.5.0",
         "1.5.0": {
             "url": "http://enclose.io/nodec/nodec-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nodec.exe"
             ],

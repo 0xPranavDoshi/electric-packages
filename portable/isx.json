@@ -8,7 +8,7 @@
         "latest-version": "0.3.2",
         "0.3.2": {
             "url": "https://github.com/lifenjoiner/ISx/files/1625792/ISx-v0.3.2-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ISx.exe"
             ],

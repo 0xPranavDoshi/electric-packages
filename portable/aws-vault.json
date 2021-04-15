@@ -8,7 +8,7 @@
         "latest-version": "6.3.1",
         "6.3.1": {
             "url": "https://github.com/99designs/aws-vault/releases/download/v6.3.1/aws-vault-windows-386.exe#/aws-vault.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "aws-vault.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.55.0",
         "3.55.0": {
             "url": "https://github.com/pwsafe/pwsafe/releases/download/3.55.0/pwsafe64-3.55.0-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pwsafe.exe"
             ],

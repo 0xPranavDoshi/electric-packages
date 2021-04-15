@@ -8,7 +8,7 @@
         "latest-version": "0.5.3.2",
         "0.5.3.2": {
             "url": "https://github.com/hasherezade/pe-bear-releases/releases/download/0.5.3.2/PE-bear_0.5.3.2_x64_win_vs17.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "PE-bear.exe"
             ],

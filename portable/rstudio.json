@@ -8,7 +8,7 @@
         "latest-version": "1.4.1106",
         "1.4.1106": {
             "url": "https://download1.rstudio.org/desktop/windows/RStudio-1.4.1106.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\rstudio.exe"
             ],

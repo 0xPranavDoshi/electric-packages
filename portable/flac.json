@@ -8,7 +8,7 @@
         "latest-version": "1.3.2",
         "1.3.2": {
             "url": "https://ftp.osuosl.org/pub/xiph/releases/flac/flac-1.3.2-win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "flac.exe",
                 "metaflac.exe"

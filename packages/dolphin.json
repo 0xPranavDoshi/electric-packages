@@ -1,13 +1,18 @@
 {
-  "display-name": "Dolphin",
-  "package-name": "dolphin",
-  "latest-version": "",
-  "": {
-    "url": "http://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "Dolphin",
+    "package-name": "dolphin",
+    "latest-version": "",
+    "": {
+        "url": "http://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "E1B3AE8FC890C6588E5656F77EF2747AE7DDFC90B6530B240C0C5B9D0AB3CE8C"
+    }
 }

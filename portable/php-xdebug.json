@@ -8,7 +8,7 @@
         "latest-version": "3.0.4-8.0",
         "3.0.4-8.0": {
             "url": "https://xdebug.org/files/php_xdebug-3.0.4-8.0-vs16-x86_64.dll#/php_xdebug.dll",
-            "file-type": "dll",
+            "file-type": ".dll",
             "bin": [],
             "shortcuts": [],
             "persist": [],

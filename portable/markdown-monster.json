@@ -8,7 +8,7 @@
         "latest-version": "1.26.12",
         "1.26.12": {
             "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/v1.26/MarkdownMonsterSetup-1.26.12.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "mm.exe",
                 "MarkdownMonster.exe"

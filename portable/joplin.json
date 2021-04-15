@@ -8,7 +8,7 @@
         "latest-version": "1.7.11",
         "1.7.11": {
             "url": "https://github.com/laurent22/joplin/releases/download/v1.7.11/Joplin-Setup-1.7.11.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Joplin.exe"
             ],

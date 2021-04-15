@@ -8,7 +8,7 @@
         "latest-version": "2.3.13",
         "2.3.13": {
             "url": "https://github.com/Code52/carnac/releases/download/2.3.13/carnac-2.3.13-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [],
             "shortcuts": [
                 {

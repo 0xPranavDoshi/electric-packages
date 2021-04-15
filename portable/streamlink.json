@@ -8,7 +8,7 @@
         "latest-version": "2.1.1",
         "2.1.1": {
             "url": "https://github.com/streamlink/streamlink/releases/download/2.1.1/streamlink-2.1.1.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\streamlink.exe",
                 "bin\\streamlinkw.exe"

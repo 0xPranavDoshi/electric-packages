@@ -1,20 +1,25 @@
 {
-  "display-name": "WinMerge",
-  "package-name": "winmerge",
-  "latest-version": "2.16.10",
-  "2.16.10": {
-    "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.10/WinMerge-2.16.10-x64-Setup.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NOCANCEL",
-      "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
-    ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "WinMerge",
+    "package-name": "winmerge",
+    "latest-version": "2.16.10",
+    "2.16.10": {
+        "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.10/WinMerge-2.16.10-x64-Setup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "1CB21418EA5EFB27C678D4B3B80F0F9434C0C2A09CC965C40A70A70DCD792C53"
+    }
 }

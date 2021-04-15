@@ -8,7 +8,7 @@
         "latest-version": "0.12.0",
         "0.12.0": {
             "url": "https://github.com/restic/restic/releases/download/v0.12.0/restic_0.12.0_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "restic.exe"
             ],

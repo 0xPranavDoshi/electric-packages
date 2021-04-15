@@ -5,9 +5,18 @@
     "5.2.5": {
         "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.2/5.2.5/zabbix_agent-5.2.5-windows-amd64-openssl.msi",
         "file-type": ".msi",
-        "install-switches": ["/qn", "/quiet", "/norestart"],
-        "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
         "custom-location": "INSTALLDIR=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "010412BA3FEC14AB30E8E61B1F7F3179AC35B29F8E605E343FA2F749D59926EE"
     }
 }

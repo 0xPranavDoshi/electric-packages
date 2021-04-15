@@ -8,7 +8,7 @@
         "latest-version": "1.35.0-1",
         "1.35.0-1": {
             "url": "https://github.com/aria2/aria2/releases/download/release-1.35.0/aria2-1.35.0-win-64bit-build1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "aria2c.exe"
             ],

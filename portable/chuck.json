@@ -8,7 +8,7 @@
         "latest-version": "1.4.0.1",
         "1.4.0.1": {
             "url": "http://chuck.stanford.edu/release/files/exe/chuck-1.4.0.1.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "bin\\chuck.exe",
                 "miniAudicle.exe"

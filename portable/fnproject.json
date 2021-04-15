@@ -8,7 +8,7 @@
         "latest-version": "0.6.4",
         "0.6.4": {
             "url": "https://github.com/fnproject/cli/releases/download/0.6.4/fn.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "fn.exe"
             ],

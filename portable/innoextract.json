@@ -8,7 +8,7 @@
         "latest-version": "1.9",
         "1.9": {
             "url": "https://constexpr.org/innoextract/files/innoextract-1.9/innoextract-1.9-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "innoextract.exe"
             ],

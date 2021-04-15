@@ -8,7 +8,7 @@
         "latest-version": "4.2.0",
         "4.2.0": {
             "url": "https://download.bleachbit.org/BleachBit-4.2.0-portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "bleachbit_console.exe",

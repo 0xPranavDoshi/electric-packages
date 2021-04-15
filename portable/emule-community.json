@@ -8,7 +8,7 @@
         "latest-version": "0.60b",
         "0.60b": {
             "url": "https://www.emule-project.net/files/emule/eMule0.60b.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "emule.exe"
             ],

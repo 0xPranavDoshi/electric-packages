@@ -12,7 +12,7 @@
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/notepad3/replace-windows-notepad.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/notepad3/restore-windows-notepad.reg"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "Notepad3.exe",
                 "minipath.exe"

@@ -8,7 +8,7 @@
         "latest-version": "4.70.2248",
         "4.70.2248": {
             "url": "http://www.aimp.ru/?do=download.file&id=8#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "AIMP.exe",
                 "AIMPac.exe",

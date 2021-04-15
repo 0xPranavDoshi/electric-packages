@@ -8,7 +8,7 @@
         "latest-version": "3.8.6",
         "3.8.6": {
             "url": "https://downloads.sourceforge.net/project/kid3/kid3/3.8.6/kid3-3.8.6-win32-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "kid3-cli.exe",
                 [

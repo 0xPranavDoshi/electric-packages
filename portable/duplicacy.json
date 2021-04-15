@@ -8,7 +8,7 @@
         "latest-version": "2.7.2",
         "2.7.2": {
             "url": "https://github.com/gilbertchen/duplicacy/releases/download/v2.7.2/duplicacy_win_x64_2.7.2.exe#/duplicacy.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "duplicacy.exe"
             ],

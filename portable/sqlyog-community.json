@@ -8,7 +8,7 @@
         "latest-version": "13.1.7",
         "13.1.7": {
             "url": "https://s3.amazonaws.com/SQLyog_Community/SQLyog+13.1.7/SQLyog-13.1.7-0.x64Community.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "SQLyogCommunity.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.6.7",
         "1.6.7": {
             "url": "http://vu1tur.eu.org/tools/dmg2img-1.6.7-win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "dmg2img.exe"
             ],

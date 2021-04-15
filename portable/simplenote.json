@@ -8,7 +8,7 @@
         "latest-version": "2.9.0",
         "2.9.0": {
             "url": "https://github.com/Automattic/simplenote-electron/releases/download/v2.9.0/Simplenote-win-2.9.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "SimpleNote.exe"
             ],

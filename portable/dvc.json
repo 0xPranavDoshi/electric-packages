@@ -8,7 +8,7 @@
         "latest-version": "2.0.17",
         "2.0.17": {
             "url": "https://github.com/iterative/dvc/releases/download/2.0.17/dvc-2.0.17.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "dvc.exe"
             ],

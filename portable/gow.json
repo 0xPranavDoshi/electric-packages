@@ -8,7 +8,7 @@
         "latest-version": "0.8.0",
         "0.8.0": {
             "url": "https://github.com/bmatzelle/gow/releases/download/v0.8.0/Gow-0.8.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\awk.exe",
                 "bin\\basename.exe",

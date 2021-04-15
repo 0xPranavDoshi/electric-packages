@@ -8,7 +8,7 @@
         "latest-version": "20210404",
         "20210404": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20210404-git-dd86f19.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mpv.com"
             ],

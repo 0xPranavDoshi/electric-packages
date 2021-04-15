@@ -8,7 +8,7 @@
         "latest-version": "2.58.0.1076-38e019da",
         "2.58.0.1076-38e019da": {
             "url": "https://downloads.plex.tv/plexmediaplayer/2.58.0.1076-38e019da/PlexMediaPlayer-2.58.0.1076-38e019da-windows-x64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

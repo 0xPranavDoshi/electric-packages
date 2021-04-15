@@ -11,7 +11,7 @@
                 "http://installer.jdownloader.org/JDownloader.jar",
                 "http://jdownloader.org/lib/tpl/arctic/images/favicon.ico#/icon.ico"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "JDownloader.bat"
             ],

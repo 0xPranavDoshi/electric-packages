@@ -8,7 +8,7 @@
         "latest-version": "0.27.0",
         "0.27.0": {
             "url": "https://github.com/junegunn/fzf/releases/download/0.27.0/fzf-0.27.0-windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "fzf.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "2.5.0.0",
         "2.5.0.0": {
             "url": "https://mh-nexus.de/downloads/HxDPortableSetup.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "HxD.exe"
             ],

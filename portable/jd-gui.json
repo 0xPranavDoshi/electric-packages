@@ -8,7 +8,7 @@
         "latest-version": "1.6.6",
         "1.6.6": {
             "url": "https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar#/jd-gui.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "jd-gui.jar"
             ],

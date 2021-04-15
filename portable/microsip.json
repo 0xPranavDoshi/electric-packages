@@ -8,7 +8,7 @@
         "latest-version": "3.20.5",
         "3.20.5": {
             "url": "https://www.microsip.org/download/MicroSIP-Lite-3.20.5.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MicroSIP.exe"
             ],

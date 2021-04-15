@@ -8,7 +8,7 @@
         "latest-version": "11.3",
         "11.3": {
             "url": "https://github.com/love2d/love/releases/download/11.3/love-11.3-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "love.exe",
                 "lovec.exe"

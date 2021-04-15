@@ -8,7 +8,7 @@
         "latest-version": "4.6.3",
         "4.6.3": {
             "url": "https://github.com/mikefarah/yq/releases/download/v4.6.3/yq_windows_amd64.exe#/yq.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "yq.exe"
             ],

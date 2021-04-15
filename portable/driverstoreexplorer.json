@@ -8,7 +8,7 @@
         "latest-version": "0.11.72",
         "0.11.72": {
             "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.11.72/DriverStoreExplorer.v0.11.72.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Rapr.exe"
             ],

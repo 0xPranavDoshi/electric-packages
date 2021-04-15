@@ -5,9 +5,14 @@
     "1.20.7940": {
         "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.20.7940.exe",
         "file-type": ".exe",
-        "install-switches": ["/S"],
-        "uninstall-switches": ["/S"],
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
         "custom-location": "/D=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "753E0DD54F28C4F7009B9C0B18A68AED175416BD8B7D134858264586EAAC56F0"
     }
 }

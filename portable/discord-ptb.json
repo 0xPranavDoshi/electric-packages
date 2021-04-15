@@ -8,7 +8,7 @@
         "latest-version": "0.0.60",
         "0.0.60": {
             "url": "http://dl-ptb.discordapp.net/apps/win/DiscordPTB-0.0.60-full.nupkg#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "DiscordPTB.exe"
             ],

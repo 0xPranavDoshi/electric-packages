@@ -12,7 +12,8 @@
             "extract-dir": "docfx",
             "bin": [
                 "docfx.exe"
-            ]
+            ],
+            "checksum": "65264D6681A2FBCFD1533B475241E3714BDC41F533373BCCA3BF8200B10C4FE6"
         }
     }
 }

@@ -5,9 +5,14 @@
     "2021.4.9": {
         "url": "https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210409.exe",
         "file-type": ".exe",
-        "install-switches": ["/S"],
-        "uninstall-switches": ["/S"],
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
         "custom-location": "/D=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "E8CD352AEAAB62B1E1D9E2B0BE1824AD1857D6ADA421BE55AD73F38E205E686A"
     }
 }

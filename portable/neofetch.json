@@ -8,7 +8,7 @@
         "latest-version": "7.1.0",
         "7.1.0": {
             "url": "https://raw.githubusercontent.com/dylanaraps/neofetch/7.1.0/neofetch",
-            "file-type": "0/neofetch",
+            "file-type": ".0/neofetch",
             "bin": [
                 "neofetch.ps1"
             ],

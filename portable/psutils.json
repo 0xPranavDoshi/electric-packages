@@ -8,7 +8,7 @@
         "latest-version": "0.2020.02.27",
         "0.2020.02.27": {
             "url": "https://github.com/lukesampson/psutils/archive/8af01127a949c64ea50b657989a4cd7744d4fffd.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gitignore.ps1",
                 "ln.ps1",

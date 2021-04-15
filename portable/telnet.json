@@ -15,7 +15,7 @@
                 "https://downloads.sourceforge.net/project/mingw/MSYS/Extension/inetutils/inetutils-1.7-1/inetutils-1.7-1-msys-1.0.13-bin.tar.lzma",
                 "https://downloads.sourceforge.net/project/mingw/MSYS/Extension/inetutils/inetutils-1.7-1/inetutils-1.7-1-msys.RELEASE_NOTES.txt"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\telnet.exe"
             ],

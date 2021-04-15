@@ -8,7 +8,7 @@
         "latest-version": "8.6.5",
         "8.6.5": {
             "url": "https://haskell.org/platform/download/8.6.5/HaskellPlatform-8.6.5-core-x86_64-setup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\ghc.exe",
                 "bin\\ghci.exe",

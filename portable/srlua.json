@@ -11,7 +11,7 @@
                 "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-5.4.3_Win64_bin.zip",
                 "https://joedf.ahkscript.org/LuaBuilds/hdata/libgcc_s_dw2-1.dll.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "srlua.exe",
                 "srglue.exe"

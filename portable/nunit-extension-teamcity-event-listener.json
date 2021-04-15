@@ -8,7 +8,7 @@
         "latest-version": "1.0.7",
         "1.0.7": {
             "url": "https://packages.chocolatey.org/nunit-extension-teamcity-event-listener.1.0.7.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [],
             "shortcuts": [],
             "persist": []

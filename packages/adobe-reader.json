@@ -1,13 +1,17 @@
 {
-  "display-name": "Adobe Acrobat Reader DC",
-  "package-name": "adobe-reader",
-  "latest-version": "2021.001.20140",
-  "2021.001.20140": {
-    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120140/AcroRdrDC2100120140_en_US.exe",
-    "file-type": ".exe",
-    "install-switches": ["/sAll", "/rs"],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Adobe Acrobat Reader DC",
+    "package-name": "adobe-reader",
+    "latest-version": "2021.001.20140",
+    "2021.001.20140": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120140/AcroRdrDC2100120140_en_US.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/sAll",
+            "/rs"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "33CE837D7492A9E3EE333C1121FE425C17C6268F056CC49CD9BFB5C5F3E54322"
+    }
 }

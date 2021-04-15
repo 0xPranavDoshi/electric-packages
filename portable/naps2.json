@@ -8,7 +8,7 @@
         "latest-version": "6.1.2",
         "6.1.2": {
             "url": "https://github.com/cyanfish/naps2/releases/download/v6.1.2/naps2-6.1.2-portable.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "App\\NAPS2.Console.exe",

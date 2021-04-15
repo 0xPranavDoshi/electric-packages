@@ -14,7 +14,7 @@
                 "https://downloads.sourceforge.net/project/mingw/MSYS/Base/gettext/gettext-0.18.1.1-1/libintl-0.18.1.1-1-msys-1.0.17-dll-8.tar.lzma",
                 "https://downloads.sourceforge.net/project/mingw/MSYS/Base/regex/regex-1.20090805-2/libregex-1.20090805-2-msys-1.0.13-dll-1.tar.lzma"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\tar.exe"
             ],

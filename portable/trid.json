@@ -11,7 +11,7 @@
                 "https://mark0.net/download/triddefs.zip",
                 "https://mark0.net/download/trid_w32.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "trid.exe"
             ],

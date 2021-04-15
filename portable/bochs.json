@@ -8,7 +8,7 @@
         "latest-version": "2.6.11",
         "2.6.11": {
             "url": "https://downloads.sourceforge.net/project/bochs/bochs/2.6.11/Bochs-win64-2.6.11.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bochs.exe",
                 "bochsdbg.exe",

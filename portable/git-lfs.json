@@ -8,7 +8,7 @@
         "latest-version": "2.13.3",
         "2.13.3": {
             "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.3/git-lfs-windows-amd64-v2.13.3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "git-lfs.exe"
             ],

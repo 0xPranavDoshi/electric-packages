@@ -8,7 +8,7 @@
         "latest-version": "3.11.0",
         "3.11.0": {
             "url": "https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "oc.exe"
             ],

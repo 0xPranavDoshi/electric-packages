@@ -8,7 +8,7 @@
         "latest-version": "1.8.0",
         "1.8.0": {
             "url": "https://github.com/syncthing/discosrv/releases/download/v1.8.0/stdiscosrv-windows-amd64-v1.8.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "stdiscosrv.exe",

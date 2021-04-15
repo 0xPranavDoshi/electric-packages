@@ -8,7 +8,7 @@
         "latest-version": "0.2.14",
         "0.2.14": {
             "url": "https://github.com/mozilla/sccache/releases/download/0.2.14/sccache-0.2.14-x86_64-pc-windows-msvc.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "sccache.exe"
             ],

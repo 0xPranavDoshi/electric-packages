@@ -8,7 +8,7 @@
         "latest-version": "1.5.1",
         "1.5.1": {
             "url": "https://github.com/ramboxapp/download/releases/download/v1.5.1/RamboxPro-1.5.1-win.exe#/cosi.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

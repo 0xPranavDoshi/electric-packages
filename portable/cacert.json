@@ -8,7 +8,7 @@
         "latest-version": "2021-04-13",
         "2021-04-13": {
             "url": "https://curl.haxx.se/ca/cacert-2021-04-13.pem#/cacert.pem",
-            "file-type": "pem",
+            "file-type": ".pem",
             "bin": [],
             "shortcuts": [],
             "persist": [],

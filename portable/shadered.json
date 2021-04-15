@@ -8,7 +8,7 @@
         "latest-version": "1.5.1",
         "1.5.1": {
             "url": "https://github.com/dfranx/SHADERed/releases/download/v1.5.1/Win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "SHADERed.exe"
             ],

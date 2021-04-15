@@ -8,7 +8,7 @@
         "latest-version": "20.2.4",
         "20.2.4": {
             "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-20_2_4.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": ".settings"

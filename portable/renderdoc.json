@@ -8,7 +8,7 @@
         "latest-version": "1.13",
         "1.13": {
             "url": "https://renderdoc.org/stable/1.13/RenderDoc_1.13_64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 [
                     "qrenderdoc.exe",

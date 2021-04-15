@@ -8,7 +8,7 @@
         "latest-version": "1.1.0",
         "1.1.0": {
             "url": "https://github.com/cake-build/cake/releases/download/v1.1.0/Cake-bin-net461-v1.1.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "cake.exe"
             ],

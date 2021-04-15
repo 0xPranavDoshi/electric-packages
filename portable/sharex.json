@@ -8,7 +8,7 @@
         "latest-version": "13.4.0",
         "13.4.0": {
             "url": "https://github.com/ShareX/ShareX/releases/download/v13.4.0/ShareX-portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ShareX.exe"
             ],

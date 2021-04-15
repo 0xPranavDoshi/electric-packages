@@ -8,7 +8,7 @@
         "latest-version": "1.8.8",
         "1.8.8": {
             "url": "https://github.com/google/ios-webkit-debug-proxy/releases/download/v1.8.8/ios-webkit-debug-proxy-1.8.8-win64-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ios_webkit_debug_proxy.exe"
             ],

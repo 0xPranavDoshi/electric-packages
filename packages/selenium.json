@@ -12,7 +12,8 @@
             "extract-dir": "selenium-webdriver",
             "bin": [
                 "geckodriver.exe"
-            ]
+            ],
+            "checksum": "7474F8631F644CDB871FB0C15A42AF70FF8D92623D30230B77A64C83F3CB3198"
         }
     }
 }

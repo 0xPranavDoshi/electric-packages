@@ -8,7 +8,7 @@
         "latest-version": "1.25.0-dev.6.0",
         "1.25.0-dev.6.0": {
             "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.6.0/dartium/content_shell-windows-ia32-release.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "content_shell.exe"
             ],

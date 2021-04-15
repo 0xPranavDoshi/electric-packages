@@ -8,7 +8,7 @@
         "latest-version": "2.6.4",
         "2.6.4": {
             "url": "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.6.4/lokalise2_windows_x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "lokalise2.exe"
             ],

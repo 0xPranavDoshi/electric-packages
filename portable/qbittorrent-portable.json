@@ -8,7 +8,7 @@
         "latest-version": "4.3.4.1",
         "4.3.4.1": {
             "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.3.4.1/qbittorrent_4.3.4.1_x64_setup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "qbittorrent.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "31.0.0",
         "31.0.0": {
             "url": "https://dl.google.com/android/repository/platform-tools_r31.0.0-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "platform-tools\\adb.exe",
                 "platform-tools\\dmtracedump.exe",

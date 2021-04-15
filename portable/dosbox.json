@@ -8,7 +8,7 @@
         "latest-version": "0.74-3",
         "0.74-3": {
             "url": "https://downloads.sourceforge.net/project/dosbox/dosbox/0.74-3/DOSBox0.74-3-win32-installer.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "DOSBox.exe"
             ],

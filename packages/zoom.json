@@ -1,13 +1,22 @@
 {
-  "display-name": "Zoom",
-  "package-name": "zoom",
-  "latest-version": "5.5.12494.0204",
-  "5.5.12494.0204": {
-    "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "Zoom",
+    "package-name": "zoom",
+    "latest-version": "5.5.12494.0204",
+    "5.5.12494.0204": {
+        "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
 }

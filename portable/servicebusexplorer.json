@@ -8,7 +8,7 @@
         "latest-version": "5.0.2",
         "5.0.2": {
             "url": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/5.0.2/servicebusexplorer.5.0.2.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "tools\\servicebusexplorer.exe"
             ],

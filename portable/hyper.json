@@ -8,7 +8,7 @@
         "latest-version": "3.0.2",
         "3.0.2": {
             "url": "https://github.com/zeit/hyper/releases/download/3.0.2/hyper-3.0.2-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "resources\\bin\\hyper.cmd"
             ],

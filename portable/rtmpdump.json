@@ -8,7 +8,7 @@
         "latest-version": "2.3",
         "2.3": {
             "url": "https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.3-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "rtmpdump.exe",
                 "rtmpgw.exe",

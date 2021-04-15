@@ -8,7 +8,7 @@
         "latest-version": "2.1.16.1030",
         "2.1.16.1030": {
             "url": "https://github.com/win-acme/win-acme/releases/download/v2.1.16/win-acme.v2.1.16.1030.x64.trimmed.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "wacs.exe"
             ],

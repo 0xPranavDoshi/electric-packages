@@ -8,7 +8,7 @@
         "latest-version": "0.9.1",
         "0.9.1": {
             "url": "https://github.com/SaifAqqad/AHK_MicMute/releases/download/0.9.1/MicMute.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

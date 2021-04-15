@@ -1,18 +1,27 @@
 {
-  "display-name": "Go Programming Language",
-  "package-name": "go",
-  "latest-version": "1.16",
-  "1.16": {
-    "url": "https://golang.org/dl/go1.16.windows-amd64.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "default-install-dir": "C:\\Program Files\\Go",
-    "bin": [
-       "<install-directory>\\bin\\go.exe", 
-       "<install-directory>\\bin\\gofmt.exe"
-     ],
-    "dependencies": []
-  }
+    "display-name": "Go Programming Language",
+    "package-name": "go",
+    "latest-version": "1.16",
+    "1.16": {
+        "url": "https://golang.org/dl/go1.16.windows-amd64.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "default-install-dir": "C:\\Program Files\\Go",
+        "bin": [
+            "<install-directory>\\bin\\go.exe",
+            "<install-directory>\\bin\\gofmt.exe"
+        ],
+        "dependencies": [],
+        "checksum": "2771E949294412AF0EDDECB3B3F4089AE1DED2C10D6A47B5CA63007737A76FC0"
+    }
 }

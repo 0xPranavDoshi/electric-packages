@@ -8,7 +8,7 @@
         "latest-version": "4.1.2",
         "4.1.2": {
             "url": "https://download.electrum.org/4.1.2/electrum-4.1.2-portable.exe#/electrum.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "electrum.exe"
             ],

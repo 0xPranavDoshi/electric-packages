@@ -8,7 +8,7 @@
         "latest-version": "1.9.4",
         "1.9.4": {
             "url": "https://releases.hashicorp.com/consul/1.9.4/consul_1.9.4_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "consul.exe"
             ],

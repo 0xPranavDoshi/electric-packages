@@ -8,7 +8,7 @@
         "latest-version": "1.73.27",
         "1.73.27": {
             "url": "https://flatassembler.net/fasmw17327.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "FASM.EXE",
                 "FASMW.EXE"

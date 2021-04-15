@@ -8,7 +8,7 @@
         "latest-version": "3.8.8.0",
         "3.8.8.0": {
             "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.8/3.8.8.0/Winpython64-3.8.8.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "scripts\\idle.bat",
                 "scripts\\idlex.bat",

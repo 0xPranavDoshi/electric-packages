@@ -8,7 +8,7 @@
         "latest-version": "2.3.0",
         "2.3.0": {
             "url": "https://github.com/caddyserver/caddy/releases/download/v2.3.0/caddy_2.3.0_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "caddy.exe"
             ],

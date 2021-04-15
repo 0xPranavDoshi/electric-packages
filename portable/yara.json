@@ -8,7 +8,7 @@
         "latest-version": "4.0.5-1554",
         "4.0.5-1554": {
             "url": "https://github.com/VirusTotal/yara/releases/download/v4.0.5/yara-v4.0.5-1554-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

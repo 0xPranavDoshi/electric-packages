@@ -1,13 +1,19 @@
 {
-  "display-name": "Discord Canary",
-  "package-name": "discord-canary",
-  "latest-version": "0.0.259",
-  "0.0.259": {
-    "url": "https://dl-canary.discordapp.net/apps/win/0.0.259/DiscordCanarySetup.exe",
-    "file-type": ".exe",
-    "install-switches": ["-s"],
-    "uninstall-switches": ["-s", "--uninstall"],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Discord Canary",
+    "package-name": "discord-canary",
+    "latest-version": "0.0.259",
+    "0.0.259": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.259/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "-s"
+        ],
+        "uninstall-switches": [
+            "-s",
+            "--uninstall"
+        ],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "475E7880E5103DFD38AB51EBE68ABE9C36233F940BBEA4507A5F7868A0EE1569"
+    }
 }

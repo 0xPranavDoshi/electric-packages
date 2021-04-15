@@ -8,7 +8,7 @@
         "latest-version": "4.15.0",
         "4.15.0": {
             "url": "https://downloads.slack-edge.com/releases/windows/4.15.0/prod/x64/slack-4.15.0-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "slack.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "5.0.1",
         "5.0.1": {
             "url": "https://www.scintilla.org/wscite501.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "SciTE.exe"
             ],

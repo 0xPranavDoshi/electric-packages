@@ -6,15 +6,20 @@
         "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.1/doxygen-1.9.1-setup.exe/download",
         "file-type": ".exe",
         "install-switches": [
-        "/SP-",
-        "/VERYSILENT",
-        "/SUPPRESSMSGBOXES",
-        "/NOCANCEL",
-        "/NORESTART",
-        "/FORCECLOSEAPPLICATIONS"
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
         "custom-location": "/DIR=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "7B48853CAB2B1728DDF007D46072D3DF93E12E5BBBBB7D252AEE4C0D99AC19B4"
     }
 }

@@ -8,7 +8,7 @@
         "latest-version": "1.17",
         "1.17": {
             "url": "https://github.com/Genymobile/scrcpy/releases/download/v1.17/scrcpy-win64-v1.17.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "scrcpy.exe",
                 "scrcpy-console.bat",

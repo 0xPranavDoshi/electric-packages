@@ -8,7 +8,7 @@
         "latest-version": "0.7.2",
         "0.7.2": {
             "url": "https://github.com/ethereum/solidity/releases/download/v0.7.2/solidity-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "solc.exe",
                 "soltest.exe"

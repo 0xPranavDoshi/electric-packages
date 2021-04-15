@@ -8,7 +8,7 @@
         "latest-version": "1.5.0",
         "1.5.0": {
             "url": "https://github.com/hovancik/stretchly/releases/download/v1.5.0/stretchly-1.5.0-win.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "stretchly.exe"
             ],

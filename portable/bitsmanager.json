@@ -8,7 +8,7 @@
         "latest-version": "1.12",
         "1.12": {
             "url": "https://github.com/microsoft/BITS-Manager/releases/download/v1.12/BITSManager.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [],
             "shortcuts": [
                 {

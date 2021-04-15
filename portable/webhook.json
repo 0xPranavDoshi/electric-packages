@@ -8,7 +8,7 @@
         "latest-version": "2.8.0",
         "2.8.0": {
             "url": "https://github.com/adnanh/webhook/releases/download/2.8.0/webhook-windows-amd64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "webhook.exe"
             ],

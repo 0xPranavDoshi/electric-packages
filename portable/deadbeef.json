@@ -8,7 +8,7 @@
         "latest-version": "2020-07-06",
         "2020-07-06": {
             "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/2020-07-06/deadbeef-2020-07-06-windows-x86_64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "deadbeef.exe"
             ],

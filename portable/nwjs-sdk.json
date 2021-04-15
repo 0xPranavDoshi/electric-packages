@@ -8,7 +8,7 @@
         "latest-version": "0.52.2",
         "0.52.2": {
             "url": "https://dl.nwjs.io/v0.52.2/nwjs-sdk-v0.52.2-win-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nwjs-sdk\\nw.exe",
                 "nwjs-sdk\\nwjc.exe",

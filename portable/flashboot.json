@@ -8,7 +8,7 @@
         "latest-version": "3.3g",
         "3.3g": {
             "url": "https://www.prime-expert.com/flashboot/downloads/flashboot-latest-portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "fb-cli.exe",
                 [

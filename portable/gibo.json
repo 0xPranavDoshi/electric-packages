@@ -8,7 +8,7 @@
         "latest-version": "2.2.4",
         "2.2.4": {
             "url": "https://github.com/simonwhitaker/gibo/archive/2.2.4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gibo.bat"
             ],

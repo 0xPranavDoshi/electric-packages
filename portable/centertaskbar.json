@@ -8,7 +8,7 @@
         "latest-version": "1.92",
         "1.92": {
             "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/1.92/CenterTaskbar.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "CenterTaskbar.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "8.1.0.0p1-Beta",
         "8.1.0.0p1-Beta": {
             "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.1.0.0p1-Beta/OpenSSH-Win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "scp.exe",
                 "sftp.exe",

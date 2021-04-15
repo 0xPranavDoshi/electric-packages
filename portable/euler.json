@@ -8,7 +8,7 @@
         "latest-version": "2021-02-17",
         "2021-02-17": {
             "url": "https://downloads.sourceforge.net/project/eumat/Installer/EulerSetup-64_2021-02-17.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [],
             "persist": [

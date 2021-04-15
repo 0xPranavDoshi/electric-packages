@@ -8,7 +8,7 @@
         "latest-version": "4.9.2",
         "4.9.2": {
             "url": "https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.2/ShadowsocksR-win-4.9.2.zip#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "ShadowsocksR-dotnet4.0.exe",
                 "ShadowsocksR-dotnet2.0.exe",

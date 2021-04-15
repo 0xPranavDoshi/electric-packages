@@ -8,7 +8,7 @@
         "latest-version": "5.0.6",
         "5.0.6": {
             "url": "https://www.pspad.com/files/pspad/pspad506en.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "PSPad.exe"
             ],

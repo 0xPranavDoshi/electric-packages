@@ -1,47 +1,64 @@
 {
-  "display-name": "Atom",
-  "package-name": "atom",
-  "latest-version": "1.53.0",
-  "portable": {
-    "package-name": "Atom",
-    "display-name": "atom",
+    "display-name": "Atom",
+    "package-name": "atom",
     "latest-version": "1.53.0",
-    "1.53.0": {
-      "url": "https://github.com/atom/atom/releases/download/v1.53.0/atom-x64-windows.zip",
-      "file-type": ".zip",
-      "extract-dir": "atom",
-      "chdir": "Atom x64",
-      "bin": ["atom.exe", "resources\\cli\\apm.cmd"],
-      "shortcuts": [
-        {
-          "shortcut-name": "Atom",
-          "file-name": "atom.exe"
+    "portable": {
+        "package-name": "Atom",
+        "display-name": "atom",
+        "latest-version": "1.53.0",
+        "1.53.0": {
+            "url": "https://github.com/atom/atom/releases/download/v1.53.0/atom-x64-windows.zip",
+            "file-type": ".zip",
+            "extract-dir": "atom",
+            "chdir": "Atom x64",
+            "bin": [
+                "atom.exe",
+                "resources\\cli\\apm.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Atom",
+                    "file-name": "atom.exe"
+                }
+            ],
+            "checksum": "FF0A41632267A7821F696E381CE6F39688F9BE7ABABCB3B23B4491E01D18CFD6"
         }
-      ]
+    },
+    "nightly": {
+        "url": "https://github.com/atom/atom/releases/download/v1.54.0-beta0/AtomSetup-x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent"
+        ],
+        "uninstall-switches": [
+            "--silent"
+        ],
+        "custom-location": "None",
+        "dependencies": []
+    },
+    "1.53.0": {
+        "url": "https://github.com/atom/atom/releases/download/v1.53.0/AtomSetup-x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent"
+        ],
+        "uninstall-switches": [
+            "--silent"
+        ],
+        "custom-location": "None",
+        "dependencies": [],
+        "checksum": "98E5459F6A791A6C2B1661AE10AC630BB9E5DC578E8ADB44BE658A88380EE6F8"
+    },
+    "1.52.0": {
+        "url": "https://github.com/atom/atom/releases/download/v1.52.0/AtomSetup-x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent"
+        ],
+        "uninstall-switches": [
+            "--silent"
+        ],
+        "custom-location": "None",
+        "dependencies": []
     }
-  },
-  "nightly": {
-    "url": "https://github.com/atom/atom/releases/download/v1.54.0-beta0/AtomSetup-x64.exe",
-    "file-type": ".exe",
-    "install-switches": ["--silent"],
-    "uninstall-switches": ["--silent"],
-    "custom-location": "None",
-    "dependencies": []
-  },
-  "1.53.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.53.0/AtomSetup-x64.exe",
-    "file-type": ".exe",
-    "install-switches": ["--silent"],
-    "uninstall-switches": ["--silent"],
-    "custom-location": "None",
-    "dependencies": []
-  },
-  "1.52.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.52.0/AtomSetup-x64.exe",
-    "file-type": ".exe",
-    "install-switches": ["--silent"],
-    "uninstall-switches": ["--silent"],
-    "custom-location": "None",
-    "dependencies": []
-  }
 }

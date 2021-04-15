@@ -10,12 +10,15 @@
             "url": "https://services.gradle.org/distributions/gradle-6.8.3-all.zip",
             "file-type": ".zip",
             "chdir": "gradle-6.8.3",
-            "bin": ["bin\\gradle.bat"],
+            "bin": [
+                "bin\\gradle.bat"
+            ],
             "extract-dir": "gradle",
             "set-env": {
                 "name": "GRADLE_HOME",
                 "value": "<install-directory>"
-            }
+            },
+            "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
         }
     }
 }

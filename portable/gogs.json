@@ -8,7 +8,7 @@
         "latest-version": "0.12.3",
         "0.12.3": {
             "url": "https://dl.gogs.io/0.12.3/gogs_0.12.3_windows_amd64_mws.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gogs.exe"
             ],

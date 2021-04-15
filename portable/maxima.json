@@ -8,7 +8,7 @@
         "latest-version": "5.44.0",
         "5.44.0": {
             "url": "https://downloads.sourceforge.net/project/maxima/Maxima-Windows/5.44.0-Windows/maxima-clisp-sbcl-5.44.0-win64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\lispselector.bat",
                 "bin\\maxima.bat",

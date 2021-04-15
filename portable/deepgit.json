@@ -8,7 +8,7 @@
         "latest-version": "4.1",
         "4.1": {
             "url": "https://www.syntevo.com/downloads/deepgit/deepgit-portable-4_1.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": ".settings"

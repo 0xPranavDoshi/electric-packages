@@ -8,7 +8,7 @@
         "latest-version": "3.11.2",
         "3.11.2": {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/dark/dark-3.11.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "dark.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "5.8.0.34217",
         "5.8.0.34217": {
             "url": "https://github.com/Azure/azure-powershell/releases/download/v5.8.0-April2021/Az-Cmdlets-5.8.0.34217-x64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [],
             "shortcuts": [],
             "persist": []

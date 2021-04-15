@@ -8,7 +8,7 @@
         "latest-version": "2.4.4",
         "2.4.4": {
             "url": "https://github.com/White-Tiger/T-Clock/releases/download/v2.4.4%23492-rc/T-Clock.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

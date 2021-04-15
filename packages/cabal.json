@@ -12,7 +12,8 @@
             "extract-dir": "cabal",
             "bin": [
                 "cabal.exe"
-            ]
+            ],
+            "checksum": "860FFF2D39A82D1DC0CA924A77164D0988AF49C2C5F45E15D615144122BEB647"
         }
     }
 }

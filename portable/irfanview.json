@@ -11,7 +11,7 @@
                 "https://www.irfanview.info/files/iview457_x64.zip",
                 "https://www.irfanview.info/files/iview457_plugins_x64.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [],
             "pre-install": [
                 {

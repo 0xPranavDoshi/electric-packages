@@ -8,7 +8,7 @@
         "latest-version": "4.16",
         "4.16": {
             "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.16/BCUninstaller_4.16_portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "BCUninstaller.exe",
                 "BCU-console.exe",

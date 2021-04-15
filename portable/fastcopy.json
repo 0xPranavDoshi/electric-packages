@@ -8,7 +8,7 @@
         "latest-version": "3.92",
         "3.92": {
             "url": "https://fastcopy.jp/archive/FastCopy392.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "FastCopy.exe"
             ],

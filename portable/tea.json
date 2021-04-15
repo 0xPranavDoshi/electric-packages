@@ -8,7 +8,7 @@
         "latest-version": "0.7.0",
         "0.7.0": {
             "url": "https://dl.gitea.io/tea/0.7.0/tea-0.7.0-windows-amd64.exe#/tea.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "tea.exe"
             ],

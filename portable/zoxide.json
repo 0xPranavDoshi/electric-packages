@@ -8,7 +8,7 @@
         "latest-version": "3.7.0",
         "3.7.0": {
             "url": "https://www.apache.org/dist/zookeeper/zookeeper-3.7.0/apache-zookeeper-3.7.0-bin.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "bin\\zkServer.cmd",
                 "bin\\zkCli.cmd"

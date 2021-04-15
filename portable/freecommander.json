@@ -8,7 +8,7 @@
         "latest-version": "2021.840",
         "2021.840": {
             "url": "https://freecommander.com/downloads/FreeCommanderXE-32-public_portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "freecommander.exe"
             ],

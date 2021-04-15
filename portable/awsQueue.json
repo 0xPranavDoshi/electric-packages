@@ -8,7 +8,7 @@
         "latest-version": "0.0.8",
         "0.0.8": {
             "url": "https://github.com/NearlyUnique/awsqueue/releases/download/v0.0.8/awsqueue_0.0.8_Windows_x86_64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "awsqueue.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3902-g61e53aa93",
         "3902-g61e53aa93": {
             "url": "https://frippery.org/files/busybox/busybox-w64-FRP-3902-g61e53aa93.exe#/busybox.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "busybox.exe",
                 [

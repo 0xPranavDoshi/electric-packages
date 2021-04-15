@@ -8,7 +8,7 @@
         "latest-version": "0.0.304",
         "0.0.304": {
             "url": "http://dl-canary.discordapp.net/apps/win/DiscordCanary-0.0.304-full.nupkg#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "DiscordCanary.exe"
             ],

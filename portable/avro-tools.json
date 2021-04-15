@@ -8,7 +8,7 @@
         "latest-version": "1.10.2",
         "1.10.2": {
             "url": "https://apache.org/dist/avro/avro-1.10.2/java/avro-tools-1.10.2.jar#/avro-tools.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "avro-tools.jar"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "21.1.2",
         "21.1.2": {
             "url": "https://github.com/obsproject/obs-studio/releases/download/21.1.2/OBS-Studio-21.1.2-Small.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

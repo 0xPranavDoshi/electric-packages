@@ -8,7 +8,7 @@
         "latest-version": "3.7.6",
         "3.7.6": {
             "url": "https://github.com/angryip/ipscan/releases/download/3.7.6/ipscan-win64-3.7.6.exe#/ipscan.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "ipscan.exe"
             ],

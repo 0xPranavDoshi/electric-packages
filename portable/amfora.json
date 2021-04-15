@@ -8,7 +8,7 @@
         "latest-version": "1.8.0",
         "1.8.0": {
             "url": "https://github.com/makeworld-the-better-one/amfora/releases/download/v1.8.0/amfora_1.8.0_windows_64-bit.exe#/amfora.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "amfora.exe"
             ],

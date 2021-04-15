@@ -1,20 +1,25 @@
 {
-  "display-name": "Teracopy",
-  "package-name": "teracopy",
-  "latest-version": "3.7.4",
-  "3.7.4": {
-    "url": "https://www.codesector.com/files/teracopy.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NOCANCEL",
-      "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
-    ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "Teracopy",
+    "package-name": "teracopy",
+    "latest-version": "3.7.4",
+    "3.7.4": {
+        "url": "https://www.codesector.com/files/teracopy.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
 }

@@ -8,7 +8,7 @@
         "latest-version": "0.5",
         "0.5": {
             "url": "https://iobureau.com/byenow/byenow-0.5.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "byenow.exe"
             ],

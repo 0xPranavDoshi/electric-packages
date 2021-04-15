@@ -8,7 +8,7 @@
         "latest-version": "0.6.5",
         "0.6.5": {
             "url": "https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/RetroShare-0.6.5-Windows-Portable-20190204-1-gfb005f041-Qt-5.12.0.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "retroshare.exe",
                 "retroshare-nogui.exe",

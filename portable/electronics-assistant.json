@@ -8,7 +8,7 @@
         "latest-version": "4.31",
         "4.31": {
             "url": "https://www.electronics2000.co.uk/assist/assist.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

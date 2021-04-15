@@ -8,7 +8,7 @@
         "latest-version": "1.6",
         "1.6": {
             "url": "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [],
             "pre-install": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "91.0.4467.0-r869045",
         "91.0.4467.0-r869045": {
             "url": "https://github.com/macchrome/chromium/releases/download/v91.0.4467.0-r869045-Win64/Chrome-bin-sync.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "chrome.exe",
                 [

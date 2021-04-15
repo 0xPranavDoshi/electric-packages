@@ -8,7 +8,7 @@
         "latest-version": "0.2.2",
         "0.2.2": {
             "url": "https://github.com/Slashbunny/gog-galaxy-plugin-downloader/releases/download/v0.2.2/gog-plugins-downloader-v0.2.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gog-plugins-downloader.exe"
             ],

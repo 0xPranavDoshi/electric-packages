@@ -1,13 +1,17 @@
 {
-	"display-name": "Dell Command | Update",
-	"package-name": "dell-command-update",
-	"latest-version": "4.1.0",	
-	"4.1.0":{
-		"url": "https://dl.dell.com/FOLDER06986400M/1/Dell-Command-Update-Application_P5R35_WIN_4.1.0_A00.EXE",
-		"file-type": ".exe",
-		"install-switches": ["/s", "/f"],
-		"uninstall-switches": [],
-		"custom-location": "",
-		"dependencies": []
+    "display-name": "Dell Command | Update",
+    "package-name": "dell-command-update",
+    "latest-version": "4.1.0",
+    "4.1.0": {
+        "url": "https://dl.dell.com/FOLDER06986400M/1/Dell-Command-Update-Application_P5R35_WIN_4.1.0_A00.EXE",
+        "file-type": ".exe",
+        "install-switches": [
+            "/s",
+            "/f"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "351DEC8E58272639D9A78E58F3A8A72AB189B635A946869848EE62986F85436A"
     }
 }

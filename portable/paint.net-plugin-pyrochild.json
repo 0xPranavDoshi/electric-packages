@@ -8,7 +8,7 @@
         "latest-version": "2020-11-21",
         "2020-11-21": {
             "url": "https://forums.getpaint.net/applications/core/interface/file/attachment.php?id=18335#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

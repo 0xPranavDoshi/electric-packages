@@ -8,7 +8,7 @@
         "latest-version": "4.0.0",
         "4.0.0": {
             "url": "https://github.com/hluk/CopyQ/releases/download/v4.0.0/copyq-v4.0.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "copyq.exe"
             ],

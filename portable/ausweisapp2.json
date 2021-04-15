@@ -8,7 +8,7 @@
         "latest-version": "1.22.2",
         "1.22.2": {
             "url": "https://github.com/Governikus/AusweisApp2/releases/download/1.22.2/AusweisApp2-1.22.2.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [],
             "shortcuts": [
                 {

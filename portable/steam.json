@@ -8,7 +8,7 @@
         "latest-version": "nightly",
         "nightly": {
             "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Steam.exe"
             ],

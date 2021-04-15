@@ -12,7 +12,7 @@
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/grepwin-install-context.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/grepwin-uninstall-context.reg"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "grepWin.exe"
             ],

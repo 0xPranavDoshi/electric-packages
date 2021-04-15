@@ -8,7 +8,7 @@
         "latest-version": "1.1.1339",
         "1.1.1339": {
             "url": "https://dl5.oo-software.com/files/ooappbuster/OOAPB.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

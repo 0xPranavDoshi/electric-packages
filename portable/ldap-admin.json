@@ -8,7 +8,7 @@
         "latest-version": "1.8.3",
         "1.8.3": {
             "url": "https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/1.8.3/LdapAdminExe-w64-1.8.3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "LdapAdmin.exe"
             ],

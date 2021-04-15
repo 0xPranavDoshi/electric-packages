@@ -8,7 +8,7 @@
         "latest-version": "4.23.5",
         "4.23.5": {
             "url": "https://github.com/symfony/cli/releases/download/v4.23.5/symfony_windows_amd64.exe#/symfony.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "symfony.exe"
             ],

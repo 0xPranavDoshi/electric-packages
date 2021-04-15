@@ -8,7 +8,7 @@
         "latest-version": "1.0.0",
         "1.0.0": {
             "url": "http://iamfutureproof.com/downloads/InstallAwareness.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

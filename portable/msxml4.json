@@ -8,7 +8,7 @@
         "latest-version": "4.30.2100.0",
         "4.30.2100.0": {
             "url": "https://download.microsoft.com/download/A/2/D/A2D8587D-0027-4217-9DAD-38AFDB0A177E/msxml.msi#/setup.msi_",
-            "file-type": "msi_",
+            "file-type": ".msi_",
             "bin": [],
             "shortcuts": [],
             "persist": [],

@@ -8,7 +8,7 @@
         "latest-version": "1.2.1",
         "1.2.1": {
             "url": "https://github.com/tabulapdf/tabula/releases/download/v1.2.1/tabula-win-1.2.1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "tabula.exe"
             ],

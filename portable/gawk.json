@@ -8,7 +8,7 @@
         "latest-version": "5.1.0",
         "5.1.0": {
             "url": "https://downloads.sourceforge.net/project/ezwinports/gawk-5.1.0-w32-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\awk.exe",
                 "bin\\gawk.exe",

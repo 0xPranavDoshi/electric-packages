@@ -8,7 +8,7 @@
         "latest-version": "0.32.0",
         "0.32.0": {
             "url": "https://github.com/git-tfs/git-tfs/releases/download/v0.32.0/GitTfs-0.32.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "git-tfs.exe"
             ],

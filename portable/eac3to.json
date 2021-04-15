@@ -8,7 +8,7 @@
         "latest-version": "3.34",
         "3.34": {
             "url": "http://madshi.net/eac3to.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "eac3to.exe"
             ],

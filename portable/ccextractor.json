@@ -8,7 +8,7 @@
         "latest-version": "0.88",
         "0.88": {
             "url": "https://github.com/CCExtractor/ccextractor/releases/download/v0.88/ccextractor.0.88-windows.binaries.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ccextractorwin.exe",
                 "ccextractorwinfull.exe"

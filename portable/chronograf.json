@@ -8,7 +8,7 @@
         "latest-version": "1.8.10",
         "1.8.10": {
             "url": "https://dl.influxdata.com/chronograf/releases/chronograf-1.8.10_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "chronoctl.exe",
                 "chronograf.exe"

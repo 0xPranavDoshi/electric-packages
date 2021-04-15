@@ -8,7 +8,7 @@
         "latest-version": "3.2",
         "3.2": {
             "url": "http://sysprogs.com/getfile/1280/PortableSmarTTY-3.2.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "PortableSmartty\\SmarTTY.exe"
             ],

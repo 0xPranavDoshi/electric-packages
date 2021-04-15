@@ -8,7 +8,7 @@
         "latest-version": "0.16.2",
         "0.16.2": {
             "url": "https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-Windows-x86_64.exe#/docker-machine.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "docker-machine.exe"
             ],

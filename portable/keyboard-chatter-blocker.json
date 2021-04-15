@@ -8,7 +8,7 @@
         "latest-version": "1.08",
         "1.08": {
             "url": "https://github.com/mcmonkeyprojects/KeyboardChatterBlocker/releases/download/1.08/KeyboardChatterBlocker.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

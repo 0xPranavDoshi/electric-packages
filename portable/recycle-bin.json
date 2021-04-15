@@ -8,7 +8,7 @@
         "latest-version": "2.0.0",
         "2.0.0": {
             "url": "https://github.com/sindresorhus/recycle-bin/releases/download/v2.0.0/recycle-bin.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "recycle-bin.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.84.0",
         "0.84.0": {
             "url": "https://github.com/facebook/flipper/releases/download/v0.84.0/Flipper-win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Flipper.exe"
             ],

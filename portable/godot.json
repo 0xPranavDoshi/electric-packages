@@ -8,7 +8,7 @@
         "latest-version": "3.2.3",
         "3.2.3": {
             "url": "https://downloads.tuxfamily.org/godotengine/3.2.3/Godot_v3.2.3-stable_win64.exe.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "godot.exe"
             ],

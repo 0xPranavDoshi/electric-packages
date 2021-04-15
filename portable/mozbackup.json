@@ -8,7 +8,7 @@
         "latest-version": "1.5.1",
         "1.5.1": {
             "url": "http://mozbackup.jasnapaka.com/files/1.5.1/MozBackup-1.5.1-EN.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MozBackup.exe"
             ],

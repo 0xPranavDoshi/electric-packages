@@ -8,7 +8,7 @@
         "latest-version": "2.14.0-3.0.dev",
         "2.14.0-3.0.dev": {
             "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.14.0-3.0.dev/sdk/dartsdk-windows-x64-release.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

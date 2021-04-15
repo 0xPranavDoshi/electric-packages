@@ -8,7 +8,7 @@
         "latest-version": "3.20",
         "3.20": {
             "url": "https://bsdio.com/fio/releases/fio-3.20-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "fio.exe"
             ],

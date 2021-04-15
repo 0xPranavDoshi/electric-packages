@@ -8,7 +8,7 @@
         "latest-version": "1.8.3",
         "1.8.3": {
             "url": "https://github.com/coredns/coredns/releases/download/v1.8.3/coredns_1.8.3_windows_amd64.tgz",
-            "file-type": "tgz",
+            "file-type": ".tgz",
             "bin": [
                 "coredns.exe"
             ],

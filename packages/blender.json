@@ -1,23 +1,40 @@
 {
-  "display-name": "Blender",
-  "package-name": "blender",
-  "latest-version": "2.91.0",
-  "2.91.0": {
-    "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.90/blender-2.90.1-windows64.msi",
-    "file-type": ".msi",
-    "threads": 6,
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  },
-  "2.90.0": {
-    "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.90/blender-2.90.0-windows64.msi",
-    "file-type": ".msi",
-    "threads": 6,
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "Blender",
+    "package-name": "blender",
+    "latest-version": "2.91.0",
+    "2.91.0": {
+        "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.90/blender-2.90.1-windows64.msi",
+        "file-type": ".msi",
+        "threads": 6,
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "4D8B11B47F231C619AD2831BE140525C408CBDB9C04DCCF4F05440F35F1FEE1A"
+    },
+    "2.90.0": {
+        "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.90/blender-2.90.0-windows64.msi",
+        "file-type": ".msi",
+        "threads": 6,
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": []
+    }
 }

@@ -8,7 +8,7 @@
         "latest-version": "2.4.1",
         "2.4.1": {
             "url": "https://github.com/Y2Z/monolith/releases/download/v2.4.1/monolith.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "monolith.exe"
             ],

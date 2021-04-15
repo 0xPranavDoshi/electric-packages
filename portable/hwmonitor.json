@@ -8,7 +8,7 @@
         "latest-version": "1.43",
         "1.43": {
             "url": "http://download.cpuid.com/hwmonitor/hwmonitor_1.43.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

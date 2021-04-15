@@ -8,7 +8,7 @@
         "latest-version": "1.0.0-beta.2",
         "1.0.0-beta.2": {
             "url": "https://github.com/appbaseio/abc/releases/download/1.0.0-beta.2/abc-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "abc.exe"
             ],

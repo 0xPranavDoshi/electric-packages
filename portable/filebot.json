@@ -8,7 +8,7 @@
         "latest-version": "4.9.3",
         "4.9.3": {
             "url": "https://get.filebot.net/filebot/FileBot_4.9.3/FileBot_4.9.3-portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "filebot.exe"
             ],

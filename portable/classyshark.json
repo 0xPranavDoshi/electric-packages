@@ -8,7 +8,7 @@
         "latest-version": "8.2",
         "8.2": {
             "url": "https://github.com/google/android-classyshark/releases/download/8.2/ClassyShark.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "ClassyShark.jar"
             ],

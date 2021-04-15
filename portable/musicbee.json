@@ -8,7 +8,7 @@
         "latest-version": "3.4.7764",
         "3.4.7764": {
             "url": "https://www.mediafire.com/file/96w1zpgkwdqbcsj/MusicBeePortable_3_4.zip/file#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MusicBee.exe"
             ],

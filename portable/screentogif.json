@@ -8,7 +8,7 @@
         "latest-version": "2.27.3",
         "2.27.3": {
             "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.27.3/ScreenToGif.2.27.3.Portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ScreenToGif.exe"
             ],

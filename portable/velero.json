@@ -8,7 +8,7 @@
         "latest-version": "1.6.0",
         "1.6.0": {
             "url": "https://github.com/vmware-tanzu/velero/releases/download/v1.6.0/velero-v1.6.0-windows-amd64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "velero.exe"
             ],

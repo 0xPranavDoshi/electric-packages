@@ -8,7 +8,7 @@
         "latest-version": "211.6693.14",
         "211.6693.14": {
             "url": "https://download.jetbrains.com/idea/ideaIU-211.6693.14.win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

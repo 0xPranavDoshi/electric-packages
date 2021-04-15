@@ -8,7 +8,7 @@
         "latest-version": "1.9.8.0",
         "1.9.8.0": {
             "url": "https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/1.9.8.0/sfk198.exe#/sfk.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "sfk.exe"
             ],

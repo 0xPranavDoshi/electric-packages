@@ -8,7 +8,7 @@
         "latest-version": "0.2.9",
         "0.2.9": {
             "url": "https://github.com/hasherezade/pe-sieve/releases/download/v0.2.9/pe-sieve64.exe#/pe-sieve.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "pe-sieve.exe"
             ],

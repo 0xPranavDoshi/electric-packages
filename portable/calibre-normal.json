@@ -8,7 +8,7 @@
         "latest-version": "5.14.0",
         "5.14.0": {
             "url": "https://github.com/kovidgoyal/calibre/releases/download/v5.14.0/calibre-64bit-5.14.0.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "calibre.exe",
                 "calibre-customize.exe",

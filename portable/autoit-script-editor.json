@@ -8,7 +8,7 @@
         "latest-version": "21.316.1639.0.0",
         "21.316.1639.0.0": {
             "url": "https://www.autoitscript.com/autoit3/scite/download/SciTE4AutoIt3_Portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Au3Stripper\\AU3Stripper.exe",
                 "Tidy\\Tidy.exe"

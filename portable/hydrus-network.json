@@ -8,7 +8,7 @@
         "latest-version": "434",
         "434": {
             "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v434/Hydrus.Network.434.-.Windows.-.Extract.only.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "client.exe",

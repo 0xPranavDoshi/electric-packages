@@ -8,7 +8,7 @@
         "latest-version": "2.1.1",
         "2.1.1": {
             "url": "http://www.naturaldocs.org/download/natural_docs/2.1.1/Natural_Docs_2.1.1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "NaturalDocs.exe"
             ],

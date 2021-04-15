@@ -8,7 +8,7 @@
         "latest-version": "1.2.0",
         "1.2.0": {
             "url": "https://github.com/pemistahl/grex/releases/download/v1.2.0/grex-v1.2.0-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "grex.exe"
             ],

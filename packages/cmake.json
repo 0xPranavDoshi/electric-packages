@@ -1,13 +1,22 @@
 {
-  "display-name": "CMake",
-  "package-name": "cmake",
-  "latest-version": "3.19.6",
-  "3.19.6": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.19.6/cmake-3.19.6-win64-x64.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "CMake",
+    "package-name": "cmake",
+    "latest-version": "3.19.6",
+    "3.19.6": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v3.19.6/cmake-3.19.6-win64-x64.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "0E10652ECF1531EF5AF6821556D2A0D329598596FFEA7770492C25A2A5AE30D1"
+    }
 }

@@ -8,7 +8,7 @@
         "latest-version": "5.5.2",
         "5.5.2": {
             "url": "https://kcc.iosphe.re/Windows/KindleComicConverter_win_5.5.2.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [],
             "persist": []

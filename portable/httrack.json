@@ -8,7 +8,7 @@
         "latest-version": "3.49.2",
         "3.49.2": {
             "url": "https://mirror.httrack.com/httrack_x64-noinst-3.49.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "httrack.exe",
                 "WinHTTrack.exe"

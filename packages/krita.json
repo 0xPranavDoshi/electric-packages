@@ -1,13 +1,18 @@
 {
-  "display-name": "Krita",
-  "package-name": "krita",
-  "latest-version": "16.0.5",
-  "16.0.5": {
-    "url": "https://download.kde.org/stable/krita/4.4.3/krita-x64-4.4.3-setup.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "Krita",
+    "package-name": "krita",
+    "latest-version": "16.0.5",
+    "16.0.5": {
+        "url": "https://download.kde.org/stable/krita/4.4.3/krita-x64-4.4.3-setup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
 }

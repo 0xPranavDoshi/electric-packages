@@ -8,7 +8,7 @@
         "latest-version": "5.2",
         "5.2": {
             "url": "https://github.com/JabRef/jabref/releases/download/v5.2/JabRef-5.2-portable_windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "runtime\\bin\\JabRef.bat"
             ],

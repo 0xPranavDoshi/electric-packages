@@ -8,7 +8,7 @@
         "latest-version": "2.2.0",
         "2.2.0": {
             "url": "https://www.autoitconsulting.com/files/gimagex/gimagex.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

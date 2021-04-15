@@ -1,13 +1,16 @@
 {
-  "display-name": "WhatsApp Web",
-  "package-name": "whatsapp",
-  "latest-version": "2.2106.10",
-  "2.2106.10": {
-    "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
-    "file-type": ".exe",
-    "install-switches": ["--silent"],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "WhatsApp Web",
+    "package-name": "whatsapp",
+    "latest-version": "2.2106.10",
+    "2.2106.10": {
+        "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
 }

@@ -8,7 +8,7 @@
         "latest-version": "0.7.0",
         "0.7.0": {
             "url": "https://github.com/claudiodangelis/qrcp/releases/download/0.7.0/qrcp_0.7.0_Windows_x86_64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "qrcp.exe"
             ],

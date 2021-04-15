@@ -8,7 +8,7 @@
         "latest-version": "1.6.3.1",
         "1.6.3.1": {
             "url": "https://github.com/couchcoding/Logbert/releases/download/1.6.3.1/Logbert.1.6.3.1.-.Setup.-.x64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "Logbert.exe"
             ],

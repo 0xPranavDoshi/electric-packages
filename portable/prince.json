@@ -8,7 +8,7 @@
         "latest-version": "14.1",
         "14.1": {
             "url": "https://www.princexml.com/download/prince-14.1-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\prince.exe"
             ],

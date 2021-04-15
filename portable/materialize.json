@@ -8,7 +8,7 @@
         "latest-version": "1.78",
         "1.78": {
             "url": "http://www.boundingboxsoftware.com/materialize/download/Materialize_1.78.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Materialize.exe"
             ],

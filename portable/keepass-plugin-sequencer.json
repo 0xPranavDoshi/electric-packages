@@ -12,7 +12,7 @@
                 "https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/Sequencer.dll.config",
                 "https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/options.xml"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [],
             "shortcuts": [],
             "persist": []

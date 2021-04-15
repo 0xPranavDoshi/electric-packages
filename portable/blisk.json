@@ -8,7 +8,7 @@
         "latest-version": "14.0.71.69",
         "14.0.71.69": {
             "url": "https://bliskcloudstorage.blob.core.windows.net/win-installers/BliskInstaller_14.0.71.69.exe#/cosi.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "blisk.exe"
             ],

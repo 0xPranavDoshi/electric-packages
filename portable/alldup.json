@@ -8,7 +8,7 @@
         "latest-version": "4.4.47",
         "4.4.47": {
             "url": "http://www.alldup.info/download/AllDupPortable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "AllDupPortable.exe",

@@ -8,7 +8,7 @@
         "latest-version": "0.8",
         "0.8": {
             "url": "https://github.com/cortesi/modd/releases/download/v0.8/modd-0.8-windows64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "modd.exe"
             ],

@@ -1,13 +1,20 @@
 {
-  "display-name": "Docker Desktop",
-  "package-name": "docker-desktop",
-  "latest-version": "3.1.0",
-  "3.1.0": {
-    "url": "https://desktop.docker.com/win/stable/51484/Docker%20Desktop%20Installer.exe",
-    "file-type": ".exe",
-    "install-switches": ["install", "--quiet"],
-    "uninstall-switches": ["uninstall", "--quiet"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "Docker Desktop",
+    "package-name": "docker-desktop",
+    "latest-version": "3.1.0",
+    "3.1.0": {
+        "url": "https://desktop.docker.com/win/stable/51484/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "install",
+            "--quiet"
+        ],
+        "uninstall-switches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "B435F57D0557A8E40B6CB1D5FD3690A2FD4CF273A4D5490662DD18B977549136"
+    }
 }

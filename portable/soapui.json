@@ -11,7 +11,7 @@
                 "https://s3.amazonaws.com/downloads.eviware/soapuios/5.6.0/SoapUI-5.6.0-windows-bin.zip",
                 "https://icon-icons.com/downloadimage.php?id=93772&root=1381/ICO/512/&file=soapui_93772.ico#/icon.ico"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\soapui.bat"
             ],

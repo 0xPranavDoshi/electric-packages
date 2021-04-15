@@ -8,7 +8,7 @@
         "latest-version": "1.0.2.64",
         "1.0.2.64": {
             "url": "https://cdn.streamlabs.com/chatbot/Streamlabs+Chatbot+Installer.exe?v=1.0.2.64",
-            "file-type": "64",
+            "file-type": ".64",
             "bin": [],
             "shortcuts": [
                 {

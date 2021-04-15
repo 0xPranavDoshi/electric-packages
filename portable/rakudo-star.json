@@ -8,7 +8,7 @@
         "latest-version": "2020.05.1-01",
         "2020.05.1-01": {
             "url": "https://rakudo.org/dl/star/rakudo-star-2020.05.1-01-win-x86_64-(JIT).msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "bin\\perl6.exe",
                 "bin\\raku.exe",

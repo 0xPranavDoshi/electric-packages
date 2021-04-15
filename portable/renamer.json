@@ -8,7 +8,7 @@
         "latest-version": "7.2",
         "7.2": {
             "url": "https://www.den4b.com/download/renamer/portable/7.2?token=scoop#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ReNamer.exe"
             ],

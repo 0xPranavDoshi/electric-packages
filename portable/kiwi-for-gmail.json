@@ -8,7 +8,7 @@
         "latest-version": "2.0.514",
         "2.0.514": {
             "url": "https://s3-us-west-1.amazonaws.com/kiwiforgmail/windows/release/64bit/KiwiForGmail-2.0.514-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "Kiwi for Gmail.exe",
                 [

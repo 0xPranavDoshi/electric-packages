@@ -8,7 +8,7 @@
         "latest-version": "89.0a1.20210414093129",
         "89.0a1.20210414093129": {
             "url": "https://archive.mozilla.org/pub/firefox/nightly/2021/04/2021-04-14-09-31-29-mozilla-central/firefox-89.0a1.en-US.win64.installer.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "firefox.exe",

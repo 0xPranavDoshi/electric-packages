@@ -8,7 +8,7 @@
         "latest-version": "4.4.9_4",
         "4.4.9_4": {
             "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.9_4/nyagos-4.4.9_4-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nyagos.exe"
             ],

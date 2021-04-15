@@ -8,7 +8,7 @@
         "latest-version": "1.4",
         "1.4": {
             "url": "https://www.apache.org/dist/axis/axis/java/1.4/axis-bin-1_4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

@@ -8,7 +8,7 @@
         "latest-version": "2.52.3",
         "2.52.3": {
             "url": "https://github.com/sindresorhus/caprine/releases/download/v2.52.3/Caprine-Setup-2.52.3.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

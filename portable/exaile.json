@@ -8,7 +8,7 @@
         "latest-version": "4.1.1",
         "4.1.1": {
             "url": "https://github.com/exaile/exaile/releases/download/4.1.1/exaile-4.1.1.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "exaile.exe"
             ],

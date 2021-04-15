@@ -8,7 +8,7 @@
         "latest-version": "8.2.2",
         "8.2.2": {
             "url": "https://dl.pstmn.io/download/8.2.2/Postman-win64-8.2.2-full.nupkg#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Postman.exe"
             ],

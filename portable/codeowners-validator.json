@@ -8,7 +8,7 @@
         "latest-version": "0.6.0",
         "0.6.0": {
             "url": "https://github.com/mszostok/codeowners-validator/releases/download/v0.6.0/codeowners-validator_0.6.0_Windows_x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "codeowners-validator.exe"
             ],

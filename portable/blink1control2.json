@@ -8,7 +8,7 @@
         "latest-version": "2.2.4",
         "2.2.4": {
             "url": "https://github.com/todbot/Blink1Control2/releases/download/v2.2.4/Blink1Control2-2.2.4-win-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Blink1Control2.exe"
             ],

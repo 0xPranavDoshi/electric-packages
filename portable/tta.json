@@ -8,7 +8,7 @@
         "latest-version": "2.3",
         "2.3": {
             "url": "https://downloads.sourceforge.net/project/tta/tta/ttaenc-win/tta-2.3-64bit-sse4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "tta.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "2021-04-12",
         "2021-04-12": {
             "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-04-12/rust-analyzer-windows.exe#/rust-analyzer.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "rust-analyzer.exe"
             ],

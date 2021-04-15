@@ -8,7 +8,7 @@
         "latest-version": "0.36.2",
         "0.36.2": {
             "url": "https://github.com/fatedier/frp/releases/download/v0.36.2/frp_0.36.2_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "frpc.exe",
                 "frps.exe"

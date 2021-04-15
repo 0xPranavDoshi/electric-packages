@@ -8,7 +8,7 @@
         "latest-version": "8.6.12",
         "8.6.12": {
             "url": "https://github.com/schollz/croc/releases/download/v8.6.12/croc_8.6.12_Windows-64bit.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "croc.exe"
             ],

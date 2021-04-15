@@ -8,7 +8,7 @@
         "latest-version": "1.8.1",
         "1.8.1": {
             "url": "https://github.com/cli/cli/releases/download/v1.8.1/gh_1.8.1_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\gh.exe"
             ],

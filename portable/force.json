@@ -8,7 +8,7 @@
         "latest-version": "0.31.0",
         "0.31.0": {
             "url": "https://github.com/ForceCLI/force/releases/download/v0.31.0/force_windows_amd64.exe#/force.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "force.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "4.1.9",
         "4.1.9": {
             "url": "https://archive.apache.org/dist/openoffice/4.1.9/binaries/en-GB/Apache_OpenOffice_4.1.9_Win_x86_install_en-GB.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

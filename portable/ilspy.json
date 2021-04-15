@@ -8,7 +8,7 @@
         "latest-version": "6.2.1.6137",
         "6.2.1.6137": {
             "url": "https://github.com/icsharpcode/ILSpy/releases/download/v6.2.1/ILSpy_binaries_6.2.1.6137.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ILSpy.exe"
             ],

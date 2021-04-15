@@ -8,7 +8,7 @@
         "latest-version": "0.2021.02.08",
         "0.2021.02.08": {
             "url": "https://github.com/lukesampson/pshazz/archive/ca1292c5fe66419774ddbdc974a0a39c7e358ba1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\pshazz.ps1"
             ],

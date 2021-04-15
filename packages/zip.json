@@ -1,16 +1,22 @@
 {
-  "display-name": "Info-ZIP",
-  "package-name": "zip",
-  "is-portable": true,
-  "portable": {
     "display-name": "Info-ZIP",
     "package-name": "zip",
-    "latest-version": "3.0",
-    "3.0": {
-      "url": "http://fossies.org/windows/misc/zip300xn-x64.zip",
-      "file-type": ".zip",
-      "extract-dir": "zip",
-      "bin": ["zip.exe", "zipcloak.exe", "zipnote.exe", "zipsplit.exe"]
+    "is-portable": true,
+    "portable": {
+        "display-name": "Info-ZIP",
+        "package-name": "zip",
+        "latest-version": "3.0",
+        "3.0": {
+            "url": "http://fossies.org/windows/misc/zip300xn-x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "zip",
+            "bin": [
+                "zip.exe",
+                "zipcloak.exe",
+                "zipnote.exe",
+                "zipsplit.exe"
+            ],
+            "checksum": "1AEDC5F1867D5E1EE783713FE0E18135A61120718A7549EFB755C708968362CE"
+        }
     }
-  }
 }

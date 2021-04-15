@@ -8,7 +8,7 @@
         "latest-version": "5.3",
         "5.3": {
             "url": "https://languagetool.org/download/LanguageTool-5.3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "languagetool.bat",
                 "languagetool-commandline.jar",

@@ -8,7 +8,7 @@
         "latest-version": "2.7.10.2",
         "2.7.10.2": {
             "url": "https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-2.7.10.2/Shareaza_2.7.10.2_x64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "Shareaza.exe"
             ],

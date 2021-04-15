@@ -8,7 +8,7 @@
         "latest-version": "3.9.2",
         "3.9.2": {
             "url": "https://github.com/randyrants/sharpkeys/releases/download/v3.9.2/sharpkeys392.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "SharpKeys.exe"
             ],

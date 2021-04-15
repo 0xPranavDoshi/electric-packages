@@ -8,7 +8,7 @@
         "latest-version": "38151",
         "38151": {
             "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r38151/mplayer-svn-38151-x86_64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mencoder.exe",
                 "mplayer.exe"

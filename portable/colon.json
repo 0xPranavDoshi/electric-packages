@@ -8,7 +8,7 @@
         "latest-version": "1.4.4",
         "1.4.4": {
             "url": "https://github.com/Chhekur/colon-ide/releases/download/v1.4.4/Colon-Setup-1.4.4.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

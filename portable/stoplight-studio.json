@@ -8,7 +8,7 @@
         "latest-version": "2.3.0-stable.5602.git-d17f9c7",
         "2.3.0-stable.5602.git-d17f9c7": {
             "url": "https://github.com/stoplightio/studio/releases/download/v2.3.0-stable.5602.git-d17f9c7/stoplight-studio-win.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "1.1.33.06",
         "1.1.33.06": {
             "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.33.06/AutoHotkey_1.1.33.06_setup.exe#/autohotkey-installer.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

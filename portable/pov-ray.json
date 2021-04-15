@@ -11,7 +11,7 @@
                 "https://www.povray.org/ftp/pub/povray/Official/povwin-3.7-agpl3-setup.exe",
                 "https://www.povray.org/download/povwin-3.7-editor.exe"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [],
             "shortcuts": [],
             "persist": "userdocs",

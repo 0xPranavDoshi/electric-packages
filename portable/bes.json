@@ -8,7 +8,7 @@
         "latest-version": "1.7.8",
         "1.7.8": {
             "url": "http://mion.faireal.net/archive/BES/bes_1.7.8.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bes.exe"
             ],

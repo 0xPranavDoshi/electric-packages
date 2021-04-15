@@ -8,7 +8,7 @@
         "latest-version": "21.0",
         "21.0": {
             "url": "https://download.mobatek.net/2102021022292334/MobaXterm_Portable_v21.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MobaXterm.exe"
             ],

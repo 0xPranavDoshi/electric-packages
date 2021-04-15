@@ -8,7 +8,7 @@
         "latest-version": "2.1.1",
         "2.1.1": {
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\phantomjs.exe"
             ],

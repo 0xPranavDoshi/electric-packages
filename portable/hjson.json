@@ -8,7 +8,7 @@
         "latest-version": "3.0.0",
         "3.0.0": {
             "url": "https://github.com/hjson/hjson-go/releases/download/v3.0.0/windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "hjson.exe",
                 [

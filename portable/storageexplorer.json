@@ -8,7 +8,7 @@
         "latest-version": "1.18.1",
         "1.18.1": {
             "url": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.18.1/Windows_StorageExplorer.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "StorageExplorer.exe"
             ],

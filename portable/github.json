@@ -8,7 +8,7 @@
         "latest-version": "2.7.2",
         "2.7.2": {
             "url": "https://central.github.com/deployments/desktop/desktop/latest/GitHubDesktop-2.7.2-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "GitHubDesktop.exe"
             ],

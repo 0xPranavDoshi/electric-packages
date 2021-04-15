@@ -8,7 +8,7 @@
         "latest-version": "190516-062034-d94424",
         "190516-062034-d94424": {
             "url": "https://status-im.ams3.cdn.digitaloceanspaces.com/StatusIm-190516-062034-d94424-release.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Status.exe"
             ],

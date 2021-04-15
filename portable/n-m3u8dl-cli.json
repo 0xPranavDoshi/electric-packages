@@ -8,7 +8,7 @@
         "latest-version": "2.9.7",
         "2.9.7": {
             "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/2.9.7/N_m3u8DL-CLI_v2.9.7.exe#/N_m3u8DL-CLI.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "N_m3u8DL-CLI.exe",
                 [

@@ -8,7 +8,7 @@
         "latest-version": "0.82.0",
         "0.82.0": {
             "url": "https://github.com/gohugoio/hugo/releases/download/v0.82.0/hugo_0.82.0_windows-64bit.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "hugo.exe"
             ],

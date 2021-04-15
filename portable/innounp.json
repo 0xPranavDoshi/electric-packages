@@ -8,7 +8,7 @@
         "latest-version": "0.50",
         "0.50": {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/innounp/innounp050.rar",
-            "file-type": "rar",
+            "file-type": ".rar",
             "bin": [
                 "innounp.exe"
             ],

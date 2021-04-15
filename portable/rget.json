@@ -8,7 +8,7 @@
         "latest-version": "0.0.7",
         "0.0.7": {
             "url": "https://github.com/merklecounty/rget/releases/download/v0.0.7/rget-v0.0.7-windows-amd64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "rget.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "2.8.4",
         "2.8.4": {
             "url": "https://github.com/centrifugal/centrifugo/releases/download/v2.8.4/centrifugo_2.8.4_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "centrifugo.exe"
             ],

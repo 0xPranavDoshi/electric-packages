@@ -8,7 +8,7 @@
         "latest-version": "10.5.9",
         "10.5.9": {
             "url": "https://downloads.mariadb.com/MariaDB/mariadb-10.5.9/winx64-packages/mariadb-10.5.9-winx64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\aria_chk.exe",
                 "bin\\aria_dump_log.exe",

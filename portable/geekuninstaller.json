@@ -8,7 +8,7 @@
         "latest-version": "1.4.7.142",
         "1.4.7.142": {
             "url": "https://geekuninstaller.com/geek.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "geek.exe"
             ],

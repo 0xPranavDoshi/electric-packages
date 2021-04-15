@@ -8,7 +8,7 @@
         "latest-version": "1.6",
         "1.6": {
             "url": "https://github.com/projectkudu/ARMClient/releases/download/v1.6/ARMClient.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ARMClient.exe",
                 "AADClient.exe"

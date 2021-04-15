@@ -8,7 +8,7 @@
         "latest-version": "2.096.0",
         "2.096.0": {
             "url": "http://downloads.dlang.org/releases/2.x/2.096.0/dmd.2.096.0.windows.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "windows\\bin\\dmd.exe",
                 "windows\\bin\\dub.exe"

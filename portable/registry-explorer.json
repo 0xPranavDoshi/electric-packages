@@ -8,7 +8,7 @@
         "latest-version": "1.6.0.0",
         "1.6.0.0": {
             "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/RegistryExplorer_RECmd.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "RECmd.exe",
                 "RegistryExplorer.exe"

@@ -8,7 +8,7 @@
         "latest-version": "2.6",
         "2.6": {
             "url": "https://github.com/giowck/symphytum/releases/download/v2.6/Symphytum-windows-portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

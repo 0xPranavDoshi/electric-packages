@@ -8,7 +8,7 @@
         "latest-version": "5.5.0",
         "5.5.0": {
             "url": "https://github.com/getferdi/ferdi/releases/download/v5.5.0/Ferdi-Setup-5.5.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Ferdi.exe"
             ],

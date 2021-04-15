@@ -8,7 +8,7 @@
         "latest-version": "2.2.0-58-g5a1c8d8",
         "2.2.0-58-g5a1c8d8": {
             "url": "https://github.com/k-takata/the_silver_searcher-win32/releases/download/2020-07-05/2.2.0-58-g5a1c8d8/ag-2020-07-05_2.2.0-58-g5a1c8d8-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ag.exe"
             ],

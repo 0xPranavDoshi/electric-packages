@@ -8,7 +8,7 @@
         "latest-version": "2.26",
         "2.26": {
             "url": "http://www.coreftp.com/server/download/mini-sftp-server.x64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [],
             "persist": []

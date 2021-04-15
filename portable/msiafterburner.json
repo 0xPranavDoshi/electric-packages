@@ -8,7 +8,7 @@
         "latest-version": "4.6.3",
         "4.6.3": {
             "url": "https://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip?__token__=exp=zzzz~acl=/*~zzzzzzzz#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MSIAfterburner.exe"
             ],

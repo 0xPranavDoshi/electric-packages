@@ -8,7 +8,7 @@
         "latest-version": "5.0.1",
         "5.0.1": {
             "url": "http://www.ampsoft.net/files/WinOFF.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "WinOFF.exe"
             ],

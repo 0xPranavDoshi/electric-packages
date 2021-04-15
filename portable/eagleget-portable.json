@@ -8,7 +8,7 @@
         "latest-version": "2.1.5.10",
         "2.1.5.10": {
             "url": "http://dl.eagleget.com/latest/EagleGetProtable_2.1.5.10.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

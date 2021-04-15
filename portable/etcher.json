@@ -8,7 +8,7 @@
         "latest-version": "1.5.117",
         "1.5.117": {
             "url": "https://github.com/balena-io/etcher/releases/download/v1.5.117/balenaEtcher-Setup-1.5.117.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "1.5.1800",
         "1.5.1800": {
             "url": "https://viewer.dadroit.com/releases/win/Dadroit%20Viewer%201.5%20Build%201800%20x64%20Setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "DadroitViewer.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.8.6",
         "1.8.6": {
             "url": "https://valvedev.info/tools/gcfscape/gcfscape.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "GCFScape.exe"
             ],

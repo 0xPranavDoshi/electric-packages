@@ -8,7 +8,7 @@
         "latest-version": "0.1.15195",
         "0.1.15195": {
             "url": "https://github.com/CircleCI-Public/circleci-cli/releases/download/v0.1.15195/circleci-cli_0.1.15195_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "circleci.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.1.691",
         "1.1.691": {
             "url": "https://github.com/ScoopInstaller/Binary/raw/master/peerblock/PeerBlock-Setup_v1.1%2B_r691.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "pre-install": [
                 {

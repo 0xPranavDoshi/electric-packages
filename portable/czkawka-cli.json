@@ -8,7 +8,7 @@
         "latest-version": "2.0.0",
         "2.0.0": {
             "url": "https://github.com/qarmin/czkawka/releases/download/2.0.0/windows_czkawka_cli.exe#/czkawka.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "czkawka.exe",
                 [

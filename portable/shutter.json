@@ -8,7 +8,7 @@
         "latest-version": "4.4",
         "4.4": {
             "url": "https://www.den4b.com/download/shutter/portable/4.4?token=scoop#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Shutter.exe"
             ],

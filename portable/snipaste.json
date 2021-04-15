@@ -8,7 +8,7 @@
         "latest-version": "1.16.2",
         "1.16.2": {
             "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-1.16.2-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Snipaste.exe"
             ],

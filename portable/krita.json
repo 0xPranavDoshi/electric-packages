@@ -8,7 +8,7 @@
         "latest-version": "4.4.3",
         "4.4.3": {
             "url": "https://download.kde.org/stable/krita/4.4.3/krita-x64-4.4.3-setup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\krita.exe",
                 "bin\\kritarunner.exe"

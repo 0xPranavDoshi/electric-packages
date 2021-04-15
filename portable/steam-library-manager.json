@@ -8,7 +8,7 @@
         "latest-version": "1.6.0.4",
         "1.6.0.4": {
             "url": "https://github.com/RevoLand/Steam-Library-Manager/releases/download/v1.6.0.4/Steam.Library.Manager.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Steam Library Manager.exe",
                 [

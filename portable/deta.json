@@ -8,7 +8,7 @@
         "latest-version": "1.1.2-beta",
         "1.1.2-beta": {
             "url": "https://github.com/deta/deta-cli/releases/download/v1.1.2-beta/deta-x86_64-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "deta.exe"
             ],

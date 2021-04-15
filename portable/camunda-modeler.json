@@ -8,7 +8,7 @@
         "latest-version": "4.7.0",
         "4.7.0": {
             "url": "https://camunda.org/release/camunda-modeler/4.7.0/camunda-modeler-4.7.0-win-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Camunda Modeler.exe"
             ],

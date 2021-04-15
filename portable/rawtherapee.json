@@ -8,7 +8,7 @@
         "latest-version": "5.8",
         "5.8": {
             "url": "https://rawtherapee.com/shared/builds/windows/RawTherapee_5.8.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "rawtherapee.exe",
                 "rawtherapee-cli.exe"

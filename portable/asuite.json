@@ -8,7 +8,7 @@
         "latest-version": "2.0.0",
         "2.0.0": {
             "url": "https://downloads.sourceforge.net/project/asuite/ASuite/2.0.0/asuite_x64-v2.0.0.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

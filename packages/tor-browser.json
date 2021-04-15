@@ -1,13 +1,18 @@
 {
-  "display-name": "Tor Browser",
-  "package-name": "tor-browser",
-  "latest-version": "10.0.15",
-  "10.0.15": {
-    "url": "https://dist.torproject.org/torbrowser/10.0.15/torbrowser-install-10.0.15_en-US.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "Tor Browser",
+    "package-name": "tor-browser",
+    "latest-version": "10.0.15",
+    "10.0.15": {
+        "url": "https://dist.torproject.org/torbrowser/10.0.15/torbrowser-install-10.0.15_en-US.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "99011DF022B59DE3F8E78E50418A1A32964F9E1DA648B72A6FF36707F01A527E"
+    }
 }

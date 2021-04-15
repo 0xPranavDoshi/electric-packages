@@ -8,7 +8,7 @@
         "latest-version": "2.2.0.41590",
         "2.2.0.41590": {
             "url": "http://nimbletext.com/Download/NimbleSET.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "NimbleSET.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.89",
         "1.89": {
             "url": "https://github.com/adoxa/ansicon/releases/download/v1.89/ansi189-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ansicon.exe"
             ],

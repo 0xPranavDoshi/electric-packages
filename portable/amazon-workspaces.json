@@ -8,7 +8,7 @@
         "latest-version": "3.1.6.2064",
         "3.1.6.2064": {
             "url": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [],
             "pre-install": [
                 {

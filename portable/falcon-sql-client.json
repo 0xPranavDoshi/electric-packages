@@ -8,7 +8,7 @@
         "latest-version": "4.1.0",
         "4.1.0": {
             "url": "https://github.com/plotly/falcon-sql-client/releases/download/v4.1.0/win-falcon-v4.1.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

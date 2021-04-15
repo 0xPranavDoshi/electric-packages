@@ -8,7 +8,7 @@
         "latest-version": "2021-04-06T23-11-00Z",
         "2021-04-06T23-11-00Z": {
             "url": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2021-04-06T23-11-00Z#/minio.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "minio.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "11-20210204",
         "11-20210204": {
             "url": "http://bleyer.org/icarus/iverilog-v11-20210204-x64_setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "bin\\iverilog.exe",
                 "bin\\iverilog-vpi.exe",

@@ -1,13 +1,18 @@
 {
-  "display-name": "Salad",
-  "package-name": "salad",
-  "latest-version": "0.5.2",
-  "0.5.2": {
-    "url": "https://github.com/SaladTechnologies/salad-applications/releases/download/0.5.2/Salad-0.5.2.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "Salad",
+    "package-name": "salad",
+    "latest-version": "0.5.2",
+    "0.5.2": {
+        "url": "https://github.com/SaladTechnologies/salad-applications/releases/download/0.5.2/Salad-0.5.2.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "9FB9075AFF4C9AE62F0436E6C5A29568261456B4DE657DAF927B50B139FB7938"
+    }
 }

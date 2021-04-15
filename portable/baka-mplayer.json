@@ -8,7 +8,7 @@
         "latest-version": "2.0.4",
         "2.0.4": {
             "url": "https://github.com/u8sand/Baka-MPlayer/releases/download/v2.0.4/Baka-MPlayer.x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

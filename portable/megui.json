@@ -8,7 +8,7 @@
         "latest-version": "2913",
         "2913": {
             "url": "https://downloads.sourceforge.net/project/megui/megui-stable/2913/MeGUI-2913-32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "MeGUI.exe"
             ],

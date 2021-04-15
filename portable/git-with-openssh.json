@@ -8,7 +8,7 @@
         "latest-version": "2.0.2",
         "2.0.2": {
             "url": "https://github.com/msiemens/PyGitUp/archive/v2.0.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": [],

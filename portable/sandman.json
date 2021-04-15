@@ -8,7 +8,7 @@
         "latest-version": "1.9.2",
         "1.9.2": {
             "url": "https://github.com/alexanderepstein/Sandman/releases/download/v1.9.2/Sandman.Version.1.9.2.64.Bit.Windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

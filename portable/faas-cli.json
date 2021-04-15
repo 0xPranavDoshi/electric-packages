@@ -8,7 +8,7 @@
         "latest-version": "0.13.9",
         "0.13.9": {
             "url": "https://github.com/openfaas/faas-cli/releases/download/0.13.9/faas-cli.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "faas-cli.exe",
                 [

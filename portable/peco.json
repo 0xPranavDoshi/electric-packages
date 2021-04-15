@@ -8,7 +8,7 @@
         "latest-version": "0.5.8",
         "0.5.8": {
             "url": "https://github.com/peco/peco/releases/download/v0.5.8/peco_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "peco.exe"
             ],

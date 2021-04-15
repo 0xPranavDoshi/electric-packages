@@ -17,7 +17,7 @@
                 "https://github.com/cloudflare/cfssl/releases/download/v1.5.0/mkbundle_1.5.0_windows_amd64.exe#/mkbundle.exe",
                 "https://github.com/cloudflare/cfssl/releases/download/v1.5.0/multirootca_1.5.0_windows_amd64.exe#/multirootca.exe"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "cfssl.exe",
                 "cfssl-bundle.exe",

@@ -8,7 +8,7 @@
         "latest-version": "5.0.20204.45441",
         "5.0.20204.45441": {
             "url": "https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Fiddler.exe"
             ],

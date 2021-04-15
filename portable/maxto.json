@@ -8,7 +8,7 @@
         "latest-version": "2.1.5",
         "2.1.5": {
             "url": "https://files.maxto.net/releases/2.1.5/MaxTo-2.1.5-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "MaxTo.exe"
             ],

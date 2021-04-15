@@ -8,7 +8,7 @@
         "latest-version": "2.4.2",
         "2.4.2": {
             "url": "https://dl.bintray.com/asciidoctor/maven/org/asciidoctor/asciidoctorj/2.4.2/asciidoctorj-2.4.2-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\asciidoctorj.bat"
             ],

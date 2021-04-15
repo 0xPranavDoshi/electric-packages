@@ -8,7 +8,7 @@
         "latest-version": "75.0.3969.93",
         "75.0.3969.93": {
             "url": "https://download1.operacdn.com/pub/opera/desktop/75.0.3969.93/win/Opera_75.0.3969.93_Setup_x64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

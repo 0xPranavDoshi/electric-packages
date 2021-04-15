@@ -14,7 +14,7 @@
                 "https://downloads.sourceforge.net/project/mingw/MSYS/Base/findutils/findutils-4.4.2-2/findutils-4.4.2-2-msys-1.0.13-bin.tar.lzma",
                 "https://downloads.sourceforge.net/project/mingw/MSYS/Base/findutils/findutils-4.4.2-2/locate-4.4.2-2-msys-1.0.13-bin.tar.lzma"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\find.exe",
                 "bin\\oldfind.exe",

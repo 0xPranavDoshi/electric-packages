@@ -8,7 +8,7 @@
         "latest-version": "1.9.5",
         "1.9.5": {
             "url": "https://oss-attachment.cn-hangzhou.oss.aliyun-inc.com/oss-browser/1.9.5/oss-browser-win32-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "oss-browser.exe"
             ],

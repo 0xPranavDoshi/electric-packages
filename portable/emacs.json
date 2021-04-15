@@ -8,7 +8,7 @@
         "latest-version": "27.2",
         "27.2": {
             "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-27/emacs-27.2-x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\runemacs.exe",
                 "bin\\emacs.exe",

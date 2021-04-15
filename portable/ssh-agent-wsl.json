@@ -8,7 +8,7 @@
         "latest-version": "2.5",
         "2.5": {
             "url": "https://github.com/rupor-github/ssh-agent-wsl/releases/download/v2.5/ssh-agent-wsl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": [],

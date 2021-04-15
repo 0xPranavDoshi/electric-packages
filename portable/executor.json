@@ -8,7 +8,7 @@
         "latest-version": "1.0.5",
         "1.0.5": {
             "url": "http://www.1space.dk/executor/Executor64bit.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Executor.exe"
             ],

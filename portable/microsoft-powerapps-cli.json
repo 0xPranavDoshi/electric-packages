@@ -8,7 +8,7 @@
         "latest-version": "1.5.5",
         "1.5.5": {
             "url": "https://www.nuget.org/api/v2/package/Microsoft.PowerApps.CLI/1.5.5#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pac.exe"
             ],

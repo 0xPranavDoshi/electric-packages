@@ -8,7 +8,7 @@
         "latest-version": "5.0.0-alpha15",
         "5.0.0-alpha15": {
             "url": "https://github.com/premake/premake-core/releases/download/v5.0.0-alpha15/premake-5.0.0-alpha15-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "premake5.exe"
             ],

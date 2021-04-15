@@ -8,7 +8,7 @@
         "latest-version": "4.0.2",
         "4.0.2": {
             "url": "https://downloads.sourceforge.net/project/swig/swigwin/swigwin-4.0.2/swigwin-4.0.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "swig.exe"
             ],

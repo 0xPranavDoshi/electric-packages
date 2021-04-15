@@ -1,13 +1,18 @@
 {
-  "display-name": "TeamViewer",
-  "package-name": "teamviewer",
-  "latest-version": "15.11.6",
-  "15.11.6": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "TeamViewer",
+    "package-name": "teamviewer",
+    "latest-version": "15.11.6",
+    "15.11.6": {
+        "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "CB2FFA75DAE1AAE028C32CF4ACB7FF2DA043DCCCC3BAAC32383FD9C3E0E279D0"
+    }
 }

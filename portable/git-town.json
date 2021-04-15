@@ -8,7 +8,7 @@
         "latest-version": "7.5.0",
         "7.5.0": {
             "url": "https://github.com/git-town/git-town/releases/download/v7.5.0/git-town_7.5.0_windows_intel_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "git-town.exe"
             ],

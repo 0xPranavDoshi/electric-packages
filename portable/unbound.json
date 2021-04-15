@@ -8,7 +8,7 @@
         "latest-version": "1.13.1",
         "1.13.1": {
             "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_1.13.1.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "unbound.exe",

@@ -8,7 +8,7 @@
         "latest-version": "6.16.0",
         "6.16.0": {
             "url": "https://downloads.sourceforge.net/project/jasperstudio/JaspersoftStudio-6.16.0/TIB_js-studiocomm_6.16.0_windows_x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

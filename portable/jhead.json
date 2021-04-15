@@ -8,7 +8,7 @@
         "latest-version": "3.04",
         "3.04": {
             "url": "http://www.sentex.net/~mwandel/jhead/jhead.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "jhead.exe"
             ],

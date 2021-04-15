@@ -8,7 +8,7 @@
         "latest-version": "3.2.32",
         "3.2.32": {
             "url": "https://github.com/etcd-io/etcd/releases/download/v3.2.32/etcd-v3.2.32-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "etcd.exe",
                 "etcdctl.exe"

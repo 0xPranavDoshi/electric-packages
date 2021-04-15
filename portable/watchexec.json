@@ -8,7 +8,7 @@
         "latest-version": "1.15.0",
         "1.15.0": {
             "url": "https://github.com/watchexec/watchexec/releases/download/1.15.0/watchexec-1.15.0-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "watchexec.exe"
             ],

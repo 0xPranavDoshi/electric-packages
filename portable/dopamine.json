@@ -8,7 +8,7 @@
         "latest-version": "2.0.8",
         "2.0.8": {
             "url": "https://www.digimezzo.com/content/software/dopamine/Dopamine%202.0.8%20(Release)%20-%20Portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

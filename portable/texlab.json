@@ -8,7 +8,7 @@
         "latest-version": "2.2.2",
         "2.2.2": {
             "url": "https://github.com/latex-lsp/texlab/releases/download/v2.2.2/texlab-x86_64-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "texlab.exe"
             ],

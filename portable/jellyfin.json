@@ -8,7 +8,7 @@
         "latest-version": "10.7.2",
         "10.7.2": {
             "url": "https://repo.jellyfin.org/releases/server/windows/versions/stable/combined/10.7.2/jellyfin_10.7.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "system\\jellyfin.exe",

@@ -8,7 +8,7 @@
         "latest-version": "1.6.1",
         "1.6.1": {
             "url": "https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/1.6.1/xmlstarlet-1.6.1-win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "xml.exe"
             ],

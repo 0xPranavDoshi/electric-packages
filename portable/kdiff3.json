@@ -8,7 +8,7 @@
         "latest-version": "1.8.5",
         "1.8.5": {
             "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.8.5-windows-64-cl.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\kdiff3.exe"
             ],

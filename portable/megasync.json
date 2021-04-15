@@ -8,7 +8,7 @@
         "latest-version": "4.4.0.0",
         "4.4.0.0": {
             "url": "https://mega.nz/MEGAsyncSetup64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "MEGAsync.exe"
             ],

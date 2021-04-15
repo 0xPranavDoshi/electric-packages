@@ -8,7 +8,7 @@
         "latest-version": "3.0",
         "3.0": {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/zip/x64/zip300xn-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "zip.exe",
                 "zipcloak.exe",

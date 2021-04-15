@@ -8,7 +8,7 @@
         "latest-version": "1.0.4",
         "1.0.4": {
             "url": "https://releases.hashicorp.com/nomad/1.0.4/nomad_1.0.4_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nomad.exe"
             ],

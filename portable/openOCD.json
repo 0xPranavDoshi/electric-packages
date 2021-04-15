@@ -8,7 +8,7 @@
         "latest-version": "0.10.0",
         "0.10.0": {
             "url": "http://www.freddiechopin.info/en/download/category/4-openocd?download=154%3Aopenocd-0.10.0#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": []

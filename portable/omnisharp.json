@@ -8,7 +8,7 @@
         "latest-version": "1.37.8",
         "1.37.8": {
             "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.37.8/omnisharp-win-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "omnisharp.exe"
             ],

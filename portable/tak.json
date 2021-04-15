@@ -8,7 +8,7 @@
         "latest-version": "2.3.0",
         "2.3.0": {
             "url": "http://thbeck.de/Download/TAK_2.3.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Takc.exe"
             ],

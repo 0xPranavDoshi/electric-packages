@@ -8,7 +8,7 @@
         "latest-version": "0.8.1",
         "0.8.1": {
             "url": "https://downloads.sourceforge.net/project/jojodiff/jojodiff/jojodiff08/jdiff081.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "win32\\jdiff.exe",
                 "win32\\jptch.exe"

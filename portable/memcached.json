@@ -8,7 +8,7 @@
         "latest-version": "1.6.9",
         "1.6.9": {
             "url": "https://github.com/nono303/memcached/archive/1.6.9.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "memcached.exe"
             ],

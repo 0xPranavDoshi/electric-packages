@@ -8,7 +8,7 @@
         "latest-version": "1.23.0.0",
         "1.23.0.0": {
             "url": "https://www.geeks3d.com/downloads/2020p/FurMark_1.23.0.0_Setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "FurMark.exe"
             ],

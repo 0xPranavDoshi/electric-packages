@@ -8,7 +8,7 @@
         "latest-version": "1.7.25",
         "1.7.25": {
             "url": "https://packages.riot.im/desktop/update/win32/x64/element-desktop-1.7.25-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "Element.exe",
                 [

@@ -8,7 +8,7 @@
         "latest-version": "21.2",
         "21.2": {
             "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-21.2-x64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [],
             "persist": "texmfs\\config"

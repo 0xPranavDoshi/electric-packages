@@ -1,17 +1,20 @@
 {
-  "$schema": "https://raw.githubusercontent.com/electric-package-manager/electric-packages/master/package-schema.json",
-  "display-name": "PHP",
-  "package-name": "php",
-  "is-portable": true,
-  "portable": {
+    "$schema": "https://raw.githubusercontent.com/electric-package-manager/electric-packages/master/package-schema.json",
     "display-name": "PHP",
     "package-name": "php",
-    "latest-version": "8.0.2",
-    "8.0.2": {
-      "url": "https://windows.php.net/downloads/releases/php-8.0.2-nts-Win32-vs16-x64.zip",
-      "file-type": ".zip",
-      "extract-dir": "php",
-      "bin": ["php.exe"]
+    "is-portable": true,
+    "portable": {
+        "display-name": "PHP",
+        "package-name": "php",
+        "latest-version": "8.0.2",
+        "8.0.2": {
+            "url": "https://windows.php.net/downloads/releases/php-8.0.2-nts-Win32-vs16-x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "php",
+            "bin": [
+                "php.exe"
+            ],
+            "checksum": "DC1D54DAB6EC8C00F70137927504E4F222C8395F10760B6BEECFCFA94E08249F"
+        }
     }
-  }
 }

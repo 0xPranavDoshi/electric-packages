@@ -8,7 +8,7 @@
         "latest-version": "6.0.2",
         "6.0.2": {
             "url": "https://snapshots.mitmproxy.org/6.0.2/pathod-6.0.2-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pathod.exe",
                 "pathoc.exe"

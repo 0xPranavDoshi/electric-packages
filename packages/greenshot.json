@@ -1,20 +1,25 @@
 {
-  "display-name": "Greenshot",
-  "package-name": "greenshot",
-  "latest-version": "1.2.10.6",
-  "1.2.10.6": {
-    "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NOCANCEL",
-      "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
-    ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "Greenshot",
+    "package-name": "greenshot",
+    "latest-version": "1.2.10.6",
+    "1.2.10.6": {
+        "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "4AFE1C40DCADAA4BBAB9E776641209F6875A0275D393375CDEB16DE6764E0270"
+    }
 }

@@ -8,7 +8,7 @@
         "latest-version": "4.9.0",
         "4.9.0": {
             "url": "https://nuget.org/api/v2/package/psake/4.9.0#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "psake.ps1"
             ],

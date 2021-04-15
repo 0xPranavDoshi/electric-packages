@@ -8,7 +8,7 @@
         "latest-version": "1.19.0",
         "1.19.0": {
             "url": "https://storage.googleapis.com/minikube/releases/v1.19.0/minikube-windows-amd64.exe#/minikube.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "minikube.exe"
             ],

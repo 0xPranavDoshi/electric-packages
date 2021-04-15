@@ -8,7 +8,7 @@
         "latest-version": "4.1.2",
         "4.1.2": {
             "url": "https://github.com/mavlink/qgroundcontrol/releases/download/v4.1.2/QGroundControl-installer.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "QGroundControl.exe"
             ],

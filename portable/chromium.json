@@ -8,7 +8,7 @@
         "latest-version": "85.0.4183.83",
         "85.0.4183.83": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v85.0.4183.83-r782793-Win64/ungoogled-chromium-85.0.4183.83-2_Win64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "chrome.exe",
                 [

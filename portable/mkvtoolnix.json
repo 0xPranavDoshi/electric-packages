@@ -8,7 +8,7 @@
         "latest-version": "56.1.0",
         "56.1.0": {
             "url": "https://mkvtoolnix.download/windows/releases/56.1.0/mkvtoolnix-64-bit-56.1.0.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mkvextract.exe",
                 "mkvinfo.exe",

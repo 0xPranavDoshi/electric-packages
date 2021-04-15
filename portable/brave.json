@@ -8,7 +8,7 @@
         "latest-version": "1.4.96",
         "1.4.96": {
             "url": "https://github.com/brave/brave-browser/releases/download/v1.4.96/brave_installer-x64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "brave.exe"
             ],

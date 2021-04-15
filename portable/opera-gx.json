@@ -8,7 +8,7 @@
         "latest-version": "73.0.3856.431",
         "73.0.3856.431": {
             "url": "https://download3.operacdn.com/pub/opera_gx/73.0.3856.431/win/Opera_GX_73.0.3856.431_Setup_x64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

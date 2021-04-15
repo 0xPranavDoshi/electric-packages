@@ -8,7 +8,7 @@
         "latest-version": "1618256708",
         "1618256708": {
             "url": "http://media2.steampowered.com/client/steamcmd_win32.zip.4dda1104992cfb918049739ef5e9de4322e0a737#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "steamcmd.exe"
             ],

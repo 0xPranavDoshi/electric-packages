@@ -8,7 +8,7 @@
         "latest-version": "1.8.7",
         "1.8.7": {
             "url": "https://github.com/zarunbal/LogExpert/releases/download/v1.8.7/LogExpert.1.8.7.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "LogExpert.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "202103251843",
         "202103251843": {
             "url": "https://dl.jami.net/windows/archive/jami_x86_64-202103251843.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "Jami.exe"
             ],

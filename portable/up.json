@@ -8,7 +8,7 @@
         "latest-version": "1.7.0",
         "1.7.0": {
             "url": "https://github.com/apex/up/releases/download/v1.7.0/up_1.7.0_windows_amd64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "up.exe"
             ],

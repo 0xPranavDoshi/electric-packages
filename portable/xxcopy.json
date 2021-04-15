@@ -8,7 +8,7 @@
         "latest-version": "3.33.3",
         "3.33.3": {
             "url": "http://www.xxcopy.com/download/xxfw3333.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "xxcopysu.exe",

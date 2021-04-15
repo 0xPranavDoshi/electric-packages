@@ -8,7 +8,7 @@
         "latest-version": "2.5",
         "2.5": {
             "url": "http://www.romeolight.com/download/BPGconvPortable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "BPGconv.exe"
             ],

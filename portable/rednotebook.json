@@ -8,7 +8,7 @@
         "latest-version": "2.21",
         "2.21": {
             "url": "https://github.com/jendrikseipp/rednotebook/releases/download/v2.21/rednotebook-2.21.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "rednotebook.exe"
             ],

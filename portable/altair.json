@@ -8,7 +8,7 @@
         "latest-version": "4.0.0",
         "4.0.0": {
             "url": "https://github.com/imolorhe/altair/releases/download/v4.0.0/altair_4.0.0_win.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

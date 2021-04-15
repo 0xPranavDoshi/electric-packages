@@ -8,7 +8,7 @@
         "latest-version": "1.4.2",
         "1.4.2": {
             "url": "https://github.com/XTLS/Xray-core/releases/download/v1.4.2/Xray-windows-64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "xray.exe"
             ],

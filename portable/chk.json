@@ -8,7 +8,7 @@
         "latest-version": "3.21",
         "3.21": {
             "url": "http://compressme.net/chk321.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "chk.ps1"
             ],

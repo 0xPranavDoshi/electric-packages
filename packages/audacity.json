@@ -1,20 +1,25 @@
 {
-  "display-name": "Audacity",
-  "package-name": "audacity",
-  "latest-version": "3.0.0",
-  "3.0.0": {
-    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.0/audacity-win-3.0.0.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NOCANCEL",
-      "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
-    ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "Audacity",
+    "package-name": "audacity",
+    "latest-version": "3.0.0",
+    "3.0.0": {
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.0/audacity-win-3.0.0.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "B12E12E9BD28CF15D6C09CB22D8AFA36F05D20129281D51BC27905046B1FC86F"
+    }
 }

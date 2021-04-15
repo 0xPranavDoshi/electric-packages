@@ -8,7 +8,7 @@
         "latest-version": "1.15.0",
         "1.15.0": {
             "url": "https://github.com/ispc/ispc/releases/download/v1.15.0/ispc-v1.15.0-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ispc.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.4",
         "3.4": {
             "url": "https://bitbucket.org/wahibre/mtn/downloads/mtn-3.4.0-win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\mtn.exe"
             ],

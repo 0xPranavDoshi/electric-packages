@@ -8,7 +8,7 @@
         "latest-version": "0.26.3",
         "0.26.3": {
             "url": "https://github.com/zeebe-io/zeebe/releases/download/0.26.3/zeebe-distribution-0.26.3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "bin\\broker.bat",

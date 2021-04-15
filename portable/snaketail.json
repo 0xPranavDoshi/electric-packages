@@ -8,7 +8,7 @@
         "latest-version": "1.9.6",
         "1.9.6": {
             "url": "https://github.com/snakefoot/snaketail-net/releases/download/1.9.6/SnakeTail.v1.9.6.x64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "SnakeTail.exe"
             ],

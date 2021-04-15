@@ -8,7 +8,7 @@
         "latest-version": "0.13.4",
         "0.13.4": {
             "url": "https://github.com/agersant/polaris/releases/download/0.13.4/Polaris_0.13.4.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 [
                     "polaris.exe",

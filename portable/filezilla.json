@@ -8,7 +8,7 @@
         "latest-version": "3.53.1",
         "3.53.1": {
             "url": "https://download.filezilla-project.org/client/FileZilla_3.53.1_win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "filezilla.exe"
             ],

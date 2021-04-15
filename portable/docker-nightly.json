@@ -8,7 +8,7 @@
         "latest-version": "nightly",
         "nightly": {
             "url": "https://master.dockerproject.org/windows/x86_64/docker.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "dockerd.exe",
                 "docker.exe"

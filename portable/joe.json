@@ -8,7 +8,7 @@
         "latest-version": "4.6",
         "4.6": {
             "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/joewin-4.6.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "jmacs.exe",
                 "joe.exe",

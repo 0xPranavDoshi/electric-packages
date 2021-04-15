@@ -8,7 +8,7 @@
         "latest-version": "0.9.3",
         "0.9.3": {
             "url": "https://github.com/jasperapp/jasper/releases/download/v0.9.3/jasper_v0.9.3_windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "0.7.0.0",
         "0.7.0.0": {
             "url": "https://github.com/riverar/mach2/releases/download/0.7.0.0/mach2_0.7.0.0_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "mach2.exe"
             ],

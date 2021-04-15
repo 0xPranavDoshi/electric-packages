@@ -8,7 +8,7 @@
         "latest-version": "2.5.2",
         "2.5.2": {
             "url": "https://downloads.sourceforge.net/project/gmkvextractgui/v2.5.2/gMKVExtractGUI.v2.5.2.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "gMKVExtractGUI.exe"
             ],

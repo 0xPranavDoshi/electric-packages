@@ -1,23 +1,24 @@
 {
-  "display-name": "CutePDF Writer",
-  "package-name": "cutepdf",
-  "latest-version": "4.0",
-  "4.0": {
-    "url": "https://www.cutepdf.com/download/CuteWriter.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NORESTART"
-    ],
-    "uninstall-switches": [
-      "/SP-",
-      "/VERYSILENT",
-      "/SUPPRESSMSGBOXES",
-      "/NORESTART"
-    ],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "CutePDF Writer",
+    "package-name": "cutepdf",
+    "latest-version": "4.0",
+    "4.0": {
+        "url": "https://www.cutepdf.com/download/CuteWriter.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "uninstall-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "23122B403212384FB9F5160381B239AA2FAD36EDDF3DA98CE692624D70B2E7DC"
+    }
 }

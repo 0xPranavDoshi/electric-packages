@@ -8,7 +8,7 @@
         "latest-version": "0.13.3",
         "0.13.3": {
             "url": "https://github.com/Masterminds/glide/releases/download/v0.13.3/glide-v0.13.3-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "glide.exe"
             ],

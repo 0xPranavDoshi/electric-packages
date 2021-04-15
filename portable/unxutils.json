@@ -11,7 +11,7 @@
                 "https://downloads.sourceforge.net/project/unxutils/unxutils/current/UnxUtils.zip",
                 "http://unxutils.sourceforge.net/UnxUpdates.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\sh.exe",
                 [

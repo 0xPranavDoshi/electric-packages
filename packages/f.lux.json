@@ -1,13 +1,18 @@
 {
-  "display-name": "f.lux",
-  "package-name": "f.lux",
-  "latest-version": "4.119",
-  "4.119": {
-    "url": "https://justgetflux.com/flux-setup.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "f.lux",
+    "package-name": "f.lux",
+    "latest-version": "4.119",
+    "4.119": {
+        "url": "https://justgetflux.com/flux-setup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "F03582A9F2F7CC815B0CCF955582970219EFC6E5514BE310D9DF71F1C68EF069"
+    }
 }

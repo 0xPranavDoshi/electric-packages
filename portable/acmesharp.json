@@ -8,7 +8,7 @@
         "latest-version": "0.9.1.326",
         "0.9.1.326": {
             "url": "https://psg-prod-eastus.azureedge.net/packages/acmesharp.0.9.1.326.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [],
             "shortcuts": [],
             "persist": []

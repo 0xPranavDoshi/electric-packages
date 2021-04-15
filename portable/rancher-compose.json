@@ -8,7 +8,7 @@
         "latest-version": "0.12.5",
         "0.12.5": {
             "url": "https://github.com/rancher/rancher-compose/releases/download/v0.12.5/rancher-compose-windows-amd64-v0.12.5.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "rancher-compose.exe"
             ],

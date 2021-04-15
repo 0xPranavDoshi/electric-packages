@@ -8,7 +8,7 @@
         "latest-version": "2.5.0",
         "2.5.0": {
             "url": "https://github.com/iBotPeaches/Apktool/releases/download/v2.5.0/apktool_2.5.0.jar#/apktool.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "apktool.jar"
             ],

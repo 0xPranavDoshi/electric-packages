@@ -8,7 +8,7 @@
         "latest-version": "1.29.09.00",
         "1.29.09.00": {
             "url": "https://download.openmpt.org/archive/openmpt/1.29/OpenMPT-1.29.09.00-Setup-x64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

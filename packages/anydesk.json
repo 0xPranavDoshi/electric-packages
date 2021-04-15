@@ -1,13 +1,22 @@
 {
-  "display-name": "Anydesk",
-  "package-name": "anydesk",
-  "latest-version": "6.1.0",
-  "6.1.0": {
-    "url": "https://download.anydesk.com/AnyDesk.msi",
-    "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
-    "dependencies": []
-  }
+    "display-name": "Anydesk",
+    "package-name": "anydesk",
+    "latest-version": "6.1.0",
+    "6.1.0": {
+        "url": "https://download.anydesk.com/AnyDesk.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "9CB76DCE2D2178EA68056F414456E8118D5BECB868924C8A603DE685787078D0"
+    }
 }

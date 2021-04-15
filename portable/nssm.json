@@ -8,7 +8,7 @@
         "latest-version": "2.24-103",
         "2.24-103": {
             "url": "https://nssm.cc/ci/nssm-2.24-103-gdee49fc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nssm.exe",
                 [

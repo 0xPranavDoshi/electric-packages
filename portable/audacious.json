@@ -8,7 +8,7 @@
         "latest-version": "4.1",
         "4.1": {
             "url": "https://distfiles.audacious-media-player.org/audacious-4.1-win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\audacious.exe",
                 "bin\\audtool.exe"

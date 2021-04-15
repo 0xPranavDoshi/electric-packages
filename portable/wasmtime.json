@@ -8,7 +8,7 @@
         "latest-version": "0.26.0",
         "0.26.0": {
             "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v0.26.0/wasmtime-v0.26.0-x86_64-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "wasmtime.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.5.0",
         "3.5.0": {
             "url": "https://beyondgrep.com/ack-v3.5.0#/ack-single-file",
-            "file-type": "0#/ack-single-file",
+            "file-type": ".0#/ack-single-file",
             "bin": [
                 "ack.bat"
             ],

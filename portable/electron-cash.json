@@ -8,7 +8,7 @@
         "latest-version": "4.2.4",
         "4.2.4": {
             "url": "https://github.com/Electron-Cash/Electron-Cash/releases/download/4.2.4/Electron-Cash-4.2.4-portable.exe#/Electron-Cash.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

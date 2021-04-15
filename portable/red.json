@@ -8,7 +8,7 @@
         "latest-version": "0.6.4",
         "0.6.4": {
             "url": "https://static.red-lang.org/dl/win/red-064.exe#/red.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "red.exe"
             ],

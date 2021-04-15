@@ -8,7 +8,7 @@
         "latest-version": "2021.03-01",
         "2021.03-01": {
             "url": "https://rakudo.org/dl/rakudo/rakudo-moar-2021.03-01-win-x86_64-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\nqp.exe",
                 "bin\\perl6.exe",

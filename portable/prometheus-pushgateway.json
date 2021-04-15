@@ -8,7 +8,7 @@
         "latest-version": "1.4.0",
         "1.4.0": {
             "url": "https://github.com/prometheus/pushgateway/releases/download/v1.4.0/pushgateway-1.4.0.windows-amd64.tar.gz",
-            "file-type": "gz",
+            "file-type": ".gz",
             "bin": [
                 "pushgateway.exe"
             ],

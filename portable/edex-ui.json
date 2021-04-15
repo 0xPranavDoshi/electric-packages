@@ -8,7 +8,7 @@
         "latest-version": "2.2.7",
         "2.2.7": {
             "url": "https://github.com/GitSquared/edex-ui/releases/download/v2.2.7/eDEX-UI-Windows.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "eDEX-UI.exe"
             ],

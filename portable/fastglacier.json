@@ -8,7 +8,7 @@
         "latest-version": "4.1.5",
         "4.1.5": {
             "url": "https://fastglacier.com/download/fastglacier-4-1-5.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "glacier-con.exe",
                 "glacier-ui.exe"

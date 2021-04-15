@@ -8,7 +8,7 @@
         "latest-version": "3.18.0",
         "3.18.0": {
             "url": "https://github.com/Qalculate/libqalculate/releases/download/v3.18.0/qalculate-3.18.0-i386.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "qalc.exe",
                 "qalculate.exe"

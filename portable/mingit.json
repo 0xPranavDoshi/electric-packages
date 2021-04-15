@@ -8,7 +8,7 @@
         "latest-version": "0.9.6",
         "0.9.6": {
             "url": "https://github.com/lihaoyi/mill/releases/download/0.9.6/0.9.6-assembly#/mill.bat",
-            "file-type": "bat",
+            "file-type": ".bat",
             "bin": [
                 "mill.bat"
             ],

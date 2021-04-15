@@ -8,7 +8,7 @@
         "latest-version": "3.50a",
         "3.50a": {
             "url": "https://www.baremetalsoft.com/baretail/download.php?p=m#/baretail.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "baretail.exe"
             ],

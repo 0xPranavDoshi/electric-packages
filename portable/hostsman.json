@@ -8,7 +8,7 @@
         "latest-version": "4.7.105",
         "4.7.105": {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/hostsman/HostsMan_4.7.105.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "hm.exe"
             ],

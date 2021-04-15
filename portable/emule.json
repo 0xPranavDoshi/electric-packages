@@ -8,7 +8,7 @@
         "latest-version": "0.50a",
         "0.50a": {
             "url": "https://downloads.sourceforge.net/project/emule/eMule/0.50a/eMule0.50a.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "emule.exe"
             ],

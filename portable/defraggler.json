@@ -8,7 +8,7 @@
         "latest-version": "2.22.995",
         "2.22.995": {
             "url": "https://download.ccleaner.com/dfsetup222.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

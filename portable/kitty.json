@@ -8,7 +8,7 @@
         "latest-version": "0.74.4.8",
         "0.74.4.8": {
             "url": "https://github.com/cyd01/KiTTY/releases/download/v0.74.4.8/kitty-bin-0.74.4.8.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "genpass.exe",
                 "kageant.exe",

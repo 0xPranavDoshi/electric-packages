@@ -8,7 +8,7 @@
         "latest-version": "17",
         "17": {
             "url": "https://pcem-emulator.co.uk/files/PCemV17Win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "PCem.exe"
             ],

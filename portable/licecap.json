@@ -8,7 +8,7 @@
         "latest-version": "1.28",
         "1.28": {
             "url": "https://www.cockos.com/licecap/licecap128-install.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "licecap.exe"
             ],

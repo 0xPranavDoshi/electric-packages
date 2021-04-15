@@ -8,7 +8,7 @@
         "latest-version": "4.4.5",
         "4.4.5": {
             "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.5-signed.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "bin\\mongo.exe",
                 [

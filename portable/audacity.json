@@ -8,7 +8,7 @@
         "latest-version": "3.0.0",
         "3.0.0": {
             "url": "https://fossies.org/windows/misc/audacity-win-3.0.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "audacity.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.9.8",
         "0.9.8": {
             "url": "https://github.com/benibela/xidel/releases/download/Xidel_0.9.8/xidel-0.9.8.win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "xidel.exe"
             ],

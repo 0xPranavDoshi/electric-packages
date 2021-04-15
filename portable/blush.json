@@ -8,7 +8,7 @@
         "latest-version": "0.5.3",
         "0.5.3": {
             "url": "https://github.com/arsham/blush/releases/download/v0.5.3/blush_windows_v0.5.3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "blush.exe"
             ],

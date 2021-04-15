@@ -8,7 +8,7 @@
         "latest-version": "0.9.27",
         "0.9.27": {
             "url": "https://download.savannah.gnu.org/releases/tinycc/tcc-0.9.27-win64-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

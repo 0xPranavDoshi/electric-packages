@@ -8,7 +8,7 @@
         "latest-version": "0.5.7",
         "0.5.7": {
             "url": "https://github.com/ClementTsang/bottom/releases/download/0.5.7/bottom_x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "btm.exe"
             ],

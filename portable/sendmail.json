@@ -8,7 +8,7 @@
         "latest-version": "32",
         "32": {
             "url": "https://www.glob.com.au/sendmail/sendmail.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "sendmail.exe"
             ],

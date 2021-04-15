@@ -8,7 +8,7 @@
         "latest-version": "0.7.10",
         "0.7.10": {
             "url": "http://gittup.org/tup/win32/tup-latest.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "tup.exe"
             ],

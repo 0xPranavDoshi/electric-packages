@@ -8,7 +8,7 @@
         "latest-version": "4.2.0",
         "4.2.0": {
             "url": "https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_2_0_Win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "coppeliaSim.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.9.60.2",
         "0.9.60.2": {
             "url": "https://download.filezilla-project.org/server/FileZilla_Server-0_9_60_2.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "FileZilla Server.exe",
                 [

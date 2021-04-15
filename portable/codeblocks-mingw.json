@@ -8,7 +8,7 @@
         "latest-version": "20.03",
         "20.03": {
             "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/20.03/Windows/codeblocks-20.03mingw-nosetup.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "codeblocks.exe"
             ],

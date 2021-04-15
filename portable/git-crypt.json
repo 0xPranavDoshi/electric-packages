@@ -8,7 +8,7 @@
         "latest-version": "0.6.0-701fb8e",
         "0.6.0-701fb8e": {
             "url": "https://github.com/rasa/git-crypt/releases/download/0.6.0-701fb8e/git-crypt-x64.exe#/git-crypt.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "git-crypt.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "2.0.5",
         "2.0.5": {
             "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/v2.0.5/rdiff-backup-2.0.5.win32exe.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "rdiff-backup.exe"
             ],

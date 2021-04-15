@@ -11,7 +11,7 @@
                 "https://downloads.sourceforge.net/project/gnuwin32/file/5.03/file-5.03-bin.zip",
                 "https://downloads.sourceforge.net/project/gnuwin32/file/5.03/file-5.03-dep.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\file.exe"
             ],

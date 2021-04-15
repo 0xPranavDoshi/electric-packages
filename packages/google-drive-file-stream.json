@@ -1,13 +1,16 @@
 {
-  "display-name": "Google Drive File Stream",
-  "package-name": "google-drive-file-stream",
-  "latest-version": "45.0.12.0",
-  "45.0.12.0": {
-    "url": "https://dl.google.com/drive-file-stream/GoogleDriveFSSetup.exe",
-    "file-type": ".exe",
-    "install-switches": ["--silent"],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Google Drive File Stream",
+    "package-name": "google-drive-file-stream",
+    "latest-version": "45.0.12.0",
+    "45.0.12.0": {
+        "url": "https://dl.google.com/drive-file-stream/GoogleDriveFSSetup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "E3F9EDE50D2149E790CF3F12AD415B9F4EA9B981442812056C217B6566D67217"
+    }
 }

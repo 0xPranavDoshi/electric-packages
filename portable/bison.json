@@ -11,7 +11,7 @@
                 "https://downloads.sourceforge.net/project/gnuwin32/bison/2.4.1/bison-2.4.1-bin.zip",
                 "https://downloads.sourceforge.net/project/gnuwin32/bison/2.4.1/bison-2.4.1-dep.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "bin\\bison.exe"
             ],

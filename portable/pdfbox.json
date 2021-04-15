@@ -11,7 +11,7 @@
                 "https://www.apache.org/dist/pdfbox/2.0.22/pdfbox-app-2.0.22.jar#/pdfbox.jar",
                 "https://www.apache.org/dist/pdfbox/2.0.22/preflight-app-2.0.22.jar#/preflight.jar"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "pdfbox.jar",
                 "preflight.jar"

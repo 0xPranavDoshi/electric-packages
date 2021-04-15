@@ -8,7 +8,7 @@
         "latest-version": "8.12.0",
         "8.12.0": {
             "url": "https://dotsrc.dl.osdn.net/osdn/crystaldiskinfo/74801/CrystalDiskInfo8_12_0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

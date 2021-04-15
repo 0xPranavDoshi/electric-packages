@@ -8,7 +8,7 @@
         "latest-version": "1.0.7",
         "1.0.7": {
             "url": "https://slobs-cdn.streamlabs.com/Streamlabs+OBS+Setup+1.0.7.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

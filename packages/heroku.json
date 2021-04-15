@@ -1,13 +1,18 @@
 {
-  "display-name": "Heroku CLI",
-  "package-name": "heroku",
-  "latest-version": "7.50.0.0",
-  "7.50.0.0": {
-    "url": "https://cli-assets.heroku.com/heroku-x64.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
+    "display-name": "Heroku CLI",
+    "package-name": "heroku",
+    "latest-version": "7.50.0.0",
+    "7.50.0.0": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "7539F9E9080239AC1642D2933431004E313D11B899D35B38C96454BDA2EE1D05"
+    }
 }

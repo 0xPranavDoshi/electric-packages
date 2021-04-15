@@ -8,7 +8,7 @@
         "latest-version": "19.00",
         "19.00": {
             "url": "https://7-zip.org/a/7z1900-x64.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "7z.exe"
             ],

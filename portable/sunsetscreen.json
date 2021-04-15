@@ -8,7 +8,7 @@
         "latest-version": "1.36",
         "1.36": {
             "url": "https://www.skytopia.com/software/sunsetscreen/SunsetScreen.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "SunsetScreen.exe"
             ],

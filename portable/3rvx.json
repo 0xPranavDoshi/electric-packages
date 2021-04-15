@@ -8,7 +8,7 @@
         "latest-version": "2.9.2",
         "2.9.2": {
             "url": "https://3rvx.com/releases/3RVX-2.9.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "3RVX.exe"
             ],

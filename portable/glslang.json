@@ -8,7 +8,7 @@
         "latest-version": "8.13.3559",
         "8.13.3559": {
             "url": "https://github.com/KhronosGroup/glslang/releases/download/8.13.3559/glslang-master-windows-x64-Release.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\glslangValidator.exe",
                 "bin\\spirv-remap.exe"

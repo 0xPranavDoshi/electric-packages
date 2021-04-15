@@ -8,7 +8,7 @@
         "latest-version": "3.96",
         "3.96": {
             "url": "https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "upx.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "20.2.7",
         "20.2.7": {
             "url": "https://binaries.cockroachdb.com/cockroach-v20.2.7.windows-6.2-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "cockroach.exe"
             ],

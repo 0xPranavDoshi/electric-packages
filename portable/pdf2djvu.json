@@ -8,7 +8,7 @@
         "latest-version": "0.9.17",
         "0.9.17": {
             "url": "https://github.com/jwilk/pdf2djvu/releases/download/0.9.17/pdf2djvu-win32-0.9.17.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pdf2djvu.exe",
                 "bzz.exe",

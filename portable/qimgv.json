@@ -8,7 +8,7 @@
         "latest-version": "0.9.1",
         "0.9.1": {
             "url": "https://github.com/easymodo/qimgv/releases/download/v0.9.1/qimgv-x64_0.9.1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "qimgv.exe"
             ],

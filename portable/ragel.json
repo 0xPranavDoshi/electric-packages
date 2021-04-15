@@ -8,7 +8,7 @@
         "latest-version": "6.9",
         "6.9": {
             "url": "https://github.com/eloraiby/ragel-windows/raw/2e947e9c04e1cb98e99816b3ab4ab2a42926e8ff/ragel.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "ragel.exe"
             ],

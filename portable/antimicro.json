@@ -8,7 +8,7 @@
         "latest-version": "2.23",
         "2.23": {
             "url": "https://github.com/AntiMicro/antimicro/releases/download/2.23/antimicro-2.23-win32.portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

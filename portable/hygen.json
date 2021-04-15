@@ -8,7 +8,7 @@
         "latest-version": "6.0.4",
         "6.0.4": {
             "url": "https://github.com/jondot/hygen/releases/download/v6.0.4/hygen.win.exe.v6.0.4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "hygen.exe"
             ],

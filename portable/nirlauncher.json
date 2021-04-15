@@ -8,7 +8,7 @@
         "latest-version": "1.23.43",
         "1.23.43": {
             "url": "https://download.nirsoft.net/nirsoft_package_enc_1.23.43.zip#/nirlauncher.enc",
-            "file-type": "enc",
+            "file-type": ".enc",
             "bin": [],
             "pre-install": [
                 {

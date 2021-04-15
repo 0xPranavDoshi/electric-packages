@@ -8,7 +8,7 @@
         "latest-version": "1.1.1",
         "1.1.1": {
             "url": "http://download.tuxfamily.org/makehuman/releases/1.1.1/makehuman-1.1.1-win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "makehuman.exe"
             ],

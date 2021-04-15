@@ -8,7 +8,7 @@
         "latest-version": "1.4.8",
         "1.4.8": {
             "url": "https://downloads.sourceforge.net/project/scribus/scribus/1.4.8/scribus-1.4.8-windows-x64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "Scribus.exe"
             ],

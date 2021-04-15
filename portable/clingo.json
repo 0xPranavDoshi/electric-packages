@@ -8,7 +8,7 @@
         "latest-version": "5.4.1",
         "5.4.1": {
             "url": "https://github.com/potassco/clingo/releases/download/v5.4.0/clingo-5.4.0-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "clingo.exe",
                 "clasp.exe",

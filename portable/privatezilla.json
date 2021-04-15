@@ -8,7 +8,7 @@
         "latest-version": "0.43.0",
         "0.43.0": {
             "url": "https://github.com/builtbybel/privatezilla/releases/download/0.43.0/privatezilla.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

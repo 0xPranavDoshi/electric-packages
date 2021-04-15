@@ -8,7 +8,7 @@
         "latest-version": "2.7.0",
         "2.7.0": {
             "url": "https://www.apache.org/dist/kafka/2.7.0/kafka_2.12-2.7.0.tgz",
-            "file-type": "tgz",
+            "file-type": ".tgz",
             "bin": [
                 "bin\\windows\\connect-distributed.bat",
                 "bin\\windows\\connect-standalone.bat",

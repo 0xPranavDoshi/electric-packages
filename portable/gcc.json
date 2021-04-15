@@ -29,7 +29,7 @@
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-winpthreads-git-8.0.0.5814.9dbf4cc1-1-any.pkg.tar.xz",
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.2.11-7-any.pkg.tar.xz"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 [
                     "bin\\mingw32-make.exe",

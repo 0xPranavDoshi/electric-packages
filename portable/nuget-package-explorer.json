@@ -8,7 +8,7 @@
         "latest-version": "5.10.4",
         "5.10.4": {
             "url": "https://packages.chocolatey.org/NugetPackageExplorer.5.10.4.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "NuGetPackageExplorer.exe"
             ],

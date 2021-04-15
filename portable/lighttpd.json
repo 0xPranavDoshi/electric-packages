@@ -8,7 +8,7 @@
         "latest-version": "1.4.49-1",
         "1.4.49-1": {
             "url": "http://lighttpd.dtech.hu/lighttpd-1.4.49-1-win64-ssl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "lighttpd.exe",
                 [

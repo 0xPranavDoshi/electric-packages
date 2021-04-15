@@ -1,25 +1,33 @@
 {
-  "display-name": "Vim",
-  "package-name": "vim",
-  "latest-version": "8.2.2553",
-  "portable": {
     "display-name": "Vim",
     "package-name": "vim",
     "latest-version": "8.2.2553",
+    "portable": {
+        "display-name": "Vim",
+        "package-name": "vim",
+        "latest-version": "8.2.2553",
+        "8.2.2553": {
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.2553/gvim_8.2.2553_x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "vim",
+            "chdir": "vim\\vim82",
+            "bin": [
+                "vim.exe",
+                "gvim.exe"
+            ],
+            "checksum": "F212E770B763AB14DAA44C15508AB9A927B514F2AF4BB0DBCC536D3D12C461A2"
+        }
+    },
     "8.2.2553": {
-      "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.2553/gvim_8.2.2553_x64.zip",
-      "file-type": ".zip",
-      "extract-dir": "vim",
-      "chdir": "vim\\vim82",
-      "bin": ["vim.exe", "gvim.exe"]
+        "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.2553/gvim_8.2.2553_x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": []
     }
-  },
-  "8.2.2553": {
-    "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.2553/gvim_8.2.2553_x64.exe",
-    "file-type": ".exe",
-    "install-switches": ["/S"],
-    "uninstall-switches": ["/S"],
-    "custom-location": "/D=",
-    "dependencies": []
-  }
 }

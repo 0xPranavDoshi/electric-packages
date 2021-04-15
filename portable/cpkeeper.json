@@ -8,7 +8,7 @@
         "latest-version": "0.5",
         "0.5": {
             "url": "http://goebish.free.fr/cpk/files/cpk_05.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "CPKeeper.exe"
             ],

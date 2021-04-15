@@ -8,7 +8,7 @@
         "latest-version": "2.3.0.10",
         "2.3.0.10": {
             "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.3.0.10/nvidiaProfileInspector.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nvidiaProfileInspector.exe"
             ],

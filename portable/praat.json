@@ -8,7 +8,7 @@
         "latest-version": "6.1.41",
         "6.1.41": {
             "url": "https://github.com/praat/praat/releases/download/v6.1.41/praat6141_win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Praat.exe"
             ],

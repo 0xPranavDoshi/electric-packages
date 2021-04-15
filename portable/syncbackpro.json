@@ -8,7 +8,7 @@
         "latest-version": "9.5.5.0",
         "9.5.5.0": {
             "url": "https://www.2brightsparks.com/assets/software/SyncBackPro64_Setup_NI.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "4.0.0",
         "4.0.0": {
             "url": "https://github.com/garyzyg/mozjpeg-windows/releases/download/4.0.0/mozjpeg-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "cjpeg-static.exe",

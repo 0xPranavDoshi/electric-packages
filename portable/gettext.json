@@ -8,7 +8,7 @@
         "latest-version": "0.21-v1.16",
         "0.21-v1.16": {
             "url": "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.21-v1.16/gettext0.21-iconv1.16-shared-64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\iconv.exe",
                 "bin\\msgattrib.exe",

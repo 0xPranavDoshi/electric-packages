@@ -8,7 +8,7 @@
         "latest-version": "5.257.0",
         "5.257.0": {
             "url": "https://github.com/fsprojects/Paket/releases/download/5.257.0/paket.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "paket.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.16.1709",
         "3.16.1709": {
             "url": "https://github.com/nomacs/nomacs/releases/download/3.16.224/nomacs-portable-win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nomacs.exe"
             ],

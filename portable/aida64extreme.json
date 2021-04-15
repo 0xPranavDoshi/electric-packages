@@ -8,7 +8,7 @@
         "latest-version": "6.33.5700",
         "6.33.5700": {
             "url": "http://download.aida64.com/aida64extreme633.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "2019-7-22",
         "2019-7-22": {
             "url": "https://www.slsknet.org/SoulseekQt/Windows/SoulseekQt-2019-7-22-64bit.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "SoulseekQt.exe"
             ],

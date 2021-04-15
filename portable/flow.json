@@ -8,7 +8,7 @@
         "latest-version": "0.148.0",
         "0.148.0": {
             "url": "https://github.com/facebook/flow/releases/download/v0.148.0/flow-win64-v0.148.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "flow.exe"
             ],

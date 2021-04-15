@@ -8,7 +8,7 @@
         "latest-version": "9.1.0.0-324",
         "9.1.0.0-324": {
             "url": "https://downloads.sourceforge.net/project/pentaho/Pentaho%209.1/client-tools/pdi-ce-9.1.0.0-324.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Spoon.bat",
                 "SpoonConsole.bat",

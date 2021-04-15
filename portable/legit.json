@@ -8,7 +8,7 @@
         "latest-version": "1.2.0",
         "1.2.0": {
             "url": "https://github.com/frostming/legit/releases/download/1.2.0/legit.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "legit.exe"
             ],

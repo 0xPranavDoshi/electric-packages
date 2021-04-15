@@ -8,7 +8,7 @@
         "latest-version": "2.6.3",
         "2.6.3": {
             "url": "https://github.com/gitahead/gitahead/releases/download/v2.6.3/GitAhead-win64-2.6.3.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "GitAhead.exe"
             ],

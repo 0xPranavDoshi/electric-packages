@@ -11,7 +11,7 @@
                 "https://josm.openstreetmap.de/download/josm-snapshot-17702.jar#/josm.jar",
                 "https://josm.openstreetmap.de/favicon.ico#/icon.ico"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [],
             "pre-install": [
                 {

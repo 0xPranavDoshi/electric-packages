@@ -8,7 +8,7 @@
         "latest-version": "0.96.4",
         "0.96.4": {
             "url": "https://github.com/clangen/musikcube/releases/download/0.96.4/musikcube_win64_0.96.4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "musikcube.exe"
             ],

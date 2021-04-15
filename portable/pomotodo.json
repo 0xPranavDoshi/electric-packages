@@ -8,7 +8,7 @@
         "latest-version": "3.2.3",
         "3.2.3": {
             "url": "https://cdn.hackplan.com/theair/1493880241/pomotodo_installer.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

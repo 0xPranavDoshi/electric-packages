@@ -8,7 +8,7 @@
         "latest-version": "1.4.2",
         "1.4.2": {
             "url": "https://github.com/gdegeneve/Awake/releases/download/v1.4.2/Awake.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "Awake.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.2.21",
         "0.2.21": {
             "url": "https://github.com/nektos/act/releases/download/v0.2.21/act_Windows_x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "act.exe"
             ],

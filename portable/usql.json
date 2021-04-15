@@ -8,7 +8,7 @@
         "latest-version": "0.8.2",
         "0.8.2": {
             "url": "https://github.com/xo/usql/releases/download/v0.8.2/usql-0.8.2-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "usql.exe"
             ],

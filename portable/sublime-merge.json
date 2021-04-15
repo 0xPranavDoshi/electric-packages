@@ -8,7 +8,7 @@
         "latest-version": "2049",
         "2049": {
             "url": "https://download.sublimetext.com/sublime_merge_build_2049_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "smerge.exe"
             ],

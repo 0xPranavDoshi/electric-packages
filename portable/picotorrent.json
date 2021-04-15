@@ -12,7 +12,7 @@
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/picotorrent/install-associations.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/picotorrent/uninstall-associations.reg"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "PicoTorrent.exe"
             ],

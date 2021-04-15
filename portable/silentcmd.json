@@ -8,7 +8,7 @@
         "latest-version": "1.4",
         "1.4": {
             "url": "https://github.com/stbrenner/SilentCMD/releases/download/v1.4/SilentCMD.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "SilentCMD.exe"
             ],

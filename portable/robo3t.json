@@ -8,7 +8,7 @@
         "latest-version": "1.4.2",
         "1.4.2": {
             "url": "https://download.studio3t.com/robomongo/windows/robo3t-1.4.2-windows-x86_64-8650949.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

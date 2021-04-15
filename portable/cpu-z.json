@@ -8,7 +8,7 @@
         "latest-version": "1.95",
         "1.95": {
             "url": "http://download.cpuid.com/cpu-z/cpu-z_1.95-en.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": "cpuz.ini"

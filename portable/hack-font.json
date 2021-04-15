@@ -8,7 +8,7 @@
         "latest-version": "1.6.0",
         "1.6.0": {
             "url": "https://github.com/source-foundry/Hack-windows-installer/releases/download/v1.6.0/HackFontsWindowsInstaller.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [],
             "persist": []

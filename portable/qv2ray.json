@@ -8,7 +8,7 @@
         "latest-version": "2.6.3",
         "2.6.3": {
             "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.6.3/Qv2ray.v2.6.3.Windows-x64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "qv2ray.exe"
             ],

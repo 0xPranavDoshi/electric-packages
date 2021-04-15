@@ -8,7 +8,7 @@
         "latest-version": "21.0.0.3",
         "21.0.0.3": {
             "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-03-09_1101/openliberty-21.0.0.3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\binaryLog.bat",
                 [

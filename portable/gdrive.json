@@ -8,7 +8,7 @@
         "latest-version": "2.1.0",
         "2.1.0": {
             "url": "https://github.com/gdrive-org/gdrive/releases/download/2.1.0/gdrive-windows-x64.exe#/gdrive.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "gdrive.exe"
             ],

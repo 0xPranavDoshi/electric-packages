@@ -8,7 +8,7 @@
         "latest-version": "1.0.37",
         "1.0.37": {
             "url": "https://downloads.sourceforge.net/project/jpegview/jpegview/1.0.37/JPEGView_1.0.37.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "JPEGView.exe"
             ],

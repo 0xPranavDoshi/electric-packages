@@ -8,7 +8,7 @@
         "latest-version": "6.01",
         "6.01": {
             "url": "https://www.rarlab.com/rar/unrarw32.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "UnRAR.exe"
             ],

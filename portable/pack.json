@@ -8,7 +8,7 @@
         "latest-version": "0.18.0",
         "0.18.0": {
             "url": "https://github.com/buildpacks/pack/releases/download/v0.18.0/pack-v0.18.0-windows.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "pack.exe"
             ],

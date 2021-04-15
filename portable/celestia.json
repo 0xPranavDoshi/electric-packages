@@ -8,7 +8,7 @@
         "latest-version": "1.6.2.2",
         "1.6.2.2": {
             "url": "https://github.com/CelestiaProject/Celestia/releases/download/1.6.2.2/celestia-1.6.2.2-win.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "celestia.exe"
             ],

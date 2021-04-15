@@ -8,7 +8,7 @@
         "latest-version": "2.0.4",
         "2.0.4": {
             "url": "https://leomoon.com/static/?file=leomoon-cpu-v_win.zip#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

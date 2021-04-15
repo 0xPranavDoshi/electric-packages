@@ -8,7 +8,7 @@
         "latest-version": "1.5",
         "1.5": {
             "url": "https://sites.google.com/site/regexreplace/home/rxrepl.zip?attredirects=0",
-            "file-type": "zip?attredirects=0",
+            "file-type": ".zip?attredirects=0",
             "bin": [
                 "rxrepl.exe"
             ],

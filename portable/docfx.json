@@ -8,7 +8,7 @@
         "latest-version": "2.57.1",
         "2.57.1": {
             "url": "https://github.com/dotnet/docfx/releases/download/v2.57.1/docfx.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "docfx.exe"
             ],

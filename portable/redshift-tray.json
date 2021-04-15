@@ -8,7 +8,7 @@
         "latest-version": "2.0.0",
         "2.0.0": {
             "url": "https://github.com/ltGuillaume/Redshift-Tray/releases/download/2.0.0/redshift-tray_2.0.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "redshift.exe",
                 "rstray.exe"

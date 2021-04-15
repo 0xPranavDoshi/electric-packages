@@ -8,7 +8,7 @@
         "latest-version": "1.0.0",
         "1.0.0": {
             "url": "https://github.com/brrd/abricotine/releases/download/1.0.0/abricotine-setup-win32-x64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "abricotine.exe"
             ],

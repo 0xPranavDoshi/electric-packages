@@ -8,7 +8,7 @@
         "latest-version": "4.6.0.2311",
         "4.6.0.2311": {
             "url": "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.0.2311.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\sonar-scanner.bat"
             ],

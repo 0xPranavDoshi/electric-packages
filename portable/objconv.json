@@ -8,7 +8,7 @@
         "latest-version": "2.52",
         "2.52": {
             "url": "https://www.agner.org/optimize/objconv.zip#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "objconv.exe"
             ],

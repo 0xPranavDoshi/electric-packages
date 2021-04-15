@@ -11,7 +11,7 @@
                 "https://raw.githubusercontent.com/lukesampson/psutils/de1a069215c54a1cb105f3dc79f14e25570c75f2/say.ps1",
                 "https://raw.githubusercontent.com/lukesampson/psutils/de1a069215c54a1cb105f3dc79f14e25570c75f2/getopt.ps1"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "say.ps1"
             ],

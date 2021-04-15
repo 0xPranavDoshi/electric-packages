@@ -8,7 +8,7 @@
         "latest-version": "2.37.0",
         "2.37.0": {
             "url": "https://github.com/PurpleI2P/i2pd/releases/download/2.37.0/i2pd_2.37.0_win64_mingw.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "i2pd.exe"
             ],

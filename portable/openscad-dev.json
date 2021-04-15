@@ -8,7 +8,7 @@
         "latest-version": "2020.04.23",
         "2020.04.23": {
             "url": "https://files.openscad.org/snapshots/OpenSCAD-2020.04.23.ci4929-x86-64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": [],

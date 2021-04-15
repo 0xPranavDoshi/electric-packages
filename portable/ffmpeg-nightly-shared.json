@@ -8,7 +8,7 @@
         "latest-version": "101947",
         "101947": {
             "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-04-14-12-38/ffmpeg-N-101947-gc5ca18fd1b-win64-gpl-shared.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\ffmpeg.exe",
                 "bin\\ffplay.exe",

@@ -8,7 +8,7 @@
         "latest-version": "0.12.3",
         "0.12.3": {
             "url": "https://github.com/fluxcd/flux2/releases/download/v0.12.3/flux_0.12.3_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "flux.exe"
             ],

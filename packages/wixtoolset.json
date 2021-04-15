@@ -16,7 +16,10 @@
                     "file-name": "wix311.exe"
                 }
             ],
-            "dependencies": ["dotnet3.5"]
+            "dependencies": [
+                "dotnet3.5"
+            ],
+            "checksum": "5F697A24A5717BE4ABB8B99213DBCC9D200AEBB0B93A6465942927CB05BB3721"
         }
     }
 }

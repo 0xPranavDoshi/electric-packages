@@ -8,7 +8,7 @@
         "latest-version": "3.5.8",
         "3.5.8": {
             "url": "https://github.com/oldj/SwitchHosts/releases/download/v3.5.8/SwitchHosts._windows_installer_3.5.8.5556.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

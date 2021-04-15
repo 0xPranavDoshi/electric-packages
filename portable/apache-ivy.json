@@ -8,7 +8,7 @@
         "latest-version": "2.5.0",
         "2.5.0": {
             "url": "https://www.apache.org/dist/ant/ivy/2.5.0/apache-ivy-2.5.0-bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

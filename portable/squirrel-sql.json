@@ -8,7 +8,7 @@
         "latest-version": "4.2.0",
         "4.2.0": {
             "url": "https://downloads.sourceforge.net/project/squirrel-sql/1-stable/4.2.0-plainzip/squirrelsql-4.2.0-standard.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "squirrelcli\\squirrelcli.bat"
             ],

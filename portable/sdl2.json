@@ -11,7 +11,7 @@
                 "https://www.libsdl.org/release/SDL2-devel-2.0.10-VC.zip",
                 "https://www.libsdl.org/release/SDL2-2.0.10.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [],
             "shortcuts": [],
             "persist": []

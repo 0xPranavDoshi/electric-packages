@@ -8,7 +8,7 @@
         "latest-version": "2.6",
         "2.6": {
             "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-2.6.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "picard.exe",
                 "fpcalc.exe"

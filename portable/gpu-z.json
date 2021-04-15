@@ -8,7 +8,7 @@
         "latest-version": "2.38.0",
         "2.38.0": {
             "url": "http://us2-dl.techpowerup.com/files/GPU-Z.2.38.0.exe#/GPU-Z.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "GPU-Z.exe"
             ],

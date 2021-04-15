@@ -8,7 +8,7 @@
         "latest-version": "1.1.9",
         "1.1.9": {
             "url": "https://github.com/ChanpleCai/SmartTaskbar/releases/download/v1.1.9/SmartTaskbar_Setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "SmartTaskbar.exe",
                 "smarttaskbar-add-startup.ps1",

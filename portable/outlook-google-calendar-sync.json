@@ -8,7 +8,7 @@
         "latest-version": "2.8.0-beta",
         "2.8.0-beta": {
             "url": "https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v2.8.0-beta/OutlookGoogleCalendarSync-2.8.0-beta-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "OutlookGoogleCalendarSync.exe"
             ],

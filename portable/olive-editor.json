@@ -8,7 +8,7 @@
         "latest-version": "0.1.0",
         "0.1.0": {
             "url": "https://olivevideoeditor.org/dl/Olive-1e3cf53-Windows-x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "olive-editor.exe"
             ],

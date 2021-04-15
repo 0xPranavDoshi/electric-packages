@@ -8,7 +8,7 @@
         "latest-version": "4.9.4.13228",
         "4.9.4.13228": {
             "url": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_4.9.4.13228.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "StreamDeck.exe"
             ],

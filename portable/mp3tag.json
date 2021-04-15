@@ -8,7 +8,7 @@
         "latest-version": "3.06a",
         "3.06a": {
             "url": "https://download.mp3tag.de/mp3tagv306asetup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mp3tag.exe"
             ],

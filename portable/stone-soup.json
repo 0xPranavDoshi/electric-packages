@@ -8,7 +8,7 @@
         "latest-version": "0.26.1",
         "0.26.1": {
             "url": "https://github.com/crawl/crawl/releases/download/0.26.1/dcss-0.26.1-win32-console.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "crawl.exe"
             ],

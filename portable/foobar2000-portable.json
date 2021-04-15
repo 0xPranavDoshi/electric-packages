@@ -8,7 +8,7 @@
         "latest-version": "1.6.5",
         "1.6.5": {
             "url": "https://www.videohelp.com/download/foobar2000_v1.6.5.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "foobar2000.exe"
             ],

@@ -11,7 +11,7 @@
                 "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%204/4.9.8/x64/AkelPad-4.9.8-x64-bin-eng.zip",
                 "http://akelpad.sourceforge.net/files/tools/AkelUpdater.zip"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "AkelPad.exe"
             ],

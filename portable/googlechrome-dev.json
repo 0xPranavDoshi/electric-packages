@@ -8,7 +8,7 @@
         "latest-version": "89.0.4343.0",
         "89.0.4343.0": {
             "url": "https://dl.google.com/release2/chrome/AO01UGGrYvlMieZe9TGtroc_89.0.4343.0/89.0.4343.0_chrome_installer.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "chrome.exe",

@@ -8,7 +8,7 @@
         "latest-version": "20.06.14.107",
         "20.06.14.107": {
             "url": "https://github.com/roswell/roswell/releases/download/v20.06.14.107/roswell_20.06.14.107_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ros.exe"
             ],

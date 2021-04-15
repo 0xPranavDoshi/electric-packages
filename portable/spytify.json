@@ -8,7 +8,7 @@
         "latest-version": "1.9",
         "1.9": {
             "url": "https://github.com/jwallet/spy-spotify/releases/download/1.9/Spytify-v.1.9.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Spytify.exe"
             ],

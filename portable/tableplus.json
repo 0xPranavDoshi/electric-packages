@@ -8,7 +8,7 @@
         "latest-version": "3.12.20.160",
         "3.12.20.160": {
             "url": "https://download.tableplus.com/windows/3.12.20/TablePlusSetup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "TablePlus.exe"
             ],

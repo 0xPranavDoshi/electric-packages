@@ -8,7 +8,7 @@
         "latest-version": "0.5.2",
         "0.5.2": {
             "url": "https://github.com/mattstermiller/koffee/releases/download/v0.5.2/Koffee-0.5.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Koffee.exe"
             ],

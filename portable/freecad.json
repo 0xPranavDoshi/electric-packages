@@ -8,7 +8,7 @@
         "latest-version": "0.18.4",
         "0.18.4": {
             "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x64-installer.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\FreeCADCmd.exe"
             ],

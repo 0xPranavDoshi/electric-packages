@@ -8,7 +8,7 @@
         "latest-version": "1.8.0.142",
         "1.8.0.142": {
             "url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/1.8.0.142/AudioSwitcher.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "AudioSwitcher.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.6.15.0",
         "1.6.15.0": {
             "url": "https://www.jamovi.org/downloads/jamovi-1.6.15.0-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "6.27",
         "6.27": {
             "url": "https://www.reaper.fm/files/6.x/reaper627_x64-install.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "reaper.exe",
                 "reamote.exe"

@@ -8,7 +8,7 @@
         "latest-version": "0.13.0",
         "0.13.0": {
             "url": "https://github.com/getzola/zola/releases/download/v0.13.0/zola-v0.13.0-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "zola.exe"
             ],

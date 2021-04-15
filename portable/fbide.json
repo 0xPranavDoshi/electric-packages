@@ -8,7 +8,7 @@
         "latest-version": "0.4.6r4",
         "0.4.6r4": {
             "url": "http://downloads.sourceforge.net/project/fbide/fbide%200.4/fbide%200.4.6%20r4/FBIde0.4.6r4.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

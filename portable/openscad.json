@@ -8,7 +8,7 @@
         "latest-version": "2021.01",
         "2021.01": {
             "url": "https://files.openscad.org/OpenSCAD-2021.01-x86-64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": [],

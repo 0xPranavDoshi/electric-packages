@@ -8,7 +8,7 @@
         "latest-version": "0.74",
         "0.74": {
             "url": "https://the.earth.li/~sgtatham/putty/0.74/w64/putty.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "putty.exe",
                 "puttygen.exe",

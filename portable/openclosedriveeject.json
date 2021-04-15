@@ -8,7 +8,7 @@
         "latest-version": "2.22",
         "2.22": {
             "url": "https://www.softwareok.com/Download/OpenCloseDriveEject_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

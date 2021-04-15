@@ -8,7 +8,7 @@
         "latest-version": "5.4.8.0",
         "5.4.8.0": {
             "url": "https://github.com/stax76/mpv.net/releases/download/5.4.8.0/mpv.net-portable-x64-5.4.8.0.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "mpvnet.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.3.0",
         "0.3.0": {
             "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "waypoint.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "0.28.21",
         "0.28.21": {
             "url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.28.21/terragrunt_windows_amd64.exe#/terragrunt.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "terragrunt.exe"
             ],

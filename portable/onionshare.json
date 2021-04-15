@@ -8,7 +8,7 @@
         "latest-version": "2.2",
         "2.2": {
             "url": "https://github.com/micahflee/onionshare/releases/download/v2.2/onionshare-2.2-setup.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "onionshare-gui.exe",

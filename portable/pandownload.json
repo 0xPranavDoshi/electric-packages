@@ -8,7 +8,7 @@
         "latest-version": "2.2.2",
         "2.2.2": {
             "url": "http://dl.pandownload.club/dl/PanDownload_v2.2.2.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "PanDownload.exe"
             ],

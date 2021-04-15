@@ -8,7 +8,7 @@
         "latest-version": "1.8.12",
         "1.8.12": {
             "url": "https://github.com/skywind3000/z.lua/archive/1.8.12.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

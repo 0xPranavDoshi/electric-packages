@@ -8,7 +8,7 @@
         "latest-version": "0.83.12",
         "0.83.12": {
             "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v0.83.12/dosbox-x-vsbuild-win-20210401015807.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "dosbox-x.exe"
             ],

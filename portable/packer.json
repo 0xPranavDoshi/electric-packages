@@ -8,7 +8,7 @@
         "latest-version": "1.7.2",
         "1.7.2": {
             "url": "https://releases.hashicorp.com/packer/1.7.2/packer_1.7.2_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "packer.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "2.44.1",
         "2.44.1": {
             "url": "https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/graphviz-install-2.44.1-win64.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\acyclic.exe",
                 "bin\\bcomps.exe",

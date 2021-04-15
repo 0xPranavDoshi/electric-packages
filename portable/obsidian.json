@@ -8,7 +8,7 @@
         "latest-version": "0.11.13",
         "0.11.13": {
             "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.11.13/Obsidian.0.11.13.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

@@ -8,7 +8,7 @@
         "latest-version": "2.2.2",
         "2.2.2": {
             "url": "https://chatterino.com/download/2.2.2/Chatterino%20Portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "chatterino.exe"
             ],

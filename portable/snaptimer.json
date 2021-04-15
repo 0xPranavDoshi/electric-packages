@@ -8,7 +8,7 @@
         "latest-version": "0.1",
         "0.1": {
             "url": "https://cdn.hersam.com/software/snaptimer/SnapTimer.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

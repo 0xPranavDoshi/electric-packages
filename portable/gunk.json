@@ -8,7 +8,7 @@
         "latest-version": "0.1.0",
         "0.1.0": {
             "url": "https://github.com/gunk/gunk/releases/download/v0.1.0/gunk-v0.1.0-windows-amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gunk.exe"
             ],

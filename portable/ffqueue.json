@@ -8,7 +8,7 @@
         "latest-version": "1.7.56",
         "1.7.56": {
             "url": "https://www.videohelp.com/download/FFQueue_1_7_56.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "FFQueue.exe"
             ],

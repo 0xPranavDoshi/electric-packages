@@ -8,7 +8,7 @@
         "latest-version": "5.4.5",
         "5.4.5": {
             "url": "http://colorcop.net/tools/colorcop/colorcop.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [
                 {

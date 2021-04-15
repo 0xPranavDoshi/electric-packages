@@ -8,7 +8,7 @@
         "latest-version": "0.0.309",
         "0.0.309": {
             "url": "http://dl.discordapp.net/apps/win/Discord-0.0.309-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [
                 "Discord.exe"
             ],

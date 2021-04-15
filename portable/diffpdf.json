@@ -8,7 +8,7 @@
         "latest-version": "2.1.3",
         "2.1.3": {
             "url": "http://soft.rubypdf.com/wp-content/uploads/2010/08/diffpdf-2.1.3-win32-static.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "diffpdf.exe"
             ],

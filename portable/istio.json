@@ -8,7 +8,7 @@
         "latest-version": "1.9.2",
         "1.9.2": {
             "url": "https://github.com/istio/istio/releases/download/1.9.2/istio-1.9.2-win.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\istioctl.exe"
             ],

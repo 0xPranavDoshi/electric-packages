@@ -8,7 +8,7 @@
         "latest-version": "2.5.2",
         "2.5.2": {
             "url": "http://www.dhcpserver.de/cms/wp-content/plugins/download-attachments/includes/download.php?id=625#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

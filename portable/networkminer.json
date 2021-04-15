@@ -8,7 +8,7 @@
         "latest-version": "2.6",
         "2.6": {
             "url": "https://www.netresec.com/?download=NetworkMiner#/dl.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "NetworkMiner.exe"
             ],

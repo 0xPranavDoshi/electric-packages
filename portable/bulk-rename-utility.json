@@ -8,7 +8,7 @@
         "latest-version": "3.4.3.0",
         "3.4.3.0": {
             "url": "https://www.s3.tgrmn.com/bru/BRU_setup_3.4.3.0.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [
                 {

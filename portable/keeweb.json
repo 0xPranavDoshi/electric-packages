@@ -8,7 +8,7 @@
         "latest-version": "1.17.6",
         "1.17.6": {
             "url": "https://github.com/keeweb/keeweb/releases/download/v1.17.6/KeeWeb-1.17.6.win.x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "KeeWeb.exe"
             ],

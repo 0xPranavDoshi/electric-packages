@@ -8,7 +8,7 @@
         "latest-version": "4.1.0",
         "4.1.0": {
             "url": "https://downloads.sourceforge.net/project/klatexformula/klatexformula/klatexformula-4.1.0/klatexformula-4.1.0-win32.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "bin\\klatexformula_cmdl.exe",
                 [

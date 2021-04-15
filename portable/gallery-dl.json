@@ -8,7 +8,7 @@
         "latest-version": "1.17.2",
         "1.17.2": {
             "url": "https://github.com/mikf/gallery-dl/releases/download/v1.17.2/gallery-dl.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "gallery-dl.exe"
             ],

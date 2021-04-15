@@ -8,7 +8,7 @@
         "latest-version": "2.4.10",
         "2.4.10": {
             "url": "https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.10-I601-Win10.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "bin\\openvpn.exe"
             ],

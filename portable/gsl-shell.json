@@ -8,7 +8,7 @@
         "latest-version": "2.3.2",
         "2.3.2": {
             "url": "https://github.com/franko/gsl-shell/releases/download/v2.3.2/gsl-shell-2.3.2-windows-x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "gsl-shell.exe"
             ],

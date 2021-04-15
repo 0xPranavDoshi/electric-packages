@@ -8,7 +8,7 @@
         "latest-version": "2.22.0-1",
         "2.22.0-1": {
             "url": "http://lilypond.org/download/binaries/mingw/lilypond-2.22.0-1.mingw.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "usr\\bin\\lilypond.exe"
             ],

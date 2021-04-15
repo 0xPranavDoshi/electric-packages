@@ -8,7 +8,7 @@
         "latest-version": "2.4.46",
         "2.4.46": {
             "url": "https://fossies.org/windows/www/httpd-2.4.46-win64-VC15.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "bin\\ab.exe",
                 "bin\\abs.exe",

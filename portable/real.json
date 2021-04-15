@@ -8,7 +8,7 @@
         "latest-version": "0.2.0",
         "0.2.0": {
             "url": "https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "REAL.exe"
             ],

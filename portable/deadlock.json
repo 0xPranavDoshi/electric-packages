@@ -8,7 +8,7 @@
         "latest-version": "1.4",
         "1.4": {
             "url": "https://github.com/CodeDead/DeadLock/releases/download/1.4/dl_setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "DeadLock.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "3.20.1",
         "3.20.1": {
             "url": "https://download.gnome.org/binaries/win64/gedit/gedit-x86_64-3.20.1.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "bin\\gedit.exe"
             ],

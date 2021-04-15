@@ -8,7 +8,7 @@
         "latest-version": "1.9.1",
         "1.9.1": {
             "url": "http://doxygen.nl/files/doxygen-1.9.1.windows.x64.bin.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "doxygen.exe",
                 "doxyindexer.exe",

@@ -8,7 +8,7 @@
         "latest-version": "1.1",
         "1.1": {
             "url": "https://github.com/stefansundin/altdrag/releases/download/v1.1/AltDrag-1.1.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "pre-install": [
                 {

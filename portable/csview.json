@@ -8,7 +8,7 @@
         "latest-version": "0.3.8",
         "0.3.8": {
             "url": "https://github.com/wfxr/csview/releases/download/v0.3.8/csview-v0.3.8-x86_64-pc-windows-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "csview.exe"
             ],

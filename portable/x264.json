@@ -8,7 +8,7 @@
         "latest-version": "3053",
         "3053": {
             "url": "https://artifacts.videolan.org/x264/release-win64/x264-r3053-c347e7a.exe#/x264.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "x264.exe"
             ],

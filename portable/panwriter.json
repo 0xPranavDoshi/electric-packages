@@ -8,7 +8,7 @@
         "latest-version": "0.7.2",
         "0.7.2": {
             "url": "https://github.com/mb21/panwriter/releases/download/v0.7.2/PanWriter-Setup-0.7.2.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

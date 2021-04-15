@@ -8,7 +8,7 @@
         "latest-version": "1.2.9",
         "1.2.9": {
             "url": "https://github.com/Xonlystar/hexo-blog-client/releases/download/1.2.9/HexoBlogClient-Setup-1.2.9.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

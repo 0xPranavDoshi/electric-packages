@@ -8,7 +8,7 @@
         "latest-version": "1.1.0",
         "1.1.0": {
             "url": "https://github.com/shilangyu/scoop-search/releases/download/v1.1.0/scoop-search.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "scoop-search.exe"
             ],

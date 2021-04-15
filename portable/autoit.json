@@ -8,7 +8,7 @@
         "latest-version": "3.3.14.5",
         "3.3.14.5": {
             "url": "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": [],

@@ -8,7 +8,7 @@
         "latest-version": "2020e",
         "2020e": {
             "url": "https://downloads.sourceforge.net/project/gretl/gretl/2020e/gretl-2020e-64.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "gretlcli.exe",
                 "gretlmpi.exe"

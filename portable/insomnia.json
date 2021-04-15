@@ -8,7 +8,7 @@
         "latest-version": "2021.2.2",
         "2021.2.2": {
             "url": "https://github.com/Kong/insomnia/releases/download/core%402021.2.2/insomnia-2021.2.2-full.nupkg",
-            "file-type": "nupkg",
+            "file-type": ".nupkg",
             "bin": [],
             "shortcuts": [
                 {

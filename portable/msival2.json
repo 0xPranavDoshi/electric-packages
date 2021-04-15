@@ -13,7 +13,7 @@
                 "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/b80b7321357f7c9f281536f9440dfe68.cab",
                 "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/c2aabf6ea5c1d348ec22f3aeb92f8656.cab"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "MsiVal2.exe"
             ],

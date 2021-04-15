@@ -8,7 +8,7 @@
         "latest-version": "1.44.0",
         "1.44.0": {
             "url": "https://dl.bintray.com/jfrog/jfrog-cli-go/1.44.0/jfrog-cli-windows-amd64/jfrog.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "jfrog.exe"
             ],

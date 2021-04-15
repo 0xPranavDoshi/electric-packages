@@ -8,7 +8,7 @@
         "latest-version": "2.0.0",
         "2.0.0": {
             "url": "https://github.com/cabal-club/cabal-desktop-mini/releases/download/v2.0.0/cabal-desktop-mini-2.0.0-windows.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 [
                     "Cabal Mini.exe",

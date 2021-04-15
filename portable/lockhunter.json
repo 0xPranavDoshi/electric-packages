@@ -8,7 +8,7 @@
         "latest-version": "3.3.4",
         "3.3.4": {
             "url": "https://lockhunter.com/assets/exe/lockhuntersetup_3-3-4.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "lockhunter.exe"
             ],

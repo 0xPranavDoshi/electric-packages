@@ -8,7 +8,7 @@
         "latest-version": "2.1.43",
         "2.1.43": {
             "url": "https://github.com/ankitects/anki/releases/download/2.1.43/anki-2.1.43-windows.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "anki.cmd"
             ],

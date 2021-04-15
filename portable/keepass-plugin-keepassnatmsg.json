@@ -8,7 +8,7 @@
         "latest-version": "2.0.11",
         "2.0.11": {
             "url": "https://github.com/smorks/keepassnatmsg/releases/download/v2.0.11/KeePassNatMsg-v2.0.11-binaries.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

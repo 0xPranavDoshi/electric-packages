@@ -8,7 +8,7 @@
         "latest-version": "2.3.10",
         "2.3.10": {
             "url": "https://github.com/ermig1979/AntiDupl/releases/download/v2.3.10/AntiDupl.NET-2.3.10.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "AntiDupl.NET.exe"
             ],

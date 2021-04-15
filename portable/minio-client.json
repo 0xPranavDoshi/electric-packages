@@ -8,7 +8,7 @@
         "latest-version": "2021-03-23T05-46-11Z",
         "2021-03-23T05-46-11Z": {
             "url": "https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2021-03-23T05-46-11Z#/mc.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "mc.exe"
             ],

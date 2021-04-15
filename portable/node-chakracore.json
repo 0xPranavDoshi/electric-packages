@@ -8,7 +8,7 @@
         "latest-version": "10.13.0",
         "10.13.0": {
             "url": "https://nodejs.org/download/chakracore-release/v10.13.0/node-v10.13.0-win-x64.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [],
             "persist": [

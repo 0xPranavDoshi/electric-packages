@@ -8,7 +8,7 @@
         "latest-version": "2.3.5",
         "2.3.5": {
             "url": "https://github.com/bep/s3deploy/releases/download/v2.3.5/s3deploy_2.3.5_windows-64bit.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "s3deploy.exe"
             ],

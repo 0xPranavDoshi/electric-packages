@@ -8,7 +8,7 @@
         "latest-version": "0.10.0",
         "0.10.0": {
             "url": "https://github.com/kordamp/gm/releases/download/v0.10.0/gm_Windows_x86_64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "gm.exe",

@@ -8,7 +8,7 @@
         "latest-version": "1.05",
         "1.05": {
             "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/colorsustainer/Color%20Sustainerv105-%5BGuru3D.com%5D.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "Color_Sustainer.exe"
             ],

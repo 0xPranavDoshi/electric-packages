@@ -8,7 +8,7 @@
         "latest-version": "2021.03.17",
         "2021.03.17": {
             "url": "http://us.basilisk-browser.org/release/basilisk-latest.win64.installer.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [
                 "basilisk.exe"
             ],

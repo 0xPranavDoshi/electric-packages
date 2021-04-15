@@ -8,7 +8,7 @@
         "latest-version": "2.4.0",
         "2.4.0": {
             "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.4.0/wp-cli-2.4.0.phar#/wp-cli.phar",
-            "file-type": "phar",
+            "file-type": ".phar",
             "bin": [
                 "wp.ps1"
             ],

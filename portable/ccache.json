@@ -8,7 +8,7 @@
         "latest-version": "4.2.1",
         "4.2.1": {
             "url": "https://github.com/ccache/ccache/releases/download/v4.2.1/ccache-4.2.1-windows-64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ccache.exe"
             ],

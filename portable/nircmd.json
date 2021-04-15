@@ -8,7 +8,7 @@
         "latest-version": "2.86",
         "2.86": {
             "url": "https://www.nirsoft.net/utils/nircmd-x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "nircmdc.exe"
             ],

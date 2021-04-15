@@ -1,13 +1,16 @@
 {
-  "display-name": "Dropbox",
-  "package-name": "dropbox",
-  "latest-version": "116.4.368",
-  "116.4.368": {
-    "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20116.4.368%20Offline%20Installer.exe",
-    "file-type": ".exe",
-    "install-switches": ["/s"],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Dropbox",
+    "package-name": "dropbox",
+    "latest-version": "116.4.368",
+    "116.4.368": {
+        "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20116.4.368%20Offline%20Installer.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/s"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "8BBF26CCC04D1319D06A6DA6BB19E98E35DE95BA35068564DB9CE493AB68ED25"
+    }
 }

@@ -8,7 +8,7 @@
         "latest-version": "0.2.71",
         "0.2.71": {
             "url": "https://github.com/timvisee/ffsend/releases/download/v0.2.71/ffsend-v0.2.71-windows-x64-static.exe#/ffsend.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "ffsend.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.5.9",
         "1.5.9": {
             "url": "https://dl.influxdata.com/kapacitor/releases/kapacitor-1.5.9_windows_amd64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "kapacitor.exe",
                 "kapacitord.exe"

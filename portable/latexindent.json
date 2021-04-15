@@ -8,7 +8,7 @@
         "latest-version": "3.9.2",
         "3.9.2": {
             "url": "http://mirrors.ctan.org/support/latexindent.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "latexindent.exe"
             ],

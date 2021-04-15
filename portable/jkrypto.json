@@ -8,7 +8,7 @@
         "latest-version": "4.4",
         "4.4": {
             "url": "http://lpb.canb.auug.org.au/adfa/src/jkrypto/jkrypto.jar",
-            "file-type": "jar",
+            "file-type": ".jar",
             "bin": [
                 "jkrypto.ps1"
             ],

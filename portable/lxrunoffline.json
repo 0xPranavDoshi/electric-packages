@@ -8,7 +8,7 @@
         "latest-version": "3.5.0",
         "3.5.0": {
             "url": "https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.5.0/LxRunOffline-v3.5.0-msvc.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "LxRunOffline.exe"
             ],

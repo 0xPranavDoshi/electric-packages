@@ -11,7 +11,7 @@
                 "https://github.com/jftuga/less-Windows/releases/download/less-v563.0/less.exe",
                 "https://github.com/jftuga/less-Windows/releases/download/less-v563.0/lesskey.exe"
             ],
-            "file-type": "NEEDS ATTENTION",
+            "file-type": ".NEEDS ATTENTION",
             "bin": [
                 "less.exe",
                 "lesskey.exe"

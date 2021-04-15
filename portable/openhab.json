@@ -8,7 +8,7 @@
         "latest-version": "2.5.12",
         "2.5.12": {
             "url": "https://dl.bintray.com/openhab/mvn/org/openhab/distro/openhab/2.5.12/openhab-2.5.12.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 [
                     "runtime\\bin\\karaf.bat",

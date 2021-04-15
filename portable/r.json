@@ -8,7 +8,7 @@
         "latest-version": "4.0.5",
         "4.0.5": {
             "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.5-win.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [],
             "shortcuts": [],
             "persist": []

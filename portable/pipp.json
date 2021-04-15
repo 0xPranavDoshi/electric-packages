@@ -8,7 +8,7 @@
         "latest-version": "2.5.9",
         "2.5.9": {
             "url": "https://sites.google.com/site/astropipp/downloads/pipp_install_x64_2.5.9.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "PIPP.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "11.2",
         "11.2": {
             "url": "https://www.heidisql.com/downloads/releases/HeidiSQL_11.2_64_Portable.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "heidisql.exe"
             ],

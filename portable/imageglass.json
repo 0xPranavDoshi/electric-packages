@@ -8,7 +8,7 @@
         "latest-version": "8.0.12.8",
         "8.0.12.8": {
             "url": "https://github.com/d2phap/ImageGlass/releases/download/8.0.12.8/ImageGlass_8.0.12.8_x64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "ImageGlass.exe",
                 "igcmd.exe",

@@ -8,7 +8,7 @@
         "latest-version": "4.0.53",
         "4.0.53": {
             "url": "https://encdn.ldmnq.com/download/package/LDPlayer_4.0.53.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "shortcuts": [
                 {

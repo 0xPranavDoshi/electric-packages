@@ -8,7 +8,7 @@
         "latest-version": "2.7.2",
         "2.7.2": {
             "url": "https://github.com/boot-clj/boot-bin/releases/download/2.7.2/boot.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "boot.exe"
             ],

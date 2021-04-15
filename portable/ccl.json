@@ -8,7 +8,7 @@
         "latest-version": "1.12",
         "1.12": {
             "url": "https://github.com/Clozure/ccl/releases/download/v1.12/ccl-1.12-windowsx86.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [],
             "shortcuts": [],
             "persist": []

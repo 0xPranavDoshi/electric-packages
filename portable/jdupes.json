@@ -8,7 +8,7 @@
         "latest-version": "1.19.2",
         "1.19.2": {
             "url": "https://github.com/jbruchon/jdupes/releases/download/v1.19.2/jdupes-1.19.2-win64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "jdupes.exe"
             ],

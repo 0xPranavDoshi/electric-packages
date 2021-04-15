@@ -8,7 +8,7 @@
         "latest-version": "20201107",
         "20201107": {
             "url": "https://github.com/fontforge/fontforge/releases/download/20201107/FontForge-2020-11-07-Windows.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "fontforge.bat"
             ],

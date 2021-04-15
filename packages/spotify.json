@@ -1,13 +1,18 @@
 {
-  "display-name": "Spotify",
-  "package-name": "spotify",
-  "latest-version": "1.1.53.608",
-  "1.1.53.608": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "file-type": ".exe",
-    "install-switches": ["/silent"],
-    "uninstall-switches": ["/silent"],
-    "custom-location": "",
-    "dependencies": []
-  }
+    "display-name": "Spotify",
+    "package-name": "spotify",
+    "latest-version": "1.1.53.608",
+    "1.1.53.608": {
+        "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/silent"
+        ],
+        "uninstall-switches": [
+            "/silent"
+        ],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "565B9D01FF7CC8663C785AE2408014A61C9A8F87BECC1C9DD5CF95B7417853EE"
+    }
 }

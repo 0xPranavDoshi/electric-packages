@@ -8,7 +8,7 @@
         "latest-version": "13.0.0.11",
         "13.0.0.11": {
             "url": "http://www.babelstone.co.uk/Software/Download/BabelMap.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "BabelMap.exe"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "1.2.0",
         "1.2.0": {
             "url": "https://github.com/scottlerch/HostsFileEditor/releases/download/v1.2.0/HostsFileEditorSetup-1.2.0.msi",
-            "file-type": "msi",
+            "file-type": ".msi",
             "bin": [
                 "HostsFileEditor.exe"
             ],

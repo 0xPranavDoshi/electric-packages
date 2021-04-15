@@ -8,7 +8,7 @@
         "latest-version": "2.32",
         "2.32": {
             "url": "https://www.fosshub.com/mp3DirectCut.html/mp3DC232.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "mp3DirectCut.exe"
             ],

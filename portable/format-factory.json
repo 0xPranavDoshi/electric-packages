@@ -8,7 +8,7 @@
         "latest-version": "5.7.1.0",
         "5.7.1.0": {
             "url": "http://public.pcfreetime.com/FFSetup5.7.1.0.exe#/dl.7z",
-            "file-type": "7z",
+            "file-type": ".7z",
             "bin": [],
             "pre-install": [
                 {

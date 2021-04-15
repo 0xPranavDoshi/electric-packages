@@ -8,7 +8,7 @@
         "latest-version": "5prealpha",
         "5prealpha": {
             "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxtrain/5prealpha/sphinxtrain-5prealpha-win32.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "agg_seg.exe",
                 "bldtree.exe",

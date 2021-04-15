@@ -8,7 +8,7 @@
         "latest-version": "2.0.0",
         "2.0.0": {
             "url": "http://instant-eyedropper.com/download/instant-eyedropper-2.0.0.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "instanteyedropper.exe"
             ],

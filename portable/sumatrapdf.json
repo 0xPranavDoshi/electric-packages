@@ -8,7 +8,7 @@
         "latest-version": "3.2",
         "3.2": {
             "url": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.2-64.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "SumatraPDF.exe"
             ],

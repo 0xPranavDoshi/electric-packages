@@ -8,7 +8,7 @@
         "latest-version": "nightly",
         "nightly": {
             "url": "https://github.com/Jorl17/jar2app/archive/master.zip",
-            "file-type": "zip",
+            "file-type": ".zip",
             "bin": [
                 "jar2app.ps1"
             ],

@@ -8,7 +8,7 @@
         "latest-version": "2.10.79",
         "2.10.79": {
             "url": "https://github.com/OpenNingia/Launchy/releases/download/launchy-v2.10.79/Launchy_Setup_x64-2.10.79.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "Launchy.exe"
             ],

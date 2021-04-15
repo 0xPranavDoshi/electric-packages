@@ -8,7 +8,7 @@
         "latest-version": "1.22.021813",
         "1.22.021813": {
             "url": "https://download.sourceforge.net/project/dualmonitortb/Releases/v01.22.021813/DualMonitor%201.22%20Setup.exe",
-            "file-type": "exe",
+            "file-type": ".exe",
             "bin": [
                 "DualMonitor.exe"
             ],

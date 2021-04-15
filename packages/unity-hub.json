@@ -5,9 +5,14 @@
     "2.4.2": {
         "url": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe",
         "file-type": ".exe",
-        "install-switches": ["/S"],
-        "uninstall-switches": ["/S"],
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
         "custom-location": "/D=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "3CB22764AE2C467486448088D3C045E7D5D209B4ADFECCC3E7DE84BEADB2EF36"
     }
 }
