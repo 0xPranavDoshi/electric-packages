@@ -5,4 +5,4 @@ dependencies:
   - python
   - git
 shell: pip install -e .
-uninstall: pip uninstall auto-update-toolkit -y
+uninstall: pip uninstall auto-update -y
