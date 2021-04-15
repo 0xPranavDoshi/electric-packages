@@ -540,6 +540,5 @@ def update(
                         f.write(formatted_json)
         
 
-
 if __name__ == '__main__':
     cli()
