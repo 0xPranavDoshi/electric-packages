@@ -90,10 +90,10 @@ def update(
     print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
 
     html = swc(webpage.strip())
-    show_html = input(
-        'Would you like to see the response of the request? [Y/n]: ')
-    if show_html in ['y', 'Y', 'yes', 'YES', 'Yes']:
-        print(highlight(html, lexers.HtmlLexer(), formatters.TerminalFormatter()))
+    # show_html = input(
+    #     'Would you like to see the response of the request? [Y/n]: ')
+    # if show_html in ['y', 'Y', 'yes', 'YES', 'Yes']:
+    #     print(highlight(html, lexers.HtmlLexer(), formatters.TerminalFormatter()))
 
     soup = BeautifulSoup(html, features="html.parser")
 
