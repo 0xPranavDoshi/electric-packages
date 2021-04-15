@@ -31,9 +31,10 @@ def add_to_startup(file_path=""):
 
 string = '''
 import os
-os.chdir(directory)
-for package in os.listdir(directory):
-    os.system(f'au update {package}')
+os.chdir(r'C:\Users\xtrem\Desktop\test')
+for package in os.listdir(r'C:\Users\xtrem\Desktop\test'):
+    if package.endswith('.json'):
+        os.system(f'au update {package}')
 '''
 
 
