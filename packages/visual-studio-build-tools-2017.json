@@ -3,17 +3,14 @@
     "package-name": "visual-studio-build-tools-2017",
     "latest-version": "latest",
     "latest": {
-        "url": "https://download.visualstudio.microsoft.com/download/pr/5c555b0d-fffd-45a2-9929-4a5bb59479a4/45fd615bc29fadc5201483dad883e635c0ceecb0bddf0f613edf6093cb431a27/vs_BuildTools.exe",
+        "url": "https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe",
         "file-type": ".exe",
         "install-switches": [
-            "--add Microsoft.VisualStudio.Workload.VCTools",
-            "--wait",
-            "--passive",
-            "--norestart"
+            "/PASSIVE",
+            "/NORESTART"
         ],
         "uninstall-switches": [],
-        "custom-location": "--installPath ",
-        "dependencies": [],
-        "checksum": "45FD615BC29FADC5201483DAD883E635C0CEECB0BDDF0F613EDF6093CB431A27"
+        "custom-location": "",
+        "dependencies": []
     }
 }
