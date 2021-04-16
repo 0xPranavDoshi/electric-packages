@@ -63,7 +63,7 @@
         }
     },
     "3.2.1-3210": {
-        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.zip",
+        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.exe",
         "file-type": ".exe",
         "install-switches": [
             "/SP-",
@@ -87,7 +87,7 @@
         "dependencies": []
     },
     "3.2.2-3211": {
-        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.zip",
+        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.exe",
         "file-type": ".exe",
         "install-switches": [
             "/SP-",
