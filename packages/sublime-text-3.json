@@ -97,7 +97,7 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "checksum": "FB77731FA3EDA907620A9E8B85BDCCC5B5CB4DCF655DCFDC6C7591B78ABD0F31",
+        "checksum": "17A659D3B09299481C7DF52DAF5FE3B8930A157B6139EBE5A1D8BDC0C2F3D7F4",
         "default-install-dir": "C:\\Program Files\\Sublime Text 3",
         "bin": [
             "<install-directory>\\subl.exe"
