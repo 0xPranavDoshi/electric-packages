@@ -3,7 +3,7 @@
     "package-name": "sublime-text-3",
     "latest-version": "3.2.2-3211",
     "auto-update": {
-        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%20<2>%20x64.zip",
+        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%20<2>%20x64Setup.exe",
         "vercheck": {
             "webpage": "https://www.sublimetext.com/3",
             "regex": "(?i)>([\\d.]+)\\s+\\(BUILD\\s+(\\d+)",
@@ -87,7 +87,7 @@
         "dependencies": []
     },
     "3.2.2-3211": {
-        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.exe",
+        "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe",
         "file-type": ".exe",
         "install-switches": [
             "/SP-",
