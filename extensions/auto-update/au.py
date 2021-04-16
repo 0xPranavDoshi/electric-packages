@@ -35,6 +35,7 @@ os.chdir(r'C:\Users\xtrem\Desktop\test')
 for package in os.listdir(r'C:\Users\xtrem\Desktop\test'):
     if package.endswith('.json'):
         os.system(f'au update {package}')
+os.system('git push -u origin master')
 '''
 
 
@@ -77,83 +78,78 @@ def update(
 
     with open(file_path, 'r') as f:
         data = json.load(f)
+    
+    # TODO: Handle is-portable
 
-    if 'is-portable' in list(data.keys()):
-        if data['is-portable']:
-            data = data['portable']
+    # If Package Is Not Portable By Default
+    if not 'is-portable' in list(data.keys()):
+        package_name = data['package-name']
 
-    package_name = data['package-name']
+        latest_version = data['latest-version']
 
-    latest_version = data['latest-version']
+        webpage = data['auto-update']['vercheck']['webpage']
 
-    webpage = data['auto-update']['vercheck']['webpage']
+        print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
 
-    print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
+        html = swc(webpage.strip())
 
-    html = swc(webpage.strip())
-    # show_html = input(
-    #     'Would you like to see the response of the request? [Y/n]: ')
-    # if show_html in ['y', 'Y', 'yes', 'YES', 'Yes']:
-    #     print(highlight(html, lexers.HtmlLexer(), formatters.TerminalFormatter()))
+        soup = BeautifulSoup(html, features="html.parser")
 
-    soup = BeautifulSoup(html, features="html.parser")
+        if 'github.com' in webpage:
+            version_list = {}
 
-    if 'github.com' in webpage:
-        version_list = {}
+            for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
+                if tag:
+                    try:
+                        version_list[tag.find('a').text.strip().replace('v', '').replace('V', '')] = int(
+                            tag.find('a').text.strip().replace('.', '').replace('v', '').replace('V', ''))
+                    except:
+                            pass
 
-        for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
-            if tag:
-                try:
-                    version_list[tag.find('a').text.strip().replace('v', '').replace('V', '')] = int(
-                        tag.find('a').text.strip().replace('.', '').replace('v', '').replace('V', ''))
-                except:
-                        pass
+            print(f'Detected Versions On Webpage:', list(version_list.keys()))
 
-        print(f'Detected Versions On Webpage:', list(version_list.keys()))
+            try:
+                web_version = max(version_list, key=version_list.get)
+            except:
+                print(f'{Fore.LIGHTRED_EX}No Versions Detected On Webpage!{Fore.RESET}')
+                if webpage.startswith('https://www.github.com'):
+                    print('You must send a web request to /tags not /releases. For example: https://github.com/atom/atom/tags not https://github.com/atom/atom/releases')
+                sys.exit()
 
-        try:
-            web_version = max(version_list, key=version_list.get)
-        except:
-            print(f'{Fore.LIGHTRED_EX}No Versions Detected On Webpage!{Fore.RESET}')
-            if webpage.startswith('https://www.github.com'):
-                print('You must send a web request to /tags not /releases. For example: https://github.com/atom/atom/tags not https://github.com/atom/atom/releases')
-            sys.exit()
+            print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
 
-        print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
-
-        int_web_version = int(web_version.strip().replace(
-            'v', '').replace('V', '').replace('.', ''))
-
-        try:
-            int_current_version = int(latest_version.strip().replace(
+            int_web_version = int(web_version.strip().replace(
                 'v', '').replace('V', '').replace('.', ''))
-        except:
-            print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
 
-        if int_current_version < int_web_version:
-            print(
-                f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
+            try:
+                int_current_version = int(latest_version.strip().replace(
+                    'v', '').replace('V', '').replace('.', ''))
+            except:
+                print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
 
-            old_latest = latest_version
-            data['latest-version'] = web_version
-            data[web_version] = data[old_latest]
-            data[web_version]['url'] = data['auto-update']['url'].replace(
-                '<version>', web_version)
-            from pygments import highlight, lexers, formatters
+            if int_current_version < int_web_version:
+                print(
+                    f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
-            formatted_json = json.dumps(data, indent=4)
+                old_latest = latest_version
+                data['latest-version'] = web_version
+                data[web_version] = data[old_latest]
+                data[web_version]['url'] = data['auto-update']['url'].replace(
+                    '<version>', web_version)
+                from pygments import highlight, lexers, formatters
 
-            colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
-            print(colorful_json)
+                formatted_json = json.dumps(data, indent=4)
 
-            with open(file_path, 'w+') as f:
-                f.write(formatted_json)
+                colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
+                print(colorful_json)
 
-    else:
-        idx = 1
-        res_tup = []
+                with open(file_path, 'w+') as f:
+                    f.write(formatted_json)
 
-        if 'is-portable' not in list(data.keys()): 
+        else:
+            idx = 1
+            res_tup = []
+
             result = re.findall(data['auto-update']['vercheck']['regex'], html)
             web_version = result[0]
             for value in web_version:
@@ -173,8 +169,6 @@ def update(
             versions = {
                 '<version>': replace
             }
-
-            print(versions)
             
             versions['<underscore-version>'] = replace.replace('.', '_')
             versions['<dash-version>'] = replace.replace('.', '-')
@@ -192,14 +186,14 @@ def update(
                 versions['<build-version>'] = replace.split('.')[2]
             
             for v in versions:
-                url = url.replace(list(v.keys())[0], list(v.values())[0])
+                url = url.replace(v, versions[v])
 
             for value in res_tup:
                 url = url.replace(list(value.keys())[0], list(value.values())[0])
 
             version = data['latest-version']
 
-            if version != web_version:
+            if version != versions['<version>']:
                 print(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
@@ -233,104 +227,173 @@ def update(
 
                 if 'portable' in list(data.keys()):
                     # Update portable version
-                    pass
-        else:
-            # Package is portable
-            data = data['portable']
+                    package_name = data['portable']['package-name']
 
-            result = re.findall(data['auto-update']['vercheck']['regex'], html)
-            web_version = result[0]
-            for value in web_version:
-                res_tup.append({f'<{idx}>' : value})
-                idx += 1
+                    latest_version = data['portable']['latest-version']
 
-            if 'replace' in list(data['auto-update']['vercheck'].keys()):
+                    if 'auto-update' not in list(data.keys()):
+                        sys.exit()
 
-                replace = data['auto-update']['vercheck']['replace']
+                    webpage = data['portable']['auto-update']['vercheck']['webpage']
 
-                for value in res_tup:
-                    replace = replace.replace(list(value.keys())[0], list(value.values())[0])
+                    print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
+
+                    html = swc(webpage.strip())
+
+                    soup = BeautifulSoup(html, features="html.parser")
+                    
+                    if 'github.com' in webpage:
+                        version_list = {}
+
+                        for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
+                            if tag:
+                                try:
+                                    version_list[tag.find('a').text.strip().replace('v', '').replace('V', '')] = int(
+                                        tag.find('a').text.strip().replace('.', '').replace('v', '').replace('V', ''))
+                                except:
+                                        pass
+
+                        print(f'Detected Versions On Webpage:', list(version_list.keys()))
+
+                        try:
+                            web_version = max(version_list, key=version_list.get)
+                        except:
+                            print(f'{Fore.LIGHTRED_EX}No Versions Detected On Webpage!{Fore.RESET}')
+                            if webpage.startswith('https://www.github.com'):
+                                print('You must send a web request to /tags not /releases. For example: https://github.com/atom/atom/tags not https://github.com/atom/atom/releases')
+                            sys.exit()
+
+                        print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
+
+                        try:
+                            int_web_version = int(web_version.strip().replace(
+                                'v', '').replace('V', '').replace('.', ''))
+                        except:
+                            print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
+                            sys.exit()
+
+                        try:
+                            int_current_version = int(latest_version.strip().replace(
+                                'v', '').replace('V', '').replace('.', ''))
+                        except:
+                            print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
+                            sys.exit()
+
+                        if int_current_version < int_web_version:
+                            print(
+                                f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
+
+                            old_latest = latest_version
+                            data['portable']['latest-version'] = web_version
+                            data['portable'][web_version] = data[old_latest]
+                            data['portable'][web_version]['url'] = data['auto-update']['url'].replace(
+                                '<version>', web_version)
+                            from pygments import highlight, lexers, formatters
+
+                            formatted_json = json.dumps(data, indent=4)
+
+                            colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
+                            print(colorful_json)
+
+                            with open(file_path, 'w+') as f:
+                                f.write(formatted_json)
+                    else:
+                        idx = 1
+                        res_tup = []
+
+                        result = re.findall(data['portable']['auto-update']['vercheck']['regex'], html)
+                        web_version = result[0]
+                        for value in web_version:
+                            res_tup.append({f'<{idx}>' : value})
+                            idx += 1
+                        
+                        result = web_version
+
+                        if 'replace' in list(data['portable']['auto-update']['vercheck'].keys()):
+                            replace = data['portable']['auto-update']['vercheck']['replace']
+
+                            for value in res_tup:
+                                replace = replace.replace(list(value.keys())[0], list(value.values())[0])
+
+                        url = data['portable']['auto-update']['url']
+
+                        versions = {
+                            '<version>': replace
+                        }
+                        
+                        versions['<underscore-version>'] = replace.replace('.', '_')
+                        versions['<dash-version>'] = replace.replace('.', '-')
+                        versions['<clean-version>'] = replace.replace('.', '')
+
+                        if len(versions['<version>'].split('.')) == 4:
+                            versions['<major-version>'] = replace.split('.')[0]
+                            versions['<minor-version>'] = replace.split('.')[1]
+                            versions['<patch-version>'] = replace.split('.')[2]
+                            versions['<build-version>'] = replace.split('.')[3]
+
+                        elif len(versions['<version>'].split('.')) == 3:
+                            versions['<major-version>'] = replace.split('.')[0]
+                            versions['<minor-version>'] = replace.split('.')[1]
+                            versions['<build-version>'] = replace.split('.')[2]
+                        
+                        for v in versions:
+                            url = url.replace(v, versions[v])
+
+                        for value in res_tup:
+                            url = url.replace(list(value.keys())[0], list(value.values())[0])
+
+                        version = data['portable']['latest-version']
+
+                        if version != versions['<version>']:
+                            print(
+                                f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
+
+                            checksum = ''
+
+                            if 'checksum' in list(data[data['latest-version']].keys()):
+                                os.system(rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                                proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                                output, _ = proc.communicate()
+                                res = output.decode().splitlines()
+                                checksum = res[3].split()[1]
+
+                            old_latest = version
+                            data['portable'][replace] = data[old_latest]
+                            data['portable'][replace]['url'] = url        
+
+                            if 'checksum' in list(data[data['latest-version']].keys()):
+                                data['portable'][replace]['checksum'] = checksum
+
+                            data['portable']['latest-version'] = replace
+
+                            from pygments import highlight, lexers, formatters
+
+                            formatted_json = json.dumps(data, indent=4)
+
+                            colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
+                            print(colorful_json)
+
+                            with open(file_path, 'w+') as f:
+                                f.write(formatted_json)
             else:
-                replace = web_version
+                print(f'{package_name} is already on its latest version')
+    else:
+        # Update portable version
+        package_name = data['portable']['package-name']
 
-            url = data['auto-update']['url']
-            
-            versions = {
-                '<version>': replace
-            }
+        latest_version = data['portable']['latest-version']
 
-            versions['<underscore-version>'] = replace.replace('.', '_')
-            versions['<dash-version>'] = replace.replace('.', '-')
-            versions['<clean-version>'] = replace.replace('.', '')
+        if 'auto-update' not in list(data.keys()):
+            sys.exit()
 
-            if len(versions.split('.')) == 4:
-                versions['<major-version>'] = replace.split('.')[0]
-                versions['<minor-version>'] = replace.split('.')[1]
-                versions['<patch-version>'] = replace.split('.')[2]
-                versions['<build-version>'] = replace.split('.')[3]
-            elif len(versions.split('.')) == 3:
-                versions['<major-version>'] = replace.split('.')[0]
-                versions['<minor-version>'] = replace.split('.')[1]
-                versions['<build-version>'] = replace.split('.')[2]
-            
-            for v in versions:
-                url = url.replace(list(v.keys())[0], list(v.values())[0])
-            
-            for value in res_tup:
-                url = url.replace(list(value.keys())[0], list(value.values())[0])
-
-            version = data['latest-version']
-
-            if version != web_version:
-                print(
-                    f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
-
-                checksum = ''
-
-                if 'checksum' in list(data[data['latest-version']].keys()):
-                    os.system(rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
-                    proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
-                    output, err = proc.communicate()
-                    res = output.decode().splitlines()
-                    checksum = res[3].split()[1]
-
-                old_latest = version
-                data[replace] = data[old_latest]
-                data[replace]['url'] = url        
-
-                if 'checksum' in list(data[data['latest-version']].keys()):
-                    data[replace]['checksum'] = checksum
-
-                data['latest-version'] = replace
-
-                from pygments import highlight, lexers, formatters
-
-                formatted_json = json.dumps(data, indent=4)
-
-                colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
-                print(colorful_json)
-
-                with open(file_path, 'w+') as f:
-                    f.write(formatted_json)
-
-    if 'portable' in list(data.keys()):
-        data = data['portable']
-        package_name = data['package-name']
-
-        latest_version = data['latest-version']
-
-        webpage = data['auto-update']['vercheck']['webpage']
+        webpage = data['portable']['auto-update']['vercheck']['webpage']
 
         print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
 
         html = swc(webpage.strip())
-        show_html = input(
-            'Would you like to see the response of the request? [Y/n]: ')
-        if show_html in ['y', 'Y', 'yes', 'YES', 'Yes']:
-            print(highlight(html, lexers.HtmlLexer(), formatters.TerminalFormatter()))
 
         soup = BeautifulSoup(html, features="html.parser")
-
+        
         if 'github.com' in webpage:
             version_list = {}
 
@@ -373,9 +436,9 @@ def update(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
                 old_latest = latest_version
-                data['latest-version'] = web_version
-                data[web_version] = data[old_latest]
-                data[web_version]['url'] = data['auto-update']['url'].replace(
+                data['portable']['latest-version'] = web_version
+                data['portable'][web_version] = data[old_latest]
+                data['portable'][web_version]['url'] = data['auto-update']['url'].replace(
                     '<version>', web_version)
                 from pygments import highlight, lexers, formatters
 
@@ -386,166 +449,88 @@ def update(
 
                 with open(file_path, 'w+') as f:
                     f.write(formatted_json)
-
         else:
             idx = 1
             res_tup = []
 
-            if 'is-portable' not in list(data.keys()): 
-                result = re.findall(data['auto-update']['vercheck']['regex'], html)
-                web_version = result[0]
-                for value in web_version:
-                    res_tup.append({f'<{idx}>' : value})
-                    idx += 1
+            result = re.findall(data['portable']['auto-update']['vercheck']['regex'], html)
+            web_version = result[0]
+            for value in web_version:
+                res_tup.append({f'<{idx}>' : value})
+                idx += 1
+            
+            result = web_version
 
-                replace = data['auto-update']['vercheck']['replace']
+            if 'replace' in list(data['portable']['auto-update']['vercheck'].keys()):
+                replace = data['portable']['auto-update']['vercheck']['replace']
 
                 for value in res_tup:
                     replace = replace.replace(list(value.keys())[0], list(value.values())[0])
 
-                url = data['auto-update']['url']
+            url = data['portable']['auto-update']['url']
 
-                versions = {
+            versions = {
                 '<version>': replace
-                }
+            }
+            
+            versions['<underscore-version>'] = replace.replace('.', '_')
+            versions['<dash-version>'] = replace.replace('.', '-')
+            versions['<clean-version>'] = replace.replace('.', '')
 
-                versions['<underscore-version>'] = replace.replace('.', '_')
-                versions['<dash-version>'] = replace.replace('.', '-')
-                versions['<clean-version>'] = replace.replace('.', '')
+            if len(versions['<version>'].split('.')) == 4:
+                versions['<major-version>'] = replace.split('.')[0]
+                versions['<minor-version>'] = replace.split('.')[1]
+                versions['<patch-version>'] = replace.split('.')[2]
+                versions['<build-version>'] = replace.split('.')[3]
 
-                if len(versions.split('.')) == 4:
-                    versions['<major-version>'] = replace.split('.')[0]
-                    versions['<minor-version>'] = replace.split('.')[1]
-                    versions['<patch-version>'] = replace.split('.')[2]
-                    versions['<build-version>'] = replace.split('.')[3]
-                elif len(versions.split('.')) == 3:
-                    versions['<major-version>'] = replace.split('.')[0]
-                    versions['<minor-version>'] = replace.split('.')[1]
-                    versions['<build-version>'] = replace.split('.')[2]
-                
-                for v in versions:
-                    url = url.replace(list(v.keys())[0], list(v.values())[0])
+            elif len(versions['<version>'].split('.')) == 3:
+                versions['<major-version>'] = replace.split('.')[0]
+                versions['<minor-version>'] = replace.split('.')[1]
+                versions['<build-version>'] = replace.split('.')[2]
+            
+            for v in versions:
+                url = url.replace(v, versions[v])
 
+            for value in res_tup:
+                url = url.replace(list(value.keys())[0], list(value.values())[0])
 
-                for value in res_tup:
-                    url = url.replace(list(value.keys())[0], list(value.values())[0])
+            version = data['portable']['latest-version']
 
-                version = data['latest-version']
+            if version != versions['<version>']:
+                print(
+                    f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
-                if version != web_version:
-                    print(
-                        f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
+                checksum = ''
 
-                    checksum = ''
+                if 'checksum' in list(data[data['latest-version']].keys()):
+                    os.system(rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                    proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                    output, _ = proc.communicate()
+                    res = output.decode().splitlines()
+                    checksum = res[3].split()[1]
 
-                    if 'checksum' in list(data[data['latest-version']].keys()):
-                        os.system(rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
-                        proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
-                        output, err = proc.communicate()
-                        res = output.decode().splitlines()
-                        checksum = res[3].split()[1]
+                old_latest = version
+                data['portable'][replace] = data[old_latest]
+                data['portable'][replace]['url'] = url        
 
-                    old_latest = version
-                    data[replace] = data[old_latest]
-                    data[replace]['url'] = url        
+                if 'checksum' in list(data[data['latest-version']].keys()):
+                    data['portable'][replace]['checksum'] = checksum
 
-                    if 'checksum' in list(data[data['latest-version']].keys()):
-                        data[replace]['checksum'] = checksum
+                data['portable']['latest-version'] = replace
 
-                    data['latest-version'] = replace
+                from pygments import highlight, lexers, formatters
 
-                    from pygments import highlight, lexers, formatters
+                formatted_json = json.dumps(data, indent=4)
 
-                    formatted_json = json.dumps(data, indent=4)
+                colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
+                print(colorful_json)
 
-                    colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
-                    print(colorful_json)
-
-                    with open(file_path, 'w+') as f:
-                        f.write(formatted_json)
-
-                    if 'portable' in list(data.keys()):
-                        # Update portable version
-                        pass
+                with open(file_path, 'w+') as f:
+                    f.write(formatted_json)
             else:
-                # Package is portable
-                data = data['portable']
+                print(f'{package_name} is already on its latest version')
 
-                result = re.findall(data['auto-update']['vercheck']['regex'], html)
-                web_version = result[0]
-                for value in web_version:
-                    res_tup.append({f'<{idx}>' : value})
-                    idx += 1
 
-                if 'replace' in list(data['auto-update']['vercheck'].keys()):
-
-                    replace = data['auto-update']['vercheck']['replace']
-
-                    for value in res_tup:
-                        replace = replace.replace(list(value.keys())[0], list(value.values())[0])
-                else:
-                    replace = web_version
-
-                url = data['auto-update']['url']
-
-                versions = {
-                '<version>': replace
-                }
-
-                versions['<underscore-version>'] = replace.replace('.', '_')
-                versions['<dash-version>'] = replace.replace('.', '-')
-                versions['<clean-version>'] = replace.replace('.', '')
-
-                if len(versions.split('.')) == 4:
-                    versions['<major-version>'] = replace.split('.')[0]
-                    versions['<minor-version>'] = replace.split('.')[1]
-                    versions['<patch-version>'] = replace.split('.')[2]
-                    versions['<build-version>'] = replace.split('.')[3]
-                elif len(versions.split('.')) == 3:
-                    versions['<major-version>'] = replace.split('.')[0]
-                    versions['<minor-version>'] = replace.split('.')[1]
-                    versions['<build-version>'] = replace.split('.')[2]
-                
-                for v in versions:
-                    url = url.replace(list(v.keys())[0], list(v.values())[0])
-
-                for value in res_tup:
-                    url = url.replace(list(value.keys())[0], list(value.values())[0])
-
-                version = data['latest-version']
-
-                if version != web_version:
-                    print(
-                        f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
-
-                    checksum = ''
-
-                    if 'checksum' in list(data[data['latest-version']].keys()):
-                        os.system(rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
-                        proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
-                        output, err = proc.communicate()
-                        res = output.decode().splitlines()
-                        checksum = res[3].split()[1]
-
-                    old_latest = version
-                    data[replace] = data[old_latest]
-                    data[replace]['url'] = url        
-
-                    if 'checksum' in list(data[data['latest-version']].keys()):
-                        data[replace]['checksum'] = checksum
-
-                    data['latest-version'] = replace
-
-                    from pygments import highlight, lexers, formatters
-
-                    formatted_json = json.dumps(data, indent=4)
-
-                    colorful_json = highlight(formatted_json, lexers.JsonLexer(), formatters.TerminalFormatter())
-                    print(colorful_json)
-
-                    with open(file_path, 'w+') as f:
-                        f.write(formatted_json)
-        
-
+   
 if __name__ == '__main__':
     cli()
