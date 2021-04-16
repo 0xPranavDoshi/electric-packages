@@ -29,7 +29,7 @@ def add_to_startup(file_path=""):
     with open(bat_path + '\\' + "open.bat", "w+") as bat_file:
         bat_file.write(f'{name} \"{file_path}\"')
 
-string = '''
+string = r'''
 import os
 os.chdir(r'C:\Users\xtrem\Desktop\test')
 for package in os.listdir(r'C:\Users\xtrem\Desktop\test'):
