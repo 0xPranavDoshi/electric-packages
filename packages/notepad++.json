@@ -17,6 +17,10 @@
             "<install-directory>\\notepad++.exe"
         ],
         "dependencies": [],
+<<<<<<< HEAD
         "checksum": "5037469361C3DAAE47E779D2A31FDF26952CE3832D779C139D158E759439061E"
+=======
+        "checksum": "9EB36C992F1D4BB2D27CB9C0D14B9B0C762D59E544B27754AFC2BC0A9B219DCD"
+>>>>>>> 03c3d3aad80442f32d9e021dc6ac1fcf5172e293
     }
 }
