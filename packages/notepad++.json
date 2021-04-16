@@ -16,7 +16,7 @@
         "bin": [
             "<install-directory>\\notepad++.exe"
         ],
-        "checksum": "9EB36C992F1D4BB2D27CB9C0D14B9B0C762D59E544B27754AFC2BC0A9B219DCD"
-        "dependencies": [],
+        "checksum": "9EB36C992F1D4BB2D27CB9C0D14B9B0C762D59E544B27754AFC2BC0A9B219DCD",
+        "dependencies": []
     }
 }

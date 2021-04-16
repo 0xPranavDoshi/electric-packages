@@ -10,7 +10,7 @@
             "-q"
         ],
         "uninstall-switches": [
-            "/S"
+            "-q"
         ],
         "custom-location": "-dir ",
         "dependencies": [],

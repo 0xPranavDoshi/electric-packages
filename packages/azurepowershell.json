@@ -1,0 +1,22 @@
+{
+    "display-name": "Microsoft Azure Powershell",
+    "package-name": "azurepowershell",
+    "latest-version": "6.9.0",
+    "6.9.0": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v6.9.0-September2018/azure-powershell.6.9.0.msi",
+        "file-type": ".msi",
+        "checksum": "6938BAF0CEE2448665BD2D2C88840491B2203758AC2A589F844B6889E774E6D6",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": []
+    }
+}
