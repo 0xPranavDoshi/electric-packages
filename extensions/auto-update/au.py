@@ -159,8 +159,8 @@ def update(
             for value in web_version:
                 res_tup.append({f'<{idx}>' : value})
                 idx += 1
-
-            replace = re.findall(data['auto-update']['vercheck']['regex'])
+            
+            result = web_version
 
             if 'replace' in list(data['auto-update']['vercheck'].keys()):
                 replace = data['auto-update']['vercheck']['replace']
