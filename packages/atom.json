@@ -47,7 +47,7 @@
         ],
         "custom-location": "None",
         "dependencies": [],
-        "checksum": "98E5459F6A791A6C2B1661AE10AC630BB9E5DC578E8ADB44BE658A88380EE6F8"
+        "checksum": "BA22B51F1234CDEA87F2B65709C506F7CCE0EA89618819ECF6C5920DF3BC87BB"
     },
     "1.52.0": {
         "url": "https://github.com/atom/atom/releases/download/v1.52.0/AtomSetup-x64.exe",
