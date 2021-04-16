@@ -160,10 +160,13 @@ def update(
                 res_tup.append({f'<{idx}>' : value})
                 idx += 1
 
-            replace = data['auto-update']['vercheck']['replace']
+            replace = re.findall(data['auto-update']['vercheck']['regex'])
 
-            for value in res_tup:
-                replace = replace.replace(list(value.keys())[0], list(value.values())[0])
+            if 'replace' in list(data['auto-update']['vercheck'].keys()):
+                replace = data['auto-update']['vercheck']['replace']
+
+                for value in res_tup:
+                    replace = replace.replace(list(value.keys())[0], list(value.values())[0])
 
             url = data['auto-update']['url']
 
@@ -171,16 +174,19 @@ def update(
                 '<version>': replace
             }
 
+            print(versions)
+            
             versions['<underscore-version>'] = replace.replace('.', '_')
             versions['<dash-version>'] = replace.replace('.', '-')
             versions['<clean-version>'] = replace.replace('.', '')
 
-            if len(versions.split('.')) == 4:
+            if len(versions['<version>'].split('.')) == 4:
                 versions['<major-version>'] = replace.split('.')[0]
                 versions['<minor-version>'] = replace.split('.')[1]
                 versions['<patch-version>'] = replace.split('.')[2]
                 versions['<build-version>'] = replace.split('.')[3]
-            elif len(versions.split('.')) == 3:
+
+            elif len(versions['<version>'].split('.')) == 3:
                 versions['<major-version>'] = replace.split('.')[0]
                 versions['<minor-version>'] = replace.split('.')[1]
                 versions['<build-version>'] = replace.split('.')[2]
