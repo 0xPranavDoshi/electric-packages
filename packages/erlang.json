@@ -1,0 +1,10 @@
+{
+    "display-name": "Erlang",
+    "package-name": "erlang",
+    "latest-version": "22.3",
+    "22.3": {
+        "url": "https://www.erlang.org/download/otp_win64_22.3.exe",
+        "file-type": ".exe",
+        ""
+    }
+}
