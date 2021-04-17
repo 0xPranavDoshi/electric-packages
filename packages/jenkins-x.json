@@ -1,0 +1,20 @@
+{
+    "display-name": "Jenkins X",
+    "package-name": "jenkins-x",
+    "latest-version": "3.2.46",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Jenkins X",
+        "package-name": "jenkins-x",
+        "latest-version": "3.2.46",        
+        "3.2.46": {
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.46/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        }
+    }
+   
+}
