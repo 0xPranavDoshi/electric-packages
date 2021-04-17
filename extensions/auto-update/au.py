@@ -10,24 +10,19 @@ USER_NAME = getpass.getuser()
 
 def add_to_startup(file_path=""):
     import os
- 
+
     if file_path == "":
         file_path = os.path.dirname(os.path.realpath(__file__))
 
-    name = ''
-    pid = os.system('py --version')
-    if pid == 0:
-        name = 'py'
-    else:
-        name = 'python'
-        pid = os.system(name)
-        if pid != 0:
-            print('Could not find any existing installations of python!')
-            os._exit(1)
+    
 
     bat_path = r'C:\Users\%s\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup' % USER_NAME
     with open(bat_path + '\\' + "open.bat", "w+") as bat_file:
-        bat_file.write(f'{name} \"{file_path}\"')
+        # wscript.exe "C:\Wherever\invisible.vbs" "C:\Some Other Place\MyBatchFile.bat"'
+        # launch.bat calls `py auto-update.py`
+
+        bat_file.write(rf'wscript.exe "{file_path}\config\launch.vbs" "{file_path}\config\launch.bat"')
+
 
 string = r'''
 import os
@@ -52,10 +47,32 @@ def setup():
     import os
     directory = input('Enter the directory which contains all packages to automatically update\nExample: C:\\Users\\bob\\electric-packages\n> ')
     if directory and os.path.isdir(directory):
-        with open(rf'{directory}\auto-update.py', 'w+') as f:
+        # Silently launch the auto-update file.
+
+        if not os.path.isdir(rf'{directory}\config'):
+            os.mkdir(rf'{directory}\config')
+        
+        with open(rf'{directory}\config\launch.vbs', 'w+') as f:
+            f.write(r'CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False')
+        
+        with open(rf'{directory}\config\launch.bat', 'w+') as f:
+            name = ''
+            pid = os.system('py --version')
+            if pid == 0:
+                name = 'py'
+            else:
+                name = 'python'
+                pid = os.system(name)
+            
+            if pid != 0:
+                print('Could not find any existing installations of python!')
+                os._exit(1)
+            f.write(rf'{name} "{directory}\config\auto-update.py"')
+
+        with open(rf'{directory}\config\auto-update.py', 'w+') as f:
             f.write(string.replace('directory', f'r\'{directory}\''))
 
-        add_to_startup(rf'{directory}\auto-update.py')
+        add_to_startup(directory)
 
         print(f'Successfully Setup Auto-Update For Packages In {directory}')
     else:
