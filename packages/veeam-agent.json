@@ -1,0 +1,35 @@
+{
+    "display-name": "Veeam Agent For Microsoft Windows",
+    "package-name": "veeam-agent",
+    "portable": {
+        "display-name": "Veeam Agent For Microsoft Windows",
+        "package-name": "veeam-agent",
+        "latest-version": "5.0.0.4301",
+        "5.0.0.4301": {
+            "url": "https://download2.veeam.com/VAW/v5/VeeamAgentWindows_5.0.0.4301.zip",
+            "file-type": ".zip",
+            "pre-install": [
+                {
+                    "type": "python",
+                    "admin": false,
+                    "override": true,
+                    "code": [
+                        "import zipfile",
+                        "import os",
+                        "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
+                        "    zip_ref.extractall(r'<temp>\\electric')",
+                        "path = r'<temp>\\electric\\VeeamAgentWindows_5.0.0.4301.exe'",
+                        "os.system(f'{path} /silent /accepteula /acceptthirdpartylicenses')",
+                        "os.system('electric register <package-name> --version <version>')",
+                        "print('Successfully Installed <display-name>')"
+                    ]
+                }
+            ],
+            "install-switches": [],
+            "uninstall-switches": [],
+            "run-check": true,
+            "custom-location": "",
+            "dependencies": []    
+        }
+    }
+}
