@@ -1,7 +1,6 @@
 {
     "display-name": "Jenkins X",
     "package-name": "jenkins-x",
-    "latest-version": "3.2.46",
     "is-portable": true,
     "portable": {
         "display-name": "Jenkins X",
