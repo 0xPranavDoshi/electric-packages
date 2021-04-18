@@ -1,0 +1,25 @@
+{
+    "display-name": "Composer",
+    "package-name": "composer",
+    "latest-version": "6.1.0",
+    "6.1.0": {
+        "url": "https://github.com/composer/windows-setup/releases/download/v6.1.0/Composer-Setup.6.1.0.exe",
+        "file-type": ".exe",
+        "checksum": "F3FE32CCCDF21E0E58DAF505823D2B9426AF6A4F754318217F9E6E23744AF781",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    }
+}
