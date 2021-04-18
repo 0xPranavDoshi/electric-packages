@@ -15,7 +15,7 @@ If you want to **upload a package yourselves**, make sure you go to https://www.
 Get a list of commands electric can execute by typing `electric` in your shell.
 ```ps1
 > electric
-Electric Package Manager v1.0.0 Pre-Alpha Build
+Electric Package Manager v1.0.0 Beta Build
 Copyright (c) Electric Inc.
 
 Usage: electric <command> [<options>]
