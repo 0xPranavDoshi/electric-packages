@@ -1,0 +1,17 @@
+{
+    "display-name": "foobar2000",
+    "package-name": "foobar2000",
+    "latest-version": "1.6.5",
+    "1.6.5": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}
