@@ -49,7 +49,7 @@
         ],
         "custom-location": "",
         "dependencies": [
-            "visual-studio-build-tools-2017"
+            "visual-studio-build-tools-2019"
         ],
         "checksum": "A586CF9DE3E4AA791FD5796B6A5F99CA05591CCEF8BB94E53AF5B69F0261FB03"
     }
