@@ -1,5 +1,5 @@
 {
-    "display-name": "Anaconda Distribution",
+    "display-name": "Anaconda3*",
     "package-name": "anaconda",
     "latest-version": "2020.11",
     "2020.11": {
