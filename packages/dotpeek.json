@@ -5,6 +5,7 @@
     "2021.1.1": {
         "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.1/JetBrains.dotPeek.2021.1.1.web.exe",
         "file-type": ".exe",
+        "checksum": "28DA188DB0628537F20F3BBD37E56AFFC238C15A8B2C478DABD43ABD58FA4DDB",
         "install-switches": [
             "/Silent=True",
             "/SpecificProductNames=dotPeek 2021.1.1",

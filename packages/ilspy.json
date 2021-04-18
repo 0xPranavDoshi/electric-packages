@@ -1,0 +1,22 @@
+{
+    "display-name": "ILSpy",
+    "package-name": "ilspy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "ILSpy",
+        "package-name": "ilspy",
+        "latest-version": "6.2.1",
+        "6.2.1": {
+            "url": "https://github.com/icsharpcode/ILSpy/releases/download/v6.2.1/ILSpy_binaries_6.2.1.6137.zip",
+            "file-type": ".zip",
+            "shortcuts": [
+                {
+                    "shortcut-name": "ILSpy",
+                    "file-name": "ILSpy.exe"
+                }
+            ],
+            "dependencies": []
+        }
+    }
+    
+}
