@@ -1,0 +1,18 @@
+{
+    "display-name": "LastPass",
+    "package-name": "lastpass",
+    "latest-version": "4.69.0",
+    "4.69.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}
