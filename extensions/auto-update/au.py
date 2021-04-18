@@ -174,6 +174,7 @@ def update(
                 idx += 1
             
             result = web_version
+            replace = result
 
             if 'replace' in list(data['auto-update']['vercheck'].keys()):
                 replace = data['auto-update']['vercheck']['replace']
