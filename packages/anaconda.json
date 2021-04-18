@@ -8,6 +8,7 @@
         "install-switches": [
             "/InstallationType=AllUsers",
             "/RegisterPython=1",
+            "/AddToPath=1",
             "/S"
         ],
         "uninstall-switches": [],
