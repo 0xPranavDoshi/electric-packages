@@ -20,7 +20,7 @@
                     "file-name": "bin\\studio64.exe"
                 }
             ],
-            "checksum": "3BC9593C613ABE85F5EB66816889EFCE37AB695CEF14D9FF1C4187F6AE918358"
+            "checksum": "7FB6E49E76EAD2FF389C37F83A6C90526AA1F716AECE028C8B8C34EDF8CE9804"
         }
     },
     "nightly": {
@@ -52,6 +52,6 @@
         "valid-install-exit-codes": [
             1223
         ],
-        "checksum": "AEB452C18F0341C5691CAD160B2E116BD95999C5CBC479E773A3B8AF1A012B3D"
+        "checksum": "7FB6E49E76EAD2FF389C37F83A6C90526AA1F716AECE028C8B8C34EDF8CE9804"
     }
 }
