@@ -18,8 +18,8 @@
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
+        "checksum": "6A0CFED327B00CF8FEFEF4BD5C8BA85B5364F3E56345772410572F2D821CA14D",
         "custom-location": "/DIR=",
-        "dependencies": [],
-        "checksum": "6A0CFED327B00CF8FEFEF4BD5C8BA85B5364F3E56345772410572F2D821CA14D"
+        "dependencies": []
     }
 }

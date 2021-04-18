@@ -1,0 +1,18 @@
+{
+    "display-name": "QGIS",
+    "package-name": "qgis-ltr",
+    "latest-version": "3.16.5",
+    "3.16.5": {
+        "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.16.5-1-Setup-x86_64.exe",
+        "file-type": ".exe",
+        "checksum": "E2B3ACE3DDB15594F1EEB590C4CC3DBC5DB12135B202F4ABCAAA15DF8AFC7E6F",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}
