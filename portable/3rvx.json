@@ -20,5 +20,12 @@
             ],
             "persist": "Settings.xml"
         }
+    },
+    "auto-update": {
+        "url": "https://3rvx.com/releases/3RVX-<version>.zip",
+        "vercheck": {
+            "webpage": "",
+            "regex": ""  
+        }
     }
 }
