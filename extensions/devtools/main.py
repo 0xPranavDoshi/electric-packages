@@ -51,7 +51,7 @@ installed_software = send_query(winreg.HKEY_LOCAL_MACHINE, winreg.KEY_WOW64_32KE
         
 names = [software['DisplayName'] for software in installed_software]
 
-num = int(input('Enter 1 => Find Display Name For Software\nEnter 2 => Test If Display Name Has A Match\n>'))
+num = int(input('Enter 1 => Find Display Name For Software\nEnter 2 => Test If Display Name Has A Match\n> '))
 
 
 if num == 1:
@@ -69,6 +69,13 @@ if num == 2:
         test = input('Enter the display name of the package you want to test for > ')
     except KeyboardInterrupt:
         sys.exit()
+
+    if test.endswith('*'):
+        for name in names:
+            if test.replace('*', '') in name:
+                match = name
+                print(f'Great! 1 Match Found => {match}')
+                sys.exit()
 
     matches = get_close_matches(test, names, cutoff=0.65)
 
