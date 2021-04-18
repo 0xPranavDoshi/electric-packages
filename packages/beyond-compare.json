@@ -1,0 +1,25 @@
+{
+    "display-name": "Beyond Compare",
+    "package-name": "beyond-compare",
+    "latest-version": "4.3.7.25118",
+    "4.3.7.25118": {
+        "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118.exe",
+        "file-type": ".exe",
+        "checksum": "F10084A5D2BD7F6E1542FC2D56FB9B5C012422D10346D0ECD636030C4337B169",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    }
+}
