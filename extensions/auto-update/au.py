@@ -168,7 +168,13 @@ def update(
             res_tup = []
 
             result = re.findall(data['auto-update']['vercheck']['regex'], html)
+
             web_version = result[0]
+
+            if 'reverse' in list(data['auto-update']['vercheck'].keys()):
+                if data['auto-update']['vercheck']['reverse'] == True:
+                    web_version = result[-1]
+
             for value in web_version:
                 res_tup.append({f'<{idx}>' : value})
                 idx += 1
@@ -321,6 +327,11 @@ def update(
 
                         result = re.findall(data['portable']['auto-update']['vercheck']['regex'], html)
                         web_version = result[0]
+
+                        if 'reverse' in list(data['auto-update']['vercheck'].keys()):
+                            if data['auto-update']['vercheck']['reverse'] == True:
+                                web_version = result[-1]
+
                         for value in web_version:
                             res_tup.append({f'<{idx}>' : value})
                             idx += 1
@@ -473,6 +484,11 @@ def update(
 
             result = re.findall(data['portable']['auto-update']['vercheck']['regex'], html)
             web_version = result[0]
+
+            if 'reverse' in list(data['auto-update']['vercheck'].keys()):
+                if data['auto-update']['vercheck']['reverse'] == True:
+                    web_version = result[-1]
+
             for value in web_version:
                 res_tup.append({f'<{idx}>' : value})
                 idx += 1
