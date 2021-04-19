@@ -1,5 +1,5 @@
 {
-    "display-name": "Microsoft Azure Storage AzCopy",
+    "display-name": "Microsoft Azure Storage AzCopy*",
     "package-name": "azcopy",
     "latest-version": "8.1.0",
     "8.1.0": {

@@ -1,9 +1,33 @@
 {
     "display-name": "AWS CLI",
     "package-name": "awscli",
-    "latest-version": "2.1.28",
+    "latest-version": "2.1.38",
+    "auto-update": {
+        "url": "https://awscli.amazonaws.com/AWSCLIV2-<version>.msi",
+        "vercheck": {
+            "webpage": "https://github.com/aws/aws-cli",
+            "type": "github"
+        }
+    },
     "2.1.28": {
-        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.28.msi",
+        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.38.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "BC0BBFCF92DABB271ECA11B5BB38726B6BA62245E7301B5B8C34B5A8C744AC28"
+    },
+    "2.1.38": {
+        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.38.msi",
         "file-type": ".msi",
         "install-switches": [
             "/passive",

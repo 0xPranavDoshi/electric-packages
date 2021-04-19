@@ -6,6 +6,13 @@
         "display-name": "Autorun",
         "package-name": "autorun",
         "latest-version": "13.98",
+        "auto-update": {
+            "url": "https://download.sysinternals.com/files/Autoruns.zip",
+            "vercheck": {
+                "webpage": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
+                "regex": "Autoruns for Windows v([\\d.]+)"
+            }
+        },
         "13.98": {
             "url": "https://download.sysinternals.com/files/Autoruns.zip",
             "file-type": ".zip",

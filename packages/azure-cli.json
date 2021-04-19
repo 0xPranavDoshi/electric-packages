@@ -1,9 +1,16 @@
 {
     "display-name": "Microsoft CLI 2.0 for Azure",
     "package-name": "azure-cli",
-    "latest-version": "2.19.1",
+    "latest-version": "2.22.1",
+    "auto-update": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-<version>.msi",
+        "vercheck": {
+            "webpage": "https://github.com/Azure/azure-cli",
+            "regex": "/releases/tag/azure-cli-([\\d.]+)"
+        }
+    },
     "2.19.1": {
-        "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.19.1.msi",
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.19.1.msi",
         "file-type": ".msi",
         "install-switches": [
             "/qn",
@@ -18,5 +25,22 @@
         "custom-location": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "01928A7CE325B49FF5B1D294404801AC6A4203CFB328A26F3A62B3A001CF1584"
+    },
+    "2.22.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.22.1.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "FD2A464F79EF8C9B9B860D622DC1D3EB701CBF25798A8BD02A2096204E29D331"
     }
 }
