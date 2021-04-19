@@ -6,6 +6,13 @@
         "display-name": "Bazel",
         "package-name": "bazel",
         "latest-version": "4.0.0",
+        "auto-update": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/<version>/bazel-<version>-windows-x86_64.zip",
+            "vercheck": {
+                "webpage": "https://github.com/bazelbuild/bazel",
+                "type": "github"
+            }
+        },
         "4.0.0": {
             "url": "https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-windows-x86_64.zip",
             "file-type": ".zip",

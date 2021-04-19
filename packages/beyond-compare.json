@@ -2,24 +2,27 @@
     "display-name": "Beyond Compare",
     "package-name": "beyond-compare",
     "latest-version": "4.3.7.25118",
-    "4.3.7.25118": {
+    "auto-update": {
         "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118.exe",
-        "file-type": ".exe",
-        "checksum": "F10084A5D2BD7F6E1542FC2D56FB9B5C012422D10346D0ECD636030C4337B169",
+        "vercheck": {
+            "webpage": "https://www.scootersoftware.com/download.php?zz=kb_dl4_winalternate",
+            "regex": "BCompare-([\\d.]+)_x64\\.msi"
+        }
+    },
+    "4.3.7.25118": {
+        "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
+        "file-type": ".msi",
         "install-switches": [
-            "/SP-",
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES",
-            "/NOCANCEL",
-            "/NORESTART",
-            "/FORCECLOSEAPPLICATIONS"
+            "/qn",
+            "/quiet",
+            "/norestart"
         ],
         "uninstall-switches": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES",
-            "/NORESTART"
+            "/qn",
+            "/quiet",
+            "/norestart"
         ],
-        "custom-location": "/DIR=",
+        "custom-location": "INSTALLDIR=",
         "dependencies": []
     }
 }

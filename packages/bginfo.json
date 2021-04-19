@@ -4,6 +4,13 @@
     "is-portable": true,
     "portable": {
         "latest-version": "4.28",
+        "auto-update": {
+            "url": "https://download.sysinternals.com/files/BGInfo.zip",
+            "vercheck": {
+                "webpage": "https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo",
+                "regex": "BgInfo v([\\d.]+)"
+            }
+        },
         "4.28": {
             "url": "https://download.sysinternals.com/files/BGInfo.zip",
             "file-type": ".zip",
