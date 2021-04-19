@@ -15,7 +15,7 @@
                 "vim.exe",
                 "gvim.exe"
             ],
-            "checksum": "ED895091736B00E30BDF78668E76316372DD78430A3F108EDB013E196BF05F5E"
+            "checksum": "CB24B5DF40914CCC88CD3147E64D69EF812FB6D335D196CE62360AB19B9FD655"
         }
     },
     "8.2.2553": {
@@ -28,6 +28,7 @@
             "/S"
         ],
         "custom-location": "/D=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "EF71A74ECBCEB3C72095E33F6CCDB68035B546EB426B19A0BB65CFCB94E562ED"
     }
 }
