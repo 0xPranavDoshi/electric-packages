@@ -7,6 +7,7 @@
     "install-switches": ["-s"],
     "uninstall-switches": ["-s"],
     "custom-location": "",
-    "dependencies": []
+    "dependencies": [],
+    "checksum": "21F86612F802E48CA2B67BE22FD4AA112B6638FE3F7184974667D39F79B13A9E"
   }
 }

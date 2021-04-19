@@ -12,6 +12,7 @@
             "/S"
         ],
         "custom-location": "/D=",
-        "dependencies": ["erlang"]
+        "dependencies": ["erlang"],
+        "checksum": "0CDD258056CD614A27135009F1849AC370AB41A04B7C2FD78D78ADEBB5AE771"
     }
 }

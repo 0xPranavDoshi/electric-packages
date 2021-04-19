@@ -20,6 +20,7 @@
             "/NORESTART"
         ],
         "custom-location": "/DIR=",
-        "dependencies": []
+        "dependencies": [],
+        "checksum": "5F13EDC7DCE7D3FC6BC42D7545ABAC89D7EF4D4F3884C479F64CC28D95E353D2"
     }  
 }

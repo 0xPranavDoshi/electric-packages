@@ -12,7 +12,7 @@
             "extract-dir": "nano",
             "chdir": "nano-2.5.3-win32",
             "bin": "nano.exe",
-            "checksum": "1AE82E7F227CAB780E408547E8670464598F172BA6C9839144BD527EAD433356"
+            "checksum": "C012456B9F29E488B0E9A688AA43A34326DD573F9E99765CBDAC2B81A4BC1060"
         }
     }
 }

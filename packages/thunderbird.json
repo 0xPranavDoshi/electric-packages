@@ -8,6 +8,7 @@
     "install-switches": ["/passive", "/quiet", "/norestart"],
     "uninstall-switches": ["/passive", "/quiet", "/norestart"],
     "custom-location": "INSTALLDIR=",
-    "dependencies": []
+    "dependencies": [],
+    "checksum": "C4F5E3896F2D7C3FD7FCCA3540F5C35E32511702812428B01E2DBC11883F6DD5"
   }
 }

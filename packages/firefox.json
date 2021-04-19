@@ -6,6 +6,7 @@
   "85.0.1": {
     "url": "https://download.mozilla.org/?product=firefox-msi-latest-ssl&os=win64&lang=en-US",
     "file-type": ".msi",
+    "checksum": "AB6A232C5108CD04C9FC13175E9ACCE6F372EA838026C1C9A6A8ABCF034B4DB6",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR",
