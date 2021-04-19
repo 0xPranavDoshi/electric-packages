@@ -1,9 +1,16 @@
 {
     "display-name": "Audacity",
     "package-name": "audacity",
-    "latest-version": "3.0.0",
+    "latest-version": "3.0.2",
+    "auto-update": {
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>.exe",
+        "vercheck": {
+            "webpage": "https://fossies.org/windows/misc/",
+            "regex": "[Aa]udacity-win-([\\d.]+)\\.exe\""
+        }
+    },
     "3.0.0": {
-        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.0/audacity-win-3.0.0.exe",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
         "file-type": ".exe",
         "install-switches": [
             "/SP-",
@@ -18,7 +25,27 @@
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "checksum": "6A0CFED327B00CF8FEFEF4BD5C8BA85B5364F3E56345772410572F2D821CA14D",
+        "checksum": "860E8918BA5E702FDE9CE48299221EA54C88CF38AFC10BE30746B6FE88BC2BA7",
+        "custom-location": "/DIR=",
+        "dependencies": []
+    },
+    "3.0.2": {
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "checksum": "860E8918BA5E702FDE9CE48299221EA54C88CF38AFC10BE30746B6FE88BC2BA7",
         "custom-location": "/DIR=",
         "dependencies": []
     }
