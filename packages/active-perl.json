@@ -10,7 +10,7 @@
         }
     },
     "5.26": {
-        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
+        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.26.msi",
         "file-type": ".msi",
         "install-switches": [
             "/qn",
