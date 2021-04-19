@@ -21,20 +21,8 @@
                     "file-name": "atom.exe"
                 }
             ],
-            "checksum": "FF0A41632267A7821F696E381CE6F39688F9BE7ABABCB3B23B4491E01D18CFD6"
+            "checksum": "0DB7944CD773EB9A4523D63DC38E3BAD6C3247BD91ECB5A451120B7B0AA9614C"
         }
-    },
-    "nightly": {
-        "url": "https://github.com/atom/atom/releases/download/v1.54.0-beta0/AtomSetup-x64.exe",
-        "file-type": ".exe",
-        "install-switches": [
-            "--silent"
-        ],
-        "uninstall-switches": [
-            "--silent"
-        ],
-        "custom-location": "None",
-        "dependencies": []
     },
     "1.53.0": {
         "url": "https://github.com/atom/atom/releases/download/v1.53.0/AtomSetup-x64.exe",
@@ -52,6 +40,7 @@
     "1.52.0": {
         "url": "https://github.com/atom/atom/releases/download/v1.52.0/AtomSetup-x64.exe",
         "file-type": ".exe",
+        "checksum": "BC54DECCF0822AB1F2212C8C0780C0ADC1110D8373DDCF8BDB070EED3AFCB078",
         "install-switches": [
             "--silent"
         ],
