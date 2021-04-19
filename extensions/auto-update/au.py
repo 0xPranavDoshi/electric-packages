@@ -26,8 +26,8 @@ def add_to_startup(file_path=""):
 
 string = r'''
 import os
-os.chdir(r'C:\Users\xtrem\Desktop\test')
-for package in os.listdir(r'C:\Users\xtrem\Desktop\test'):
+os.chdir(directory)
+for package in os.listdir(directory):
     if package.endswith('.json'):
         os.system(f'au update {package}')
 os.system('git push -u origin master')
@@ -78,6 +78,14 @@ def setup():
     else:
         print(f'{directory} Is Not A Valid Directory!')
 
+def get_key(val, dictionary):
+    for key, value in dictionary.items():
+        if val == value:
+            return key
+
+    return "key doesn't exist"
+
+
 @cli.command()
 @click.argument('file_path', required=True)
 def update(
@@ -105,44 +113,37 @@ def update(
         latest_version = data['latest-version']
 
         webpage = data['auto-update']['vercheck']['webpage']
+        dt = data['auto-update']['vercheck']['type'] if 'type' in list(data['auto-update']['vercheck'].keys()) else False
 
         print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
 
-        if 'github.com' in webpage:
+        if 'github.com' in webpage and dt:
             if webpage.endswith('/'):
                 webpage = webpage[:-1]
-            webpage = webpage + '/tags'
+            webpage = webpage + '/releases'
         
         html = swc(webpage.strip())
 
-        soup = BeautifulSoup(html, features="html.parser")
+        if 'github.com' in webpage and dt:
 
-        if 'github.com' in webpage:
-            version_list = {}
+            version_list = re.findall(r'\/releases\/tag\/(v|V)?([\d.]+)', html)
 
-            for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
-                if tag:
-                    try:
-                        version_list[tag.find('a').text.strip().replace('v', '').replace('V', '')] = int(
-                            tag.find('a').text.strip().replace('.', '').replace('v', '').replace('V', ''))
-                    except:
-                            pass
+            print(f'Detected Versions On Webpage:', [value[1] for value in version_list])
 
-            print(f'Detected Versions On Webpage:', list(version_list.keys()))
+            web_version = ''
+            vl = {}
 
-            try:
-                web_version = max(version_list, key=version_list.get)
-            except:
-                print(f'{Fore.LIGHTRED_EX}No Versions Detected On Webpage!{Fore.RESET}')
-                if webpage.startswith('https://www.github.com'):
-                    print('You must send a web request to /tags not /releases. For example: https://github.com/atom/atom/tags not https://github.com/atom/atom/releases')
-                sys.exit()
+            for sh in version_list:
+                v = sh[1]
+                val = v.replace('v', '').replace('V', '').replace('.', '')
+                vl[v] = val
+
+            web_version = max(list(vl.keys()))
 
             print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
 
-            int_web_version = int(web_version.strip().replace(
-                'v', '').replace('V', '').replace('.', ''))
-
+            int_web_version = int(web_version.replace('.', '').replace('v', '').replace('V', ''))
+            
             try:
                 int_current_version = int(latest_version.strip().replace(
                     'v', '').replace('V', '').replace('.', ''))
@@ -167,13 +168,14 @@ def update(
 
                 with open(file_path, 'w+') as f:
                     f.write(formatted_json)
-
+            else:
+                print(f'{package_name} is already on the latest version')
         else:
             idx = 1
             res_tup = []
 
             result = re.findall(data['auto-update']['vercheck']['regex'], html)
-
+            
             web_version = result[0]
 
             if 'reverse' in list(data['auto-update']['vercheck'].keys()):
@@ -269,64 +271,48 @@ def update(
                     webpage = data['portable']['auto-update']['vercheck']['webpage']
 
                     print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
+                    dt = data['portable']['auto-update']['vercheck']['type'] if 'type' in list(data['portable']['auto-update']['vercheck'].keys()) else False
 
-                    if 'github.com' in webpage:
+                    if 'github.com' in webpage and dt:
                         if webpage.endswith('/'):
                             webpage = webpage[:-1]
-                        webpage = webpage + '/tags'
-
+                        webpage = webpage + '/releases'
+                    
                     html = swc(webpage.strip())
-                    
 
-                    soup = BeautifulSoup(html, features="html.parser")
-                    
-                    if 'github.com' in webpage:
-                        version_list = {}
+                    if 'github.com' in webpage and dt:
+                        version_list = re.findall(r'\/releases\/tag\/(v|V)?([\d.]+)', html)
 
-                        webpage = webpage + '/tags'
+                        print(f'Detected Versions On Webpage:', [value[1] for value in version_list])
 
-                        for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
-                            if tag:
-                                try:
-                                    version_list[tag.find('a').text.strip().replace('v', '').replace('V', '')] = int(
-                                        tag.find('a').text.strip().replace('.', '').replace('v', '').replace('V', ''))
-                                except:
-                                        pass
+                        web_version = ''
+                        vl = {}
 
-                        print(f'Detected Versions On Webpage:', list(version_list.keys()))
+                        for sh in version_list:
+                            v = sh[1]
+                            val = v.replace('v', '').replace('V', '').replace('.', '')
+                            vl[v] = val
 
-                        try:
-                            web_version = max(version_list, key=version_list.get)
-                        except:
-                            print(f'{Fore.LIGHTRED_EX}No Versions Detected On Webpage!{Fore.RESET}')
-                            if webpage.startswith('https://www.github.com'):
-                                print('You must send a web request to /tags not /releases. For example: https://github.com/atom/atom/tags not https://github.com/atom/atom/releases')
-                            sys.exit()
+                        web_version = max(list(vl.keys()))
 
                         print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
 
-                        try:
-                            int_web_version = int(web_version.strip().replace(
-                                'v', '').replace('V', '').replace('.', ''))
-                        except:
-                            print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
-                            sys.exit()
-
+                        int_web_version = int(web_version.replace('.', '').replace('v', '').replace('V', ''))
+                        
                         try:
                             int_current_version = int(latest_version.strip().replace(
                                 'v', '').replace('V', '').replace('.', ''))
                         except:
                             print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
-                            sys.exit()
 
                         if int_current_version < int_web_version:
                             print(
                                 f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
                             old_latest = latest_version
-                            data['portable']['latest-version'] = web_version
-                            data['portable'][web_version] = data[old_latest]
-                            data['portable'][web_version]['url'] = data['auto-update']['url'].replace(
+                            data['latest-version'] = web_version
+                            data[web_version] = data[old_latest]
+                            data[web_version]['url'] = data['auto-update']['url'].replace(
                                 '<version>', web_version)
                             from pygments import highlight, lexers, formatters
 
@@ -337,6 +323,8 @@ def update(
 
                             with open(file_path, 'w+') as f:
                                 f.write(formatted_json)
+                        else:
+                            print(f'{package_name} is already on the latest version')
                     else:
                         idx = 1
                         res_tup = []
@@ -424,63 +412,53 @@ def update(
                 print(f'{package_name} is already on its latest version')
     else:
         # Update portable version
-        package_name = data['portable']['package-name']
+        package_name = data['package-name']
 
         latest_version = data['portable']['latest-version']
-
-        if 'auto-update' not in list(data.keys()):
+        
+        if 'auto-update' not in list(data['portable'].keys()):
             sys.exit()
 
         webpage = data['portable']['auto-update']['vercheck']['webpage']
+        
+        try:
+            dt = data['portable']['auto-update']['vercheck']['type'] if 'type' in list(data['portable']['auto-update']['vercheck'].keys()) else False
+        except:
+            dt = False
 
         print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
         
-        if 'github.com' in webpage:
+        if 'github.com' in webpage and dt:
             if webpage.endswith('/'):
                 webpage = webpage[:-1]
-            webpage = webpage + '/tags'
-
-        html = swc(webpage.strip())
-
-        soup = BeautifulSoup(html, features="html.parser")
+            webpage = webpage + '/releases'
         
-        if 'github.com' in webpage:
-            version_list = {}
+        html = swc(webpage.strip())
+        
+        if 'github.com' in webpage and dt:
+            version_list = re.findall(r'\/releases\/tag\/(v|V)?([\d.]+)', html)
 
+            print(f'Detected Versions On Webpage:', [value[1] for value in version_list])
 
-            for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
-                if tag:
-                    try:
-                        version_list[tag.find('a').text.strip().replace('v', '').replace('V', '')] = int(
-                            tag.find('a').text.strip().replace('.', '').replace('v', '').replace('V', ''))
-                    except:
-                            pass
+            web_version = ''
+            vl = {}
 
-            print(f'Detected Versions On Webpage:', list(version_list.keys()))
+            for sh in version_list:
+                v = sh[1]
+                val = v.replace('v', '').replace('V', '').replace('.', '')
+                vl[v] = val
 
-            try:
-                web_version = max(version_list, key=version_list.get)
-            except:
-                print(f'{Fore.LIGHTRED_EX}No Versions Detected On Webpage!{Fore.RESET}')
-                if webpage.startswith('https://www.github.com'):
-                    print('You must send a web request to /tags not /releases. For example: https://github.com/atom/atom/tags not https://github.com/atom/atom/releases')
-                sys.exit()
+            web_version = max(list(vl.keys()))
 
             print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
 
-            try:
-                int_web_version = int(web_version.strip().replace(
-                    'v', '').replace('V', '').replace('.', ''))
-            except:
-                print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
-                sys.exit()
-
+            int_web_version = int(web_version.replace('.', '').replace('v', '').replace('V', ''))
+            
             try:
                 int_current_version = int(latest_version.strip().replace(
                     'v', '').replace('V', '').replace('.', ''))
             except:
                 print(f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
-                sys.exit()
 
             if int_current_version < int_web_version:
                 print(
@@ -500,6 +478,8 @@ def update(
 
                 with open(file_path, 'w+') as f:
                     f.write(formatted_json)
+            else:
+                print(f'{package_name} is already on the latest version')
         else:
             idx = 1
             res_tup = []
@@ -508,8 +488,8 @@ def update(
 
             web_version = result[0]
 
-            if 'reverse' in list(data['auto-update']['vercheck'].keys()):
-                if data['auto-update']['vercheck']['reverse'] == True:
+            if 'reverse' in list(data['portable']['auto-update']['vercheck'].keys()):
+                if data['portable']['auto-update']['vercheck']['reverse'] == True:
                     web_version = result[-1]
 
             for value in web_version:
@@ -517,6 +497,7 @@ def update(
                 idx += 1
             
             result = web_version
+            replace = result
 
             if 'replace' in list(data['portable']['auto-update']['vercheck'].keys()):
                 replace = data['portable']['auto-update']['vercheck']['replace']
@@ -559,7 +540,7 @@ def update(
 
                 checksum = ''
 
-                if 'checksum' in list(data[data['latest-version']].keys()):
+                if 'checksum' in list(data['portable'].keys()):
                     os.system(rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
                     proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                     output, _ = proc.communicate()
