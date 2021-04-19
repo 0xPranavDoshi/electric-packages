@@ -108,16 +108,17 @@ def update(
 
         print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
 
+        if 'github.com' in webpage:
+            if webpage.endswith('/'):
+                webpage = webpage[:-1]
+            webpage = webpage + '/tags'
+        
         html = swc(webpage.strip())
 
         soup = BeautifulSoup(html, features="html.parser")
 
         if 'github.com' in webpage:
             version_list = {}
-            if webpage.endswith('/'):
-                webpage = webpage[:-1]
-
-            webpage = webpage + '/tags'
 
             for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
                 if tag:
@@ -269,15 +270,18 @@ def update(
 
                     print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
 
+                    if 'github.com' in webpage:
+                        if webpage.endswith('/'):
+                            webpage = webpage[:-1]
+                        webpage = webpage + '/tags'
+
                     html = swc(webpage.strip())
+                    
 
                     soup = BeautifulSoup(html, features="html.parser")
                     
                     if 'github.com' in webpage:
                         version_list = {}
-
-                        if webpage.endswith('/'):
-                            webpage = webpage[:-1]
 
                         webpage = webpage + '/tags'
 
@@ -430,6 +434,11 @@ def update(
         webpage = data['portable']['auto-update']['vercheck']['webpage']
 
         print(f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
+        
+        if 'github.com' in webpage:
+            if webpage.endswith('/'):
+                webpage = webpage[:-1]
+            webpage = webpage + '/tags'
 
         html = swc(webpage.strip())
 
@@ -438,10 +447,6 @@ def update(
         if 'github.com' in webpage:
             version_list = {}
 
-            if webpage.endswith('/'):
-                webpage = webpage[:-1]
-
-            webpage = webpage + '/tags'
 
             for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
                 if tag:
