@@ -114,6 +114,10 @@ def update(
 
         if 'github.com' in webpage:
             version_list = {}
+            if webpage.endswith('/'):
+                webpage = webpage[:-1]
+
+            webpage = webpage + '/tags'
 
             for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
                 if tag:
@@ -174,13 +178,15 @@ def update(
             if 'reverse' in list(data['auto-update']['vercheck'].keys()):
                 if data['auto-update']['vercheck']['reverse'] == True:
                     web_version = result[-1]
-
-            for value in web_version:
-                res_tup.append({f'<{idx}>' : value})
-                idx += 1
+            
+            if isinstance(web_version, tuple):
+                for value in web_version:
+                    res_tup.append({f'<{idx}>' : value})
+                    idx += 1
             
             result = web_version
             replace = result
+
 
             if 'replace' in list(data['auto-update']['vercheck'].keys()):
                 replace = data['auto-update']['vercheck']['replace']
@@ -194,26 +200,27 @@ def update(
                 '<version>': replace
             }
             
-            versions['<underscore-version>'] = replace.replace('.', '_')
-            versions['<dash-version>'] = replace.replace('.', '-')
-            versions['<clean-version>'] = replace.replace('.', '')
+            if isinstance(replace, str):
+                versions['<underscore-version>'] = replace.replace('.', '_')
+                versions['<dash-version>'] = replace.replace('.', '-')
+                versions['<clean-version>'] = replace.replace('.', '')
 
-            if len(versions['<version>'].split('.')) == 4:
-                versions['<major-version>'] = replace.split('.')[0]
-                versions['<minor-version>'] = replace.split('.')[1]
-                versions['<patch-version>'] = replace.split('.')[2]
-                versions['<build-version>'] = replace.split('.')[3]
+                if len(versions['<version>'].split('.')) == 4:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
+                    versions['<patch-version>'] = replace.split('.')[2]
+                    versions['<build-version>'] = replace.split('.')[3]
 
-            elif len(versions['<version>'].split('.')) == 3:
-                versions['<major-version>'] = replace.split('.')[0]
-                versions['<minor-version>'] = replace.split('.')[1]
-                versions['<build-version>'] = replace.split('.')[2]
-            
-            for v in versions:
-                url = url.replace(v, versions[v])
+                elif len(versions['<version>'].split('.')) == 3:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
+                    versions['<build-version>'] = replace.split('.')[2]
+                
+                for v in versions:
+                    url = url.replace(v, versions[v])
 
-            for value in res_tup:
-                url = url.replace(list(value.keys())[0], list(value.values())[0])
+                for value in res_tup:
+                    url = url.replace(list(value.keys())[0], list(value.values())[0])
 
             version = data['latest-version']
 
@@ -249,7 +256,7 @@ def update(
                 with open(file_path, 'w+') as f:
                     f.write(formatted_json)
 
-                if 'portable' in list(data.keys()):
+                if 'portable' in list(data.keys()) and 'auto-update' in list(data['portable'].keys()):
                     # Update portable version
                     package_name = data['portable']['package-name']
 
@@ -268,6 +275,11 @@ def update(
                     
                     if 'github.com' in webpage:
                         version_list = {}
+
+                        if webpage.endswith('/'):
+                            webpage = webpage[:-1]
+
+                        webpage = webpage + '/tags'
 
                         for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
                             if tag:
@@ -426,6 +438,11 @@ def update(
         if 'github.com' in webpage:
             version_list = {}
 
+            if webpage.endswith('/'):
+                webpage = webpage[:-1]
+
+            webpage = webpage + '/tags'
+
             for tag in soup.find_all('h4', class_='flex-auto min-width-0 pr-2 pb-1 commit-title'):
                 if tag:
                     try:
@@ -483,6 +500,7 @@ def update(
             res_tup = []
 
             result = re.findall(data['portable']['auto-update']['vercheck']['regex'], html)
+
             web_version = result[0]
 
             if 'reverse' in list(data['auto-update']['vercheck'].keys()):

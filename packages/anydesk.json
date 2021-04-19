@@ -1,8 +1,15 @@
 {
     "display-name": "Anydesk",
     "package-name": "anydesk",
-    "latest-version": "6.1.0",
-    "6.1.0": {
+    "latest-version": "6.2.3",
+    "auto-update": {
+        "url": "https://download.anydesk.com/AnyDesk.msi",
+        "vercheck": {
+            "webpage": "https://anydesk.com/en/downloads",
+            "regex": ">v([\\d.]+)\\s+\\("
+        }
+    },
+    "6.2.3": {
         "url": "https://download.anydesk.com/AnyDesk.msi",
         "file-type": ".msi",
         "install-switches": [
