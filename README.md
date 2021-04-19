@@ -1,8 +1,8 @@
 <h1 align="center">Electric Packages</h1>
 
-![Lines Of Code](https://img.shields.io/tokei/lines/github/electric-package-manager/electric-packages?style=plastic)
-
-![Size Of Repository](https://img.shields.io/github/repo-size/electric-package-manager/electric-packages?style=plastic)
+<p align="center">
+<img src="https://img.shields.io/tokei/lines/github/electric-package-manager/electric-packages?style=plastic"> <img src="https://img.shields.io/github/repo-size/electric-package-manager/electric-packages?style=plastic">
+</p>
 
 The official electric package repository. All manifests that [electric](https://www.github.com/electric-package-manager/electric) can install are here.
 
