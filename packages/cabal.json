@@ -6,6 +6,13 @@
         "display-name": "Cabal",
         "package-name": "cabal",
         "latest-version": "3.4.0.0",
+        "auto-update": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-<version>/cabal-install-<version>-x86_64-windows.zip" ,
+            "vercheck": {
+                "webpage": "https://www.haskell.org/cabal/download.html",
+                "regex": "Cabal library \\(version ([\\d.]+)\\)"
+            }
+        },
         "3.4.0.0": {
             "url": "https://downloads.haskell.org/cabal/cabal-install-3.4.0.0/cabal-install-3.4.0.0-x86_64-windows.zip",
             "file-type": ".zip",

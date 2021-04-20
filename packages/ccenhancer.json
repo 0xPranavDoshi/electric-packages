@@ -2,6 +2,13 @@
     "display-name": "CCEnchancer",
     "package-name": "ccenhancer",
     "latest-version": "4.5.7",
+    "auto-update": {
+        "url": "https://singularlabs.com/download/13238/ccenhancer-install-<version>.exe",
+        "vercheck": {
+            "webpage": "https://singularlabs.com/releases/",
+            "regex": "CCEnhancer ([\\d.]+)"
+        }
+    },
     "4.5.7": {
         "url": "https://singularlabs.com/download/13238/ccenhancer-install-4.5.7.exe",
         "file-type": ".exe",

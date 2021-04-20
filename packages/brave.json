@@ -1,9 +1,16 @@
 {
     "display-name": "Brave",
     "package-name": "brave",
-    "latest-version": "1.21.72",
+    "latest-version": "1.25.27",
+    "auto-update": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneNightlySetup.exe",
+        "vercheck": {
+            "webpage": "https://github.com/brave/brave-browser",
+            "type": "github"
+        }
+    },
     "1.21.72": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v1.21.71/BraveBrowserStandaloneSilentSetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.21.72/BraveBrowserStandaloneNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
         "uninstall-switches": [
@@ -12,5 +19,16 @@
         "custom-location": "",
         "dependencies": [],
         "checksum": "938304A6DEE2447135816B8D73303B2580ECBC71CB7F0A0F52BA954CADDF6360"
+    },
+    "1.25.27": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.27/BraveBrowserStandaloneNightlySetup.exe",
+        "file-type": ".exe",
+        "install-switches": [],
+        "uninstall-switches": [
+            "/s"
+        ],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "476C818EF015216CC2339544639ECD723731FFF07CF416DE9B7CA12817E0D3AB"
     }
 }

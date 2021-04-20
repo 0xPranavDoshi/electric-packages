@@ -2,6 +2,13 @@
     "display-name": "Calibre",
     "package-name": "calibre",
     "latest-version": "5.12.0",
+    "auto-update": {
+        "url": "https://download.calibre-ebook.com/<version>/calibre-64bit-<version>.msi",
+        "vercheck": {
+            "webpage": "https://calibre-ebook.com/download_windows",
+            "regex": "Version: ([\\d.]+)"
+        }
+    },
     "5.12.0": {
         "url": "https://download.calibre-ebook.com/5.12.0/calibre-64bit-5.12.0.msi",
         "file-type": ".msi",
