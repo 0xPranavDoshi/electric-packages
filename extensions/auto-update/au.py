@@ -154,9 +154,20 @@ def update(
                 print(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
+                checksum = ''
+
+                if 'checksum' in list(data[data['latest-version']].keys()):
+                    os.system(rf'curl {data[data["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                    proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                    output, _ = proc.communicate()
+                    res = output.decode().splitlines()
+                    checksum = res[3].split()[1]
+
+
                 old_latest = latest_version
                 data['latest-version'] = web_version
                 data[web_version] = data[old_latest]
+                data[web_version]['checksum'] = checksum
                 data[web_version]['url'] = data['auto-update']['url'].replace(
                     '<version>', web_version)
                 from pygments import highlight, lexers, formatters
@@ -175,7 +186,7 @@ def update(
             res_tup = []
 
             result = re.findall(data['auto-update']['vercheck']['regex'], html)
-            
+
             web_version = result[0]
 
             if 'reverse' in list(data['auto-update']['vercheck'].keys()):
@@ -218,6 +229,10 @@ def update(
                     versions['<major-version>'] = replace.split('.')[0]
                     versions['<minor-version>'] = replace.split('.')[1]
                     versions['<build-version>'] = replace.split('.')[2]
+                
+                elif len(versions['<version>'].split('.')) == 2:
+                    versions['<major-version>'] = replace.split('.')[0]
+                    versions['<minor-version>'] = replace.split('.')[1]
                 
                 for v in versions:
                     url = url.replace(v, versions[v])
@@ -309,11 +324,23 @@ def update(
                             print(
                                 f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
+                            checksum = ''
+
+                            if 'checksum' in list(data["portable"][data["portable"]['latest-version']].keys()):
+                                os.system(rf'curl {data["portable"][data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
+                                proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                                output, _ = proc.communicate()
+                                res = output.decode().splitlines()
+                                checksum = res[3].split()[1]
+
+
                             old_latest = latest_version
-                            data['latest-version'] = web_version
-                            data[web_version] = data[old_latest]
-                            data[web_version]['url'] = data['auto-update']['url'].replace(
+                            data["portable"]['latest-version'] = web_version
+                            data["portable"][web_version] = data[old_latest]
+                            data["portable"][web_version]['checksum'] = checksum
+                            data["portable"][web_version]['url'] = data['auto-update']['url'].replace(
                                 '<version>', web_version)
+
                             from pygments import highlight, lexers, formatters
 
                             formatted_json = json.dumps(data, indent=4)
@@ -464,11 +491,22 @@ def update(
                 print(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
+                checksum = ''
+
+                if 'checksum' in list(data[data["portable"]['latest-version']].keys()):
+                    os.system(rf'curl {data[data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
+                    proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                    output, _ = proc.communicate()
+                    res = output.decode().splitlines()
+                    checksum = res[3].split()[1]
+
+
                 old_latest = latest_version
-                data['portable']['latest-version'] = web_version
-                data['portable'][web_version] = data[old_latest]
-                data['portable'][web_version]['url'] = data['auto-update']['url'].replace(
-                    '<version>', web_version)
+                data["portable"]['latest-version'] = web_version
+                data["portable"][web_version] = data[old_latest]
+                data["portable"][web_version]['checksum'] = checksum
+                data["portable"][web_version]['url'] = data['auto-update']['url'].replace(
+                    '<version>', web_version)                
                 from pygments import highlight, lexers, formatters
 
                 formatted_json = json.dumps(data, indent=4)
@@ -485,7 +523,7 @@ def update(
             res_tup = []
 
             result = re.findall(data['portable']['auto-update']['vercheck']['regex'], html)
-
+            print(result)
             web_version = result[0]
 
             if 'reverse' in list(data['portable']['auto-update']['vercheck'].keys()):
@@ -548,6 +586,7 @@ def update(
                     checksum = res[3].split()[1]
 
                 old_latest = version
+                
                 data['portable'][replace] = data[old_latest]
                 data['portable'][replace]['url'] = url        
 
