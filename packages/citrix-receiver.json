@@ -2,6 +2,13 @@
     "display-name": "Citrix Receiver",
     "package-name": "citrix-receiver",
     "latest-version": "4.12",
+    "auto-update": {
+        "url": "https://downloadplugins.citrix.com/Windows/CitrixReceiver.exe",
+        "vercheck": {
+            "webpage": "https://www.citrix.com/downloads/citrix-receiver/",
+            "regex": "Reciever ([\\d.]+) for Windows"
+        }
+    },
     "4.12": {
         "url": "https://downloadplugins.citrix.com/Windows/CitrixReceiver.exe",
         "file-type": ".exe",

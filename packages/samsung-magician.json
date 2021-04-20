@@ -1,6 +1,7 @@
 {
     "display-name": "Samsung Magician",
     "package-name": "samsung-magician",
+    "is-portable": true,
     "portable": {    
         "display-name": "Samsung Magician",
         "package-name": "samsung-magician",
