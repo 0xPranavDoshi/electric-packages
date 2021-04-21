@@ -24,6 +24,15 @@
         "url": "https://github.com/brave/brave-browser/releases/download/v1.25.27/BraveBrowserStandaloneNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
+        "uninstall-override-command": [
+            {
+                "type": "python",
+                "code": [
+                    "import os",
+                    "os.system(\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall)"
+                ]
+            }
+        ],
         "uninstall-switches": [
             "/s"
         ],

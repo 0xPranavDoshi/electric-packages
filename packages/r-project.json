@@ -1,9 +1,9 @@
 {
     "display-name": "R For Windows",
     "package-name": "r-project",
-    "latest-version": "4.0.4",
-    "4.0.4": {
-        "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.4-win.exe",
+    "latest-version": "4.0.5",
+    "4.0.5": {
+        "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.5-win.exe",
         "file-type": ".exe",
         "install-switches": [
             "/SP-",
