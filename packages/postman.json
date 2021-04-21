@@ -4,6 +4,7 @@
   "latest-version": "8.0.6",
   "8.0.6": {
     "url": "https://dl.pstmn.io/download/version/8.0.6/windows64",
+    "file-type:" ".exe",
     "install-switches": ["-s"],
     "uninstall-switches": ["-s"],
     "custom-location": "",
