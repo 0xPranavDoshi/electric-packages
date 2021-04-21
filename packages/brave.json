@@ -29,7 +29,7 @@
                 "type": "python",
                 "code": [
                     "import os",
-                    "os.system(\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall)"
+                    "os.system(r\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall)"
                 ]
             }
         ],
