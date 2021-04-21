@@ -1,5 +1,5 @@
 {
-    "display-name": "Heroku",
+    "display-name": "Heroku CLI",
     "package-name": "heroku",
     "latest-version": "7.50.0.0",
     "7.50.0.0": {
