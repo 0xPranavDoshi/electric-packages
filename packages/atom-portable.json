@@ -1,6 +1,6 @@
 {
-    "package-name": "Atom (Portable)",
-    "display-name": "atom-portable",
+    "package-name": "atom",
+    "display-name": "Atom (Portable)",
     "is-portable": true,
     "portable": {
         "package-name": "Atom",
