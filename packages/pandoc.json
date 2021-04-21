@@ -4,7 +4,7 @@
     "latest-version": "2.11.4",
     "2.11.4": {
         "url": "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-windows-x86_64.msi",
-        "file-type": ".exe",
+        "file-type": ".msi",
         "install-switches": [
             "/S"
         ],
