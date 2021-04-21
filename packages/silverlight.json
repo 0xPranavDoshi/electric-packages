@@ -13,7 +13,7 @@
             "/qn",
             "/norestart"
         ],
-        "custom-dir": "",
+        "custom-location": "",
         "dependencies": [],
         "checksum": "8EB0FC1163330294D62F8CBDB1088FC3AF7AB552C544F2EC1D29F3F48E199C8F"
     }
