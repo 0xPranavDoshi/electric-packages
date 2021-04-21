@@ -13,6 +13,8 @@
         "uninstall-switches": [
             "/uninstall",
             "/quiet"
-        ]
+        ],
+        "custom-location": "",
+        "dependencies": []
     }
 }
