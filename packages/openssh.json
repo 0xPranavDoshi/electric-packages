@@ -1,6 +1,6 @@
 {
     "display-name": "OpenSSH",
-    "package-name": "win32-opessh",
+    "package-name": "opessh",
     "is-portable": true,
     "portable": {
         "latest-version": "v8.1.0.0p1-Beta",
