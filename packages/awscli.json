@@ -1,5 +1,5 @@
 {
-    "display-name": "AWS Command Line Interface",
+    "display-name": "AWS Command Line Interface v2",
     "package-name": "awscli",
     "latest-version": "2.1.38",
     "auto-update": {
