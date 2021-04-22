@@ -1,5 +1,5 @@
 {
-    "display-name": "Chef Client",
+    "display-name": "Chef Infra Client*",
     "package-name": "chef-client",
     "latest-version": "16.10.17",
     "16.10.17": {
