@@ -7,10 +7,10 @@
         "file-type": ".exe",
         "install-switches": [
             "--silent"
-        ],
+        ],  
         "uninstall-switches": [],
         "custom-location": "",
         "dependencies": [],
-        "checksum": "E3F9EDE50D2149E790CF3F12AD415B9F4EA9B981442812056C217B6566D67217"
+        "checksum": "128CFC9B4FF6497CB044A843F465C2221C891C6019038E8DB0829F54F6A20944"
     }
 }
