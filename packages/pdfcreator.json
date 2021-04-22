@@ -10,6 +10,9 @@
             "/NORESTART"
         ],
         "uninstall-switches": [],
+        "uninstall": [
+            "pdfarchitect"
+        ],
         "custom-location": "/DIR=",
         "dependencies": [],
         "checksum": "27EA7A6A894E019CFBB24B6AACB2F323F09E9DF1186F9657B1EFCF3BEDF95891"
