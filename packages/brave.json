@@ -1,7 +1,7 @@
 {
     "display-name": "Brave",
     "package-name": "brave",
-    "latest-version": "1.25.27",
+    "latest-version": "1.25.35",
     "auto-update": {
         "url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneNightlySetup.exe",
         "vercheck": {
@@ -21,7 +21,7 @@
         "checksum": "938304A6DEE2447135816B8D73303B2580ECBC71CB7F0A0F52BA954CADDF6360"
     },
     "1.25.27": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.27/BraveBrowserStandaloneNightlySetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.35/BraveBrowserStandaloneNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
         "uninstall-override-command": [
@@ -38,6 +38,26 @@
         ],
         "custom-location": "",
         "dependencies": [],
-        "checksum": "476C818EF015216CC2339544639ECD723731FFF07CF416DE9B7CA12817E0D3AB"
+        "checksum": "A9BDA9753CF9EDE521960E80BF14E5CC5AFEB13D501C3631557E5C1910E5C431"
+    },
+    "1.25.35": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.35/BraveBrowserStandaloneNightlySetup.exe",
+        "file-type": ".exe",
+        "install-switches": [],
+        "uninstall-override-command": [
+            {
+                "type": "python",
+                "code": [
+                    "import os",
+                    "os.system(r\"\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall /s\")"
+                ]
+            }
+        ],
+        "uninstall-switches": [
+            "/s"
+        ],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "A9BDA9753CF9EDE521960E80BF14E5CC5AFEB13D501C3631557E5C1910E5C431"
     }
 }

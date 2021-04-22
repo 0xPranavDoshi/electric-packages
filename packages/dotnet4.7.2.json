@@ -1,5 +1,5 @@
 {
-    "display-name": "Microsoft .NET Framework 4.7.2",
+    "display-name": "Microsoft .NET Framework 4*",
     "package-name": "dotnet4.7.2",
     "latest-version": "4.7.2.20180712",
     "4.7.2.20180712": {
