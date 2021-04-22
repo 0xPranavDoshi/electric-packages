@@ -8,7 +8,9 @@
         "install-switches": [
             "/s"
         ],
-        "uninstall-switches": [],
+        "uninstall-switches": [
+            "/S"
+        ],
         "custom-location": "",
         "dependencies": [],
         "checksum": "8BBF26CCC04D1319D06A6DA6BB19E98E35DE95BA35068564DB9CE493AB68ED25"
