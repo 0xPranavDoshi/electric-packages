@@ -8,7 +8,9 @@
         "install-switches": [
             "/AHMGDU"
         ],
-        "uninstall-switches": [],
+        "uninstall-switches": [
+            "/7"
+        ],
         "custom-location": "",
         "dependencies": [],
         "checksum": "B440EC35EA6C4FF7296B51C96E7BF55336A1CEBAF211524E6CAA2F4DB3FE60B2"
