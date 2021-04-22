@@ -11,14 +11,15 @@
             "/SUPPRESSMSGBOXES",
             "/NOCANCEL",
             "/NORESTART",
-            "/FORCECLOSEAPPLICATIONS"
+            "/FORCECLOSEAPPLICATIONS",
+            "/LANG=english",
+            "/COMPONENTS=\"program,ghostscript,comsamples\""
         ],
         "uninstall-switches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "uninstall": [],
         "custom-location": "/DIR=",
         "dependencies": [],
         "checksum": "27EA7A6A894E019CFBB24B6AACB2F323F09E9DF1186F9657B1EFCF3BEDF95891"
