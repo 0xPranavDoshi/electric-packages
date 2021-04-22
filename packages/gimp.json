@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
-    "display-name": "GIMP",
+    "display-name": "GIMP*",
     "package-name": "gimp",
     "latest-version": "2.10.22",
     "2.10.22": {
@@ -12,7 +12,9 @@
             "/SUPRESSMSGBOXES",
             "/NOCANCEL",
             "/NORESTART",
-            "/FORCECLOSEAPPLICATIONS"
+            "/FORCECLOSEAPPLICATIONS",
+            "/RESTARTEXITCODE=3010",
+            "/ALLUSERS"
         ],
         "uninstall-switches": [
             "/VERYSILENT",
