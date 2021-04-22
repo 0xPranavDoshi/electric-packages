@@ -1,5 +1,5 @@
 {
-    "display-name": "LLVM Compiler",
+    "display-name": "LLVM",
     "package-name": "llvm",
     "latest-version": "11.0.1",
     "11.0.1": {
