@@ -9,7 +9,9 @@
             "-s",
             "-sp-s"
         ],
-        "uninstall-switches": [],
+        "uninstall-switches": [
+            "-s"
+        ],
         "custom-location": "",
         "dependencies": []
     }
