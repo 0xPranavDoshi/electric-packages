@@ -2,6 +2,13 @@
     "display-name": "Clion",
     "package-name": "clion",
     "latest-version": "2021.1",
+    "auto-update": {
+        "url": "https://download-cf.jetbrains.com/cpp/CLion-<version>.exe",
+        "vercheck": {
+            "webpage": "https://www.jetbrains.com/clion/",
+            "regex": "New in CLion ([\\d.]+)" 
+        }
+    },
     "2021.1": {
         "url": "https://download-cf.jetbrains.com/cpp/CLion-2021.1.exe",
         "file-type": ".exe",

@@ -307,7 +307,6 @@ def update(
                             v = sh[1]
                             val = v.replace('v', '').replace('V', '').replace('.', '')
                             vl[v] = val
-
                         web_version = max(list(vl.keys()))
 
                         print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
@@ -475,8 +474,7 @@ def update(
                 val = v.replace('v', '').replace('V', '').replace('.', '')
                 vl[v] = val
 
-            web_version = max(list(vl.keys()))
-
+            web_version = version_list[0][1]
             print(f'{Fore.LIGHTGREEN_EX}Latest Version Detected:{Fore.RESET} {web_version}')
 
             int_web_version = int(web_version.replace('.', '').replace('v', '').replace('V', ''))
@@ -493,9 +491,9 @@ def update(
 
                 checksum = ''
 
-                if 'checksum' in list(data[data["portable"]['latest-version']].keys()):
-                    os.system(rf'curl {data[data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
-                    proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                if 'checksum' in list(data['portable'][data["portable"]["latest-version"]].keys()):
+                    os.system(rf'curl {data["portable"][data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
+                    proc = Popen(rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                     output, _ = proc.communicate()
                     res = output.decode().splitlines()
                     checksum = res[3].split()[1]
@@ -503,9 +501,9 @@ def update(
 
                 old_latest = latest_version
                 data["portable"]['latest-version'] = web_version
-                data["portable"][web_version] = data[old_latest]
+                data["portable"][web_version] = data["portable"][old_latest]
                 data["portable"][web_version]['checksum'] = checksum
-                data["portable"][web_version]['url'] = data['auto-update']['url'].replace(
+                data["portable"][web_version]['url'] = data["portable"]['auto-update']['url'].replace(
                     '<version>', web_version)                
                 from pygments import highlight, lexers, formatters
 
