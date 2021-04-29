@@ -3,28 +3,24 @@
     "package-name": "7-Zip",
     "latest-version": "19.00",
     "auto-update": {
-        "url": "https://www.7-zip.org/a/7z<clean-version>-x64.msi",
+        "url": "https://www.7-zip.org/a/7z<clean-version>-x64.exe",
         "vercheck": {
             "webpage": "https://www.7-zip.org/download.html",
             "regex": "Download 7-Zip ([\\d.]+)"
         }
     },
     "19.00": {
-        "url": "https://www.7-zip.org/a/7z1900-x64.msi",
-        "file-type": ".msi",
+        "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+        "file-type": ".exe",
         "install-switches": [
-            "/qn",
-            "/quiet",
-            "/norestart"
+            "/S"
         ],
         "uninstall-switches": [
-            "/qn",
-            "/quiet",
-            "/norestart"
+           "/S"
         ],
         "custom-location": "INSTALLDIR=",
         "dependencies": [],
-        "checksum": "A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC"
+        "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E"
     },
     "16.04": {
         "url": "https://www.7-zip.org/a/7z1604-x64.msi",
