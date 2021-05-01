@@ -2,6 +2,13 @@
     "display-name": "Composer",
     "package-name": "composer",
     "latest-version": "6.1.0",
+    "auto-update": {
+        "url": "https://github.com/composer/windows-setup/releases/download/v<version>/Composer-Setup.<version>.exe",
+        "vercheck": {
+            "webpage": "https://github.com/composer/windows-setup",
+            "type": "github"
+        }
+    },
     "6.1.0": {
         "url": "https://github.com/composer/windows-setup/releases/download/v6.1.0/Composer-Setup.6.1.0.exe",
         "file-type": ".exe",

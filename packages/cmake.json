@@ -1,7 +1,7 @@
 {
     "display-name": "CMake",
     "package-name": "cmake",
-    "latest-version": "3.20.1",
+    "latest-version": "3.20.2",
     "auto-update": {
         "url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-win64-x64.msi",
         "vercheck": {
@@ -27,7 +27,7 @@
         "checksum": "C342A15A7A94FEB303AA2C80C91E78B78281B597CC81FA6ABD73F0A4639FC976"
     },
     "3.20.1": {
-        "url": "https://github.com/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1-win64-x64.msi",
+        "url": "https://github.com/Kitware/CMake/releases/download/v3.20.2/cmake-3.20.2-win64-x64.msi",
         "file-type": ".msi",
         "install-switches": [
             "/qn",
@@ -41,6 +41,23 @@
         ],
         "custom-location": "INSTALLDIR=",
         "dependencies": [],
-        "checksum": "C342A15A7A94FEB303AA2C80C91E78B78281B597CC81FA6ABD73F0A4639FC976"
+        "checksum": "0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5"
+    },
+    "3.20.2": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v3.20.2/cmake-3.20.2-win64-x64.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5"
     }
 }

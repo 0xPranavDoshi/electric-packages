@@ -1,9 +1,16 @@
 {
     "display-name": "ConEmu",
     "package-name": "conemu",
-    "latest-version": "21.2.6.0",
-    "21.2.6.0": {
-        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.02.06/ConEmuSetup.210206.exe",
+    "latest-version": "21.04.22",
+    "auto-update": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v<version>/ConEmuSetup.<clean-version>.exe",
+        "vercheck": {
+            "webpage": "https://github.com/Maximus5/ConEmu",
+            "type": "github"
+        }
+    },
+    "21.04.22": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.04.22/ConEmuSetup.210422.exe",
         "file-type": ".exe",
         "install-switches": [
             "/p:x64,adm",
@@ -13,6 +20,6 @@
         "uninstall-switches": [],
         "custom-location": "APPLICATIONFOLDER=",
         "dependencies": [],
-        "checksum": "F52D248FB1FE923ABF28A7ADDDFCD76C4E207C70672898F6277ACCB502DA5779"
+        "checksum": "6FFFAA6653724C4662AB9A05E4086D84CD60557A0661D05AF91630385F71A37E"
     }
 }

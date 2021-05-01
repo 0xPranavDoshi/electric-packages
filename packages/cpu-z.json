@@ -1,8 +1,15 @@
 {
     "display-name": "CPU-Z",
     "package-name": "cpu-z",
-    "latest-version": "1.95.0.20210213",
-    "1.95.0.20210213": {
+    "latest-version": "1.96",
+    "auto-update": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_<version>-en.exe",
+        "vercheck": {
+            "webpage": "https://www.cpuid.com/softwares/cpu-z.html",
+            "regex": "<a class=\"button icon-exe\" href=\"/downloads/cpu-z/cpu-z_([\\d.]+)-en.exe\">"
+        }
+    },
+    "1.95": {
         "url": "https://download.cpuid.com/cpu-z/cpu-z_1.95-en.exe",
         "file-type": ".exe",
         "install-switches": [
@@ -21,5 +28,25 @@
         "custom-location": "/DIR=",
         "dependencies": [],
         "checksum": "AAF8106DD83F758661DDF4F9FB7A7F45118016C61AB45673AA0F80C8A1097BED"
+    },
+    "1.96": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_1.96-en.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": [],
+        "checksum": "2CB546E35198BC7B4E91439A47C33541A18C20FF87F723148BBA250A9F91BB05"
     }
 }
