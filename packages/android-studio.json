@@ -11,7 +11,7 @@
         }
     },
     "4.1.1.0": {
-        "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.3.0/android-studio-ide-201.7199119-windows.exe",
+        "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.1.0/android-studio-ide-201.7199119-windows.exe",
         "file-type": ".exe",
         "install-switches": [
             "/S"
@@ -40,6 +40,6 @@
         "valid-install-exit-codes": [
             1223
         ],
-        "checksum": "8456B76A19DA7E9E982AC04ACE11ED773A9AD396C444D1A4F6BAB87DA23C2C12"
+        "checksum": "A5EF7507B1816E8E9C909D7037D7FFF09263CD41935BE0EDC4A0383441E92B10"
     }
 }
