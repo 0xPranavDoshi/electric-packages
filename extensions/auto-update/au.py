@@ -101,7 +101,6 @@ def update(
     import sys
     import json
     from colorama import Fore
-    from bs4 import BeautifulSoup
     from pygments import highlight, lexers, formatters
     import re
     import os
@@ -210,9 +209,14 @@ def update(
 
                 old_latest = latest_version
                 data['latest-version'] = web_version
-                data[web_version] = data[old_latest]
+                data[web_version] = {}
                 data[web_version]['checksum'] = checksum
                 data[web_version]['url'] = url
+
+                for key, value in data[old_latest].items():
+                    if key not in ['checksum', 'url']:
+                        data[web_version][key] = value
+
                 from pygments import highlight, lexers, formatters
 
                 formatted_json = json.dumps(data, indent=4)
@@ -244,8 +248,6 @@ def update(
 
             result = web_version
             replace = result
-
-            # FINE
 
             if 'replace' in list(data['auto-update']['vercheck'].keys()):
                 replace = data['auto-update']['vercheck']['replace']
@@ -400,10 +402,14 @@ def update(
 
                             old_latest = latest_version
                             data["portable"]['latest-version'] = web_version
-                            data["portable"][web_version] = data[old_latest]
+                            data['portable'][web_version] = {}
                             data["portable"][web_version]['checksum'] = checksum
                             data["portable"][web_version]['url'] = data['auto-update']['url'].replace(
                                 '<version>', web_version)
+
+                            for key, value in data['portable'][old_latest].items():
+                                if key not in ['url', 'checksum']:
+                                    data['portable'][web_version] = value
 
                             from pygments import highlight, lexers, formatters
 
@@ -490,10 +496,15 @@ def update(
                                 checksum = res[3].split()[1]
 
                             old_latest = version
-                            data['portable'][replace] = data[old_latest]
+
+                            data['portable'][replace] = {}
                             data['portable'][replace]['url'] = url
 
-                            if 'checksum' in list(data[data['latest-version']].keys()):
+                            for key, value in data['portable'][old_latest].items():
+                                if key not in ['url', 'checksum']:
+                                    data['portable'][replace][key] = value
+
+                            if 'checksum' in list(data['portable'][data['latest-version']].keys()):
                                 data['portable'][replace]['checksum'] = checksum
 
                             data['portable']['latest-version'] = replace
@@ -580,11 +591,16 @@ def update(
                     checksum = res[3].split()[1]
 
                 old_latest = latest_version
+                data["portable"][web_version] = {}
                 data["portable"]['latest-version'] = web_version
-                data["portable"][web_version] = data["portable"][old_latest]
                 data["portable"][web_version]['checksum'] = checksum
                 data["portable"][web_version]['url'] = data["portable"]['auto-update']['url'].replace(
                     '<version>', web_version)
+
+                for key, value in data['portable'][old_latest].items():
+                    if key not in ['checksum', 'url']:
+                        data['portable'][web_version][key] = value
+
                 from pygments import highlight, lexers, formatters
 
                 formatted_json = json.dumps(data, indent=4)
@@ -671,13 +687,18 @@ def update(
 
                 old_latest = version
 
-                data['portable'][replace] = data[old_latest]
+                data['portable'][replace] = {}
                 data['portable'][replace]['url'] = url
 
                 if 'checksum' in list(data[data['latest-version']].keys()):
                     data['portable'][replace]['checksum'] = checksum
 
                 data['portable']['latest-version'] = replace
+
+                for key, value in data['portable'][old_latest].items():
+                    if key not in ['url', 'checksum']:
+                        data['portable'][replace][key] = value
+
 
                 from pygments import highlight, lexers, formatters
 
