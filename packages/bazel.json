@@ -13,6 +13,14 @@
                 "type": "github"
             }
         },
+        "3.7.2": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/3.7.2/bazel-3.7.2-windows-x86_64.zip",
+            "file-type": ".zip",
+            "extract-dir": "bazel",
+            "bin": [
+                "bazel.exe"
+            ]
+        },
         "4.0.0": {
             "url": "https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-windows-x86_64.zip",
             "file-type": ".zip",
@@ -20,7 +28,7 @@
             "bin": [
                 "bazel.exe"
             ],
-            "checksum": "4F317BA6EBDD6F13AA0B164CE77E41D42413AA8992BB05925374A110016238C9"
+            "checksum": "0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5"        
         }
     }
 }
