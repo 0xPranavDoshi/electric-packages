@@ -85,6 +85,7 @@
         "git-lfs",
         "git",
         "go",
+        "godot",
         "goland",
         "google-chrome",
         "google-drive-file-stream",
