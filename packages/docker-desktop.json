@@ -37,7 +37,7 @@
         "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
     },
     "3.3.1": {
-        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "url": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe#/dockerInstall.exe",
         "file-type": ".exe",
         "install-switches": [
             "install",
