@@ -2,6 +2,40 @@
     "display-name": "Docker Desktop",
     "package-name": "docker-desktop",
     "latest-version": "3.3.1",
+    "auto-update": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "vercheck": {
+            "webpage": "https://docs.docker.com/docker-for-windows/release-notes/",
+            "regex": "Docker Desktop ([\\d.]+)"
+        }
+    },
+    "3.3.0": {
+        "url": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe#/dockerInstall.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "install",
+            "--quiet"
+        ],
+        "uninstall-switches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    },
     "3.3.1": {
         "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
         "file-type": ".exe",
@@ -19,12 +53,14 @@
             1641
         ],
         "valid-uninstall-exit-codes": [
-            0, 
-            3010, 
-            1641, 
+            0,
+            3010,
+            1641,
             3
         ],
-        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B",
-        "dependencies": ["dotnet4.8"]
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
     }
 }

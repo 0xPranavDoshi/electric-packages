@@ -3,7 +3,7 @@
     "display-name": "Android Studio (Portable)",
     "is-portable": true,
     "portable": {
-        "latest-version": "4.1.1",
+        "latest-version": "2",
         "auto-update": {
             "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/<1>/android-studio-ide-<2>-windows.zip",
             "vercheck": {
@@ -27,6 +27,22 @@
                 }
             ],
             "checksum": "CA43E3433C8D65036DF0FB41256F9DC1BE43B12D7ED52F06E699A95B31CE6496"
+        },
+        "2": {
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2/android-studio-ide-0-windows.zip",
+            "checksum": "D004425D773C2E4129DB0AA7524204E33BFBBDEDEA373A6C74939582331CE8C5",
+            "file-type": ".zip",
+            "extract-dir": "android-studio",
+            "chdir": "android-studio",
+            "bin": [
+                "bin\\studio64.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Android Studio",
+                    "file-name": "bin\\studio64.exe"
+                }
+            ]
         }
     }
 }
