@@ -4,7 +4,6 @@
     "latest-version": "3.3.1",
     "3.3.1": {
         "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
-        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B",
         "file-type": ".exe",
         "install-switches": [
             "install",
@@ -25,6 +24,7 @@
             1614,
             1641
         ],
-        "dependencies": []
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B",
+        "dependencies": ["dotnet4.8"]
     }
 }
