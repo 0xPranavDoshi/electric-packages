@@ -1,6 +1,8 @@
 # Auto-Update Module Inspired By Scoop
 # https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate
 
+from re import U
+from sys import version_info
 import requests
 import click
 
@@ -163,20 +165,9 @@ def update(
                 print(
                     f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
 
-            if int_current_version < int_web_version:
+            if int_current_version < int_web_version or int(str(int_current_version)[0]) < int(str(int_web_version)[0]):
                 print(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
-
-                checksum = ''
-
-                if 'checksum' in list(data[data['latest-version']].keys()):
-                    os.system(
-                        rf'curl {data[data["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
-                    proc = Popen(
-                        rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
-                    output, _ = proc.communicate()
-                    res = output.decode().splitlines()
-                    checksum = res[3].split()[1]
 
                 versions = {
                     '<version>': web_version
@@ -210,6 +201,17 @@ def update(
                 old_latest = latest_version
                 data['latest-version'] = web_version
                 data[web_version] = {}
+                checksum = ''
+
+                if 'checksum' in list(data[data['latest-version']].keys()):
+                    os.system(
+                        rf'curl {data[data["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                    proc = Popen(
+                        rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                    output, _ = proc.communicate()
+                    res = output.decode().splitlines()
+                    checksum = res[3].split()[1]
+
                 data[web_version]['checksum'] = checksum
                 data[web_version]['url'] = url
 
@@ -301,9 +303,9 @@ def update(
 
                 if 'checksum' in list(data[data['latest-version']].keys()):
                     os.system(
-                        rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                        rf'powershell.exe curl {url} -o {gettempdir()}\AutoUpdate{package_name}{data[data["latest-version"]]["file-type"]}')
                     proc = Popen(
-                        rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                        rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{package_name}{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                     output, _ = proc.communicate()
                     res = output.decode().splitlines()
                     checksum = res[3].split()[1]
@@ -385,7 +387,7 @@ def update(
                             print(
                                 f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
 
-                        if int_current_version < int_web_version:
+                        if int_current_version < int_web_version or int(str(int_current_version)[0]) < int(str(int_web_version)[0]):
                             print(
                                 f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
@@ -393,9 +395,9 @@ def update(
 
                             if 'checksum' in list(data["portable"][data["portable"]['latest-version']].keys()):
                                 os.system(
-                                    rf'curl {data["portable"][data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
+                                    rf'powershell.exe curl {data["portable"][data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{package_name}{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
                                 proc = Popen(
-                                    rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                                    rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{package_name}{data["portable"][data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                                 output, _ = proc.communicate()
                                 res = output.decode().splitlines()
                                 checksum = res[3].split()[1]
@@ -486,11 +488,11 @@ def update(
 
                             checksum = ''
 
-                            if 'checksum' in list(data[data['latest-version']].keys()):
+                            if 'checksum' in list(data['portable'][data['latest-version']].keys()):
                                 os.system(
-                                    rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                                    rf'powershell.exe curl {url} -o {gettempdir()}\AutoUpdate{package_name}{data["portable"][data["latest-version"]]["file-type"]}')
                                 proc = Popen(
-                                    rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                                    rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{package_name}{data["portable"][data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                                 output, _ = proc.communicate()
                                 res = output.decode().splitlines()
                                 checksum = res[3].split()[1]
@@ -575,7 +577,7 @@ def update(
                 print(
                     f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
 
-            if int_current_version < int_web_version:
+            if int_current_version < int_web_version or int(str(int_current_version)[0]) < int(str(int_web_version)[0]):
                 print(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
@@ -583,7 +585,7 @@ def update(
 
                 if 'checksum' in list(data['portable'][data["portable"]["latest-version"]].keys()):
                     os.system(
-                        rf'curl {data["portable"][data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
+                        rf'powershell.exe curl {data["portable"][data["portable"]["latest-version"]]["url"]} -o {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}')
                     proc = Popen(
                         rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data["portable"][data["portable"]["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                     output, _ = proc.communicate()
@@ -676,11 +678,12 @@ def update(
 
                 checksum = ''
 
-                if 'checksum' in list(data['portable'].keys()):
+                if 'checksum' in list(data['portable'][version].keys()):
+                    print(url)
                     os.system(
-                        rf'curl {url} -o {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}')
+                        rf'curl {url} -o {gettempdir()}\AutoUpdate{data["portable"][version]["file-type"]}')
                     proc = Popen(
-                        rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data[data["latest-version"]]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+                        rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data["portable"][version]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                     output, _ = proc.communicate()
                     res = output.decode().splitlines()
                     checksum = res[3].split()[1]
@@ -690,7 +693,7 @@ def update(
                 data['portable'][replace] = {}
                 data['portable'][replace]['url'] = url
 
-                if 'checksum' in list(data[data['latest-version']].keys()):
+                if 'checksum' in list(data['portable'][old_latest].keys()):
                     data['portable'][replace]['checksum'] = checksum
 
                 data['portable']['latest-version'] = replace
@@ -698,7 +701,6 @@ def update(
                 for key, value in data['portable'][old_latest].items():
                     if key not in ['url', 'checksum']:
                         data['portable'][replace][key] = value
-
 
                 from pygments import highlight, lexers, formatters
 

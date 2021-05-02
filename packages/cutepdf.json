@@ -2,6 +2,13 @@
     "display-name": "CutePDF Writer",
     "package-name": "cutepdf",
     "latest-version": "4.0",
+    "auto-update": {
+        "url": "https://www.cutepdf.com/download/CuteWriter.exe",
+        "vercheck": {
+            "webpage": "https://www.cutepdf.com/Products/CutePDF/writer.asp",
+            "regex": "Ver. ([\\d.]+)"
+        }
+    },
     "4.0": {
         "url": "https://www.cutepdf.com/download/CuteWriter.exe",
         "file-type": ".exe",
@@ -18,7 +25,7 @@
             "/NORESTART"
         ],
         "custom-location": "/DIR=",
-        "dependencies": [],
-        "checksum": "23122B403212384FB9F5160381B239AA2FAD36EDDF3DA98CE692624D70B2E7DC"
+        "checksum": "23122B403212384FB9F5160381B239AA2FAD36EDDF3DA98CE692624D70B2E7DC",
+        "dependencies": []
     }
 }

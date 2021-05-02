@@ -2,6 +2,13 @@
     "display-name": "Discord",
     "package-name": "discord",
     "latest-version": "0.0.309",
+    "auto-update": {
+        "url": "https://dl.discordapp.net/apps/win/<version>/DiscordSetup.exe",
+        "vercheck": {
+            "webpage": "https://discordapp.com/api/updates/stable/RELEASES",
+            "regex": "Discord-([\\d.]+)"
+        }
+    },
     "0.0.309": {
         "url": "https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe",
         "file-type": ".exe",
