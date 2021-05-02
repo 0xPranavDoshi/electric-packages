@@ -19,10 +19,10 @@
             1641
         ],
         "valid-uninstall-exit-codes": [
+            0, 
             3010, 
-            1605, 
-            1614,
-            1641
+            1641, 
+            3
         ],
         "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B",
         "dependencies": ["dotnet4.8"]
