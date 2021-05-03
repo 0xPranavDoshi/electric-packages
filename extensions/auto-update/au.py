@@ -165,7 +165,7 @@ def update(
                 print(
                     f'{Fore.LIGHTRED_EX}The Current Version Must Not Contain Any Characters')
 
-            if int_current_version < int_web_version or int(str(int_current_version)[0]) < int(str(int_web_version)[0]):
+            if latest_version != web_version:
                 print(
                     f'A Newer Version Of {package_name} Is Availiable! Updating Manifest')
 
@@ -211,8 +211,8 @@ def update(
                     output, _ = proc.communicate()
                     res = output.decode().splitlines()
                     checksum = res[3].split()[1]
+                    data[web_version]['checksum'] = checksum
 
-                data[web_version]['checksum'] = checksum
                 data[web_version]['url'] = url
 
                 for key, value in data[old_latest].items():
@@ -621,7 +621,7 @@ def update(
 
             result = re.findall(
                 data['portable']['auto-update']['vercheck']['regex'], html)
-            print(result)
+
             web_version = result[0]
 
             if 'reverse' in list(data['portable']['auto-update']['vercheck'].keys()):

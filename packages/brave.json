@@ -1,83 +1,62 @@
 {
     "display-name": "Brave",
     "package-name": "brave",
-    "latest-version": "1.25.39",
+    "latest-version": "1.26.5",
     "auto-update": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneNightlySetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentNightlySetup.exe",
         "vercheck": {
             "webpage": "https://github.com/brave/brave-browser",
             "type": "github"
         }
     },
     "1.21.72": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v1.21.72/BraveBrowserStandaloneNightlySetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.21.72/BraveBrowserStandaloneSilentNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
         "uninstall-switches": [
             "/s"
         ],
         "custom-location": "",
-        "dependencies": [],
-        "checksum": "938304A6DEE2447135816B8D73303B2580ECBC71CB7F0A0F52BA954CADDF6360"
+        "dependencies": []
     },
     "1.25.27": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.35/BraveBrowserStandaloneNightlySetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.27/BraveBrowserStandaloneSilentNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
-        "uninstall-override-command": [
-            {
-                "type": "python",
-                "code": [
-                    "import os",
-                    "os.system(r\"\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall /s\")"
-                ]
-            }
-        ],
         "uninstall-switches": [
             "/s"
         ],
         "custom-location": "",
-        "dependencies": [],
-        "checksum": "A9BDA9753CF9EDE521960E80BF14E5CC5AFEB13D501C3631557E5C1910E5C431"
+        "dependencies": []
     },
     "1.25.35": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.39/BraveBrowserStandaloneNightlySetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.39/BraveBrowserStandaloneSilentNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
-        "uninstall-override-command": [
-            {
-                "type": "python",
-                "code": [
-                    "import os",
-                    "os.system(r'\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall /s')"
-                ]
-            }
-        ],
         "uninstall-switches": [
             "/s"
         ],
         "custom-location": "",
-        "dependencies": [],
-        "checksum": "80C2C807E7D8820C7126F422C286CA85B69C37825A4BAAC49F448CA6973783A7"
+        "dependencies": []    
     },
     "1.25.39": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.39/BraveBrowserStandaloneNightlySetup.exe",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.39/BraveBrowserStandaloneSilentNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
-        "uninstall-override-command": [
-            {
-                "type": "python",
-                "code": [
-                    "import os",
-                    "os.system(r'\"C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe\" /uninstall /s')"
-                ]
-            }
-        ],
         "uninstall-switches": [
             "/s"
         ],
         "custom-location": "",
-        "dependencies": [],
-        "checksum": "80C2C807E7D8820C7126F422C286CA85B69C37825A4BAAC49F448CA6973783A7"
+        "dependencies": []
+    },
+    "1.26.5": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.5/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "install-switches": [],
+        "uninstall-switches": [
+            "/s"
+        ],
+        "custom-location": "",
+        "dependencies": []
     }
 }
