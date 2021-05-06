@@ -1,7 +1,7 @@
 {
     "display-name": "Microsoft Azure Powershell",
     "package-name": "azurepowershell",
-    "latest-version": "5.8.0-April2021",
+    "latest-version": "5.9.0-May2021",
     "auto-update": {
         "url": "https://github.com/Azure/azure-powershell/releases/download/v<version>/Az-Cmdlets-<2>-x64.msi",
         "vercheck": {
@@ -43,5 +43,22 @@
         ],
         "custom-location": "INSTALLDIR=",
         "dependencies": []
+    },
+    "5.9.0-May2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v5.9.0-May2021/Az-Cmdlets-5.9.0.34269-x64.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "E8C882B6EB3A3C861DA73A9728D7AC0424AF284D6F98802618275FEE69924876"
     }
 }
