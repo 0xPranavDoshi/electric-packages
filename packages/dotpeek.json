@@ -2,6 +2,13 @@
     "display-name": "JetBrains dotPeek 2021.1.1",
     "package-name": "dotpeek",
     "latest-version": "2021.1.1",
+    "auto-update": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.1/JetBrains.dotPeek.2021.1.1.web.exe",
+        "vercheck": {
+            "webpage": "https://www.jetbrains.com/decompiler/download",
+            "regex": "<li>Version: ([\\d.]+)<\/li>"
+        }
+    },
     "2021.1.1": {
         "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.1/JetBrains.dotPeek.2021.1.1.web.exe",
         "file-type": ".exe",

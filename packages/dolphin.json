@@ -2,6 +2,13 @@
     "display-name": "Dolphin",
     "package-name": "dolphin",
     "latest-version": "5.0",
+    "auto-update": {
+        "url": "http://dl-mirror.dolphin-emu.org/<version>/dolphin-x64-<version>.exe",
+        "vercheck": {
+            "webpage": "https://dolphin-emu.org/download/",
+            "regex": "Dolphin ([\\d.]+)"
+        }
+    },
     "5.0": {
         "url": "http://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe",
         "file-type": ".exe",
