@@ -2,21 +2,21 @@
     "display-name": "Yarn",
     "package-name": "yarn",
     "latest-version": "1.22.5",
+    "auto-update": {
+      "url": "https://yarnpkg.com/downloads/<version>/yarn-<version>.msi",
+      "vercheck": {
+        "webpage": "https://classic.yarnpkg.com/en/docs/install",
+        "regex": "Classic Stable \\(([\\d.]+)\\)"
+      }
+    },
+  
     "1.22.5": {
-        "url": "https://yarnpkg.com/downloads/1.22.5/yarn-1.22.5.msi",
-        "file-type": ".msi",
-        "install-switches": [
-            "/qn",
-            "/quiet",
-            "/norestart"
-        ],
-        "uninstall-switches": [
-            "/qn",
-            "/quiet",
-            "/norestart"
-        ],
-        "custom-location": "INSTALLDIR=",
-        "dependencies": [],
-        "checksum": "D7C895BC2A28DF456D561CE78B8F9367B0B6A27FB5344D532868FE6F62245A60"
+      "url": "https://yarnpkg.com/downloads/1.22.5/yarn-1.22.5.msi",
+      "file-type": ".msi",
+      "install-switches": ["/qn", "/quiet", "/norestart"],
+      "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+      "custom-location": "INSTALLDIR=",
+      "dependencies": [],
+      "checksum": "D7C895BC2A28DF456D561CE78B8F9367B0B6A27FB5344D532868FE6F62245A60"
     }
-}
+  }

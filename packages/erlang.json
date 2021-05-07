@@ -1,11 +1,18 @@
 {
     "display-name": "Erlang",
     "package-name": "erlang",
-    "latest-version": "22.3",
+    "latest-version": "23.3",
+    "auto-update": {
+        "url": "https://www.erlang.org/download/otp_win64_<version>.exe",
+        "vercheck": {
+            "webpage": "https://www.erlang.org/downloads",
+            "regex": "OTP ([\\d.]+)"
+        }
+    },
     "22.3": {
         "url": "https://www.erlang.org/download/otp_win64_22.3.exe",
-        "file-type": ".exe",
         "checksum": "f6444c1229d05e866ea15dc8e372bd45cec822d229f6b06f34b0011121e8ca40",
+        "file-type": ".exe",
         "install-switches": [
             "/S"
         ],
@@ -14,5 +21,18 @@
         ],
         "custom-location": "/D=",
         "dependencies": []
+    },
+    "23.3": {
+        "url": "https://www.erlang.org/download/otp_win64_23.3.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "1A05661A881E55BE69BFCC7FAEFB7CDA9F7552369A08695E18A1433E249F3C0F"
     }
 }

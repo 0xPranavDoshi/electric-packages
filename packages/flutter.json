@@ -5,7 +5,14 @@
     "portable": {
         "display-name": "Flutter SDK",
         "package-name": "flutter",
-        "latest-version": "1.22.6",
+        "latest-version": "2.0.6",
+        "auto-update": {
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_<version>-stable.zip",
+            "vercheck": {
+                "webpage": "https://github.com/flutter/flutter",
+                "type": "github"
+            }
+        },
         "1.22.6": {
             "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.6-stable.zip",
             "file-type": ".zip",
@@ -16,6 +23,17 @@
                 "bin\\flutter.bat"
             ],
             "checksum": "8A1BB036C8495C768B6D94855DCC4F603C7B1A76DCEB70A15B2C48E0C9853EF3"
+        },
+        "2.0.6": {
+            "checksum": "8A1BB036C8495C768B6D94855DCC4F603C7B1A76DCEB70A15B2C48E0C9853EF3",
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_2.0.6-stable.zip",
+            "file-type": ".zip",
+            "extract-dir": "flutter",
+            "chdir": "flutter",
+            "bin": [
+                "bin\\dart.bat",
+                "bin\\flutter.bat"
+            ]
         }
     }
 }

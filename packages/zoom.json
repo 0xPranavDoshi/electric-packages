@@ -1,7 +1,14 @@
 {
     "display-name": "Zoom",
     "package-name": "zoom",
-    "latest-version": "5.5.12494.0204",
+    "auto-update": {
+        "url": "https://zoom.us/client/<version>/ZoomInstallerFull.msi",
+        "vercheck": {
+            "webpage": "https://zoom.en.softonic.com/",
+            "regex": "&nbsp;([\\d.]+)</li>"
+        }
+    },
+    "latest-version": "5.6.1.617",
     "5.5.12494.0204": {
         "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
         "file-type": ".msi",
@@ -18,5 +25,22 @@
         "custom-location": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "AEE7B00BC50ADF30B79F428515A61D48BD9A5393983B275C7C9FDC2A93177473"
+    },
+    "5.6.1.617": {
+        "url": "https://zoom.us/client/5.6.1.617/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1C8E0F3DC13C2ED71A001B0ACB0B393CA2307198E7C4D1865697B3EF00CF083D"
     }
 }

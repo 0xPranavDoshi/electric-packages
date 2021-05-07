@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/master/package-schema.json",
   "display-name": "FileZilla",
   "package-name": "filezilla",
   "latest-version": "3.52.2",

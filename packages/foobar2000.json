@@ -2,6 +2,13 @@
     "display-name": "foobar2000",
     "package-name": "foobar2000",
     "latest-version": "1.6.5",
+    "auto-update": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "vercheck": {
+            "webpage": "",
+            "regex": "foobar2000 v([\\d.]+)"
+        }
+    },
     "1.6.5": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
         "file-type": ".exe",

@@ -1,7 +1,14 @@
 {
     "display-name": "Etcher",
     "package-name": "etcher",
-    "latest-version": "1.5.117",
+    "latest-version": "1.5.119",
+    "auto-update": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v<version>/balenaEtcher-Setup-<version>.exe",
+        "vercheck": {
+            "webpage": "https://github.com/balena-io/etcher",
+            "type": "github"
+        }
+    },
     "1.5.117": {
         "url": "https://github.com/balena-io/etcher/releases/download/v1.5.117/balenaEtcher-Setup-1.5.117.exe",
         "file-type": ".exe",
@@ -13,6 +20,18 @@
             "/S"
         ],
         "custom-location": "/D=",
-        "dependencies": [] 
+        "dependencies": []
+    },
+    "1.5.119": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.5.119/balenaEtcher-Setup-1.5.119.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": []
     }
 }

@@ -1,8 +1,15 @@
 {
     "display-name": "Everything",
     "package-name": "everything",
-    "latest-version": "1.4.11005",
-    "1.4.11005": {
+    "latest-version": "1.4.1.1005",
+    "auto-update": {
+        "url": "https://www.voidtools.com/Everything-<version>.x64-Setup.exe",
+        "vercheck": {
+            "webpage": "https://www.voidtools.com/downloads/",
+            "regex": "Download Everything ([\\d.]+)"
+        }
+    },
+    "1.4.1.1005": {
         "url": "https://www.voidtools.com/Everything-1.4.1.1005.x64-Setup.exe",
         "file-type": ".exe",
         "install-switches": [

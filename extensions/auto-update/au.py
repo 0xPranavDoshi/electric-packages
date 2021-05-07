@@ -113,7 +113,6 @@ def update(
     except FileNotFoundError:
         print(f'{Fore.RED}File Does Not Exist!{Fore.RESET}')
         exit()
-
     # If Package Is Not Portable By Default
     if not 'is-portable' in list(data.keys()):
         package_name = data['package-name']
@@ -535,7 +534,6 @@ def update(
     else:
         # Update portable version
         package_name = data['package-name']
-
         latest_version = data['portable']['latest-version']
 
         if 'auto-update' not in list(data['portable'].keys()):
@@ -557,7 +555,6 @@ def update(
             webpage = webpage + '/releases'
 
         html = swc(webpage.strip())
-
         if 'github.com' in webpage and dt:
             version_list = re.findall(r'\/releases\/tag\/(v|V)?([\d.]+)', html)
 
@@ -692,9 +689,8 @@ def update(
                 checksum = ''
 
                 if 'checksum' in list(data['portable'][version].keys()):
-                    print(url)
                     os.system(
-                        rf'curl {url} -o {gettempdir()}\AutoUpdate{data["portable"][version]["file-type"]}')
+                        rf'powershell.exe curl \"{url}\" -o {gettempdir()}\AutoUpdate{data["portable"][version]["file-type"]}')
                     proc = Popen(
                         rf'powershell.exe Get-FileHash {gettempdir()}\AutoUpdate{data["portable"][version]["file-type"]}', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
                     output, _ = proc.communicate()

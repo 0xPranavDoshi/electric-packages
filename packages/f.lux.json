@@ -2,6 +2,13 @@
     "display-name": "f.lux",
     "package-name": "f.lux",
     "latest-version": "4.119",
+    "auto-update": {
+        "url": "https://justgetflux.com/flux-setup.exe",
+        "vercheck": {
+            "webpage": "https://www.techspot.com/downloads/5606-f-lux.html",
+            "regex": "<span class=\"subver\" itemprop=\"softwareVersion\">([\\d.]+)</span>"
+        }
+    },
     "4.119": {
         "url": "https://justgetflux.com/flux-setup.exe",
         "file-type": ".exe",

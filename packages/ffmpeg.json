@@ -5,10 +5,17 @@
     "portable": {
         "display-name": "FFmpeg",
         "package-name": "ffmpeg",
-        "latest-version": "4.3.2",
+        "latest-version": "4.4",
+        "auto-update": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "vercheck": {
+                "webpage": "https://ffmpeg.org/download.html",
+                "regex": "FFmpeg ([\\d.]+)"
+            }
+        },
         "4.3.2": {
-            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
-            "file-type": ".7z",
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "file-type": ".zip",
             "extract-dir": "ffmpeg",
             "bin": [
                 "bin\\ffmpeg.exe",
@@ -16,6 +23,17 @@
                 "bin\\ffprobe.exe"
             ],
             "checksum": "D77782FA3EA48A52A52BFF35637CEE14143480473A590E6EB3CB97D80488A513"
+        },
+        "4.4": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "checksum": "B61572975ECE8A3FE86BB590EDB0C5681D9E85A0332B305BDCFBF299344146E8",
+            "file-type": ".zip",
+            "extract-dir": "ffmpeg",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ]
         }
     }
 }
