@@ -2,6 +2,13 @@
     "display-name": "Doxygen",
     "package-name": "doxygen",
     "latest-version": "1.9.1",
+    "auto-update": {
+        "url": "https://sourceforge.net/projects/doxygen/files/rel-<version>/doxygen-<version>-setup.exe/download",
+        "vercheck": {
+            "webpage": "https://sourceforge.net/projects/doxygen/files/",
+            "regex": "rel-([\\d.]+)"
+        }
+    },
     "1.9.1": {
         "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.1/doxygen-1.9.1-setup.exe/download",
         "file-type": ".exe",

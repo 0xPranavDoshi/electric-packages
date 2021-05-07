@@ -1,8 +1,6 @@
 # Auto-Update Module Inspired By Scoop
 # https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate
 
-from re import U
-from sys import version_info
 import requests
 import click
 
@@ -109,10 +107,12 @@ def update(
     from tempfile import gettempdir
     from subprocess import Popen, PIPE
 
-    with open(file_path, 'r') as f:
-        data = json.load(f)
-
-    # TODO: Handle is-portable
+    try:
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f'{Fore.RED}File Does Not Exist!{Fore.RESET}')
+        exit()
 
     # If Package Is Not Portable By Default
     if not 'is-portable' in list(data.keys()):
@@ -237,7 +237,11 @@ def update(
 
             result = re.findall(data['auto-update']['vercheck']['regex'], html)
 
-            web_version = result[0]
+            try:
+                web_version = result[0]
+            except IndexError:
+                print(f'{Fore.RED}No Matches Found!{Fore.RESET}')
+                exit()
 
             if 'reverse' in list(data['auto-update']['vercheck'].keys()):
                 if data['auto-update']['vercheck']['reverse'] == True:
@@ -432,7 +436,12 @@ def update(
 
                         result = re.findall(
                             data['portable']['auto-update']['vercheck']['regex'], html)
-                        web_version = result[0]
+
+                        try:
+                            web_version = result[0]
+                        except IndexError:
+                            print(f'{Fore.RED}No Matches Found!{Fore.RESET}')
+                            exit()
 
                         if 'reverse' in list(data['auto-update']['vercheck'].keys()):
                             if data['auto-update']['vercheck']['reverse'] == True:
@@ -622,7 +631,11 @@ def update(
             result = re.findall(
                 data['portable']['auto-update']['vercheck']['regex'], html)
 
-            web_version = result[0]
+            try:
+                web_version = result[0]
+            except IndexError:
+                print(f'{Fore.RED}No Matches Found!{Fore.RESET}')
+                exit()
 
             if 'reverse' in list(data['portable']['auto-update']['vercheck'].keys()):
                 if data['portable']['auto-update']['vercheck']['reverse'] == True:
