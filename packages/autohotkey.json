@@ -1,7 +1,7 @@
 {
     "display-name": "Autohotkey",
     "package-name": "autohotkey",
-    "latest-version": "1.1.33.08",
+    "latest-version": "1.1.33.09",
     "auto-update": {
         "url": "https://autohotkey.com/download/ahk-install.exe",
         "vercheck": {
@@ -60,5 +60,18 @@
         "custom-location": "/D=",
         "dependencies": [],
         "checksum": "C031C0AB79082C42B5F9745D71D7C785CA54462E9DAF40789F993AF69523081B"
+    },
+    "1.1.33.09": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "AE16F667CF5069D3E26AD7DEA0BCE0BBF31435F353562BFAAAE425BF34868048"
     }
 }
