@@ -5,7 +5,7 @@
     "auto-update": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
         "vercheck": {
-            "webpage": "",
+            "webpage": "https://www.foobar2000.org/download",
             "regex": "foobar2000 v([\\d.]+)"
         }
     },
