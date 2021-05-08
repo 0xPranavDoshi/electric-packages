@@ -1,7 +1,7 @@
 {
     "display-name": "Anydesk",
     "package-name": "anydesk",
-    "latest-version": "6.2.3",
+    "latest-version": "6.3.0",
     "auto-update": {
         "url": "https://download.anydesk.com/AnyDesk.msi",
         "vercheck": {
@@ -25,5 +25,22 @@
         "custom-location": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "9CB76DCE2D2178EA68056F414456E8118D5BECB868924C8A603DE685787078D0"
+    },
+    "6.3.0": {
+        "url": "https://download.anydesk.com/AnyDesk.msi",
+        "file-type": ".msi",
+        "install-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A0204DFF9312B8BA71AA9EE5A5BA88C5BCE4DB00FE21B7D865F9838D8E23CC6C"
     }
 }
