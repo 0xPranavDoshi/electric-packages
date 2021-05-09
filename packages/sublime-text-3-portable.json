@@ -23,7 +23,6 @@
                 "file-name": "uninstall-context"
             }
             ],
-            "extract-dir": "sublime-text-3",
             "bin": ["subl.exe"],
             "pre-install": {
             "type": "powershell",
