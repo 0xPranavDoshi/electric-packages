@@ -1,7 +1,7 @@
 {
     "display-name": "Brave",
     "package-name": "brave",
-    "latest-version": "1.26.15",
+    "latest-version": "1.25.56",
     "auto-update": {
         "url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentNightlySetup.exe",
         "vercheck": {
@@ -81,6 +81,16 @@
     },
     "1.26.15": {
         "url": "https://github.com/brave/brave-browser/releases/download/v1.26.15/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "install-switches": [],
+        "uninstall-switches": [
+            "/s"
+        ],
+        "custom-location": "",
+        "dependencies": []
+    },
+    "1.25.56": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.56/BraveBrowserStandaloneSilentNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
         "uninstall-switches": [
