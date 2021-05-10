@@ -288,7 +288,26 @@ def update(
                     versions['<minor-version>'] = replace.split('.')[1]
 
                 for v in versions:
+                    if re.findall(r'\[\d:\d?\]', url):
+                        results = re.findall(r'\[(\d):(\d?)\]', url)[0]
+                        new = []
+
+                        for value in results:
+                            if value:
+                                new.append(int(value))
+
+                        if len(new) == 1:
+                            versions[v] = versions[v][new[0]:]
+
+                        elif len(new) == 2:
+                            versions[v] = versions[v][new[0]:new[1]]
+
+                for v in versions:
                     url = url.replace(v, versions[v])
+
+                if re.findall(r'\[\d:\d?\]', url):
+                    match = re.findall(r'\[\d:\d?\]', url)[0]
+                    url = url.replace(match, '')
 
                 for value in res_tup:
                     url = url.replace(list(value.keys())[
