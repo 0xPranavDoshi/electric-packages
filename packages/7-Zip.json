@@ -11,7 +11,7 @@
     },
     "19.00": {
         "url": "https://www.7-zip.org/a/7z1900-x64.exe",
-        "threads": 10,
+        "threads": 5,
         "file-type": ".exe",
         "install-switches": [
             "/S"
@@ -26,6 +26,7 @@
     "16.04": {
         "url": "https://www.7-zip.org/a/7z1604-x64.msi",
         "file-type": ".msi",
+        "threads": 5,
         "install-switches": [
             "/qn",
             "/quiet",
