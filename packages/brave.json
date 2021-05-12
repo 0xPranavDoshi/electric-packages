@@ -84,7 +84,9 @@
         "file-type": ".exe",
         "install-switches": [],
         "uninstall-switches": [
-            "/s"
+            "--uninstall", 
+            "--system-level", 
+            "--force-uninstall"
         ],
         "custom-location": "",
         "dependencies": []
