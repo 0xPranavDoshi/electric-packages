@@ -1,7 +1,7 @@
 {
     "display-name": "Atom",
     "package-name": "atom",
-    "latest-version": "1.57.0",
+    "latest-version": "1.58.0",
     "auto-update": {
         "url": "https://github.com/atom/atom/releases/download/v<version>/AtomSetup-x64.exe",
         "vercheck": {
@@ -60,5 +60,17 @@
         "custom-location": "None",
         "dependencies": [],
         "checksum": "BA22B51F1234CDEA87F2B65709C506F7CCE0EA89618819ECF6C5920DF3BC87BB"
+    },
+    "1.58.0": {
+        "url": "https://github.com/atom/atom/releases/download/v1.58.0/AtomSetup-x64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "--silent"
+        ],
+        "uninstall-switches": [
+            "--silent"
+        ],
+        "custom-location": "None",
+        "dependencies": []
     }
 }
