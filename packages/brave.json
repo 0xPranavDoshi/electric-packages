@@ -83,10 +83,7 @@
         "url": "https://github.com/brave/brave-browser/releases/download/v1.26.15/BraveBrowserStandaloneSilentNightlySetup.exe",
         "file-type": ".exe",
         "install-switches": [],
-        "uninstall-switches": [
-            "--system-level", 
-            "--force-uninstall"
-        ],
+        "uninstall-switches": [],
         "custom-location": "",
         "dependencies": []
     }
