@@ -1,7 +1,7 @@
 {
     "display-name": "Discord Canary",
     "package-name": "discord-canary",
-    "latest-version": "0.0.304",
+    "latest-version": "0.0.306",
     "auto-update": {
         "url": "https://dl-canary.discordapp.net/apps/win/<version>/DiscordCanarySetup.exe",
         "vercheck": {
@@ -36,5 +36,19 @@
         "custom-location": "",
         "dependencies": [],
         "checksum": "96C68B834A12BC63F20B1C373D5B51FCC73F28BB699A10289B45A930052CEC77"
+    },
+    "0.0.306": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.306/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "-s"
+        ],
+        "uninstall-switches": [
+            "-s",
+            "--uninstall"
+        ],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "4F2C06DDF4B68538735D7CA47E254820508D55F313F0B6A59F45C7BD421A091A"
     }
 }
