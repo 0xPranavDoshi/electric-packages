@@ -1,26 +1,40 @@
 {
-  "display-name": "Anaconda3*",
-  "package-name": "anaconda",
-  "latest-version": "2020.11",
-  "auto-update": {
-    "url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
-    "vercheck": {
-      "webpage": "https://docs.anaconda.com/anaconda/install/hashes/win-3-64/",
-      "regex": "Anaconda3-([\\d.]+)-Windows"
+    "display-name": "Anaconda3*",
+    "package-name": "anaconda",
+    "latest-version": "2021.05",
+    "auto-update": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
+        "vercheck": {
+            "webpage": "https://docs.anaconda.com/anaconda/install/hashes/win-3-64/",
+            "regex": "Anaconda3-([\\d.]+)-Windows"
+        }
+    },
+    "2020.11": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2020.11-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/AddToPath=1",
+            "/S"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "AA523115DAF31C431BB392FAF75E70D35ADA935E36DC7B1DD8902BAEE240BCC1"
+    },
+    "2021.05": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2021.05-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/AddToPath=1",
+            "/S"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": [],
+        "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2"
     }
-  },
-  "2020.11": {
-    "url": "https://repo.continuum.io/archive/Anaconda3-2020.11-Windows-x86_64.exe",
-    "file-type": ".exe",
-    "install-switches": [
-      "/InstallationType=AllUsers",
-      "/RegisterPython=1",
-      "/AddToPath=1",
-      "/S"
-    ],
-    "uninstall-switches": [],
-    "custom-location": "",
-    "dependencies": [],
-    "checksum": "AA523115DAF31C431BB392FAF75E70D35ADA935E36DC7B1DD8902BAEE240BCC1"
-  }
 }
