@@ -1,7 +1,7 @@
 {
     "display-name": "DBeaver",
     "package-name": "dbeaver",
-    "latest-version": "21.0.4",
+    "latest-version": "21.0.5",
     "auto-update": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/<version>/dbeaver-ce-<version>-x86_64-setup.exe",
         "vercheck": {
@@ -50,5 +50,19 @@
         "custom-location": "/D=",
         "dependencies": [],
         "checksum": "A71C7E05CE5500808D449CCCCDDC292E276C79D25317599B3ADAA0525BB9A260"
+    },
+    "21.0.5": {
+        "url": "https://github.com/dbeaver/dbeaver/releases/download/21.0.5/dbeaver-ce-21.0.5-x86_64-setup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/S",
+            "/currentuser"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": [],
+        "checksum": "E39EEAC104BA28E780EB641075FA2740D6F677D3503CF1EF13F3AF94BEE35AE3"
     }
 }
