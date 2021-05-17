@@ -11,7 +11,7 @@
     },
     "19.00": {
         "url": "https://www.7-zip.org/a/7z1900-x64.exe",
-        "threads": 5,
+        "threads": 4,
         "file-type": ".exe",
         "install-switches": [
             "/S"
