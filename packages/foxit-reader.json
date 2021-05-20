@@ -1,14 +1,44 @@
 {
-  "display-name": "Foxit Reader",
-  "package-name": "foxit-reader",
-  "latest-version": "10.1.1.37576",
-  "10.1.1.37576": {
-    "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=10.1.1.37576",
-    "file-type": ".exe",
-    "checksum": "2609792562B9B58502F8318873BD7B647FEDAA529CA179A160B94D35CBE2329D",
-    "install-switches": ["/FORCEINSTALL", "/VERYSILENT", "/NORESTART"],
-    "uninstall-switches": ["/FORCEINSTALL", "/VERYSILENT", "/NORESTART"],
-    "custom-location": "/DIR=",
-    "dependencies": []
-  }
+    "display-name": "Foxit Reader",
+    "package-name": "foxit-reader",
+    "latest-version": "10.1.4.37651",
+    "auto-update": {
+        "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=<version>",
+        "vercheck": {
+            "webpage": "https://www.foxitsoftware.com/pdf-reader/version-history.html",
+            "regex": "Version ([\\d.]+)"
+        }
+    },
+    "10.1.1.37576": {
+        "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=10.1.1.37576",
+        "file-type": ".exe",
+        "install-switches": [
+            "/FORCEINSTALL",
+            "/VERYSILENT",
+            "/NORESTART"
+        ],
+        "uninstall-switches": [
+            "/FORCEINSTALL",
+            "/VERYSILENT",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    },
+    "10.1.4.37651": {
+        "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=10.1.4.37651",
+        "file-type": ".exe",
+        "install-switches": [
+            "/FORCEINSTALL",
+            "/VERYSILENT",
+            "/NORESTART"
+        ],
+        "uninstall-switches": [
+            "/FORCEINSTALL",
+            "/VERYSILENT",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    }
 }

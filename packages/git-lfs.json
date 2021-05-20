@@ -1,7 +1,14 @@
 {
     "display-name": "Git LFS*",
     "package-name": "git-lfs",
-    "latest-version": "2.13.2",
+    "latest-version": "2.9.2",
+    "auto-update": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v<version>/git-lfs-windows-v<version>.exe",
+        "vercheck": {
+            "webpage": "https://github.com/git-lfs/git-lfs",
+            "type": "github"
+        }
+    },
     "2.13.2": {
         "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-windows-v2.13.2.exe",
         "file-type": ".exe",
@@ -21,5 +28,24 @@
         "custom-location": "/DIR=",
         "dependencies": [],
         "checksum": "F9DA82F94AD447B307002222E0B7FAAB046C162B33A0962CCE7F2BDAC1E8A443"
+    },
+    "2.9.2": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.2/git-lfs-windows-v2.9.2.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "custom-location": "/DIR=",
+        "dependencies": []
     }
 }
