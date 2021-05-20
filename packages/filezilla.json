@@ -2,6 +2,12 @@
   "display-name": "FileZilla",
   "package-name": "filezilla",
   "latest-version": "3.52.2",
+  "auto-update": {
+    "url": "https://dl2.cdn.filezilla-project.org/client/FileZilla_3.53.1_win64-setup.exe?h=sSQCjlxsAr-c1cqpGZYI6A&x=1619040808"  ,
+    "vercheck": {
+      
+    }
+  },  
   "3.52.2": {
     "url": "https://dl2.cdn.filezilla-project.org/client/FileZilla_3.53.1_win64-setup.exe?h=sSQCjlxsAr-c1cqpGZYI6A&x=1619040808",
     "file-type": ".exe",
