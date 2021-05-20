@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "http://gittup.org/tup/win32/tup-latest.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://gittup.org/tup/win32",
                 "regex": "tup-v([\\w.-]+)\\.zip"
             }

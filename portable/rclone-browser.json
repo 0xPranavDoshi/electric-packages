@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-64-bit.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/kapitainsky/RcloneBrowser",
                 "regex": "/rclone-browser-([\\d.]+)-(?<commit>[a-fA-F0-9]+)-windows"
             }

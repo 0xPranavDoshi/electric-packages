@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/OpenBoard-org/OpenBoard/releases/download/v<version>/OpenBoard_Installer_<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.openboard.ch/index.en.html"
             }
         }

@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://mirror.httrack.com/httrack_x64-noinst-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mirror.httrack.com/version.txt",
                 "regex": "([\\d.]+)"
             }

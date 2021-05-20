@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.apache.org/dist/ant/binaries/apache-ant-<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ant.apache.org/bindownload.cgi",
                 "regex": "Currently, Apache Ant (?:[\\d.]+ and )?([\\d.]+) (?:is|are) the best"
             }

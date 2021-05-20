@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/antonpup/Aurora/releases/download/v<version>/Aurora-v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.project-aurora.com"
             }
         }

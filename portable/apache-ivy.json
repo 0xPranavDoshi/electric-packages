@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://www.apache.org/dist/ant/ivy/<version>/apache-ivy-<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ant.apache.org/ivy/download.cgi",
                 "regex": "/([\\d.]+)/"
             }

@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "https://curl.haxx.se/windows/dl-$matchCurl/brotli-$version-win64-mingw.tar.xz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://curl.haxx.se/windows/",
                 "regex": "dl-(?<curl>[\\d._]+)/brotli-(?<version>[\\d._]+)-win64-mingw"
             }

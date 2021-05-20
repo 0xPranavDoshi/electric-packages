@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://bin.equinox.io/a/$matchHash64bit/ngrok-$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dl.equinox.io/ngrok/ngrok/stable/archive",
                 "regex": "/a/(?<hash64bit>\\w+)/ngrok-([\\d.]+)-windows-amd64.zip(?:.|\\n)+?/a/(?<hash32bit>\\w+)/ngrok-([\\d.]+)-windows-386.zip"
             }

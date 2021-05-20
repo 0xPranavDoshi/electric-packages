@@ -50,7 +50,7 @@
         },
         "auto-update": {
             "url": "https://buildbot.libretro.com/stable/$matchMain/windows/x86_64/RetroArch.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.retroarch.com/?page=platforms",
                 "regex": "The current stable version is: (?<main>[\\d.]+)(\\s*\\((\\w+)\\))?"
             }

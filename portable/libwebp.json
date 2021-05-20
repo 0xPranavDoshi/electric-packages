@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-$version-windows-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html",
                 "regex": "/libwebp-([\\d.]+)-windows-x64\\.zip"
             }

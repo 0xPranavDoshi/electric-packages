@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.strokesplus.com/files/strokesplus_$version_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.strokesplus.com/",
                 "regex": "Version ([\\d.]+)"
             }

@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ldc-developers/ldc/releases/download/v$version/ldc2-$version-windows-x64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dlang.org/"
             }
         }

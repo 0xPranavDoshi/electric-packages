@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/zyedidia/micro/releases/download/v$version/micro-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://micro-editor.github.io/"
             }
         }

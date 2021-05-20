@@ -36,7 +36,7 @@
         },
         "auto-update": {
             "url": "http://mozbackup.jasnapaka.com/files/<version>/MozBackup-<version>-EN.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://mozbackup.jasnapaka.com/changelog.txt",
                 "regex": "\\(MozBackup\\s+([\\d.]+)\\)"
             }

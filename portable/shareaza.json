@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-$version/Shareaza_$version_x64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://shareaza.sourceforge.net/mediawiki/index.php/ChangeLog",
                 "regex": ">Shareaza\\s+([\\d.]+)<"
             }

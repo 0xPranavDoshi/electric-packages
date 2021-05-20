@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/plantuml/<version>/plantuml.<version>.jar#/plantuml.jar",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://plantuml.com/download",
                 "regex": "PlantUML compiled Jar \\(Version ([\\d.]+)\\)"
             }

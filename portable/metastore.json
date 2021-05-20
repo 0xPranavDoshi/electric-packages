@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/rasa/metastore/releases/download/v$version/metastore-x64.exe#/metastore.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/rasa/metastore",
                 "regex": "/releases/tag/v([\\w.-]+)\""
             }

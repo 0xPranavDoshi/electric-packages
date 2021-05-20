@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "http://balabolka.site/balabolka_portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://balabolka.site/changelog.txt",
                 "regex": "[\\d-]+\\s+v([\\d.]+)"
             }

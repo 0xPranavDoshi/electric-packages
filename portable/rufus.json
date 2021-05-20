@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://github.com/pbatard/rufus/releases/download/v<version>/rufus-<version>p.exe#/rufus.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rufus.ie/"
             }
         }

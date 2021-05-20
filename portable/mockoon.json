@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mockoon/mockoon/releases/download/v$version/mockoon.setup.$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mockoon.com"
             }
         }

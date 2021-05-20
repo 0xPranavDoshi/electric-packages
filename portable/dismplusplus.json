@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "http://cdn.chuyu.me/Dism++<version>_$matchHash.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.chuyu.me/en/",
                 "regex": "Dism\\+\\+([\\w.]+)_(?<hash>[a-fA-F\\d]{40})\\.zip"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://download.savannah.gnu.org/releases/lzip/lzip-<version>-w32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.savannah.gnu.org/releases/lzip/",
                 "regex": "lzip-([\\d.]+)-w32\\.zip"
             }

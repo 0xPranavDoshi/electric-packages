@@ -4,7 +4,7 @@
     "latest-version": "1.9.1",
     "auto-update": {
         "url": "https://sourceforge.net/projects/doxygen/files/rel-<version>/doxygen-<version>-setup.exe/download",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://sourceforge.net/projects/doxygen/files/",
             "regex": "rel-([\\d.]+)"
         }
@@ -12,7 +12,7 @@
     "1.9.1": {
         "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.1/doxygen-1.9.1-setup.exe/download",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -20,12 +20,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "ACC0AE71D219E0D4EC41DC74A7DA42B88165A1D7D06FE04D97BE41E966A1E443"
     }

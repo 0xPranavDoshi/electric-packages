@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://repo.anaconda.com/miniconda/Miniconda3-py38_$version-Windows-x86_64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.conda.io/en/latest/miniconda_hashes.html",
                 "regex": "Miniconda3-py38_([\\d.]+)-Windows"
             }

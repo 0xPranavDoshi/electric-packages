@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/exaile/exaile/releases/download/<version>/exaile-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.exaile.org/"
             }
         }

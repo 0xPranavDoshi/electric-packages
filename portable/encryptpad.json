@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/evpo/EncryptPad/releases/download/v<version>/encryptpad$underscoreVersion_win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://evpo.net/encryptpad/"
             }
         }

@@ -4,7 +4,7 @@
     "latest-version": "21.0.5",
     "auto-update": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/<version>/dbeaver-ce-<version>-x86_64-setup.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://dbeaver.io/download/",
             "regex": "Community Edition ([\\d.]+)"
         }
@@ -12,56 +12,56 @@
     "21.0.0": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/21.0.0/dbeaver-ce-21.0.0-x86_64-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S",
             "/currentuser"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "280AF1FEB31EDF19E2B8AA35C5BA4DCD025688D93884A6EE0F40DEE2BAA8F3C7"
     },
     "21.0.3": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/21.0.3/dbeaver-ce-21.0.3-x86_64-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S",
             "/currentuser"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "2DA3ECB3FEBC7F422BB4AAB76EC0CCD3BD736E77E487F9CAB2BD73740E6CE5A0"
     },
     "21.0.4": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/21.0.4/dbeaver-ce-21.0.4-x86_64-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S",
             "/currentuser"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "A71C7E05CE5500808D449CCCCDDC292E276C79D25317599B3ADAA0525BB9A260"
     },
     "21.0.5": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/21.0.5/dbeaver-ce-21.0.5-x86_64-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S",
             "/currentuser"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "E39EEAC104BA28E780EB641075FA2740D6F677D3503CF1EF13F3AF94BEE35AE3"
     }

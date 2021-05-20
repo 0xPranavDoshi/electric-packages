@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/zeebe-io/zeebe/releases/download/$matchRelease/camunda-operate-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.zeebe.io/operate-user-guide/",
                 "regex": "download/(?<release>[\\d.]+)/camunda-operate-([\\d.]+)\\.zip"
             }

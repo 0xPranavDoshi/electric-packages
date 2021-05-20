@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://downloads.tuxfamily.org/godotengine/$version/Godot_v$version-stable_win64.exe.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://godotengine.org/download",
                 "regex": "<h2>Godot <em>([\\d.]+)</em></h2>"
             }

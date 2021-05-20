@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Sigil-Ebook/Sigil/releases/download/$version/Sigil-$version-Windows-x64-Setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sigil-ebook.com"
             }
         }

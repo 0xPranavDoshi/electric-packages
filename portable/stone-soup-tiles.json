@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://github.com/crawl/crawl/releases/download/<version>/dcss-<version>-win32-tiles.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://crawl.develz.org/download.htm",
                 "regex": "dcss-([\\d.]+)-win32-tiles"
             }

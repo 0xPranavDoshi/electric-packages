@@ -5,13 +5,13 @@
     "latest": {
         "url": "https://aka.ms/vs/16/release/vc_redist.x64.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/install",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": [],
         "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
     }

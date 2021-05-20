@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "http://mirrors.ctan.org/support/latexindent.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ctan.org/pkg/latexindent",
                 "regex": "Version</td><td>([\\d.]+)"
             }

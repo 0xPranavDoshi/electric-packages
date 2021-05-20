@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.anydesk.com/AnyDesk.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://anydesk.com/en/downloads",
                 "regex": ">v([\\d.]+)\\s+\\("
             }

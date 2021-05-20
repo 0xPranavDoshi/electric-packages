@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/nukeop/nuclear/releases/download/v$version/nuclear-Setup-$matchCommit.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/nukeop/nuclear/releases",
                 "regex": "v([\\d.]+)/nuclear-Setup-(?<commit>\\w+)\\.exe"
             }

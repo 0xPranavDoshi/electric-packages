@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://download.svcat.sh/cli/v$version/windows/amd64/svcat.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/kubernetes-incubator/service-catalog/releases",
                 "regex": "cli/v([\\d.]+)/windows"
             }

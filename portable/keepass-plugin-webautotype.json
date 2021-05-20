@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/webautotype/v<version>/WebAutoType-v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/webautotype/rss?path=/",
                 "regex": "WebAutoType-v([\\d.]+)\\.zip"
             }

@@ -8,7 +8,7 @@
         "latest-version": "2.13.0",
         "auto-update": {
             "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/<version>/sdk/dartsdk-windows-x64-release.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
                 "regex": "\"version\":\\s*\"(.*)\""
             }

@@ -5,7 +5,7 @@
   "2.47": {
     "url": "https://liquidtelecom.dl.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47-Setup.exe",
     "file-type": ".exe",
-    "install-switches": [
+    "iswitches": [
       "/SP-",
       "/VERYSILENT",
       "/SUPPRESSMSGBOXES",
@@ -13,8 +13,8 @@
       "/NORESTART",
       "/FORCECLOSEAPPLICATIONS"
     ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-    "custom-location": "/DIR=",
+    "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "clswitch": "/DIR=",
     "dependencies": [],
     "checksum": "3EB2723AE5363C8400B494A5C2BB24D911E622ECBC15B20AAA32526A7BB45E42"
   }

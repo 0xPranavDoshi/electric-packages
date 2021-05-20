@@ -32,7 +32,7 @@
         },
         "auto-update": {
             "url": "https://github.com/URenko/Accesser/releases/download/v<version>/Accesser.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://urenko.github.io/Accesser/"
             }
         }

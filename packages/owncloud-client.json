@@ -6,17 +6,17 @@
         "url": "https://download.owncloud.com/desktop/ownCloud/stable/2.7.6.3261/win/ownCloud-2.7.6.3261.x64.msi",
         "file-type": ".msi",
         "checksum": "9FBCDEA18D868C24C242F4CB488121AC302229040B9620730C63D857F8BCB1EF",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     }
 }

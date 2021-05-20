@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Bitmessage/PyBitmessage/releases/download/$version/Bitmessage_x64_$version.exe#/bitmessage.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bitmessage.org/"
             }
         }

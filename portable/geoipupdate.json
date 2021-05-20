@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/maxmind/geoipupdate/releases/download/v$version/geoipupdate_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dev.maxmind.com/geoip/geoipupdate/"
             }
         }

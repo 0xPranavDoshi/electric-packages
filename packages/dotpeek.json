@@ -4,7 +4,7 @@
     "latest-version": "2021.1.2",
     "auto-update": {
         "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.<version>/JetBrains.dotPeek.<version>.web.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://data.services.jetbrains.com/products/releases?code=DPK&latest=true&type=release",
             "regex": "https://download.jetbrains.com/resharper/dotUltimate.[\\d.]+/dotPeek32.([\\d.]+).exe"
         }
@@ -13,33 +13,33 @@
         "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.1/JetBrains.dotPeek.2021.1.1.web.exe",
         "file-type": ".exe",
         "checksum": "28DA188DB0628537F20F3BBD37E56AFFC238C15A8B2C478DABD43ABD58FA4DDB",
-        "install-switches": [
+        "iswitches": [
             "/Silent=True",
             "/SpecificProductNames=dotPeek <version>",
             "/VsVersion=*"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/Silent=True",
             "/SpecificProductNamesToRemove=dotPeek <version>",
             "/VsVersion=*"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": []
     },
     "2021.1.2": {
         "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.2/JetBrains.dotPeek.2021.1.2.web.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/Silent=True",
             "/SpecificProductNames=dotPeek 2021.1.1",
             "/VsVersion=*"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/Silent=True",
             "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
             "/VsVersion=*"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [],
         "checksum": "AFCD5502404CF2CA65DD801A65D4CDEE0A3824ADEE7E0707D6A84C7112288296"
     }

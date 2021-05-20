@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://binaries.cockroachdb.com/cockroach-v$version.windows-6.2-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html",
                 "regex": "\"version-name\">v([\\d.]+)<"
             }

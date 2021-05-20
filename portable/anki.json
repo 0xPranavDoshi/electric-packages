@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ankitects/anki/releases/download/$version/anki-$version-windows.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/ankitects/anki/releases",
                 "regex": "anki-([\\d.]+)-windows\\.exe"
             }

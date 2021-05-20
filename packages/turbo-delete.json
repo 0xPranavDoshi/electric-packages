@@ -6,7 +6,7 @@
         "url": "https://github.com/XtremeDevX/turbodelete/releases/download/v1.0.0/Turbo.Delete.With.Progress.Bar.Setup.exe",
         "file-type": ".exe",
         "checksum": "7C9A1C17F15A8CC07F15CA5965DF514C3C96993794AE30A2612E288328F0B6B3",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,12 +14,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

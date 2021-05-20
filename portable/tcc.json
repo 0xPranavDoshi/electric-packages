@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://download.savannah.gnu.org/releases/tinycc/tcc-$version-win64-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.savannah.gnu.org/releases/tinycc/?C=N&O=D",
                 "regex": "tcc-([\\d.]+)-win64-bin\\.zip"
             }

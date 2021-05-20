@@ -40,7 +40,7 @@
         },
         "auto-update": {
             "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release"
             }
         }

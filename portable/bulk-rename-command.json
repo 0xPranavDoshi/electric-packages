@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "http://www.s3.tgrmn.com/bru/BRC_Unicode_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.bulkrenameutility.co.uk/Download.php",
                 "regex": "(?s)>Bulk Rename Command<.*?version ([\\d.]+)"
             }

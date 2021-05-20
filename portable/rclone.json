@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rclone.org"
             }
         }

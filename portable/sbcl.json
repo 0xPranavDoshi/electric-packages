@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/sbcl/sbcl/$version/sbcl-$version-x86-64-windows-binary.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.sbcl.org/platform-table.html",
                 "regex": "sbcl-([\\d.]+)-x86-64-windows"
             }

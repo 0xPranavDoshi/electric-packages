@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/MathewSachin/Captura/releases/download/v<version>/Captura-Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mathewsachin.github.io/Captura/"
             }
         }

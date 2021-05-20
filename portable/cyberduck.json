@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://update.cyberduck.io/windows/Cyberduck-Installer-$version.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cyberduck.io/download/",
                 "regex": "Cyberduck-Installer-([\\d.]+)\\.exe"
             }

@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64-bundled-python.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cloud.google.com/sdk/docs/downloads-versioned-archives",
                 "regex": "google-cloud-sdk-([\\d.]+)-windows-x86_64-bundled"
             }

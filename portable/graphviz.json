@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/graphviz-install-$version-win64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitlab.com/graphviz/graphviz/-/tags",
                 "regex": "Stable Release ([\\d.]+)"
             }

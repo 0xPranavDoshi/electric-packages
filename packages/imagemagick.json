@@ -5,7 +5,7 @@
     "": {
         "url": "https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-2-Q16-HDRI-x64-dll.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "80C3FE2AE1062ABF56456F52518BD670F9EC3917B7F85E152B347AC6B6FAF880"
     }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://releases.hashicorp.com/vagrant/$version/vagrant_$version_x86_64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://releases.hashicorp.com/vagrant/",
                 "regex": "vagrant_([\\d.]+)</a>"
             }

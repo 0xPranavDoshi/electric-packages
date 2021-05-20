@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://releases.hashicorp.com/nomad/$version/nomad_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://releases.hashicorp.com/nomad/",
                 "regex": "nomad_([\\d.]+)</a>"
             }

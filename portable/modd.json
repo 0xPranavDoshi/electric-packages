@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cortesi/modd/releases/download/v$version/modd-$version-windows64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://corte.si/posts/modd/announce/index.html"
             }
         }

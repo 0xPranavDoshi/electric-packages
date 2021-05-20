@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/clangen/musikcube/releases/download/$version/musikcube_win64_$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/clangen/musikcube/releases",
                 "regex": "musikcube_win32_([\\d.]+)\\.zip"
             }

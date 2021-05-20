@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "http://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-$version-no-locale-64bit.exe#/datamash.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://download-mirror.savannah.gnu.org/releases/datamash/windows-binaries/",
                 "regex": "datamash-([\\d.]+)-no-locale"
             }

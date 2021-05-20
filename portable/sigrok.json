@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-$version-x86_64-installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sigrok.org/download/binary/sigrok-cli/?C=M;O=D",
                 "regex": "sigrok-cli-([\\d.]+)-x86_64-installer\\.exe"
             }

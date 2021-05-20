@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/zeit/hyper/releases/download/$version/hyper-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hyper.is"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jedisct1/minisign/releases/download/<version>/minisign-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://jedisct1.github.io/minisign/"
             }
         }

@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://bitbucket.org/kobo/groovyserv-mirror/downloads/groovyserv-<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kobo.github.io/groovyserv/"
             }
         }

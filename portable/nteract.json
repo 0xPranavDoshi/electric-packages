@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/nteract/nteract/releases/download/v<version>/nteract-setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nteract.io"
             }
         }

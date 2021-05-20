@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://releases.hashicorp.com/terraform/",
                 "regex": "terraform_([\\d.]+)</a>"
             }

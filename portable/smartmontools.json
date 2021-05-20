@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/smartmontools/smartmontools/$matchHead/smartmontools-<version>.win32-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/smartmontools/files/smartmontools/",
                 "regex": "smartmontools-([\\d.-]+)\\.win32"
             }

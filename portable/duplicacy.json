@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gilbertchen/duplicacy/releases/download/v$version/duplicacy_win_x64_$version.exe#/duplicacy.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://duplicacy.com/"
             }
         }

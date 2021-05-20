@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://psg-prod-eastus.azureedge.net/packages/acmesharp.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.powershellgallery.com/packages/ACMESharp",
                 "regex": "Downloads of ([\\d.]+)"
             }

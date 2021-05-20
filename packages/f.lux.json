@@ -4,7 +4,7 @@
     "latest-version": "4.119",
     "auto-update": {
         "url": "https://justgetflux.com/flux-setup.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.techspot.com/downloads/5606-f-lux.html",
             "regex": "<span class=\"subver\" itemprop=\"softwareVersion\">([\\d.]+)</span>"
         }
@@ -12,13 +12,13 @@
     "4.119": {
         "url": "https://justgetflux.com/flux-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "F03582A9F2F7CC815B0CCF955582970219EFC6E5514BE310D9DF71F1C68EF069"
     }

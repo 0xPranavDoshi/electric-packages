@@ -6,7 +6,7 @@
         "latest-version": "2",
         "auto-update": {
             "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/<1>/android-studio-ide-<2>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://developer.android.com/studio/",
                 "regex": "android-studio-ide-([\\d.]+)-windows.zip",
                 "replace": "<1>"

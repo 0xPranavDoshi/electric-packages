@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/franko/gsl-shell/releases/download/v$version/gsl-shell-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.nongnu.org/gsl-shell/"
             }
         }

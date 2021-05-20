@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Lightcord/Lightcord/releases/download/<version>/lightcord-win32-ia32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://lightcord.org"
             }
         }

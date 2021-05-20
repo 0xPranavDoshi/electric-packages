@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/win-acme/win-acme/releases/download/v$matchHead/win-acme.v$version.x64.trimmed.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.win-acme.com",
                 "regex": "acme\\.v([\\d.]+)\\.x"
             }

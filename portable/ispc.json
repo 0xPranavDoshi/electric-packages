@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ispc/ispc/releases/download/v<version>/ispc-v<version>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ispc.github.io/"
             }
         }

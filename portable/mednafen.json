@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://mednafen.github.io/releases/files/mednafen-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mednafen.github.io/documentation/ChangeLog.txt",
                 "regex": "--\\s+([\\d.]+):\\s+--"
             }

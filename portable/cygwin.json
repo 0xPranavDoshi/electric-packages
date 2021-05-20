@@ -40,7 +40,7 @@
         },
         "auto-update": {
             "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cygwin.com/git/?p=cygwin-apps/setup.git;a=tags",
                 "regex": ">release_([\\d.]+)<"
             }

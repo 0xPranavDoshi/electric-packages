@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.sourceforge.net/project/dualmonitortb/Releases/v0<version>/DualMonitor%20$majorVersion.$minorVersion%20Setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/dualmonitortb/files/",
                 "regex": "\\*{3}\\s+Version\\s+([\\d.]+)"
             }

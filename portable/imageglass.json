@@ -38,7 +38,7 @@
         },
         "auto-update": {
             "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://imageglass.org"
             }
         }

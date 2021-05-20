@@ -5,7 +5,7 @@
     "1.1.1.1000": {
         "url": "https://slproweb.com/download/Win64OpenSSL-1_1_1j.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "8351C0267C2CD7866FF04C04261F06CD75AF9A7130AAC848CA43FD047404E229"
     }

@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/imolorhe/altair/releases/download/v$version/altair_$version_win.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://altair.sirmuel.design"
             }
         }

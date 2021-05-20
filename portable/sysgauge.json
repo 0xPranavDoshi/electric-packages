@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "http://www.sysgauge.com/setups_x64/sysgauge_setup_v$version_x64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sysgauge.com/downloads.html",
                 "regex": "<b>SysGauge</b><br>v([\\d.]+)"
             }

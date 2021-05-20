@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://github.com/HaxeFoundation/neko/releases/download/v$dashVersion/neko-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nekovm.org",
                 "regex": "neko-([\\d.]+)-win64"
             }

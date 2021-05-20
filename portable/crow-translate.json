@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/crow-translate/crow-translate/releases/download/$version/crow-translate-$version-win64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://crow-translate.github.io"
             }
         }

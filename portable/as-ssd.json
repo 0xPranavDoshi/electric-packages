@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.alex-is.de/progs/updater/as-ssd-version.txt",
                 "regex": "([\\d.]+)"
             }

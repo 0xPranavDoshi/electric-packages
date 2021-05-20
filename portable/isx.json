@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/lifenjoiner/ISx/files/$matchFileid/ISx-v<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/lifenjoiner/ISx",
                 "regex": "files/(?<fileid>\\d+)/ISx-v([\\d.]+)-bin\\.zip"
             }

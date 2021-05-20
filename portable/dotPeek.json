@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://download.jetbrains.com/resharper/dotUltimate.$version/dotPeek64.$version.exe#/dotpeek.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://data.services.jetbrains.com/products/releases?code=DPK&latest=true&platform=zip&type=release"
             }
         }

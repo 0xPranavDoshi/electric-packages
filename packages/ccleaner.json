@@ -4,7 +4,7 @@
     "latest-version": "5.79.8704",
     "auto-update": {
         "url": "https://download.ccleaner.com/ccsetup<major-version><minor-version>.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.ccleaner.com/ccleaner/version-history",
             "regex": "v([\\d.]+) \\([a-zA-Z0-9_.\\s]+\\)"
         }
@@ -12,39 +12,39 @@
     "5.77.8448": {
         "url": "https://download.ccleaner.com/ccsetup578.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "4B06EDB1A0CC2EEE860D84877F27185BD2FF944F4817600A57D8A235D2596BE6"
     },
     "5.78.8558": {
         "url": "https://download.ccleaner.com/ccsetup578.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "4B06EDB1A0CC2EEE860D84877F27185BD2FF944F4817600A57D8A235D2596BE6"
     },
     "5.79.8704": {
         "url": "https://download.ccleaner.com/ccsetup579.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "09602C2DC165452F64C6225840B9880B4FA3CBEE47F23D3D37F6503464B7E1AB"
     }

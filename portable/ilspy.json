@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/icsharpcode/ILSpy/releases/download/v$matchHead/ILSpy_binaries_<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://ilspy.net",
                 "regex": "v[\\d.]+/ILSpy_binaries_([\\d.]+)\\.zip"
             }

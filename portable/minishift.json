@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/minishift/minishift/releases/download/v$version/minishift-$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.openshift.org/minishift"
             }
         }

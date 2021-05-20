@@ -8,7 +8,7 @@
         "latest-version": "4.4",
         "auto-update": {
             "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ffmpeg.org/download.html",
                 "regex": "FFmpeg ([\\d.]+)"
             }

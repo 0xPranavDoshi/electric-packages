@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://geekuninstaller.com/geek.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://geekuninstaller.com/download",
                 "regex": "<b>([\\d.]+)"
             }

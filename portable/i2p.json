@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://launchpad.net/i2p/trunk/<version>/%2Bdownload/i2pinstall_<version>_windows.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://launchpad.net/i2p/trunk",
                 "regex": "Latest version is ([\\d.]+)"
             }

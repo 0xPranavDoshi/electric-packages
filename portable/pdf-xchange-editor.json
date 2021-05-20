@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "http://downloads.pdf-xchange.com/PDFXEdit$majorVersion_Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.tracker-software.com/product/pdf-xchange-editor/history",
                 "regex": "version ([\\d.]+) release"
             }

@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.pci-z.com/",
                 "regex": "Download PCI-Z (?<version>[\\d.]+) \\(.*?\\) \\(PCI ID version (?<pci>[\\d.]+)\\)"
             }

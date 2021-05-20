@@ -5,13 +5,13 @@
     "8.36.86": {
         "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.36.86.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "746C52C46C9E57D2C20922A4D9C5E11A1847AC24916A59ABFBC528235A356946"
     }

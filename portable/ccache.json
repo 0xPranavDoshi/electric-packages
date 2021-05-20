@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ccache/ccache/releases/download/v$version/ccache-$version-windows-64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ccache.dev"
             }
         }

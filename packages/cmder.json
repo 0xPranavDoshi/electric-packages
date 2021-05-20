@@ -8,7 +8,7 @@
         "latest-version": "1.3.18",
         "auto-update": {
             "url": "https://github.com/cmderdev/cmder/releases/download/v<version>/cmder.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/cmderdev/cmder",
                 "type": "github"
             }

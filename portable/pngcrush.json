@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w64.exe#/pngcrush.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/pmt/files/pngcrush-executables/",
                 "regex": "title=\"([0-9\\.]+)\""
             }

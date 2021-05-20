@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/rizinorg/cutter/releases/download/v$version/Cutter-v$version-x64.Windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cutter.re"
             }
         }

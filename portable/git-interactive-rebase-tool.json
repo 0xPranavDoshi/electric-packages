@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/MitMaro/git-interactive-rebase-tool/releases/download/$version/interactive-rebase-tool.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitrebasetool.mitmaro.ca"
             }
         }

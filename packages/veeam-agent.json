@@ -22,10 +22,10 @@
                 ]
             }
         ],
-        "install-switches": [],
-        "uninstall-switches": [],
+        "iswitches": [],
+        "uswitches": [],
         "run-check": true,
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [],
         "checksum": "4E3FC26243DC63A87CF21F41FE98DABCC1E1AA67993B634F94C26CC8BA6A6C66"
     }

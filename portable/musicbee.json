@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://www.mediafire.com/file/$matchRandom/MusicBeePortable_$matchMajorminor.zip/file#/dl.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getmusicbee.com/downloads/",
                 "regex": "(?sm)MusicBee\\s*([\\d.]+)<.*https://www\\.mediafire\\.com/file/(?<random>[^/]+)/MusicBeePortable_(?<majorminor>[^.]+)\\."
             }

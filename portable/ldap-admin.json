@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/ldapadmin/files/ldapadmin/",
                 "regex": "LdapAdminExe-w32-([\\d.]+)\\.zip"
             }

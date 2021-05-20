@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/tabulapdf/tabula/releases/download/v<version>/tabula-win-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://tabula.technology/"
             }
         }

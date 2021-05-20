@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/stable/mpv-$version-x86_64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/mpv-player-windows/rss?path=/stable",
                 "regex": "mpv-([\\d.]+)-x86_64"
             }

@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://download.qt.io/official_releases/jom/jom_$underscoreVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.qt.io/official_releases/jom/md5sums.txt",
                 "regex": "jom_(\\d+)_(\\d+)_(\\d+)\\.zip"
             }

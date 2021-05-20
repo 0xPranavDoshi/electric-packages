@@ -5,17 +5,17 @@
     "6.0.480": {
         "url": "https://download.octopusdeploy.com/octopus/Octopus.Tentacle.6.0.480-x64.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "202369A30E373A0C607A7B7567FC781EDDAF1A28BBA43E5DF056F2B1E4E015EE"
     }

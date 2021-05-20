@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.mongodb.com/compass/mongodb-compass-community-$version-win32-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.mongodb.com/try/download/compass",
                 "regex": "([\\d.]+)\\s+\\(Stable\\)"
             }

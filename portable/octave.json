@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://ftp.gnu.org/gnu/octave/windows/octave-$version-w64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://wiki.octave.org/GNU_Octave_Wiki",
                 "regex": "GNU Octave ([\\d.]+).*is the current stable release"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/DavidMoore/ipfilter/releases/download/<version>/IPFilter.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/DavidMoore/ipfilter/releases",
                 "regex": "/tree/([\\w.-]+)"
             }

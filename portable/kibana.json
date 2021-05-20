@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://artifacts.elastic.co/downloads/kibana/kibana-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.elastic.co/downloads/kibana",
                 "regex": "kibana-([\\d.]+)-windows-x86_64\\.zip"
             }

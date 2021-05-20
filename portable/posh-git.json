@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/dahlbyk/posh-git/archive/v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://dahlbyk.github.io/posh-git/"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/joonro/ConEmu-Color-Themes/archive/v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/joonro/ConEmu-Color-Themes",
                 "regex": "/releases/tag/v([\\w.-]+)\""
             }

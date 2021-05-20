@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/AlDanial/cloc/releases/download/<version>/cloc-<version>.exe#/cloc.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/AlDanial/cloc/releases",
                 "regex": "/releases/tag/([\\d.]+)"
             }

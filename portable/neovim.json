@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://neovim.io/"
             }
         }

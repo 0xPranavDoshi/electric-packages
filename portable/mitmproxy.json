@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://snapshots.mitmproxy.org/<version>/mitmproxy-<version>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mitmproxy.org/"
             }
         }

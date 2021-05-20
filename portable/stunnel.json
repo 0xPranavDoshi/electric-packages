@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.stunnel.org/downloads/archive/$majorVersion.x/stunnel-$version-win64-installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.stunnel.org/downloads.html",
                 "regex": "stunnel-([\\d.]+)-win64"
             }

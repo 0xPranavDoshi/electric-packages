@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/serverless/serverless/releases/download/v$version/serverless-win-x64.exe#/serverless.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://serverless.com"
             }
         }

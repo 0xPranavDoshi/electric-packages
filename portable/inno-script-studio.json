@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://www.kymoto.org/downloads/ISStudio_Latest.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.kymoto.org/products/inno-script-studio/release-history",
                 "regex": "Inno Script Studio v([\\d.]+)"
             }

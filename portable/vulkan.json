@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://sdk.lunarg.com/sdk/download/<version>/windows/VulkanSDK-<version>-Installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://vulkan.lunarg.com/sdk/home.dhtml",
                 "regex": "/VulkanSDK-([\\d.]+)-Installer\\.exe"
             }

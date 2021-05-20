@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://fossies.org/windows/misc/audacity-win-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fossies.org/windows/misc/",
                 "regex": "[Aa]udacity-win-([\\d.]+)\\.zip\""
             }

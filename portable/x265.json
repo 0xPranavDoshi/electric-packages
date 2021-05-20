@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "http://msystem.waw.pl/x265/x265-<version>_vs2019-AVX2.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://msystem.waw.pl/x265/",
                 "regex": "x265-([^_]+)_vs2019-AVX2"
             }

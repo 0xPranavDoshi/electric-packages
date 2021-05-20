@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "https://github.com/asciidocfx/AsciidocFX/releases/download/v$version/AsciidocFX_Windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://asciidocfx.com"
             }
         }

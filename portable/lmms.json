@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/LMMS/lmms/releases/download/v$version/lmms-$version-win64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://lmms.io/"
             }
         }

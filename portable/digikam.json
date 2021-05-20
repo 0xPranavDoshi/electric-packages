@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://download.kde.org/stable/digikam/$version/digiKam-$version-Win64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.digikam.org/download/",
                 "regex": "digiKam-([\\d.]+)-Win64"
             }

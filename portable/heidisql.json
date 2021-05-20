@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.heidisql.com/downloads/releases/HeidiSQL_$version_64_Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.heidisql.com/download.php",
                 "regex": "Download HeidiSQL ([\\d.]+)"
             }

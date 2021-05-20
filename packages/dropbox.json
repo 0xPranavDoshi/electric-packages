@@ -4,7 +4,7 @@
     "latest-version": "122.4.4867",
     "auto-update": {
         "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20<version>%20Offline%20Installer.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.techspot.com/downloads/4736-dropbox.html",
             "regex": "<span class=\"subver\" itemprop=\"softwareVersion\">([\\d.]+)</span>"
         }
@@ -12,39 +12,39 @@
     "116.4.368": {
         "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20116.4.368%20Offline%20Installer.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/s"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [],
         "checksum": "8BBF26CCC04D1319D06A6DA6BB19E98E35DE95BA35068564DB9CE493AB68ED25"
     },
     "121.4.4267": {
         "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20121.4.4267%20Offline%20Installer.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/s"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [],
         "checksum": "64419ABC40FEF887411A5A6FDFA07E63551F48F68889940D78C6B52BD8187E42"
     },
     "122.4.4867": {
         "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20122.4.4867%20Offline%20Installer.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/s"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [],
         "checksum": "E6CCE6BAF7D7284947D86F817D9579746B392375EBFAD414A312EF7100DF1401"
     }

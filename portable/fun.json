@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://funcruft-release.oss-accelerate.aliyuncs.com/fun/fun-v$version-win.exe.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://alibabacloud.com/help/doc-detail/64204.html?lang=en"
             }
         }

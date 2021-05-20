@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://constexpr.org/innoextract/files/innoextract-<version>/innoextract-<version>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://constexpr.org/innoextract/files/?C=M&O=D",
                 "regex": "innoextract-([\\d.]+)"
             }

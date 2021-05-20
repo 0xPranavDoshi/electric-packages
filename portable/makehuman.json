@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://download.tuxfamily.org/makehuman/releases/<version>/makehuman-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.makehumancommunity.org/content/downloads.html",
                 "regex": "makehuman-([\\d.]+)-win32\\.zip"
             }

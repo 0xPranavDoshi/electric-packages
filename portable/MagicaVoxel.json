@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ephtracy/ephtracy.github.io/releases/download/$version/MagicaVoxel-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ephtracy.github.io/"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V$underscoreVersion_Win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.coppeliarobotics.com/helpFiles/en/versionInfo.htm",
                 "regex": "CoppeliaSim\\s+V([\\d.]+)\\s+\\("
             }

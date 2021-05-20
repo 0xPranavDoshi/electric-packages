@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/htacg/tidy-html5/releases/download/$version/tidy-$version-vc14-64b.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.html-tidy.org/"
             }
         }

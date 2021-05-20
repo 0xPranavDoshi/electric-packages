@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/tannerhelland/PhotoDemon/releases/download/v<version>/PhotoDemon-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://photodemon.org/download/",
                 "regex": "Version\\s+([\\d.]+)\\s+is the latest stable release"
             }

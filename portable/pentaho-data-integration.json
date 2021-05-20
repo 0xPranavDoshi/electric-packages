@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/pentaho/Pentaho%20$matchShort/client-tools/pdi-ce-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/pentaho/rss?path=/",
                 "regex": "Pentaho (?<short>[\\d.]+)/client-tools/pdi-ce-(?<version>[\\w.-]+)\\.zip"
             }

@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://www.softwareok.com/Download/OpenCloseDriveEject_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.softwareok.com/?seite=Microsoft/OpenCloseDriveEject/History",
                 "regex": "version ([\\d.]+)"
             }

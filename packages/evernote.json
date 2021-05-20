@@ -4,7 +4,7 @@
     "latest-version": "10.13.4",
     "auto-update": {
         "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-<version>-win-ddl-ga-<2>-setup.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://help.evernote.com/hc/en-us/articles/360058361833-Evernote-release-notes",
             "regex": "The most recent version is ([\\d.]+) build ([\\d]{4}).",
             "replace": "<1>"
@@ -13,26 +13,26 @@
     "10.8.5": {
         "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.8.5-win-ddl-ga-2367-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "8BC7B88DB643CB8DF342BC174E56C4AC3CF860761AD9ABADF524B66FA01A8CBA"
     },
     "10.13.4": {
         "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.13.4-win-ddl-ga-2607-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "44D52227C6A4E93E8581BA41125906203B354D34C0AD145A84204992BD3A1CDB"
     }

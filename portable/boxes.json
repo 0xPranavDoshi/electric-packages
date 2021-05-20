@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ascii-boxes/boxes/releases/download/v<version>/boxes-<version>-intel-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://boxes.thomasjensen.com/"
             }
         }

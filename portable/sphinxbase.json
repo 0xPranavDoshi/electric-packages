@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxbase/<version>/sphinxbase-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/cmusphinx/files/sphinxbase/",
                 "regex": "<span class=\"name\">([\\w]+)</span>"
             }

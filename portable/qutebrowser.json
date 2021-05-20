@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v$version/qutebrowser-$version-windows-standalone-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.qutebrowser.org"
             }
         }

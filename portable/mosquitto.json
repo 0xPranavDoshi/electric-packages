@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://mosquitto.org/files/binary/win64/mosquitto-$version-install-windows-x64.exe#dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mosquitto.org/download/",
                 "regex": "mosquitto-([\\d.a-z]+)-install-windows"
             }

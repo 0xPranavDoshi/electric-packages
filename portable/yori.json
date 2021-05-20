@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://www.malsmith.net/download/?obj=yori/<version>/win32/ysetup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.malsmith.net/yori/"
             }
         }

@@ -5,17 +5,17 @@
     "7.4.1": {
         "url": "https://downloads.puppet.com/windows/puppet7/puppet-agent-7.4.1-x64.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "5DEC295A4886FF23DBAF20DC950E13003B72750D9893A983614900E319403DF9"
     }

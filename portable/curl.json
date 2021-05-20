@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://curl.haxx.se/windows/dl-$version/curl-$version-win64-mingw.tar.xz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://curl.haxx.se/windows/",
                 "regex": "Build<\\/b>:\\s+([\\d._]+)"
             }

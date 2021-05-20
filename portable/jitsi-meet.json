@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v<version>/jitsi-meet.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://jitsi.org/meet"
             }
         }

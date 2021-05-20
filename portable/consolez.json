@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cbucher/console/releases/download/$matchHead/ConsoleZ.x64.$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/cbucher/console",
                 "regex": "ConsoleZ\\.x64\\.([\\d.]+)\\.zip"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://snakenest.com/snaketail/"
             }
         }

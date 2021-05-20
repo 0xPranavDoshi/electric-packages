@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Chhekur/local-browser/releases/download/v<version>/local-browser-setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chhekur.github.io/local-browser/"
             }
         }

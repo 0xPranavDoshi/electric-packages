@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://api.nuget.org/packages/linqpadless.<version>.nupkg#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.nuget.org/packages/LinqPadless",
                 "regex": "-Version ([\\d.]+)"
             }

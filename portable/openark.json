@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/BlackINT3/OpenArk/releases/download/v$version/OpenArk64.exe#/OpenArk.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://openark.blackint3.com"
             }
         }

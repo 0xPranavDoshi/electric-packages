@@ -6,17 +6,17 @@
     "8.2.0.17759012": {
         "url": "https://download3.vmware.com/software/view/viewclients/CART22FQ1/VMware-Horizon-Client-2103-8.2.0-17759012.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "/TARGETDIR=",
+        "clswitch": "/TARGETDIR=",
         "dependencies": [],
         "checksum": "1FFBDAB7B88C0527B8F5C05540F92FBF74DD2D804FA20FE328CC18C0BC886FC9"
     }

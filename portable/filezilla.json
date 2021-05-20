@@ -54,7 +54,7 @@
         },
         "auto-update": {
             "url": "https://download.filezilla-project.org/client/FileZilla_$version_win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://filezilla-project.org/download.php?show_all=1",
                 "regex": "The latest stable version of FileZilla Client is ([\\d.]+)"
             }

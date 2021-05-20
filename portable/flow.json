@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/facebook/flow/releases/download/v$version/flow-win64-v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://flowtype.org/"
             }
         }

@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/nunit-extension-nunit-v2-driver.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/nunit-extension-nunit-v2-driver",
                 "regex": "\\s+([\\d.]+)</title>"
             }

@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://psg-prod-eastus.azureedge.net/packages/pskubectlcompletion.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.powershellgallery.com/packages/PSKubectlCompletion",
                 "regex": "<h2>([\\d.]+)</h2>"
             }

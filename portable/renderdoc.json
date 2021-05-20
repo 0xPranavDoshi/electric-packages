@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://renderdoc.org/stable/$version/RenderDoc_$version_64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://renderdoc.org"
             }
         }

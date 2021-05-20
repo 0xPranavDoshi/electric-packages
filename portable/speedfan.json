@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "http://www.almico.com/speedfan$cleanVersion.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.almico.com/sfdownload.php",
                 "regex": "<a href=\"speedfan\\d+\\.exe\">SpeedFan ([\\d.]+)</a>"
             }

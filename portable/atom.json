@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/atom/atom/releases/download/v$version/atom-x64-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://atom.io/"
             }
         }

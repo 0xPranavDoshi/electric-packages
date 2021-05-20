@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://joedf.ahkscript.org/LuaBuilds/hdata/lua-$version_Win64_bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://joedf.ahkscript.org/LuaBuilds/",
                 "regex": "Lua ([\\d.]+(-[\\w]+)?)"
             }

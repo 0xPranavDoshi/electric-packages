@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "http://www.dhcpserver.de/cms/wp-content/plugins/download-attachments/includes/download.php?id=$matchId#/dl.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.dhcpserver.de/cms/download/",
                 "regex": "download.php\\?id=(?<id>\\d+)\" class=\"attachment-link\" title=\"DHCP Server V([\\d.]+)\""
             }

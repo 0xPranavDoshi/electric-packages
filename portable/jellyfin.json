@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://repo.jellyfin.org/releases/server/windows/versions/stable/combined/$version/jellyfin_$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://repo.jellyfin.org/releases/server/windows/versions/stable/combined/",
                 "regex": "\"([\\d.]+)/"
             }

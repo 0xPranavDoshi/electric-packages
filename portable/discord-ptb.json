@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://dl-ptb.discordapp.net/apps/win/DiscordPTB-<version>-full.nupkg#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://discordapp.com/api/updates/ptb/RELEASES",
                 "regex": "DiscordPTB-([\\d.]+)"
             }

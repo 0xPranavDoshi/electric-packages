@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "http://adoxa.altervista.org/global/glo$cleanVersionwb.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://adoxa.altervista.org/global/",
                 "regex": "GLOBAL ([\\d.]+)"
             }

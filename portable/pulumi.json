@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://get.pulumi.com/releases/sdk/pulumi-v$version-windows-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.pulumi.com/docs/get-started/install/versions",
                 "regex": "<strong>([\\d.]+)"
             }

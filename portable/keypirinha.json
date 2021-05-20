@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Keypirinha/Keypirinha/releases/download/v$version/keypirinha-$version-x64-portable.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://keypirinha.com"
             }
         }

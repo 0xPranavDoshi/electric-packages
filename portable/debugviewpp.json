@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/CobaltFusion/DebugViewPP/releases/download/v$matchTag64-x64/DebugView%2B%2B.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/CobaltFusion/DebugViewPP/releases",
                 "regex": "(?sm)v(?<tag32>[\\d.]+)\">Debugview\\+\\+ v([\\d.]+) - 32.*?v(?<tag64>[\\w.]+)-x64\">Debugview"
             }

@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://github.com/OpenNingia/Launchy/releases/download/launchy-v$version/Launchy_Setup_x64-$version.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://openningia.github.io/Launchy",
                 "regex": "tag/launchy-v([\\d.]+)"
             }

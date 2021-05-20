@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://dl-canary.discordapp.net/apps/win/DiscordCanary-<version>-full.nupkg#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://discordapp.com/api/updates/canary/RELEASES",
                 "regex": "DiscordCanary-([\\d.]+)"
             }

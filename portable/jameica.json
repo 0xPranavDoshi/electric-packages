@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-win64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.willuhn.de/products/jameica/download.php",
                 "regex": "Jameica\\s+([\\d.]+)\\s+-\\s+Aktuelle Version"
             }

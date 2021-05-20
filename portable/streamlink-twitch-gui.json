@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/streamlink/streamlink-twitch-gui/releases/download/v$version/streamlink-twitch-gui-v$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://streamlink.github.io/streamlink-twitch-gui/"
             }
         }

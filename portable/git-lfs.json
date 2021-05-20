@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-amd64-v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://git-lfs.github.com/"
             }
         }

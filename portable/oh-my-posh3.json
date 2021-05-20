@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v$version/posh-windows-wsl-amd64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ohmyposh.dev"
             }
         }

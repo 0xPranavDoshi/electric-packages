@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/adobe/brackets/releases/download/release-<version>/Brackets.Release.<version>.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://brackets.io/",
                 "regex": "/releases/tag/release-([\\d.]+)"
             }

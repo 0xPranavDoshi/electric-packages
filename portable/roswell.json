@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/roswell/roswell/releases/download/v$version/roswell_$version_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/roswell/roswell/releases",
                 "regex": "roswell_([\\d.]+)_amd64\\.zip"
             }

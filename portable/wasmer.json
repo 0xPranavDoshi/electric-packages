@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/wasmerio/wasmer/releases/download/$version/wasmer-windows.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://wasmer.io/",
                 "regex": "tag/([\\w.-]+)"
             }

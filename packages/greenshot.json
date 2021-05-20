@@ -5,7 +5,7 @@
     "1.2.10.6": {
         "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "1687311B4E7A3720BE20490E8ED6CC772A32336A7BED8896E475B8EC616C6B81"
     }

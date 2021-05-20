@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download2.gluonhq.com/scenebuilder/$version/install/windows/SceneBuilder-$version.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gluonhq.com/products/scene-builder/"
             }
         }

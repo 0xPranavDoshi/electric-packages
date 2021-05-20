@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://cdn.streamlabs.com/chatbot/Streamlabs+Chatbot+Installer.exe?v=<version>",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://streamlabs.com/api/v5/changelog",
                 "regex": "Streamlabs Chatbot - Version ([\\d.]+)"
             }

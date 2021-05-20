@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/gs$cleanVersionw64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ghostscript.com",
                 "regex": "Ghostscript/GhostPDL ([\\d.]+)"
             }

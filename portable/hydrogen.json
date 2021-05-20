@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/hydrogen-music/hydrogen/releases/download/$version/Hydrogen-$version-win64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://hydrogen-music.org/downloads/",
                 "regex": "([\\w.-]+)\\s+64-Bit"
             }

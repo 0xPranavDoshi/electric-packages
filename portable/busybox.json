@@ -777,7 +777,7 @@
         },
         "auto-update": {
             "url": "https://frippery.org/files/busybox/busybox-w64-FRP-$version.exe#/busybox.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://frippery.org/busybox/",
                 "regex": ">busybox-w32-FRP-([\\w-]+)\\."
             }

@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://jmeter.apache.org/changes.html",
                 "regex": ">Version ([\\d.]+)"
             }

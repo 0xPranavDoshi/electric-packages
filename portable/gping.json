@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/orf/gping/releases/download/v$version/gping-Windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/orf/gping/releases",
                 "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.]+)"
             }

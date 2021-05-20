@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://msedgedriver.azureedge.net/$version/edgedriver_win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://msedgedriver.azureedge.net/LATEST_CANARY",
                 "regex": "([\\d.]+)"
             }

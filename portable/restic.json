@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/restic/restic/releases/download/v$version/restic_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://restic.net/"
             }
         }

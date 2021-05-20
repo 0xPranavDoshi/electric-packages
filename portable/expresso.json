@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://www.ultrapico.com/ExpressoSetup-$majorVersion.$minorVersion.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.ultrapico.com/ExpressoDownload.htm",
                 "regex": "Version ([\\d.]+)"
             }

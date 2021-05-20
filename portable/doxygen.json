@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "http://doxygen.nl/files/doxygen-$version.windows.x64.bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.doxygen.nl/download.html",
                 "regex": "The latest version of doxygen is ([\\d.]+)"
             }

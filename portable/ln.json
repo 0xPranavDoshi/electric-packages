@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://raw.githubusercontent.com/lukesampson/psutils/$matchSha/ln.ps1",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/lukesampson/psutils/commits/master/ln.ps1.atom",
                 "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})"
             }

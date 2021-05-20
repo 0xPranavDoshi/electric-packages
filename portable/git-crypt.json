@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/rasa/git-crypt/releases/download/$version/git-crypt-x64.exe#/git-crypt.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.agwa.name/projects/git-crypt/",
                 "regex": "tag/([\\w.-]+)"
             }

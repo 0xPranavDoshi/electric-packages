@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://www.apache.org/dist/zookeeper/zookeeper-<version>/apache-zookeeper-<version>-bin.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.apache.org/dist/zookeeper/",
                 "regex": "zookeeper-([\\d.]+)/"
             }

@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-win64-gpl-vulkan.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ffmpeg.org",
                 "regex": "/autobuild-(?<time>[\\d-]+)/ffmpeg-N-(\\d+)-g(?<hash>\\w+)-win64-gpl-vulkan\\.zip"
             }

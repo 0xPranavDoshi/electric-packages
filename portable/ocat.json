@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/GPUOpen-Tools/OCAT/releases/download/v$matchRelease/OCAT_<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/GPUOpen-Tools/OCAT/releases/latest",
                 "regex": "/download/v(?<release>[\\d.]+)/OCAT_([\\d.]+)\\.exe"
             }

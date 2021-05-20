@@ -25,9 +25,9 @@
                 ]
             }
         ],
-        "install-switches": [],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": []
     }
 }

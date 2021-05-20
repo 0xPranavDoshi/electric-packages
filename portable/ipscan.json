@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/angryip/ipscan/releases/download/$version/ipscan-win64-$version.exe#/ipscan.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://angryip.org/"
             }
         }

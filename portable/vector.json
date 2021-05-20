@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/timberio/vector/releases/download/v$version/vector-$version-x86_64-pc-windows-msvc.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://vector.dev"
             }
         }

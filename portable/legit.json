@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/frostming/legit/releases/download/<version>/legit.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://frostming.github.io/legit/"
             }
         }

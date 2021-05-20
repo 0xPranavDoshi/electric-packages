@@ -64,7 +64,7 @@
         },
         "auto-update": {
             "url": "https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://picotorrent.org"
             }
         }

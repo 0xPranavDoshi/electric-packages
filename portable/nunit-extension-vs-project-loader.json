@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/nunit-extension-vs-project-loader.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/nunit-extension-vs-project-loader",
                 "regex": "\\s+([\\d.]+)</title>"
             }

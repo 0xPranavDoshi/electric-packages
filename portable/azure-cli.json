@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://azurecliprod.azureedge.net/msi/azure-cli-<version>.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://aka.ms/cli",
                 "regex": "/releases/tag/azure-cli-([\\d.]+)"
             }

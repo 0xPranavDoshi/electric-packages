@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://dl.jami.net/windows/archive/jami_x86_64-$version.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dl.jami.net/windows/archive/?C=M;O=D",
                 "regex": "jami_x86_64-(\\d+)\\.msi"
             }

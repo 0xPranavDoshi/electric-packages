@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/unix-utils/axel/$matchHead/axel-$version-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/unix-utils/rss?path=/axel",
                 "regex": "axel-([\\d.-]+)-x86_64"
             }

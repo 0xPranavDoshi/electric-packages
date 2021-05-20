@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-$version/mdcat-$version-x86_64-pc-windows-msvc.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/lunaryorn/mdcat",
                 "regex": "mdcat-([\\d.]+)"
             }

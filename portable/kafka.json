@@ -42,7 +42,7 @@
         },
         "auto-update": {
             "url": "https://www.apache.org/dist/kafka/<version>/kafka_2.12-<version>.tgz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kafka.apache.org/downloads",
                 "regex": "current stable version is ([\\d.]+)\\."
             }

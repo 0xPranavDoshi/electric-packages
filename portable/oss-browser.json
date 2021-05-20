@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://oss-attachment.cn-hangzhou.oss.aliyun-inc.com/oss-browser/$version/oss-browser-win32-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/aliyun/oss-browser/master/all-releases.md",
                 "regex": "/([\\d.]+)/oss-browser-win32-x64\\.zip"
             }

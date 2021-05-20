@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "http://developer.download.nvidia.com/compute/cuda/$matchHead/local_installers/cuda_$version_win10.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal",
                 "regex": "/cuda_([\\d._]+)_win10\\.exe"
             }

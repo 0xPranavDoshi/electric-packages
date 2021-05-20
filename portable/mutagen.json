@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mutagen.io/"
             }
         }

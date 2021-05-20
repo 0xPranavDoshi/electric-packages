@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-<version>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://phantomjs.org/download.html",
                 "regex": "phantomjs-([\\d.]+)-windows.zip"
             }

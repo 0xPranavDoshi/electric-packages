@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.apache.org/dist/spark/spark-<version>/spark-<version>-bin-hadoop2.7.tgz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://spark.apache.org/downloads.html",
                 "regex": "version: ([\\d.]+)"
             }

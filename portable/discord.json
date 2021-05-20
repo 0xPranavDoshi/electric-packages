@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://dl.discordapp.net/apps/win/Discord-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://discordapp.com/api/updates/stable/RELEASES",
                 "regex": "Discord-([\\d.]+)-full"
             }

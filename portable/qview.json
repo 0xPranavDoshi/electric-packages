@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jurplel/qView/releases/download/$version/qView-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://interversehq.com/qview/"
             }
         }

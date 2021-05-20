@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v<version>/Streamlink_for_Windows_Portable_v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://streamlink.github.io/",
                 "regex": "tag/Stable_v([\\d.]+)"
             }

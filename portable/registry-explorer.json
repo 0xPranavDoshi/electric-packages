@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/RegistryExplorer_RECmd.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
                 "regex": "Registry Explorer/RECmd \\| \\[([\\d.]+)\\]"
             }

@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32cli-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.gnupg.org/ftp/gcrypt/binary/",
                 "regex": "gnupg-w32cli-(1\\.[\\d.]+)\\.exe"
             }

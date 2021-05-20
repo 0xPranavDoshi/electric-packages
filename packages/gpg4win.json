@@ -5,13 +5,13 @@
     "2.3.4.20191021": {
         "url": "https://files.gpg4win.org/gpg4win-vanilla-2.3.4.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "99B7669D58A82950A672232AAA98FA5585F9D7A2D92424BF9E18671292FE17B5"
     }

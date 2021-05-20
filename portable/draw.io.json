@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.draw.io"
             }
         }

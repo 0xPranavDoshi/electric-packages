@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/todbot/blink1-tool/releases/download/v<version>/blink1-tool-v<version>-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://blink1.thingm.com/"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://storage.googleapis.com/minikube/releases/v$version/minikube-windows-amd64.exe#/minikube.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kubernetes.io/docs/getting-started-guides/minikube/"
             }
         }

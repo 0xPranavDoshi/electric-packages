@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/drone/drone-cli/releases/download/v$version/drone_windows_amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://drone.io/"
             }
         }

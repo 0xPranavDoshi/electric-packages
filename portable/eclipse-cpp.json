@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "http://download.eclipse.org/technology/epp/downloads/release/$version/R/eclipse-cpp-$version-R-win32-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.eclipse.org/technology/epp/downloads/release/release.xml",
                 "regex": "([\\d-]+)"
             }

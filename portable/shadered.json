@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/dfranx/SHADERed/releases/download/v$version/Win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://shadered.org"
             }
         }

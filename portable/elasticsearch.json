@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.elastic.co/downloads/elasticsearch",
                 "regex": "elasticsearch-([\\d.]+)-windows"
             }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v$version/Release-$matchHead.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/oschwartz10612/poppler-windows",
                 "regex": "tag/v([\\w.-]+)"
             }

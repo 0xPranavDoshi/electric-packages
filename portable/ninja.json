@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ninja-build/ninja/releases/download/v<version>/ninja-win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ninja-build.org/"
             }
         }

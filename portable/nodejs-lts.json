@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nodejs.org/en/download/",
                 "regex": "LTS Version: <strong>([\\d.]+)</strong>"
             }

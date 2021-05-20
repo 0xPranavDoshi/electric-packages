@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "http://download.deluge-torrent.org/windows/deluge-<version>-win32$match2.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://download.deluge-torrent.org/windows/?C=M;O=D",
                 "regex": "deluge-([\\d._-]+)-win32(.+?(?=\\.exe))"
             }

@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxtrain/<version>/sphinxtrain-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/cmusphinx/files/sphinxtrain/",
                 "regex": "<span class=\"name\">([\\w]+)</span>"
             }

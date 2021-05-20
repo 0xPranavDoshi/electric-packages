@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/meetfranz/franz/releases/download/v<version>/franz-setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://meetfranz.com"
             }
         }

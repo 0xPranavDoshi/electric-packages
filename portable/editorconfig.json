@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/<version>/binary-Windows/editorconfig-<version>-Windows-x86.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/editorconfig/rss?path=/EditorConfig-C-Core",
                 "regex": "([\\d.]+)/binary-Windows"
             }

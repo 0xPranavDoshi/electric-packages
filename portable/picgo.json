@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/Molunerfinn/PicGo/releases",
                 "regex": "/PicGo-Setup-([\\d.]+)\\.exe"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://storage.googleapis.com/kubernetes-release/release/v$version/kubernetes-client-windows-amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://storage.googleapis.com/kubernetes-release/release/stable.txt",
                 "regex": "v([\\d.]+)"
             }

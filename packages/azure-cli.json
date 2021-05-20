@@ -4,7 +4,7 @@
     "latest-version": "2.23.0",
     "auto-update": {
         "url": "https://azurecliprod.azureedge.net/msi/azure-cli-<version>.msi",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://github.com/Azure/azure-cli",
             "regex": "/releases/tag/azure-cli-([\\d.]+)"
         }
@@ -12,51 +12,51 @@
     "2.19.1": {
         "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.19.1.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "01928A7CE325B49FF5B1D294404801AC6A4203CFB328A26F3A62B3A001CF1584"
     },
     "2.22.1": {
         "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.22.1.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "FD2A464F79EF8C9B9B860D622DC1D3EB701CBF25798A8BD02A2096204E29D331"
     },
     "2.23.0": {
         "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.23.0.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "3679D193F8BBCC78117F4CEE1BDB99E5866BEB6C4B7290C5941CD2D27A4EA855"
     }

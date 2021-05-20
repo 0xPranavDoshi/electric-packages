@@ -8,7 +8,7 @@
         "latest-version": "2.3.0",
         "auto-update": {
             "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_<version>-stable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/flutter/flutter",
                 "type": "github"
             }

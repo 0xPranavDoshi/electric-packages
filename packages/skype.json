@@ -6,7 +6,7 @@
     "8.68.0.96": {
         "url": "https://go.skype.com/windows.desktop.download",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,12 +14,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "819D1D8013702DA63248D23AC3025046D1E1AD6CABA653B760138BE65462A9B9"
     }

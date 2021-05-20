@@ -5,13 +5,13 @@
     "11.0.1": {
         "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/LLVM-11.0.1-win64.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "D17BD0E556115C30FF45E30A3F9A623AF89AD6A345A5DF3AC47AA8B9EABAB9A7"
     }

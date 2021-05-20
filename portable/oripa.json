@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/oripa/oripa/releases/download/v<version>_release/oripa-<version>.jar#/oripa.jar",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://mitani.cs.tsukuba.ac.jp/oripa/"
             }
         }

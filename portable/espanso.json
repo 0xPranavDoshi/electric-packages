@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/federico-terzi/espanso/releases/download/v$version/espanso-win-installer.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://espanso.org"
             }
         }

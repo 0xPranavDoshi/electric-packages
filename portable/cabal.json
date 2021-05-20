@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cabal-club/cabal-desktop/releases/download/v$version/cabal-desktop-$version-windows.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cabal.chat/"
             }
         }

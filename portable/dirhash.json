@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/idrassi/DirHash/releases/download/DirHash_$version/DirHash-$version-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://idrassi.github.io/DirHash",
                 "regex": "DirHash-([\\d.]+)-x64\\.zip"
             }

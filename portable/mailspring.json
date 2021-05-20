@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Foundry376/Mailspring/releases/download/<version>/Mailspring-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getmailspring.com/"
             }
         }

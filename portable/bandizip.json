@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-PORTABLE.ZIP",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://en.bandisoft.com/bandizip/history/",
                 "regex": "v([\\d.]+)</font"
             }

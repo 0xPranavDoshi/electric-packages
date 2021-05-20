@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://artifacts.videolan.org/x264/release-win64/x264-r$version-$matchCommit.exe#/x264.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://artifacts.videolan.org/x264/release-win64/",
                 "regex": "x264-r([\\d]+)-(?<commit>[a-fA-F\\d]{7})\\.exe"
             }

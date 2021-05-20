@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://s3.amazonaws.com/notejoy/clients/Notejoy-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://s3.amazonaws.com/notejoy/clients/RELEASES",
                 "regex": "([\\d.]+)-full\\.nupkg"
             }

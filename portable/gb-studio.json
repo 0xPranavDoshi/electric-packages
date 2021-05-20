@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/chrismaltby/gb-studio/releases/download/v$version/GB-Studio-Windows-64bit-standalone-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.gbstudio.dev"
             }
         }

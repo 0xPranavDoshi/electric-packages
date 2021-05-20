@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fullstorydev/grpcurl/releases/download/v$version/grpcurl_$version_windows_x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/fullstorydev/grpcurl/releases",
                 "regex": "grpcurl_([\\d.]+)_windows_x"
             }

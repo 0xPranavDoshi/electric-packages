@@ -38,7 +38,7 @@
         },
         "auto-update": {
             "url": "https://github.com/OpenVPN/easy-rsa/releases/download/v$version/EasyRSA-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://openvpn.net/easyrsa.html"
             }
         }

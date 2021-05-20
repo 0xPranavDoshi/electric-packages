@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.renpy.org/dl/<version>/renpy-<version>-sdk.7z.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.renpy.org/release_list.html",
                 "regex": "Ren'Py ([\\d.]+)"
             }

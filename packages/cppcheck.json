@@ -4,7 +4,7 @@
     "latest-version": "2.4.1",
     "auto-update": {
         "url": "https://github.com/danmar/cppcheck/releases/download/<version>/cppcheck-<version>-x64-Setup.msi",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://github.com/danmar/cppcheck",
             "type": "github"
         }
@@ -12,18 +12,18 @@
     "2.4.1": {
         "url": "https://github.com/danmar/cppcheck/releases/download/2.4.1/cppcheck-2.4.1-x64-Setup.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart",
             "ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     }
 }

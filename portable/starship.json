@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/starship/starship/releases/download/v$version/starship-x86_64-pc-windows-msvc.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://starship.rs"
             }
         }

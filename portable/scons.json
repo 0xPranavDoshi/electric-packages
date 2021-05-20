@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/scons/scons-local/<version>/scons-local-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://scons.org/pages/download.html",
                 "regex": "<strong>The current production release</strong> of SCons is <strong>([\\d.]+)</strong>"
             }

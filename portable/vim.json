@@ -112,7 +112,7 @@
         },
         "auto-update": {
             "url": "https://ftp.nluug.nl/pub/vim/pc/gvim$matchVer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ftp.nluug.nl/pub/vim/pc",
                 "regex": "gvim(?<ver>[\\d-]+)\\.exe\\s+V([\\d.]+)"
             }

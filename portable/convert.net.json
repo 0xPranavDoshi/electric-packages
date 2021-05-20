@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://fishcodelib.com/files/ConvertNet2.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fishcodelib.com/Convert.htm",
                 "regex": "Version ([\\d.]+).*?\\.([\\d.]+)"
             }

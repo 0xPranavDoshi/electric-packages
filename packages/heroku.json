@@ -5,13 +5,13 @@
     "7.50.0.0": {
         "url": "https://cli-assets.heroku.com/heroku-x64.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "7539F9E9080239AC1642D2933431004E313D11B899D35B38C96454BDA2EE1D05"
     }

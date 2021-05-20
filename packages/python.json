@@ -7,17 +7,17 @@
         "url": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe",
         "file-type": ".exe",
         "default-install-dir": "<appdata>\\Local\\Programs\\Python\\Python39",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "/TARGETDIR",
+        "clswitch": "/TARGETDIR",
         "add-path": "<install-directory>\\Scripts",
         "dependencies": []
     },
@@ -25,17 +25,17 @@
         "url": "https://www.python.org/ftp/python/3.9.3/python-3.9.3-amd64.exe",
         "file-type": ".exe",
         "default-install-dir": "<appdata>\\Local\\Programs\\Python\\Python39",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "/TARGETDIR",
+        "clswitch": "/TARGETDIR",
         "add-path": "<install-directory>\\Scripts",
         "dependencies": []
     },
@@ -43,17 +43,17 @@
         "url": "https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe",
         "file-type": ".exe",
         "default-install-dir": "<appdata>\\Local\\Programs\\Python\\Python39",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "/TARGETDIR",
+        "clswitch": "/TARGETDIR",
         "add-path": "<install-directory>\\Scripts",
         "dependencies": []
     },
@@ -61,17 +61,17 @@
         "url": "https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe",
         "file-type": ".exe",
         "default-install-dir": "<appdata>\\Local\\Programs\\Python\\Python39",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "/TARGETDIR",
+        "clswitch": "/TARGETDIR",
         "add-path": "<install-directory>\\Scripts",
         "dependencies": [],
         "checksum": "9DB77E7282945D3409ABC2A43142AE0F0B829F1656BED07BC18526E765F05F86"

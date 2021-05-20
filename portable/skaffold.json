@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/GoogleCloudPlatform/skaffold/releases/download/v$version/skaffold-windows-amd64.exe#/skaffold.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://skaffold.dev"
             }
         }

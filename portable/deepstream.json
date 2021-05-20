@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/deepstreamIO/deepstream.io/releases/download/v$version/deepstream.io-windows-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/deepstreamIO/deepstream.io/releases",
                 "regex": "deepstream\\.io-windows-([\\d.]+)\\.zip"
             }

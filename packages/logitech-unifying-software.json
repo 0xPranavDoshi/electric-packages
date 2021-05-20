@@ -5,13 +5,13 @@
     "2.50.25": {
         "url": "https://download01.logi.com/web/ftp/pub/controldevices/unifying/unifying250.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "ACE27F43E1CE4925E72C49A33FCC2AA3B3DB557ED808F29E75DACEDFEBF7AB90"
     }

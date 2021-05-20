@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://repo.anaconda.com/archive/Anaconda3-$version-Windows-x86_64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.anaconda.com/anaconda/install/hashes/win-3-64/",
                 "regex": "Anaconda3-([\\d.]+)-Windows"
             }

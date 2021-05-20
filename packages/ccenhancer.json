@@ -4,7 +4,7 @@
     "latest-version": "4.5.7",
     "auto-update": {
         "url": "https://singularlabs.com/download/13238/ccenhancer-install-<version>.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://singularlabs.com/releases/",
             "regex": "CCEnhancer ([\\d.]+)"
         }
@@ -13,7 +13,7 @@
         "url": "https://singularlabs.com/download/13238/ccenhancer-install-4.5.7.exe",
         "file-type": ".exe",
         "checksum": "05A0AEBFFE0190F871816530591C4F00C537B2F88F520242148376E8D3F14E64",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -21,12 +21,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

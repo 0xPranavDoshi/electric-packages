@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/<version>/ScreenToGif.<version>.Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.screentogif.com/"
             }
         }

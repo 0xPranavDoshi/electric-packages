@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://github.com/manga-download/hakuneko/releases/download/v$version/hakuneko-desktop_$version_windows-portable_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hakuneko.download"
             }
         }

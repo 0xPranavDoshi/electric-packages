@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://nimbletext.com/Download/NimbleText.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://nimbletext.com/Version/Notes",
                 "regex": "Version ([\\d.]+)"
             }

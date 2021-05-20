@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://swupdate.openvpn.org/community/releases/openvpn-install-<version>-I601-Win10.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://openvpn.net/index.php/open-source/downloads.html",
                 "regex": "openvpn-install-([\\d.]+)-I601-Win10\\.exe"
             }

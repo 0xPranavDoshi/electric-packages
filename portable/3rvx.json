@@ -23,7 +23,7 @@
     },
     "auto-update": {
         "url": "https://3rvx.com/releases/3RVX-<version>.zip",
-        "vercheck": {
+        "version-check": {
             "webpage": "",
             "regex": ""  
         }

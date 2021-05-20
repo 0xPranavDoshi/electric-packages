@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://bliskcloudstorage.blob.core.windows.net/win-installers/BliskInstaller_<version>.exe#/cosi.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://blisk.io/questions/install-blisk-browser-offline",
                 "regex": "BliskInstaller_([\\d.]+)\\.exe"
             }

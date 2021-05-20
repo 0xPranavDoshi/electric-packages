@@ -4,7 +4,7 @@
     "latest-version": "2.2.5",
     "auto-update": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-<version>.msi",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://github.com/aws/aws-cli",
             "type": "github"
         }
@@ -12,116 +12,116 @@
     "2.1.28": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.38.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "BC0BBFCF92DABB271ECA11B5BB38726B6BA62245E7301B5B8C34B5A8C744AC28"
     },
     "2.1.38": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.39.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "C79A87F05FA3307F9259C431640ECE7BA4A4B493FFD7FE2345BEF790A0349D71"
     },
     "2.1.39": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.39.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "C79A87F05FA3307F9259C431640ECE7BA4A4B493FFD7FE2345BEF790A0349D71"
     },
     "2.2.2": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.2.2.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     },
     "2.2.3": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.2.3.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     },
     "2.2.4": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.2.4.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     },
     "2.2.5": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.2.5.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/passive",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     }
 }

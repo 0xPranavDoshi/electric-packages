@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://sliksvn.com/pub/Slik-Subversion-$version-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sliksvn.com/download/",
                 "regex": "<a.*>SVN ([\\d.]+), 64 bit</a>"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/$matchGcc-$matchYear$matchQv/gcc-arm-none-eabi-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads",
                 "regex": "<h3>Version\\s+((?<gcc>[\\d]+)-(?<year>[\\d]{4})-(?<qv>q\\d)-(?<rel>[a-z]+))\\s*<"
             }

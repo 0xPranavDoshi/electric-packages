@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://mran.blob.core.windows.net/install/mro/$version/Windows/microsoft-r-open-$version.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mran.microsoft.com/assets/configurations/app.config.json"
             }
         }

@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://encdn.ldmnq.com/download/package/LDPlayer_$matchHead.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ldplayer.net/other/version-history-and-release-notes.html",
                 "regex": "version:\"(4[\\d.]+)\""
             }

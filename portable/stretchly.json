@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/hovancik/stretchly/releases/download/v$version/stretchly-$version-win.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hovancik.net/stretchly/"
             }
         }

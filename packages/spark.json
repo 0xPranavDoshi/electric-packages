@@ -6,13 +6,13 @@
     "2.9.4": {
         "url": "https://www.igniterealtime.org/downloadServlet?filename=spark/spark_2_9_4-with-jre.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "-q"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "-q"
         ],
-        "custom-location": "-dir ",
+        "clswitch": "-dir ",
         "dependencies": [],
         "checksum": "339C54452C104314126D1344C71E2B487C6F91ABBA6C5038896EEE5BE19B99BA"
     }

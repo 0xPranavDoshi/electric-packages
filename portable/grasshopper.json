@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://grasshopper.coding.kiwi/download/$dashVersion-grasshopper-Setup-$dashVersion-exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://grasshopper.codingkiwi.de/client/latest.json"
             }
         }

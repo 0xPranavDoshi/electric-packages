@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/appium/appium-desktop/releases/download/v<version>/Appium-windows-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://appium.io/"
             }
         }

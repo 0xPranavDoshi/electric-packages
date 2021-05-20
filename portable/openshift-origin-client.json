@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/openshift/origin/releases/download/v$version/openshift-origin-client-tools-v$version-$matchCommit-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/openshift/origin/releases/latest",
                 "regex": "openshift-origin-client-tools-v(?<version>[\\d.]+)-(?<commit>[\\w]+)-windows\\.zip"
             }

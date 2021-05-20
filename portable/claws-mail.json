@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.claws-mail.org/win32/claws-mail-$version-64bit.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.claws-mail.org/win32/",
                 "regex": "claws-mail-([\\d.-]+)-32bit\\.exe"
             }

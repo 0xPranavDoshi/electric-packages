@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jwallet/spy-spotify/releases/download/<version>/Spytify-v.<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://jwallet.github.io/spy-spotify/overview.html"
             }
         }

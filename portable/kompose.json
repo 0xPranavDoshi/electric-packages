@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kubernetes/kompose/releases/download/v$version/kompose-windows-amd64.exe#/kompose.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kompose.io/"
             }
         }

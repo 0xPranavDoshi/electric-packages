@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/nunit-extension-teamcity-event-listener.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/nunit-extension-teamcity-event-listener",
                 "regex": "\\s+([\\d.]+)</title>"
             }

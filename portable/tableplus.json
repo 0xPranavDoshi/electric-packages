@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.tableplus.com/windows/$matchHead/TablePlusSetup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://tableplus.com/win/version.xml?sign=&version=x64",
                 "regex": "sparkle:version=\"(?<build>\\d+)\"\\s+sparkle:shortVersionString=\"([\\d.]+)\""
             }

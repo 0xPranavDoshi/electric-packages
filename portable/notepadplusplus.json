@@ -40,7 +40,7 @@
         },
         "auto-update": {
             "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://notepad-plus-plus.org"
             }
         }

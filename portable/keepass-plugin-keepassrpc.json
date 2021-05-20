@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kee-org/keepassrpc/releases/download/v<version>/KeePassRPC.plgx",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.kee.pm/"
             }
         }

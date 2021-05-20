@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://dl.pstmn.io/download/$version/Postman-win64-$version-full.nupkg#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dl.pstmn.io/changelog?channel=stable&platform=win64"
             }
         }

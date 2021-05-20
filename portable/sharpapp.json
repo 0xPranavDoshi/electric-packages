@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mirinsoft/sharpapp/releases/download/<version>/sharpapp.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.mirinsoft.com/ms-apps/sharpapp"
             }
         }

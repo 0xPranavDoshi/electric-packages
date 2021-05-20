@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://apache.org/dist/avro/avro-<version>/java/avro-tools-<version>.jar#/avro-tools.jar",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://avro.apache.org/releases.html",
                 "regex": "Avro ([\\d.]+) Released"
             }

@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/manosim/gitify/releases/download/v$version/Gitify-Setup-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.gitify.io"
             }
         }

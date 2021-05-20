@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "https://olivevideoeditor.org/dl/Olive-$matchCommit-Windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/olive-editor/olive/releases",
                 "regex": "(?sm)Release build \\(([\\d.]+).*?Olive-(?<commit>\\w+)-Windows-"
             }

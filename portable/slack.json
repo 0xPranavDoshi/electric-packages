@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.slack-edge.com/releases/windows/$version/prod/x64/slack-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://slack.com/intl/en-cn/release-notes/windows",
                 "regex": "<h2>Slack ([\\d.]+)"
             }

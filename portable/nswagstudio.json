@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://ci.appveyor.com/$matchUrl",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rsuter.com/Projects/NSwagStudio/updates.php",
                 "regex": "(?sm)<version>([\\d.]+).*?https://ci.appveyor.com/(?<url>.*)</download"
             }

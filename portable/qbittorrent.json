@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_x64_setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.qbittorrent.org/download.php",
                 "regex": "Latest:\\s+v([\\d.]+)"
             }

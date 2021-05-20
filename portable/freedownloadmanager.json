@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://dn3.freedownloadmanager.org/$majorVersion/latest/fdm_x64_setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.freedownloadmanager.org/download.htm",
                 "regex": "FDM ([\\d.]+) for Windows 10"
             }

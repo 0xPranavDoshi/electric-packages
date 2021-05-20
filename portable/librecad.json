@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/LibreCAD/LibreCAD/releases/download/<version>/LibreCAD-Installer-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://librecad.org/"
             }
         }

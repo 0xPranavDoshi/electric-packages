@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/superpowers/superpowers-app/releases/download/v$version/superpowers-v$version-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://superpowers-html5.com"
             }
         }

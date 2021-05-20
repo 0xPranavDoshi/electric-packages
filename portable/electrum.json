@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://download.electrum.org/<version>/electrum-<version>-portable.exe#/electrum.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/spesmilo/electrum-web/master/panel-download.html",
                 "regex": "Latest release: Electrum-([\\d.]+)"
             }

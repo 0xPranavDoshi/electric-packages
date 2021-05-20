@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://www.syntevo.com/downloads/smartsynchronize/smartsynchronize-portable-$underscoreVersion.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.syntevo.com/smartsynchronize/changelog.txt",
                 "regex": "([\\d.]+)\\s+\\(\\d{4}"
             }

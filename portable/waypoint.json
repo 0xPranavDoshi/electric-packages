@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://releases.hashicorp.com/waypoint/$version/waypoint_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://releases.hashicorp.com/waypoint/",
                 "regex": "waypoint_([\\d.]+)</a>"
             }

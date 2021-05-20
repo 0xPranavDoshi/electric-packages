@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-$version-git-$matchCommit.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/mpv-player-windows/rss?path=/64bit",
                 "regex": "mpv-x86_64-(\\d+)-git-(?<commit>[\\da-f]+)\\.7z"
             }

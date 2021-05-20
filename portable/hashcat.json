@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://hashcat.net/files/hashcat-$version.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hashcat.net/hashcat/"
             }
         }

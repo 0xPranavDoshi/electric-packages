@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/zaquestion/lab/releases/download/v$version/lab_$version_windows_amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://zaquestion.github.io/lab"
             }
         }

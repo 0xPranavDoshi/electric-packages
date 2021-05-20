@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://glogg.bonnefon.org/files/glogg-v$version-x86_64-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://glogg.bonnefon.org/files/",
                 "regex": "glogg-v([\\d.]+)-x86_64-setup\\.exe"
             }

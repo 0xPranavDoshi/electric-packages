@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/vmware-tanzu/carvel-kapp/releases/download/v$version/kapp-windows-amd64.exe#/kapp.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://carvel.dev/kapp/"
             }
         }

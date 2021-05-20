@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.kitenet.net/git-annex/windows/current/git-annex-installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://downloads.kitenet.net/git-annex/windows/current/git-annex-installer.exe.info",
                 "regex": "distributionVersion = \"([\\d.]+)\""
             }

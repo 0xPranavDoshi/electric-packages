@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://pencil.evolus.vn/dl/V$version.ga/pencil-$version.ga-x86_64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://pencil.evolus.vn"
             }
         }

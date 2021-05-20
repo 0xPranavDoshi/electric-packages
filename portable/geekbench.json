@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://cdn.geekbench.com/Geekbench-$version-WindowsSetup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.geekbench.com/download/windows/",
                 "regex": "Geekbench-([\\d.]+)-WindowsSetup\\.exe"
             }

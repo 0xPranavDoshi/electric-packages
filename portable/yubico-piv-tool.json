@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-$version-win64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://developers.yubico.com/yubico-piv-tool/Releases/",
                 "regex": "yubico-piv-tool-([\\d.]+)-win64\\.msi"
             }

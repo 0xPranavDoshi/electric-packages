@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/love2d/love/releases/download/$version/love-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://love2d.org"
             }
         }

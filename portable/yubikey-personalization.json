@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://developers.yubico.com/yubikey-personalization/Releases/ykpers-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.yubico.com/support/knowledge-base/categories/articles/yubikey-personalization-tools/",
                 "regex": "ykpers-([\\d.]+)-win64\\.zip"
             }

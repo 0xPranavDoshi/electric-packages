@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/buck.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/buck",
                 "regex": "\\s+([\\d.]+)</title>"
             }

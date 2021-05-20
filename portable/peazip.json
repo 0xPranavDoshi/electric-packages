@@ -37,7 +37,7 @@
         },
         "auto-update": {
             "url": "https://dotsrc.dl.osdn.net/osdn/peazip/$matchRelease/peazip_portable-$version.WIN64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://osdn.net/projects/peazip/",
                 "regex": "<a href=\"/projects/peazip/releases/(?<release>[\\d]*)\">peazip ([\\d.]+)</a>"
             }

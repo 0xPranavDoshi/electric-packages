@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dl.gitea.io/tea/$version/tea-$version-windows-amd64.exe#/tea.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitea.com/gitea/tea"
             }
         }

@@ -5,14 +5,14 @@
     "5.4": {
         "url": "https://www.editplus.com/ftp/epp540_3430_64bit.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "-s",
             "-sp-s"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "-s"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": []
     }
 }

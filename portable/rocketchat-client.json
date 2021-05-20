@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/<version>/rocketchat-setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rocket.chat"
             }
         }

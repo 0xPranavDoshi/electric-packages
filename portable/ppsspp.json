@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://www.ppsspp.org/files/$underscoreVersion/ppsspp_win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ppsspp.org/downloads.html",
                 "regex": "Download ([\\d.]+)\\s+zip"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://go.microsoft.com/fwlink/?LinkId=691209#/MediaCreationTool.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-coreteampackages/master/automatic/win10mct/info",
                 "regex": "^.*\\|([\\d.]+)$"
             }

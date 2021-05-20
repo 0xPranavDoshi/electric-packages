@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://www.syncany.org/dist/releases/syncany-cli-<version>-alpha.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://get.syncany.org/dist/releases/?C=M;O=D",
                 "regex": "syncany-cli-([\\d.]+)-alpha\\.exe"
             }

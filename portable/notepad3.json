@@ -47,7 +47,7 @@
         },
         "auto-update": {
             "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/rizonesoft/Notepad3/releases",
                 "regex": "tag/RELEASE_([\\d.]+)"
             }

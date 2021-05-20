@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.mercurial-scm.org/release/windows/Mercurial-$version-x64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.mercurial-scm.org/release/windows/latest.dat",
                 "regex": "Mercurial-([\\w.]+)-x"
             }

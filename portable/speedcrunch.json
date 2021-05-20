@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://bitbucket.org/heldercorreia/speedcrunch/downloads/SpeedCrunch-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://speedcrunch.org/download.html",
                 "regex": "<h1>Version\\s+([\\d.]+)<\\/h1>"
             }

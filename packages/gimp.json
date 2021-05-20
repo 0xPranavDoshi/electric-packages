@@ -5,7 +5,7 @@
     "latest-version": "2.10.24",
     "auto-update": {
         "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-<version>-setup.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.gimp.org/downloads/",
             "regex": "<b>([\\d.]+)</b>"
         }
@@ -13,7 +13,7 @@
     "2.10.22": {
         "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPRESSMSGBOXES",
@@ -23,19 +23,19 @@
             "/RESTARTEXITCODE=3010",
             "/ALLUSERS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "F7851C348584CE432DFD8E69B74A168C7DEC33EBFDDC29C96AD2D6B83ADED083"
     },
     "2.10.24": {
         "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.24-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPRESSMSGBOXES",
@@ -45,12 +45,12 @@
             "/RESTARTEXITCODE=3010",
             "/ALLUSERS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "1706243B916F3458297A7602522620F51601B70CC35AB63BCCF8C898D6FE0B71"
     }

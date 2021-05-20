@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "http://www.boundingboxsoftware.com/materialize/download/Materialize_<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.boundingboxsoftware.com/materialize/getkey.php",
                 "regex": "download/Materialize_([\\d.]+)\\.zip"
             }

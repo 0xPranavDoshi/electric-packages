@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://github.com/docker/toolbox/releases/download/v$version/DockerToolbox-$version.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docker.com",
                 "regex": "/releases/tag/v([\\w.-]+)"
             }

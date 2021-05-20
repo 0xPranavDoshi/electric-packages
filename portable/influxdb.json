@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://dl.influxdata.com/influxdb/releases/influxdb-$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://portal.influxdata.com/downloads",
                 "regex": ">InfluxDB v([\\d.]+)<"
             }

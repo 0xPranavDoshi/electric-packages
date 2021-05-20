@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "https://exiftool.org/exiftool-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://exiftool.org/ver.txt",
                 "regex": "([\\d.]+)"
             }

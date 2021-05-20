@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://github.com/erickutcher/httpdownloader/releases/download/v$version/HTTP_Downloader_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/erickutcher/httpdownloader/releases",
                 "regex": "tree/v([\\d.]+)"
             }

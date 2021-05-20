@@ -112,7 +112,7 @@
         },
         "auto-update": {
             "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.vim.org"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://aws.github.io/copilot-cli/"
             }
         }

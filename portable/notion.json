@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://desktop-release.notion-static.com/latest.yml",
                 "regex": "version:\\s+([\\d.]+)"
             }

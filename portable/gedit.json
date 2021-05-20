@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.gnome.org/binaries/win64/gedit/gedit-x86_64-3.20.1.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.gnome.org/binaries/win64/gedit/",
                 "regex": "gedit-x86_64-([\\d.]+)\\.msi"
             }

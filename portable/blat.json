@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat$cleanVersion_64.full.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/blat/rss?path=/Blat%20Full%20Version",
                 "regex": "blat(\\d)(\\d)(\\d+)_32\\.full\\.zip"
             }

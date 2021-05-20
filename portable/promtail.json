@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/grafana/loki/releases/download/v$version/promtail-windows-amd64.exe.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://grafana.com/oss/loki/"
             }
         }

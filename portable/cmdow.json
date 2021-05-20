@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ritchielawrence/cmdow/archive/v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ritchielawrence.github.io/cmdow/"
             }
         }

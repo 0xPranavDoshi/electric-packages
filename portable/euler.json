@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/eumat/Installer/EulerSetup-64_$version.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/eumat/rss?path=/Installer",
                 "regex": "EulerSetup-64_([\\d-]+)\\.exe"
             }

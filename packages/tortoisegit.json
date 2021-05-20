@@ -5,17 +5,17 @@
     "2.11.0.0": {
         "url": "https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "8A2576EC68E60F0CEF7B0A9581E9018B954F265FAF5FCE1D7DF97814AB36BF3A"
     }

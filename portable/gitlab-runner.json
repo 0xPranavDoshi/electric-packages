@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://gitlab-runner-downloads.s3.amazonaws.com/v$version/binaries/gitlab-runner-windows-amd64.exe#/gitlab-runner.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitlab.com/gitlab-org/gitlab-runner/-/tags?format=atom",
                 "regex": "/tags/v([\\d.]+)<"
             }

@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "http://strawberryperl.com/download/$version/strawberry-perl-$version-64bit-portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://strawberryperl.com/releases.html",
                 "regex": "strawberry-perl-([\\d.]+)-32bit-portable\\.zip"
             }

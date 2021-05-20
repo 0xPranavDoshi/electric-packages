@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://download.ccleaner.com/portable/ccsetup$majorVersion$minorVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ccleaner.com/ccleaner/version-history",
                 "regex": ">v([\\d.]+)"
             }

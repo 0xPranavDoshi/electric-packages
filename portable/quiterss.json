@@ -37,7 +37,7 @@
         },
         "auto-update": {
             "url": "https://quiterss.org/files/<version>_/QuiteRSS-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://quiterss.org/en/download",
                 "regex": "QuiteRSS\\s+([\\d.]+)\\s+Portable"
             }

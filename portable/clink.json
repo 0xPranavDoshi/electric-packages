@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/chrisant996/clink/releases/download/v<version>/clink.<version>.$matchCommit.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chrisant996.github.io/clink/",
                 "regex": "clink\\.([\\d.]+)\\.(?<commit>[\\w.]+)\\.zip"
             }

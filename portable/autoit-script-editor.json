@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.autoitscript.com/autoit3/scite/download/SciTE4AutoIt3_Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.autoitscript.com/autoit3/scite/docs/History.html",
                 "regex": "AutoIt3Wrapper v([\\d.]+)"
             }

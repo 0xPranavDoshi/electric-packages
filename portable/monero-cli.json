@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getmonero.org/downloads/hashes.txt",
                 "regex": "monero-win-x64-v([\\d.]+)\\.zip"
             }

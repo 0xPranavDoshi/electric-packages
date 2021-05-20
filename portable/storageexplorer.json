@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v<version>/Windows_StorageExplorer.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://azure.microsoft.com/en-us/features/storage-explorer/"
             }
         }

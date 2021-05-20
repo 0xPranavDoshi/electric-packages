@@ -27,10 +27,10 @@
             ]
         },
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "-y"
         ],
-        "uninstall-switches": [],
+        "uswitches": [],
         "uninstall-override-command": [
             {
                 "type": "python",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [
             "vcredist140"
         ],

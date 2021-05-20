@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/qmk/qmk_toolbox/releases/download/<version>/qmk_toolbox.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://qmk.fm/toolbox/"
             }
         }

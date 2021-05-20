@@ -53,7 +53,7 @@
         },
         "auto-update": {
             "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nlnetlabs.nl/projects/unbound/download/",
                 "regex": "Unbound ([\\d.]+) \\(Current version\\)"
             }

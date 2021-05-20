@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/<version>.RELEASE/spring-boot-cli-<version>.RELEASE-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://spring.io/projects/spring-boot",
                 "regex": ">([\\d.]+)\\.RELEASE<"
             }

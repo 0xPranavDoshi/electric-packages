@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://github.com/FiloSottile/age/releases/download/v$version/age-v$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/FiloSottile/age/releases",
                 "regex": "/age-v([\\w.-]+)-windows"
             }

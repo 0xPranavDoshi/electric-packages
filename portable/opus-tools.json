@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://archive.mozilla.org/pub/opus/win64/opus-tools-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.opus-codec.org/downloads/",
                 "regex": "opus-tools-([\\w-.]+)\\.zip"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/liquibase/liquibase/releases/download/v<version>/liquibase-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.liquibase.org/"
             }
         }

@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v<version>/IOGraph_v$underscoreVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://iographica.com/update",
                 "regex": "([\\d.]+)"
             }

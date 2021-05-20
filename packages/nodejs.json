@@ -5,17 +5,17 @@
     "14.15.3": {
         "url": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     }
 }

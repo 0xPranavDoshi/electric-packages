@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dist.nuget.org/win-x86-commandline/v<version>/NuGet.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dist.nuget.org/index.json"
             }
         }

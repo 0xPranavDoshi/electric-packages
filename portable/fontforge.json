@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fontforge/fontforge/releases/download/$matchPath",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fontforge.github.io",
                 "regex": "/download/(?<path>[\\d]{8}/FontForge-(?<year>[\\d]{4})-(?<month>[\\d]{2})-(?<day>[\\d]{2})-Windows(?<release>[-r\\d]*?).exe)"
             }

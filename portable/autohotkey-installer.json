@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v$version/AutoHotkey_$version_setup.exe#/autohotkey-installer.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.autohotkey.com/"
             }
         }

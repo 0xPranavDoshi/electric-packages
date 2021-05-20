@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/betaflight/betaflight-configurator/releases/download/<version>/betaflight-configurator-installer_<version>_win32.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://betaflight.com"
             }
         }

@@ -5,17 +5,17 @@
     "4.2.2": {
         "url": "https://github.com/torakiki/pdfsam/releases/download/v4.2.2/pdfsam-4.2.2.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "C7BA5B61DCAD5260C79ECAD4FDD3917F83135236FC82F1BC4E65C334F3A161FB"
     }

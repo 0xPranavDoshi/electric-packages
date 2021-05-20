@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://download.rethinkdb.com/repository/raw/windows/rethinkdb-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rethinkdb.com/docs/install/windows/",
                 "regex": "/windows/rethinkdb-([\\d.]+)\\.zip\">"
             }

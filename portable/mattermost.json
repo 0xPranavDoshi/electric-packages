@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://releases.mattermost.com/desktop/$version/mattermost-desktop-$version-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mattermost.com"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.robvanderwoude.com/files/batcodecheck.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.robvanderwoude.com/helptext.php?src=batcodecheck_cs_help",
                 "regex": "BatCodeCheck,\\s+Version\\s+([\\d.]+)"
             }

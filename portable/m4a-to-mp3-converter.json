@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.maniactools.com/soft/m4a-to-mp3-converter.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.maniactools.com/cgi-bin/version?prog=m4a-converter",
                 "regex": "Free M4a to MP3 Converter\\s+([\\w]+)\\s+Build\\s+(?<build>[\\d]+)"
             }

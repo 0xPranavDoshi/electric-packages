@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jgm/pandoc/releases/download/$version/pandoc-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://pandoc.org"
             }
         }

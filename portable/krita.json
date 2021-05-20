@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://download.kde.org/stable/krita/$version/krita-x64-$version-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://krita.org/en/download/krita-desktop/",
                 "regex": "Download Krita\\s+([\\d.]+)"
             }

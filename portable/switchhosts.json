@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/oldj/SwitchHosts/releases/download/v<version>/SwitchHosts._windows_installer_<version>.$matchBuild.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://oldj.github.io/SwitchHosts/",
                 "regex": "windows_installer_([\\d.]+)\\.(?<build>\\d+)\\.exe"
             }

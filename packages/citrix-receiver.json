@@ -4,7 +4,7 @@
     "latest-version": "4.12",
     "auto-update": {
         "url": "https://downloadplugins.citrix.com/Windows/CitrixReceiver.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.citrix.com/downloads/citrix-receiver/",
             "regex": "Reciever ([\\d.]+) for Windows"
         }
@@ -12,12 +12,12 @@
     "4.12": {
         "url": "https://downloadplugins.citrix.com/Windows/CitrixReceiver.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/noreboot",
             "/silent"
         ],
-        "uninstall-switches": [],
-        "custom-location": "INSTALLDIR=",
+        "uswitches": [],
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "ADB1AFF0625F6EE0C9745F6F8C523398CF3F4732EB3D2CA5966E97AE6D57536F"
     }

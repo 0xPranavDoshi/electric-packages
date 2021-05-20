@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "http://rei.to/CarotDAV<version>.portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://rei.to/carotdav.version.txt",
                 "regex": "([\\d.]+)"
             }

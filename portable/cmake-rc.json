@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://cmake.org/files/v$majorVersion.$minorVersion/cmake-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitlab.kitware.com/cmake/cmake/tags?sort=name_desc&format=atom",
                 "regex": "v([\\d.]+)-rc([\\d]+)"
             }

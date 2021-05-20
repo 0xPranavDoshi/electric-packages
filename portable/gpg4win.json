@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://files.gpg4win.org/gpg4win-<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.gpg4win.org/get-gpg4win.html",
                 "regex": "Download Gpg4win ([\\d.]+)"
             }

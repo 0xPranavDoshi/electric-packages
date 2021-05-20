@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sbt/sbt/releases/download/v<version>/sbt-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.scala-sbt.org/download.html",
                 "regex": "/sbt-([\\d.]+)\\.zip"
             }

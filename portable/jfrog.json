@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dl.bintray.com/jfrog/jfrog-cli-go/$version/jfrog-cli-windows-amd64/jfrog.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bintray.com/package/generalTab?pkgPath=/jfrog/jfrog-cli-go/jfrog-cli-windows-amd64",
                 "regex": "ver:\\s*([\\d.]+)"
             }

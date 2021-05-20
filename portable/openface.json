@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/TadasBaltrusaitis/OpenFace",
                 "regex": "OpenFace_([\\d.]+)/"
             }

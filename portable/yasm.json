@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "http://www.tortall.net/projects/yasm/releases/yasm-$version-win64.exe#/yasm.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://yasm.tortall.net/Download.html",
                 "regex": "Latest Release: ([\\d.]+)"
             }

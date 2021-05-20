@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-$version/rubyinstaller-$version-x64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml",
                 "regex": "Ruby (\\S+)"
             }

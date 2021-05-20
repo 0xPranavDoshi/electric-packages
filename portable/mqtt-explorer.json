@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v<version>/MQTT-Explorer-Setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mqtt-explorer.com/"
             }
         }

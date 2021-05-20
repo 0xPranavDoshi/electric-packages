@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.dreamset-editor.com/files/dreamset$cleanVersionx64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.dreamset-editor.com/dreamset-history",
                 "regex": "-\\s+ver\\s+([\\d.]+)"
             }

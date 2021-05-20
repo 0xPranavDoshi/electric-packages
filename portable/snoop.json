@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/snoopwpf/snoopwpf/releases/download/v<version>/snoop.<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/snoopwpf/snoopwpf/releases",
                 "regex": "tag/v([\\w.-]+)"
             }

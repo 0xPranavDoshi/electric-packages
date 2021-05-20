@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fsharp-editing/Forge/releases/download/<version>/forge.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.forge.run/"
             }
         }

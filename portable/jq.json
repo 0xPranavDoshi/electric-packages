@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/stedolan/jq/releases/download/jq-$version/jq-win64.exe#/jq.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://stedolan.github.io/jq/",
                 "regex": "tag/jq-([\\d.]+)"
             }

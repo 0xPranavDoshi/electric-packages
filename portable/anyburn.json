@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "http://www.anyburn.com/anyburn.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.anyburn.com/download.php",
                 "regex": "<b>AnyBurn v([\\d.]+)"
             }

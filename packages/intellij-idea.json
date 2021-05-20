@@ -5,13 +5,13 @@
     "2020.3.2": {
         "url": "https://download.jetbrains.com/idea/ideaIC-2020.3.2.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "980488073D79F74BC6167BF0E0345114008914BCA91E68714967D328BA019FC4"
     }

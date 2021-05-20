@@ -4,7 +4,7 @@
     "latest-version": "4.1.3.0",
     "auto-update": {
         "url": "https://redirector.gvt1.com/edgedl/android/studio/install/<1>/android-studio-ide-<2>-windows.zip",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://developer.android.com/studio/",
             "regex": "https:\/\/redirector.gvt1.com\/edgedl\/android\/studio\/ide-zips\/([\\d.]+)\/android-studio-ide-([\\d.]+)-windows.zip",
             "replace": "<1>"
@@ -13,13 +13,13 @@
     "4.1.1.0": {
         "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.1.0/android-studio-ide-201.7199119-windows.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "valid-install-exit-codes": [
             1223
@@ -29,13 +29,13 @@
     "4.1.3.0": {
         "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.3.0/android-studio-ide-201.7199119-windows.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "valid-install-exit-codes": [
             1223

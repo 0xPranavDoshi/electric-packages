@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v$version/Pixelorama.v$version.Windows.64-bit.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.orama-interactive.com/pixelorama"
             }
         }

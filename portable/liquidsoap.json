@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/savonet/liquidsoap/releases/download/v$version/liquidsoap-v$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.liquidsoap.info"
             }
         }

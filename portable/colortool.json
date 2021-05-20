@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Microsoft/console/releases/download/<version>/colortool.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/microsoft/terminal/main/src/tools/ColorTool/README.md",
                 "regex": "releases/tag/([\\d.]+)"
             }

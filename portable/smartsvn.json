@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://www.smartsvn.com/downloads/smartsvn/smartsvn-windows-portable-$underscoreVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.smartsvn.com/documents/smartsvn/changelog.txt",
                 "regex": "([\\d.]+)"
             }

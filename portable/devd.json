@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cortesi/devd/releases/download/v$version/devd-$version-windows64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://corte.si/posts/devd/intro/index.html"
             }
         }

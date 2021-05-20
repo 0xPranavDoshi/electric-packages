@@ -113,7 +113,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/Winpython64-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://winpython.github.io/md5_sha1.txt",
                 "regex": "(?i)WinPython64-(3\\.8[\\d.]+)\\.exe"
             }

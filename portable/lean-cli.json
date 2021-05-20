@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x64.exe#/lean.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://leancloud.cn/docs/leanengine_cli.html"
             }
         }

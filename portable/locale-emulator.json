@@ -40,7 +40,7 @@
         },
         "auto-update": {
             "url": "https://github.com/xupefei/Locale-Emulator/releases/download/v<version>/Locale.Emulator.<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://pooi.moe/Locale-Emulator/"
             }
         }

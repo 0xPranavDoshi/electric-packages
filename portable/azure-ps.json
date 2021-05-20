@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Azure/azure-powershell/releases/download/v$matchRelease/Az-Cmdlets-$version-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/Azure/azure-powershell/releases",
                 "regex": "download/v(?<release>[^/]+)/Az-Cmdlets-([0-9.]+)-x64[.]msi"
             }

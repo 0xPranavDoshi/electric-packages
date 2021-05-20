@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/v$majorVersion.$minorVersion/MarkdownMonsterSetup-<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml"
             }
         }

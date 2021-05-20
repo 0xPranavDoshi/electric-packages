@@ -5,17 +5,17 @@
     "10.0.11": {
         "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.11.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "00A0B6DD799039F7E90A08C24427A8EC42C1A07BFB1632F72E5B3017B5097637"
     }

@@ -5,13 +5,13 @@
     "1.5.3": {
         "url": "https://download.ccleaner.com/rcsetup153.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "189A868B9A175A3C303AED14688F33848A19E439D7B333DC5AE24853DAEE0870"
     }

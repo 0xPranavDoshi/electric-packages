@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/facebook/flipper/releases/download/v$version/Flipper-win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fbflipper.com"
             }
         }

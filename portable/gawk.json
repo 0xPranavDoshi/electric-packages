@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/ezwinports/gawk-<version>-w32-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/ezwinports/files/",
                 "regex": "gawk-([\\d.]+)-w32-bin.zip"
             }

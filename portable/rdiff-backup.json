@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/v<version>/rdiff-backup-<version>.win32exe.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rdiff-backup.net"
             }
         }

@@ -5,7 +5,7 @@
     "4.0.5": {
         "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.5-win.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "9242EE27BA3C8C23800892C781ED015C146C76D8266F398FF20B11CF114307E8"
     }

@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/lensapp/lens/releases/download/v<version>/Lens-Setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://k8slens.dev"
             }
         }

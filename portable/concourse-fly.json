@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/concourse/concourse/releases/download/v$version/fly-$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://concourse-ci.org/fly.html"
             }
         }

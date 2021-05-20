@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://github.com/redpen-cc/redpen/releases/download/redpen-<version>/redpen-distribution-<version>-assembled.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://redpen.cc",
                 "regex": "Release ([\\d.]+)"
             }

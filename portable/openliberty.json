@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/$matchBuild/openliberty-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://openliberty.io/api/builds/data",
                 "regex": "/(?<build>[\\d_-]+)/openliberty-([\\d.]+)\\.zip"
             }

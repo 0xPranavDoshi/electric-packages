@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.fiddler2.com/UpdateCheck.aspx?isBeta=False",
                 "regex": "([\\d.]+)\\s*\\["
             }

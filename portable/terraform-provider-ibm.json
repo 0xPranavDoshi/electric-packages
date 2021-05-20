@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/releases/download/v$version/windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ibm-cloud.github.io/tf-ibm-docs/"
             }
         }

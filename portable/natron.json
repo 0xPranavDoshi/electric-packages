@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://github.com/NatronGitHub/Natron/releases/download/v$version/Natron-$version-Windows-64-no-installer.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://natrongithub.github.io/"
             }
         }

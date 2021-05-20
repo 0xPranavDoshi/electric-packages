@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://www.videohelp.com/download/FFQueue_$underscoreVersion.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.videohelp.com/software/FFQueue",
                 "regex": "FFQueue ([\\d.]+)"
             }

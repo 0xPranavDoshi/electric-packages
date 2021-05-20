@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mu-editor/mu/releases/download/$version/mu-editor_$version_win64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://codewith.mu"
             }
         }

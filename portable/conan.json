@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-64_$underscoreVersion.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://conan.io"
             }
         }

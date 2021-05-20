@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.makemkv.com/download/Setup_MakeMKV_v<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.makemkv.com/download/",
                 "regex": "MakeMKV ([\\d.]+)\\s"
             }

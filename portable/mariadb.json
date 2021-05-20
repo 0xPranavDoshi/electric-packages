@@ -53,7 +53,7 @@
         },
         "auto-update": {
             "url": "https://downloads.mariadb.com/MariaDB/mariadb-$version/winx64-packages/mariadb-$version-winx64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://downloads.mariadb.org/",
                 "regex": "Download ([\\d.]+) Stable"
             }

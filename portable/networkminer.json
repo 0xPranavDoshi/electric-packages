@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.netresec.com/?download=NetworkMiner#/dl.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.netresec.com/updatecheck.ashx?l=1250",
                 "regex": "^([\\d.]+)\\s+"
             }

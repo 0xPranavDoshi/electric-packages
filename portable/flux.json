@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "http://justgetflux.com/flux-setup$dashVersion.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://justgetflux.com/update/v4/windows-download.json",
                 "regex": "([\\d.]+)"
             }

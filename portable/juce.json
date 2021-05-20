@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/juce-framework/JUCE/releases/download/$version/juce-$version-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://juce.com"
             }
         }

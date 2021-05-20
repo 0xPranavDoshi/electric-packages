@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-amd64-v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://syncthing.net/"
             }
         }

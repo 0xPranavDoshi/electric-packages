@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/$preReleaseVersion/artifact/kate-$matchHead-$preReleaseVersion-windows-$matchLib-cl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/lastSuccessfulBuild/artifact/",
                 "regex": "kate-([\\d.-]+)-windows-(?<lib>\\w+)-cl\\.7z"
             }

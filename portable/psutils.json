@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://github.com/lukesampson/psutils/archive/$matchSha.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/lukesampson/psutils/commits/master.atom",
                 "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})"
             }

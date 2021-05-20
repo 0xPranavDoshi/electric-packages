@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/album-art/album-art-xui/AlbumArtDownloaderXUI-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/album-art/rss?path=/album-art-xui",
                 "regex": "AlbumArtDownloaderXUI-([\\d.]+)\\.zip"
             }

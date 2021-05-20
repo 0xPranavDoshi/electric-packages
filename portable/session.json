@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/oxen-io/session-desktop/releases/download/v$version/session-desktop-win-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getsession.org"
             }
         }

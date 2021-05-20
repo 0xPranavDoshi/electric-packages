@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://flavio.tordini.org/files/musique/musique.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://flavio.tordini.org/musique"
             }
         }

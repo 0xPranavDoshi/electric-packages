@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.crystalidea.com/downloads/speedyfox.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://crystalidea.com/speedyfox/release-notes",
                 "regex": ">\\s*Version ([\\d.]+)\\s*<"
             }

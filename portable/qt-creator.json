@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.qt.io/official_releases/qtcreator/$majorVersion.$minorVersion/$version/installer_source/windows_x64/qtcreator.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.qt.io/offline-installers",
                 "regex": "Qt Creator\\s+([\\d.]+)\\s+for Windows"
             }

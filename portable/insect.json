@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sharkdp/insect/releases/download/v$version/insect-windows-x64.exe#/insect.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://insect.sh"
             }
         }

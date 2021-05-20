@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://github.com/HaxeFoundation/haxe/releases/download/$version/haxe-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://haxe.org"
             }
         }

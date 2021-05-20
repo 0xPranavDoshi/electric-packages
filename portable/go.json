@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dl.google.com/go/go$version.windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://golang.org/dl/",
                 "regex": "go([\\d.]+)\\."
             }

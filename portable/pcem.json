@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://pcem-emulator.co.uk/files/PCemV<version>Win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://pcem-emulator.co.uk/downloads.html",
                 "regex": ">PCem\\s+v([\\d.]+)\\s+for Windows</"
             }

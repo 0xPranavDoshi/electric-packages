@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://cdn.manictime.com/setup/v$underscoreVersion/ManicTimeUsb.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://services.manictime.com/Versions/GetLatestVersionNumber"
             }
         }

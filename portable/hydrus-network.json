@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v$version/Hydrus.Network.$version.-.Windows.-.Extract.only.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hydrusnetwork.github.io/hydrus/"
             }
         }

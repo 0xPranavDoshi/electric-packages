@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://releases.hashicorp.com/consul/$version/consul_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://releases.hashicorp.com/consul/",
                 "regex": "consul_([\\d.]+)</a>"
             }

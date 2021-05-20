@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://dl.slic3r.org/win/Slic3r-$version.64bit.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://slic3r.org/"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v$version/kustomize_v$version_windows_amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/kubernetes-sigs/kustomize/releases",
                 "regex": "kustomize/v([\\d.]+)"
             }

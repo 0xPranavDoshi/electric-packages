@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/<version>/sfk$majorVersion$minorVersion$patchVersion.exe#/sfk.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/swissfileknife/files/1-swissfileknife/",
                 "regex": "swissfileknife/([\\d.]+)/"
             }

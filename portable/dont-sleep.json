@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://www.softwareok.com/Download/DontSleep_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.softwareok.com/?seite=Microsoft/DontSleep/History",
                 "regex": "version ([\\d.]+)"
             }

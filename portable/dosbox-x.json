@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v<version>/dosbox-x-vsbuild-win-$matchRelease.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://dosbox-x.com",
                 "regex": "download/dosbox-x-v([\\d.]+)/dosbox-x-vsbuild-win-(?<release>[\\d-]+)"
             }

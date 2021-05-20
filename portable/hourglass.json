@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/dziemborowicz/hourglass/releases/download/v<version>/HourglassPortable.exe#/Hourglass.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chris.dziemborowicz.com/apps/hourglass/"
             }
         }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/4lex4/scantailor-advanced/releases/download/v$version/scantailor-advanced-$version-win64.exe#!/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/4lex4/scantailor-advanced/releases",
                 "regex": "download/v([\\d.]+)/scantailor-advanced"
             }

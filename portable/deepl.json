@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://www.deepl.com/windows/download/x64/$underscoreVersion/DeepL-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://appdownload.deepl.com/windows/x64/RELEASES",
                 "regex": "DeepL-([\\d.]+)-full.nupkg"
             }

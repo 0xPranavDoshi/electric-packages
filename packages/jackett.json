@@ -5,7 +5,7 @@
     "0.17.897": {
         "url": "https://github.com/Jackett/Jackett/releases/download/v0.17.897/Jackett.Installer.Windows.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,13 +13,13 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
         "checksum": "A12E4DBB1608BE561F5F8CE96DC6C43C89B1DE08EBCD10E39D5FB1DFD0F5119C",
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Automattic/simplenote-electron/releases/download/v<version>/Simplenote-win-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://simplenote.com"
             }
         }

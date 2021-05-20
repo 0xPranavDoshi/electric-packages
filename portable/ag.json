@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/k-takata/the_silver_searcher-win32/releases/download/$matchDate/$version/ag-$matchDate_$version-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/k-takata/the_silver_searcher-win32/releases",
                 "regex": "/releases/download/(?<date>[\\d-]+)%2F(?<version>[\\w.-]+).*?-x64\\.zip"
             }

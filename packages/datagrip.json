@@ -4,7 +4,7 @@
     "latest-version": "2021.1.1",
     "auto-update": {
         "url": "https://download-cf.jetbrains.com/datagrip/datagrip-<major-version>.<minor-version>.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://data.services.jetbrains.com/products/releases?code=DG&latest=true&platform=zip&type=release",
             "regex": "DataGrip ([\\d.]+)"
         }
@@ -12,13 +12,13 @@
     "2021.1.1": {
         "url": "https://download-cf.jetbrains.com/datagrip/datagrip-2021.1.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "57E91745232133D234F3FFEE8C9C5463E9E01C118011772852CC0E6FAE768E15"
     }

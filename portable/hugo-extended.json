@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gohugoio/hugo/releases/download/v$version/hugo_extended_$version_windows-64bit.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gohugo.io"
             }
         }

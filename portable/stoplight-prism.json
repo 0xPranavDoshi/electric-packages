@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/stoplightio/prism/releases/download/v$version/prism-cli.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://stoplight.io/open-source/prism"
             }
         }

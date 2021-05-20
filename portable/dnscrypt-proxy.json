@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/$version/dnscrypt-proxy-win64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dnscrypt.info"
             }
         }

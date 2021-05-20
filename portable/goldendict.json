@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/goldendict/early%20access%20builds/GoldenDict-<version>_(QT_486).7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/p/goldendict/activity/feed",
                 "regex": "GoldenDict-([\\w.-]+)_\\(QT_486\\)\\.7z"
             }

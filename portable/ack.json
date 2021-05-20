@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://beyondgrep.com/ack-v<version>#/ack-single-file",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://beyondgrep.com/install/",
                 "regex": "The current stable version of ack is v([\\d.]+),"
             }

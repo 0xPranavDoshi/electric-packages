@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://us2-dl.techpowerup.com/files/GPU-Z.<version>.exe#/GPU-Z.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
                 "regex": "TechPowerUp GPU-Z v([\\d.]+)"
             }

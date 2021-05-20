@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/processing/processing/releases/download/processing-$matchRev-$version/processing-$version-windows64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://processing.org/",
                 "regex": "/releases/tag/processing-(?<rev>[\\d]+)-([\\d.]+)"
             }

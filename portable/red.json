@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://static.red-lang.org/dl/win/red-$cleanVersion.exe#/red.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://static.red-lang.org/download.html",
                 "regex": "Red\\s+([\\d.]+)\\s+for"
             }

@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/macchrome/chromium/releases/download/v$version-Win64/Chrome-bin.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chromium.woolyss.com/api/v3/?os=windows&bit=64&type=dev-codecs-nosync&out=json",
                 "regex": "v([\\d.]+-r\\d+)-Win64"
             }

@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://github.com/openfaas/faas-cli/releases/download/$version/faas-cli.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.openfaas.com/"
             }
         }

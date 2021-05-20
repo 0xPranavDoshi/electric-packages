@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/grpc/grpc-web/releases/download/$version/protoc-gen-grpc-web-$version-windows-x86_64.exe#/protoc-gen-grpc-web.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://grpc.io"
             }
         }

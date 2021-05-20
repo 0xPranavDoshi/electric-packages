@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick-binaries/$version/GraphicsMagick-$version-Q8-win64-dll.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/p/graphicsmagick/news/?source=navbar",
                 "regex": "GraphicsMagick ([\\d.]+)"
             }

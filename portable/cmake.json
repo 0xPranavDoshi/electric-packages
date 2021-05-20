@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cmake.org/download/",
                 "regex": "Latest Release \\(([\\d.]+)\\)"
             }

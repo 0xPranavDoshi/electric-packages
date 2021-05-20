@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/vmware-tanzu/velero/releases/download/v$version/velero-v$version-windows-amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://velero.io"
             }
         }

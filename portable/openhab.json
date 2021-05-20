@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://dl.bintray.com/openhab/mvn/org/openhab/distro/openhab/<version>/openhab-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://api.bintray.com/packages/openhab/mvn/openhab-distro"
             }
         }

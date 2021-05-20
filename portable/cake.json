@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cake-build/cake/releases/download/v<version>/Cake-bin-net461-v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cakebuild.net/"
             }
         }

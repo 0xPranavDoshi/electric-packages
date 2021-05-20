@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://qtranslate2.appspot.com/QTranslate.<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://quest-app.appspot.com/download",
                 "regex": "<h3>QTranslate\\s+([\\d.]+)\\s+portable"
             }

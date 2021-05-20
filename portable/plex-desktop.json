@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://downloads.plex.tv/plex-desktop/$version/windows/Plex-$version-x86_64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://plex.tv/pms/downloads/6.json"
             }
         }

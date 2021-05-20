@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ahoy-cli/ahoy/releases/download/<version>/ahoy-bin-windows-amd64.exe#/ahoy.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://ahoycli.com"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/analogdevicesinc/scopy/releases/download/v<version>/scopy-v<version>-Windows-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://wiki.analog.com/university/tools/m2k/scopy",
                 "regex": "scopy-v([\\d.]+)-Windows"
             }

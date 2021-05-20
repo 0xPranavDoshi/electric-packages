@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://github.com/streamlink/streamlink/releases/download/<version>/streamlink-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://streamlink.github.io/"
             }
         }

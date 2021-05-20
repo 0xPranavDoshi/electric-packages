@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://azuredatastudio-update.azurewebsites.net/$version/win32-x64-archive/stable#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.microsoft.com/en-us/sql/azure-data-studio"
             }
         }

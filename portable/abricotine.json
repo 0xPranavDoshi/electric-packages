@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/brrd/abricotine/releases/download/$version/abricotine-setup-win32-x64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://abricotine.brrd.fr"
             }
         }

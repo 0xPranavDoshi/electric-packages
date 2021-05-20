@@ -48,7 +48,7 @@
         },
         "auto-update": {
             "url": "https://github.com/PurpleI2P/i2pd/releases/download/$version/i2pd_$version_win64_mingw.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://i2pd.website"
             }
         }

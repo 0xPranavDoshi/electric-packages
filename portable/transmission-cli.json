@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/transmission/transmission-releases/raw/master/transmission-$version-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://transmissionbt.com/"
             }
         }

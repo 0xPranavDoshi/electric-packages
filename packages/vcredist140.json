@@ -5,17 +5,17 @@
     "14.28.29914": {
         "url": "https://download.visualstudio.microsoft.com/download/pr/85d47aa9-69ae-4162-8300-e6b7e4bf3cf3/52B196BBE9016488C735E7B41805B651261FFA5D7AA86EB6A1D0095BE83687B2/VC_redist.x64.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/install",
             "/passive",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/uninstall",
             "/quiet"
         ],
         "checksum": "52B196BBE9016488C735E7B41805B651261FFA5D7AA86EB6A1D0095BE83687B2",
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": []
     }
 }

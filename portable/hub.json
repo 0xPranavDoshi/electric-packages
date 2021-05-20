@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/github/hub/releases/download/v$version/hub-windows-amd64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hub.github.com/"
             }
         }

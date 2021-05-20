@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/beta/_/_/_/_/update.xml",
                 "regex": "firefox-([\\db.]+)-"
             }

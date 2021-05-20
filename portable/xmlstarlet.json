@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/<version>/xmlstarlet-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/xmlstar/files/",
                 "regex": "xmlstarlet-([\\d.]+)-win"
             }

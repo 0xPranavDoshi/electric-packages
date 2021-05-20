@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/hasherezade/pe-sieve/releases/download/v$version/pe-sieve64.exe#/pe-sieve.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hshrzd.wordpress.com/pe-sieve/"
             }
         }

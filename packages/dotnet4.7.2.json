@@ -5,13 +5,13 @@
     "4.7.2.20180712": {
         "url": "https://go.microsoft.com/fwlink/?LinkId=863262",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/passive",
             "/norestart"
         ],
-        "uninstall-switches": [],
+        "uswitches": [],
         "dependencies": [],
-        "custom-location": "",
+        "clswitch": "",
         "checksum": "4E49C56E4CF9DF2E837A8A3010F5A8B4DEB096429D56E7FD9FF70AB394663678"
     }
 }

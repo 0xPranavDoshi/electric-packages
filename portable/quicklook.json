@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/QL-Win/QuickLook/releases/download/<version>/QuickLook-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://pooi.moe/QuickLook/"
             }
         }

@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/mpcbe/MPC-BE/Release%20builds/$matchHead/MPC-BE.$version.x64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/mpcbe/rss?path=/MPC-BE/Release%20builds",
                 "regex": "MPC-BE\\.([\\d.]+)\\.x86\\.7z"
             }

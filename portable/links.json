@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "http://links.twibright.com/download/binaries/win32/Links-$version-64bit-install.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://links.twibright.com/download/binaries/win32/?C=M;O=D",
                 "regex": "Links-([\\d.]+)-"
             }

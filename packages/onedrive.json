@@ -6,12 +6,12 @@
         "url": "https://go.microsoft.com/fwlink/?linkid=860984",
         "file-type": ".exe",
         "checksum": "3D0FD9BC472509A7D32D42F7251C00284081AFF944303C1FB4058EC719C7F972",
-        "install-switches": [
+        "iswitches": [
             "/allusers",
             "/silent"
         ],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": []
     }
 }

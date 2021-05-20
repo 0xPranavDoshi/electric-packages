@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://d17kmd0va0f0mp.cloudfront.net/winclient/STB/Splashtop_Business_Win_PORTABLE_v<version>.exe#/splashtop.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.splashtop.com/wp-content/themes/responsive/downloadx.php?product=stb&platform=windows-client-portable",
                 "regex": "([\\d.]+)\\.exe"
             }

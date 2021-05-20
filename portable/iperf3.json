@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://iperf.fr/download/windows/iperf-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://iperf.fr/iperf-download.php",
                 "regex": "iPerf ([\\d.]+)<\\/a>"
             }

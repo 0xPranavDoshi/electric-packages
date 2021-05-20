@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-$version-Full-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://obsproject.com/download",
                 "regex": "OBS-Studio-([\\d.]+)-Full-x64\\.zip"
             }

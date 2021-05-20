@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe#/grepWin.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://tools.stefankueng.com/grepWin.html"
             }
         }

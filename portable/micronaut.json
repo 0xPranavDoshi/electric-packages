@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/micronaut-projects/micronaut-starter/releases/download/v<version>/micronaut-cli-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://micronaut.io"
             }
         }

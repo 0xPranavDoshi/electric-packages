@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/bazelbuild/bazel/releases/download/$version/bazel-$version-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bazel.build"
             }
         }

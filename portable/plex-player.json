@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://downloads.plex.tv/plexmediaplayer/$version/PlexMediaPlayer-$version-windows-x64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://plex.tv/api/downloads/3.json"
             }
         }

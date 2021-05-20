@@ -25,14 +25,14 @@
                 ]
             }
         ],
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
         "run-check": true,
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "F605013152D7D4AA33ADF0DDD36E0233D14CD5FD52EDB7EAECD35D516D82693E"
     }

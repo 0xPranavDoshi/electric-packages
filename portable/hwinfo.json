@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.hwinfo.com/ver.txt",
                 "regex": "([\\d-.]+)"
             }

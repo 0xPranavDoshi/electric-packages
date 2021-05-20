@@ -36,7 +36,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gitextensions/gitextensions/releases/download/v$matchHead/GitExtensions-Portable-<version>-$matchCommit.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitextensions.github.io/",
                 "regex": "/GitExtensions-Portable-([\\d.]+)-(?<commit>[\\w]+)\\.zip"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.$version#/mc.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://min.io/",
                 "regex": "releases/tag/RELEASE\\.([\\d-]+T[\\d-]+Z)"
             }

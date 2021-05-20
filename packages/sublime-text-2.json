@@ -5,7 +5,7 @@
     "2.0.2.2224": {
         "url": "https://download.sublimetext.com/Sublime%20Text%202.0.2a%20x64%20Setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,12 +14,12 @@
             "/FORCECLOSEAPPLICATIONS",
             "/TASKS=\"contextentry\""
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "5F13EDC7DCE7D3FC6BC42D7545ABAC89D7EF4D4F3884C479F64CC28D95E353D2"
     }  

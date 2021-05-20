@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-x64.nsis.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bitwarden.com"
             }
         }

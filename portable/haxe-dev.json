@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://haskell.org/platform/download/$version/HaskellPlatform-$version-core-x86_64-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.haskell.org/platform/windows.html",
                 "regex": "<strong>([\\d.]+)</strong>"
             }

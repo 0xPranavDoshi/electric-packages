@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v$version/pandoc-crossref-Windows.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hackage.haskell.org/package/pandoc-crossref"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/caddyserver/caddy/releases/download/v$version/caddy_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://caddyserver.com"
             }
         }

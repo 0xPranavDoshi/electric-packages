@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://dl.gogs.io/$version/gogs_$version_windows_amd64_mws.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dl.gogs.io",
                 "regex": "\\./([\\d.]+)/"
             }

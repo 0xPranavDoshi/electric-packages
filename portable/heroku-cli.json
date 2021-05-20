@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://cli-assets.heroku.com/heroku-win32-x64.tar.xz#/dl.xz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cli-assets.heroku.com/version"
             }
         }

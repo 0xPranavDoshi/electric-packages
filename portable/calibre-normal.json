@@ -51,7 +51,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-64bit-$version.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://calibre-ebook.com"
             }
         }

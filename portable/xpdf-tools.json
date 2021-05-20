@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://dl.xpdfreader.com/xpdf-tools-win-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.xpdfreader.com/download.html",
                 "regex": "Current version:\\s*([^\\s<]+)"
             }

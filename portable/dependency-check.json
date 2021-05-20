@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jeremylong/DependencyCheck/releases/download/v<version>/dependency-check-<version>-release.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://jeremylong.github.io/DependencyCheck/current.txt",
                 "regex": "(.+)"
             }

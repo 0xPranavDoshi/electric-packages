@@ -65,7 +65,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sharplispers/cormanlisp/releases/download/v<version>/CormanLisp-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/sharplispers/cormanlisp",
                 "regex": "download/v([\\w.]+)"
             }

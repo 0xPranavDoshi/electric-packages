@@ -44,7 +44,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sagemath/sage-windows/releases/download/$version/SageMath-$preReleaseVersion-Installer-v$matchHead.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sagemath.org",
                 "regex": "tag/([\\d-.]+)"
             }

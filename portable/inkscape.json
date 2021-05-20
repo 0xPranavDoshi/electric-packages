@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://media.inkscape.org/dl/resources/file/inkscape-$version-x64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://inkscape.org/release",
                 "regex": ">Inkscape\\s+([\\d.]+)</"
             }

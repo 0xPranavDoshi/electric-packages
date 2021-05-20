@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://julialang-s3.julialang.org/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://julialang.org/downloads/",
                 "regex": "Current stable release: v([\\d.]+)"
             }

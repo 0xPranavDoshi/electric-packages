@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.advancedrenamer.com/down/advanced_renamer_portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.advancedrenamer.com/download",
                 "regex": "Download Advanced Renamer ([\\d.]+) for Windows"
             }

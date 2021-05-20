@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/halo-dev/halo/releases/download/v<version>/halo-<version>.jar#/halo.jar",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://halo.run"
             }
         }

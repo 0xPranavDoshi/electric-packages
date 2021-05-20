@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ModuleArt/quick-picture-viewer/releases/download/v<version>/QuickPictureViewer-Setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://moduleart.github.io/"
             }
         }

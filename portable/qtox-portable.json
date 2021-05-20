@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/qTox/qTox/releases/download/v$version/setup-qtox-x86_64-release.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://qtox.github.io"
             }
         }

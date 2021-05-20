@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.kcsoftwares.com/files/dumo.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.kcsoftwares.com/?download",
                 "regex": "(?sm)DUMo</h.*?Version\\s+:\\s*<code>([\\d.]+)</"
             }

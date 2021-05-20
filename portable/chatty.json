@@ -38,7 +38,7 @@
         },
         "auto-update": {
             "url": "https://github.com/chatty/chatty/releases/download/v<version>/Chatty_<version>_win_standalone.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chatty.github.io"
             }
         }

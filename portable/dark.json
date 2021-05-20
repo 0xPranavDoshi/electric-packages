@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/dark/dark-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/ScoopInstaller/Binary/tree/master/dark",
                 "regex": "dark-([\\d.]+)\\.zip"
             }

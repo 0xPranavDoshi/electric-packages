@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.angusj.com/resourcehacker/",
                 "regex": "Changes in ([\\d.]+)\\s+\\((\\d+)\\)"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/GitVersion.Portable.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/GitVersion.Portable",
                 "regex": "Latest Version[\\S\\s]+?/([\\d.]+)"
             }

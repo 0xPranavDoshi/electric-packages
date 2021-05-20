@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chrome-dl.com/api/chrome.min.xml",
                 "regex": "(?sm)<beta32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<beta64>.+release2/chrome/(?<64>[\\w-]+)_.+</beta64>"
             }

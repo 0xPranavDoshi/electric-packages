@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://dl.nwjs.io/v$version/nwjs-sdk-v$version-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nwjs.io/versions.json",
                 "regex": "v([\\d.]+)"
             }

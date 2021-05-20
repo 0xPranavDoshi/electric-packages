@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/martinrotter/rssguard/releases/download/$version/rssguard-$version-$matchCommit-win64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/martinrotter/rssguard",
                 "regex": "rssguard-([\\d.]+)-(?<commit>\\w+)-win64\\.7z"
             }

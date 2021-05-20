@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/<version>/joewin-<version>.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/joe-editor/rss?path=/",
                 "regex": "joewin-([\\d.]+)\\.msi"
             }

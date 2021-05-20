@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.jamovi.org/downloads/jamovi-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.jamovi.org/download.html",
                 "regex": "(?sm)/downloads/jamovi-([\\d.]+)\\-win64\\.exe.*?solid"
             }

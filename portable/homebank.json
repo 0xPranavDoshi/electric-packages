@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "http://homebank.free.fr/public/HomeBank-<version>-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://homebank.free.fr/en/downloads.php",
                 "regex": "HomeBank-([\\d.]+)-setup\\.exe"
             }

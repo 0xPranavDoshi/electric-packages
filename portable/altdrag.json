@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://github.com/stefansundin/altdrag/releases/download/v<version>/AltDrag-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://stefansundin.github.io/altdrag/"
             }
         }

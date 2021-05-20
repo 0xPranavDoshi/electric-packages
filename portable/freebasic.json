@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/fbc/FreeBASIC-$version/Binaries-Windows/FreeBASIC-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.freebasic.net"
             }
         }

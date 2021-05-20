@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.autoitscript.com/site/autoit/downloads/",
                 "regex": "<td>v([\\d.]+)</td>"
             }

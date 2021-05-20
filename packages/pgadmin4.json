@@ -5,7 +5,7 @@
     "5.1": {
         "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v5.1/windows/pgadmin4-5.1-x64.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,13 +13,13 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
         "checksum": "1AF12D927B95A5911E11182CB3525C1BE2A52ADC5DEB1084BDC28D9FD0EBA41A",
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

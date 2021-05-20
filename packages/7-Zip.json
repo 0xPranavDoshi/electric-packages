@@ -4,38 +4,40 @@
     "latest-version": "19.00",
     "auto-update": {
         "url": "https://www.7-zip.org/a/7z<clean-version>-x64.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.7-zip.org/download.html",
             "regex": "Download 7-Zip ([\\d.]+)"
         }
     },
     "19.00": {
         "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+        "threads": 3,
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
            "/S"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E"
     },
     "16.04": {
         "url": "https://www.7-zip.org/a/7z1604-x64.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "threads": 3,
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "B3885B2F090F1E9B5CF2B9F802B07FE88E472D70D60732DB9F830209AC296067"
     }   

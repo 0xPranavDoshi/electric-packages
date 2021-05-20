@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/potassco/clingo/releases/download/v$version/clingo-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://potassco.org/clingo/"
             }
         }

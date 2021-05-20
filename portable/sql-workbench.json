@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://www.sql-workbench.eu/Workbench-Build<version>-with-optional-libs.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sql-workbench.eu/downloads.html",
                 "regex": "Current stable release: Build (\\d+)"
             }

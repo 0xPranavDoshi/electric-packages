@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://goreleaser.com"
             }
         }

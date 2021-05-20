@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://bitbucket.org/wahibre/mtn/downloads/$matchFilename",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bitbucket.org/wahibre/mtn/downloads/?tab=downloads",
                 "regex": "(?<filename>mtn-(?<version>[\\d.]+)\\.[\\w.-]*win32\\.zip)"
             }

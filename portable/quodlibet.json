@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://github.com/quodlibet/quodlibet/releases/download/release-<version>/quodlibet-<version>-portable.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://quodlibet.readthedocs.io",
                 "regex": "/releases/tag/release-([\\d.]+)"
             }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/standardnotes/desktop/releases/download/v<version>/standard-notes-<version>-win.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://standardnotes.org/"
             }
         }

@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/dlech/KeeAgent/releases/download/v<version>/KeeAgent_v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://lechnology.com/software/keeagent/"
             }
         }

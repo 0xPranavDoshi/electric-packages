@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://josm.openstreetmap.de/download/josm-snapshot-<version>.jar#/josm.jar",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://josm.openstreetmap.de/wiki/Changelog",
                 "regex": "[\\d.-]+: Stable release\\s+(\\d+)\\s+\\("
             }

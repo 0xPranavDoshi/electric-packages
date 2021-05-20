@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/coredns/coredns/releases/download/v$version/coredns_$version_windows_amd64.tgz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://coredns.io"
             }
         }

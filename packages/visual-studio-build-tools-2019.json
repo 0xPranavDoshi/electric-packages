@@ -6,15 +6,15 @@
         "url": "https://aka.ms/vs/16/release/vs_BuildTools.exe",
         "file-type": ".exe",
         "checksum": "67584DBCE4956291C76A5DEABBADC15C9AD6A50D6A5F4458765B6BD3A924AEAD",
-        "install-switches": [
+        "iswitches": [
             "--passive", 
             "--add Microsoft.VisualStudio.Product.BuildTools"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "--passive", 
             "--norestart"
         ],
-        "custom-location": "--install-path ",
+        "clswitch": "--install-path ",
         "dependencies": []
     }
 }

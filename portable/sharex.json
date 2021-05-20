@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ShareX/ShareX/releases/download/v<version>/ShareX-portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getsharex.com/"
             }
         }

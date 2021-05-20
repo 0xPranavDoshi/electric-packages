@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/<version>/FileOptimizerFull.7z.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/",
                 "regex": "FileOptimizer/([\\d.]+)"
             }

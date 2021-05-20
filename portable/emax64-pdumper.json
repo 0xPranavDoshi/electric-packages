@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://github.com/m-parashar/emax64/releases/download/pdumper-$version/emax64-pdumper-bin-$version.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/m-parashar/emax64/releases",
                 "regex": "/releases/tag/pdumper-(\\d+)"
             }

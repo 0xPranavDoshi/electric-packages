@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.softwareok.com/Download/MeinPlatz_Portable_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.softwareok.com/?seite=Microsoft/MeinPlatz/History",
                 "regex": "New in version ([\\d.]+)"
             }

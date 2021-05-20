@@ -37,7 +37,7 @@
         },
         "auto-update": {
             "url": "https://download.cdburnerxp.se/portable/CDBurnerXP-x64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://update.cdburnerxp.se",
                 "regex": "^([\\d.]+)\\|"
             }

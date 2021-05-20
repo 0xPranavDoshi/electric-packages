@@ -6,7 +6,7 @@
     "4.42": {
         "url": "https://downloads.jam-software.de/treesize_free/TreeSizeFreeSetup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPRESSMSGBOXES",
@@ -14,12 +14,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "24023783B8C49C02D96093207BDD6F3BB116BC7F189F34BBDC8DD5784004DD92"
     }

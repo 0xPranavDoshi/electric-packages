@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://download.bleachbit.org/BleachBit-<version>-portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.bleachbit.org/download/windows",
                 "regex": "BleachBit ([\\d.]+)"
             }

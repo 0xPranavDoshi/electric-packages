@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/spacescape/win/spacescape-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/spacescape/files/win/",
                 "regex": "spacescape-([\\d.]+)\\.zip"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gitahead/gitahead/releases/download/v$version/GitAhead-win64-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://gitahead.scitools.com/"
             }
         }

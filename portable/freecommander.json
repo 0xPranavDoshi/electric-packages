@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "https://freecommander.com/downloads/FreeCommanderXE-32-public_portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://freecommander.com/en/downloads-portable/",
                 "regex": "FreeCommander XE ([\\d.]+) Build ([\\d.a-z]+) portable ZIP"
             }

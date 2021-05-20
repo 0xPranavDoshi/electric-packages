@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ricochet-im/ricochet/releases/download/v<version>/ricochet-<version>-win-install.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ricochet.im"
             }
         }

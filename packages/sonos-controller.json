@@ -5,12 +5,12 @@
     "12.2.2": {
         "url": "http://update.sonos.com/software/pc/dcr/SonosDesktopController1222.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S",
             "/v/qn"
         ],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": [],
         "checksum": "047B9E93F24CCACECD8BAF29931FCC177EE797E302E7A0B84FFFB549800E9431"
     }

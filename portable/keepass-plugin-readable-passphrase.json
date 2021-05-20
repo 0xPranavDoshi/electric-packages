@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ligos/readablepassphrasegenerator/releases/download/release-<version>/ReadablePassphrase.<version>.plgx#/ReadablePassphrase.plgx",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/ligos/readablepassphrasegenerator",
                 "regex": "tag/release-([\\d.]+)"
             }

@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/VirusTotal/yara/releases/download/v$matchHead/yara-v$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://virustotal.github.io/yara/",
                 "regex": "yara-v([\\d.-]+)-win64"
             }

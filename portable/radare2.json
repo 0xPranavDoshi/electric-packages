@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://radare.mikelloc.com/get/$version/radare2-msvc_64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.radare.org/r/down.html",
                 "regex": "last release is ([\\d.]+)"
             }

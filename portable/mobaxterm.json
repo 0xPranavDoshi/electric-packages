@@ -41,7 +41,7 @@
         },
         "auto-update": {
             "url": "https://download.mobatek.net/$matchRandom/MobaXterm_Portable_v<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mobaxterm.mobatek.net/download-home-edition.html",
                 "regex": "//download.mobatek.net/(?<random>[\\d]+)/MobaXterm_Portable_v([\\d.]+)\\.zip"
             }

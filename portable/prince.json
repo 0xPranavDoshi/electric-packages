@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.princexml.com/download/prince-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.princexml.com/download/",
                 "regex": ">Download Prince ([\\d.]+)<"
             }

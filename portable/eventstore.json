@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://raw.githubusercontent.com/EventStore/Downloads/master/win/EventStore-OSS-Windows-2019-v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://eventstore.org/downloads",
                 "regex": "EventStore-OSS-Windows-2019-v([\\d.]+)\\.zip"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/$version/deadbeef-$version-windows-x86_64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://deadbeef-for-windows.github.io/",
                 "regex": "tag/([\\d-]+)"
             }

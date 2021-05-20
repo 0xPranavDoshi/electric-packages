@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://repo.enonic.com/public/com/enonic/cli/enonic/$version/enonic_$version_Windows_64-bit.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://repo.enonic.com/public/com/enonic/cli/enonic/",
                 "regex": "<a[^>]+>([\\d.]+)/</a>"
             }

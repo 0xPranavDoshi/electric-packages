@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://neon.se/idris/idris-$version-win64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://neon.se/idris.html",
                 "regex": "idris-([\\d.]+)-win"
             }

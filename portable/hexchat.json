@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://dl.hexchat.net/hexchat/HexChat%20$version%20x64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hexchat.github.io"
             }
         }

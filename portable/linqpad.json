@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "http://download.linqpad.net/public/LINQPad$majorVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.linqpad.net/Download.aspx",
                 "regex": ">([\\d.]+)</span></td>"
             }

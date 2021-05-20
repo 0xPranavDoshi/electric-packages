@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "http://download.aida64.com/aida64extreme$majorVersion$minorVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.aida64.com/downloads/latesta64xe",
                 "regex": "Version:\\s+([\\d.]+)"
             }

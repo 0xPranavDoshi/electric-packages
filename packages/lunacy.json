@@ -5,7 +5,7 @@
     "6.8.0": {
         "url": "https://lun-eu.icons8.com/s/setup/LunacySetup_6.8.0.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "49F9FD7A8DBB6B205039FD6ED34B41B89F5B28DF2A236535ECB0C3B4120E0C83"
     }

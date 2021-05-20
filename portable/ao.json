@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/klaussinani/ao/releases/download/v<version>/ao-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://klaussinani.tech/ao/"
             }
         }

@@ -5,7 +5,7 @@
     "2.16.10": {
         "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.10/WinMerge-2.16.10-x64-Setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "6E9CD0D92EB721BD40974DE4CC1CFB0B69E497DCFFFBBC50638CF931603247CB"
     }

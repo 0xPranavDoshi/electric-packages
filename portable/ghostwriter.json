@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/michelolvera/vs-ghostwriter/releases/download/$version/ghostwriter_x64_portable.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://wereturtle.github.io/ghostwriter/"
             }
         }

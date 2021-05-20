@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/scribus/scribus/$version/scribus-$version-windows-x64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.scribus.net/downloads/stable-branch/",
                 "regex": "Current stable release: Scribus ([\\d.]+)"
             }

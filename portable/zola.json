@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/getzola/zola/releases/download/v$version/zola-v$version-x86_64-pc-windows-msvc.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.getzola.org"
             }
         }

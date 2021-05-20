@@ -41,7 +41,7 @@
         },
         "auto-update": {
             "url": "https://github.com/shadowsocks/shadowsocks-windows/releases/download/$matchHead.0/Shadowsocks-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/shadowsocks/shadowsocks-windows",
                 "regex": "Shadowsocks-([\\d.]+)\\.zip"
             }

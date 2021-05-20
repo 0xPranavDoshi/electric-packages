@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://www.apache.org/dist/tinkerpop/<version>/apache-tinkerpop-gremlin-console-<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.apache.org/dist/tinkerpop/",
                 "regex": "href=\"([\\d.]+)/"
             }

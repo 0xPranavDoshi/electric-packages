@@ -5,16 +5,16 @@
     "21.3.1": {
         "url": "https://cache-man01i.cdn.yandex.net/download.cdn.yandex.net/browser/int/21_3_1_81_21706/en/lite/Yandex.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "--silent",
             "--system-level",
             "--norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "--system-level",
             "--force-uninstall"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "run-check": true,
         "valid-install-exit-codes": [
             1,

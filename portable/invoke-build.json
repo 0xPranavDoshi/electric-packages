@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://nuget.org/api/v2/package/Invoke-Build/<version>#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/nightroman/Invoke-Build/releases",
                 "regex": "releases/tag/v([\\d.]+)"
             }

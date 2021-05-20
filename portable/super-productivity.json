@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/johannesjo/super-productivity/releases/download/v$version/superProductivity-Setup-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://super-productivity.com"
             }
         }

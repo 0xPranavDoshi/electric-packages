@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.videohelp.com/download/foobar2000_v<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.foobar2000.org/download",
                 "regex": "foobar2000_v([\\d.]+)\\."
             }

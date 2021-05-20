@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://static.rust-lang.org/rustup/archive/$version/x86_64-pc-windows-msvc/rustup-init.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/rust-lang-nursery/rustup.rs/master/Cargo.toml",
                 "regex": "version = \"([\\d.]+)\""
             }

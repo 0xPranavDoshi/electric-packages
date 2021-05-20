@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ibigbug/PowerSession/releases/download/release-v$version/PowerSession.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/ibigbug/PowerSession",
                 "regex": "tag/release-v([\\d.]+)"
             }

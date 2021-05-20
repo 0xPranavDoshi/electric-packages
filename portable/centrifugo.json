@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/centrifugal/centrifugo/releases/download/v$version/centrifugo_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://centrifugal.github.io/centrifugo"
             }
         }

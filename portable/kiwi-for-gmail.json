@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://s3-us-west-1.amazonaws.com/kiwiforgmail/windows/release/64bit/KiwiForGmail-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://s3-us-west-1.amazonaws.com/kiwiforgmail/windows/release/64bit/RELEASES",
                 "regex": "KiwiForGmail-([\\d.]+)-full\\.nupkg"
             }

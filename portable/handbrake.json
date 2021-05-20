@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/HandBrake/HandBrake/releases/download/$version/HandBrake-$version-x86_64-Win_GUI.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://handbrake.fr"
             }
         }

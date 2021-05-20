@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://download3.operacdn.com/pub/opera_gx/$version/win/Opera_GX_$version_Setup_x64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://get.opera.com/ftp/pub/opera_gx/",
                 "regex": "([\\d.]+)/"
             }

@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "http://www.exactaudiocopy.de/eac-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.exactaudiocopy.de/en/index.php/resources/download/",
                 "regex": "Exact Audio Copy\\s+V([\\d.]+)"
             }

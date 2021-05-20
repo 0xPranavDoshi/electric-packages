@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://github.com/henrypp/chrlauncher/releases/download/v.$version/chrlauncher-$version-bin.zip#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.henrypp.org/product/chrlauncher",
                 "regex": "chrlauncher-([\\d.]+)-bin"
             }

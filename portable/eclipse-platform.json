@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://download.eclipse.org/eclipse/downloads/drops$majorVersion/R-$version/eclipse-platform-$matchHead-win32-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.eclipse.org/eclipse/downloads/",
                 "regex": "/R-([\\d.-]+)/\" title=\"Latest Release"
             }

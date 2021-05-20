@@ -4,7 +4,7 @@
     "latest-version": "3.3.3",
     "auto-update": {
         "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://docs.docker.com/docker-for-windows/release-notes/",
             "regex": "Docker Desktop ([\\d.]+)"
         }
@@ -12,15 +12,15 @@
     "3.3.0": {
         "url": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe#/dockerInstall.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "install",
             "--quiet"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "uninstall",
             "--quiet"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "valid-install-exit-codes": [
             3,
             1641
@@ -39,15 +39,15 @@
     "3.3.1": {
         "url": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe#/dockerInstall.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "install",
             "--quiet"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "uninstall",
             "--quiet"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "valid-install-exit-codes": [
             3,
             1641
@@ -66,15 +66,15 @@
     "3.3.3": {
         "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "install",
             "--quiet"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "uninstall",
             "--quiet"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "valid-install-exit-codes": [
             3,
             1641

@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "https://www.povray.org/ftp/pub/povray/Official/povwin-$majorVersion.$minorVersion-agpl3-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.povray.org/download/",
                 "regex": "Download POV-Ray ([\\d.]+)"
             }

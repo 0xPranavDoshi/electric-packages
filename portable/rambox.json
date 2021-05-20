@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ramboxapp/community-edition/releases/download/<version>/Rambox-<version>-win.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rambox.pro/"
             }
         }

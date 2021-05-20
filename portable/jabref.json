@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef-$version-portable_windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.jabref.org"
             }
         }

@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://download.jetbrains.com/resharper/dotUltimate.<version>/JetBrains.ReSharper.CommandLineTools.<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://data.services.jetbrains.com/products/releases?code=RSCLT&latest=true&type=release"
             }
         }

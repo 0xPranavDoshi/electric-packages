@@ -5,14 +5,14 @@
     "4.69.0": {
         "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "-si",
             "--userinstallie",
             "--userinstallff",
             "--userinstallchrome"
         ],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": []
     }
 }

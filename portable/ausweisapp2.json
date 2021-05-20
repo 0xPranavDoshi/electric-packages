@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Governikus/AusweisApp2/releases/download/<version>/AusweisApp2-<version>.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ausweisapp.bund.de/en/ausweisapp2-home/"
             }
         }

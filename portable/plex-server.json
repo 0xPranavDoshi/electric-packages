@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://downloads.plex.tv/plex-media-server-new/<version>/windows/PlexMediaServer-<version>-x86.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://plex.tv/api/downloads/1.json"
             }
         }

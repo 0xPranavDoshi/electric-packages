@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://github.com/micahflee/onionshare/releases/download/v<version>/onionshare-<version>-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://onionshare.org/"
             }
         }

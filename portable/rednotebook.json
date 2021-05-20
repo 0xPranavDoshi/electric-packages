@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jendrikseipp/rednotebook/releases/download/v<version>/rednotebook-<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rednotebook.sourceforge.io/"
             }
         }

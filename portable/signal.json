@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://updates.signal.org/desktop/signal-desktop-win-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://updates.signal.org/desktop/latest.yml",
                 "regex": "version:\\s([\\d.]+)"
             }

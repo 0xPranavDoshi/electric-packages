@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/weaveworks/eksctl/releases/download/$version/eksctl_Windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/weaveworks/eksctl/releases/tag/latest_release",
                 "regex": "eksctl ([\\d.]+)"
             }

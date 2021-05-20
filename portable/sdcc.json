@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/sdcc/sdcc-win64/$version/sdcc-$version-x64-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/sdcc/rss?path=/sdcc-win64",
                 "regex": "sdcc-([\\d.]+)-x64-setup\\.exe\\]\\]"
             }

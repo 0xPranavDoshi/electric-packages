@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cmderdev/cmder/releases/download/v<version>/cmder_mini.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cmder.net"
             }
         }

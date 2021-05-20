@@ -113,7 +113,7 @@
         },
         "auto-update": {
             "url": "https://github.com/wixtoolset/wix3/releases/download/wix$cleanVersionrtm/wix$majorVersion$minorVersion-binaries.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://wixtoolset.org/releases/",
                 "regex": "releases/v([\\d.]+)/stable"
             }

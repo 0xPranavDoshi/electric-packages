@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.sublimetext.com/sublime_merge_build_$version_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sublimemerge.com/download",
                 "regex": "Version:</i>\\sBuild\\s([\\d]+)</p>"
             }

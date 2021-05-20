@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.ortussolutions.com/ortussolutions/commandbox/$version/commandbox-jre-win64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ortussolutions.com/products/commandbox"
             }
         }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://files.jkvinge.net/packages/strawberry/StrawberrySetup-$version-Qt6-x64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.strawbs.org/"
             }
         }

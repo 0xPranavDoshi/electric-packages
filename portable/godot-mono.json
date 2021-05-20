@@ -32,7 +32,7 @@
         },
         "auto-update": {
             "url": "https://downloads.tuxfamily.org/godotengine/$version/mono/Godot_v$version-stable_mono_win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://godotengine.org/download",
                 "regex": "<h2>Godot <em>([\\d.]+)</em></h2>"
             }

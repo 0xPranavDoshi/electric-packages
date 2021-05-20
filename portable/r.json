@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://cloud.r-project.org/bin/windows/base/R-<version>-win.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cloud.r-project.org/bin/windows/base/md5sum.txt",
                 "regex": "R-([\\d.]+)"
             }

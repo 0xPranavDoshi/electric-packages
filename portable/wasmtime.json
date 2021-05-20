@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v$version/wasmtime-v$version-x86_64-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://wasmtime.dev"
             }
         }

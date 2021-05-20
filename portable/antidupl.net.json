@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ermig1979/AntiDupl/releases/download/v<version>/AntiDupl.NET-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ermig1979.github.io/AntiDupl/english/"
             }
         }

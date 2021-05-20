@@ -36,7 +36,7 @@
         },
         "auto-update": {
             "url": "https://playnite.link/update/stable/<version>/Playnite$cleanVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://playnite.link/download.html",
                 "regex": "/download/([\\d.]+)/Playnite"
             }

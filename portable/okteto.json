@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/okteto/okteto/releases/download/$version/okteto.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://okteto.com"
             }
         }

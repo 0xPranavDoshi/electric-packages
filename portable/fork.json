@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://fork.dev/update/win/Fork-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fork.dev/update/win/RELEASES",
                 "regex": "Fork-([\\d.]+)-full.nupkg"
             }

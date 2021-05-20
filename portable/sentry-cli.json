@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-x86_64.exe#/sentry.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.sentry.io/cli/"
             }
         }

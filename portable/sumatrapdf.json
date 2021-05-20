@@ -38,7 +38,7 @@
         },
         "auto-update": {
             "url": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-$version-64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sumatrapdfreader.org/news.html",
                 "regex": "([\\d.]+)\\s+\\(\\d+"
             }

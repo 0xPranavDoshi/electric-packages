@@ -49,7 +49,7 @@
         },
         "auto-update": {
             "url": "https://www.python.org/ftp/python/$version/python-$version-amd64.exe#/setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.python.org/downloads/windows/",
                 "regex": "Latest Python 3 Release - Python ([\\d.]+)"
             }

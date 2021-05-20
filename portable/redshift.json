@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://jonls.dk/redshift"
             }
         }

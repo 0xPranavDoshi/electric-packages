@@ -34,7 +34,7 @@
         },
         "auto-update": {
             "url": "https://downloads.puppetlabs.com/windows/puppet6/puppet-bolt-$version-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://downloads.puppetlabs.com/windows/puppet6/index_by_lastModified_reverse.html",
                 "regex": "puppet-bolt-([\\d.]+)-x64\\.msi"
             }

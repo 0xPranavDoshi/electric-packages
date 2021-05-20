@@ -24,7 +24,7 @@
         },
         "auto-update": {
             "url": "https://graphicsgale.com/files/GalePortable$cleanVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://graphicsgale.com/files/historyUS.txt",
                 "regex": "ver\\.([\\d.]+)"
             }

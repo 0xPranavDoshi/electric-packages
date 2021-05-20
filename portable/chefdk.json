@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "https://packages.chef.io/files/stable/chefdk/$version/windows/2012r2/chefdk-$version-1-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://downloads.chef.io/products/chefdk?os=windows",
                 "regex": "/stable/chefdk/([\\d.]+)/windows/2012r2/"
             }

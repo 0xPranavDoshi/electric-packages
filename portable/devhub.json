@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/devhubapp/devhub/releases/download/v$version/devhub-setup-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://devhubapp.com"
             }
         }

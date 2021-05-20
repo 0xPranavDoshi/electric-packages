@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "http://www.rarewares.org/files/mp3/lame$version-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.rarewares.org/mp3-lame-bundle.php",
                 "regex": "/files/mp3/lame([\\d.]+)-x64\\.zip"
             }

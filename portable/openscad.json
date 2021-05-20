@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://files.openscad.org/OpenSCAD-$version-x86-64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.openscad.org/inc/win_release_links.js",
                 "regex": "OpenSCAD-([\\d.-]+)-x"
             }

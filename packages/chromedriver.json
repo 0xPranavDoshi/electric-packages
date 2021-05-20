@@ -8,7 +8,7 @@
         "latest-version": "90.0.4430.24",
         "auto-update": {
             "url": "https://chromedriver.storage.googleapis.com/<version>/chromedriver_win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chromedriver.chromium.org/",
                 "regex": "ChromeDriver ([\\d.]+)"
             }

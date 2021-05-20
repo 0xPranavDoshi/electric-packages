@@ -5,7 +5,7 @@
     "4.5": {
         "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2020.2/TranslucentTB-setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -13,12 +13,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "B8A4F90865D681A31EFA44F8B5098703B743A5050274503CA95D0E80E26C46F"
     }

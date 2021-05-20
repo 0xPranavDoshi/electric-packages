@@ -8,7 +8,7 @@
         "latest-version": "2.57.2",
         "auto-update": {
             "url": "https://github.com/dotnet/docfx/releases/download/v<version>/docfx.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/dotnet/docfx/releases/latest",
                 "regex": "Version ([\\d.]+)"
             }

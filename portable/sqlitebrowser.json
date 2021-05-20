@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/sqlitebrowser/sqlitebrowser/releases",
                 "regex": "SQLite-([\\d.]+)-win64\\.zip"
             }

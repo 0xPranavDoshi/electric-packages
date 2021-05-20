@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "https://github.com/henrypp/simplewall/releases/download/v.<version>/simplewall-<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.henrypp.org/product/simplewall",
                 "regex": "simplewall-([\\d.]+)-bin\\.zip"
             }

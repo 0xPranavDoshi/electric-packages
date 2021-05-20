@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/$version/ngspice-$version_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://ngspice.sourceforge.net/download.html",
                 "regex": "ngspice-(\\d+)</strong></a>"
             }

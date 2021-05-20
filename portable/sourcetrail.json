@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/CoatiSoftware/Sourcetrail/releases/download/$version/Sourcetrail_$underscoreVersion_Windows_64bit_Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sourcetrail.com"
             }
         }

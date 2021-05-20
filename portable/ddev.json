@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/drud/ddev/releases/download/v$version/ddev_windows-amd64.v$version.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ddev.readthedocs.io/en/latest/"
             }
         }

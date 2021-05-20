@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_$version.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json"
             }
         }

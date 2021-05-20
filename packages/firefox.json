@@ -4,7 +4,7 @@
   "latest-version": "88.0",
   "auto-update": {
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/<version>/win64/en-US/Firefox%20Setup%20<version>.msi",
-    "vercheck": {
+    "version-check": {
       "webpage": "https://www.mozilla.org/en-US/firefox/releases/",
       "regex": "([\\d.]+)<\/a>"
     }
@@ -13,9 +13,9 @@
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/88.0/win64/en-US/Firefox%20Setup%2088.0.msi",
     "file-type": ".msi",
     "checksum": "EC8209C15D75914D4F103DCDDF4459D2EC95477F58644DFBB51475AD04FB6A7E",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "/TARGETDIR",
+    "iswitches": ["/qn", "/quiet", "/norestart"],
+    "uswitches": ["/qn", "/quiet", "/norestart"],
+    "clswitch": "/TARGETDIR",
     "dependencies": []
   }
 }

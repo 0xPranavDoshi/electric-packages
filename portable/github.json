@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://central.github.com/deployments/desktop/desktop/latest/GitHubDesktop-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES",
                 "regex": "GitHubDesktop-([\\d.]+)-full\\.nupkg"
             }

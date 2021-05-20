@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "http://download.tuxfamily.org/lilicreator/stable-portable/LinuxLive%20USB%20Creator%20<version>.zip#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.linuxliveusb.com/en/other-versions",
                 "regex": "Version ([\\d.]+) Final - Portable Edition"
             }

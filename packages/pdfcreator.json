@@ -5,7 +5,7 @@
     "4.2.0": {
         "url": "http://download.pdfforge.org/download/pdfcreator/PDFCreator-stable?download",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -15,12 +15,12 @@
             "/LANG=english",
             "/COMPONENTS=\"program,ghostscript,comsamples\""
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "27EA7A6A894E019CFBB24B6AACB2F323F09E9DF1186F9657B1EFCF3BEDF95891"
     }

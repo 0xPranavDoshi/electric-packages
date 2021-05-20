@@ -56,7 +56,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cyd01/KiTTY/releases/download/v<version>/kitty-bin-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://kitty.9bis.net"
             }
         }

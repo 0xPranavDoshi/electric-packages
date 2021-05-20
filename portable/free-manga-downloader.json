@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fmd-project-team/FMD/releases/download/$version/fmd_$version_x86_64-win64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/fmd-project-team/FMD/master/update",
                 "regex": "VERSION=([\\d.]+)"
             }

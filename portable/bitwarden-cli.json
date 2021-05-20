@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/bitwarden/cli/releases/download/v$version/bw-windows-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bitwarden.com/"
             }
         }

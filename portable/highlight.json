@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://www.andre-simon.de/zip/highlight-$version-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gitlab.com/saalen/highlight/-/tags",
                 "regex": "v([\\d.]+)</a>"
             }

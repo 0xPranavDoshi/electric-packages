@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/appbaseio/abc/releases/download/$version/abc-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/appbaseio/abc",
                 "regex": "tag/([\\w.-]+)"
             }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v<version>/OutlookGoogleCalendarSync-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://phw198.github.io/OutlookGoogleCalendarSync/",
                 "regex": "tag/v([\\w.-]+)"
             }

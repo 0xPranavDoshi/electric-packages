@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Microsoft/Microsoft-MPI/releases/download/v<version>/msmpisetup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi"
             }
         }

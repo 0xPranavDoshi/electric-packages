@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://cloud.r-project.org/bin/windows/Rtools/rtools$majorVersion$minorVersion-x86_64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://cloud.r-project.org/bin/windows/Rtools/VERSION.txt",
                 "regex": "([\\d.]+)"
             }

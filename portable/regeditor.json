@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://dl5.oo-software.com/files/ooregeditor$majorVersion/$majorVersion$minorVersion/ooregeditor.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.oo-software.com/en/download/current/ooregeditor",
                 "regex": "Build\\s+([\\d.]+)"
             }

@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://www.swi-prolog.org/download/stable/bin/swipl-$version.x64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.swi-prolog.org/download/stable",
                 "regex": "swipl-([\\d.-]+)\\.x64\\.exe"
             }

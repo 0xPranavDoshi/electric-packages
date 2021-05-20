@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/lihaoyi/mill/releases/download/$matchHead/<version>-assembly#/mill.bat",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.lihaoyi.com/mill/"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://camunda.org/release/camunda-modeler/$version/camunda-modeler-$version-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://camunda.org/download/modeler/"
             }
         }

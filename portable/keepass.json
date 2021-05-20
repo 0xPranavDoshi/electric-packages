@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/keepass/KeePass%20$majorVersion.x/<version>/KeePass-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://keepass.info/update/version2x.txt",
                 "regex": "KeePass:([\\d.]+)"
             }

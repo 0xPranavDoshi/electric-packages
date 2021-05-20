@@ -40,7 +40,7 @@
         },
         "auto-update": {
             "url": "https://fmedda.com/ext/download/Foto-Mosaik-Edda-Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fmedda.com/en/download",
                 "regex": "Version:</td>\\s+<td>([\\d.]+)"
             }

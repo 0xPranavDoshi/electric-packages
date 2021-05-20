@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/darktable-org/darktable/releases/download/release-$version/darktable-$version-win64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.darktable.org",
                 "regex": "download/release-([\\d.]+)"
             }

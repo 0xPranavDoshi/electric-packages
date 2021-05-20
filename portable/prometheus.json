@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://github.com/prometheus/prometheus/releases/download/v$version/prometheus-$version.windows-amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://prometheus.io"
             }
         }

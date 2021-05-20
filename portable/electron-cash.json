@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Electron-Cash/Electron-Cash/releases/download/<version>/Electron-Cash-<version>-portable.exe#/Electron-Cash.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://electroncash.org"
             }
         }

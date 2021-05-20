@@ -45,7 +45,7 @@
         },
         "auto-update": {
             "url": "http://p-nand-q.com/download/gtools/gtools-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://p-nand-q.com/download/gtools/index.html",
                 "regex": "<h1>gtools ([\\d.]+)<"
             }

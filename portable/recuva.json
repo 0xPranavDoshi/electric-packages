@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://download.ccleaner.com/rcsetup$majorVersion$minorVersion.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.ccleaner.com/recuva/version-history",
                 "regex": ">v([\\d.]+)"
             }

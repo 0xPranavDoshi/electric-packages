@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "http://download.eassos.cn/DG$cleanVersion_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.diskgenius.cn/download.php",
                 "regex": "\\[V([\\d.]+)\\]"
             }

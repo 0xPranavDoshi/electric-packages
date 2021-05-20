@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://viewer.dadroit.com/releases/win/Dadroit%20Viewer%20$majorVersion.$minorVersion%20Build%20$patchVersion%20x64%20Setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://viewer.dadroit.com/js/app.js",
                 "regex": "Viewer (?<main>[\\d.]+)\\s+Build\\s+(?<build>\\d+)\\s+x64"
             }

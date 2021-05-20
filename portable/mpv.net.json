@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/stax76/mpv.net/releases/download/$version/mpv.net-portable-x64-$version.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/stax76/mpv.net/",
                 "regex": "mpv\\.net-portable-x64-([\\d.]+)\\.7z"
             }

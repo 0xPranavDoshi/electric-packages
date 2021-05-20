@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/scottlerch/HostsFileEditor/releases/download/v<version>/HostsFileEditorSetup-<version>.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hostsfileeditor.com"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Masterminds/glide/releases/download/v$version/glide-v$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://glide.sh/"
             }
         }

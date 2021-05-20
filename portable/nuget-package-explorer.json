@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/NugetPackageExplorer.$version.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/NugetPackageExplorer",
                 "regex": "Chocolatey.*?([\\d.]+)"
             }

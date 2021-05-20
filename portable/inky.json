@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/inkle/inky/releases/download/$version/Inky_windows_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.inklestudios.com/ink/"
             }
         }

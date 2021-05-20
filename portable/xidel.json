@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/benibela/xidel/releases/download/Xidel_<version>/xidel-<version>.win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.videlibri.de/xidel.html",
                 "regex": "xidel-([\\d.]+)\\.win32"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://electerm.github.io/electerm/"
             }
         }

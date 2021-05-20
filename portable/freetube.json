@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/FreeTubeApp/FreeTube/releases/download/v$version/freetube-$matchHead-win-x64-portable.zip#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/FreeTubeApp/FreeTube/releases",
                 "regex": "download/v([\\w.-]+)"
             }

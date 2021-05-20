@@ -73,7 +73,7 @@
         },
         "auto-update": {
             "url": "https://mega.nz/MEGAcmdSetup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/meganz/MEGAcmd/releases",
                 "regex": "tag/([\\d.]+)_Win"
             }

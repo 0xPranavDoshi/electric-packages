@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gobuffalo/buffalo/releases/download/v$version/buffalo_$version_windows_x86_64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gobuffalo.io"
             }
         }

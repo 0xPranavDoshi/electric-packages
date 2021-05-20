@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "https://rm-eu.palemoon.org/release/Palemoon-Portable-$version.win64.exe#/palemoon.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.palemoon.org/download.shtml",
                 "regex": "Hashes for release ([\\d.]+)"
             }

@@ -32,7 +32,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mlocati/gettext-iconv-windows/releases/download/v$version/gettext$matchGettext-iconv$matchIconv-shared-64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/mlocati/gettext-iconv-windows/releases",
                 "regex": "/releases/tag/v((?<gettext>[\\d.]+)-v(?<iconv>[\\d.]+))"
             }

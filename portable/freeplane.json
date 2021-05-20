@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/archive/<version>/freeplane_bin-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.freeplane.org/info/history/history_en.txt",
                 "regex": "=\\s+([\\d.]+)\\s+="
             }

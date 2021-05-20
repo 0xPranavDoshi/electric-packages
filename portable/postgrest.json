@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/PostgREST/postgrest/releases/download/v$version/postgrest-v$version-windows-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/PostgREST/postgrest/releases",
                 "regex": "tag/v([\\d.]+)"
             }

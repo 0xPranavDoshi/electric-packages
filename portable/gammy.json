@@ -33,7 +33,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Fushko/gammy/releases/download/v$version/gammy_v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getgammy.com/downloads.html",
                 "regex": "/gammy_v([\\d.]+)\\.zip"
             }

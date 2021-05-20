@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-<version>/opentrack-<version>-portable.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/opentrack/opentrack",
                 "regex": "tag/opentrack-([\\d.]+)"
             }

@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://packages.chocolatey.org/eartrumpet.<version>.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chocolatey.org/packages/eartrumpet",
                 "regex": "Downloads of v\\s+([\\d.]+)"
             }

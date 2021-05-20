@@ -4,7 +4,7 @@
     "latest-version": "10.1.4.37651",
     "auto-update": {
         "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=<version>",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.foxitsoftware.com/pdf-reader/version-history.html",
             "regex": "Version ([\\d.]+)"
         }
@@ -12,33 +12,33 @@
     "10.1.1.37576": {
         "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=10.1.1.37576",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/FORCEINSTALL",
             "/VERYSILENT",
             "/NORESTART"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/FORCEINSTALL",
             "/VERYSILENT",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     },
     "10.1.4.37651": {
         "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=10.1.4.37651",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/FORCEINSTALL",
             "/VERYSILENT",
             "/NORESTART"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/FORCEINSTALL",
             "/VERYSILENT",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

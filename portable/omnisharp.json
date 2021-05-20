@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v$version/omnisharp-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.omnisharp.net"
             }
         }

@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/builtbybel/privatezilla/releases/download/<version>/privatezilla.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.builtbybel.com/ms-apps/privatezilla"
             }
         }

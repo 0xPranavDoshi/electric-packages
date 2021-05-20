@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/hasherezade/pe-bear-releases/releases/download/$version/PE-bear_$version_x64_win_vs17.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hshrzd.wordpress.com/pe-bear/"
             }
         }

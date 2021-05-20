@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Squalr/Squalr/releases/download/<version>/Squalr-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.squalr.com/"
             }
         }

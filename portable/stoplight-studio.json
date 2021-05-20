@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/stoplightio/studio/releases/download/v<version>/stoplight-studio-win.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://stoplight.io/studio",
                 "regex": "tag/v([\\w.-]+)"
             }

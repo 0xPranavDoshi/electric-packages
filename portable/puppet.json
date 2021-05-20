@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://downloads.puppetlabs.com/windows/puppet/puppet-agent-$version-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://downloads.puppetlabs.com/windows/puppet/index_by_lastModified_reverse.html",
                 "regex": "puppet-agent-([\\d.]+)-x64\\.msi"
             }

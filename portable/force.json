@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.exe#/force.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://force-cli.herokuapp.com/"
             }
         }

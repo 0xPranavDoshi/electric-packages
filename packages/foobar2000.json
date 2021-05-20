@@ -4,7 +4,7 @@
     "latest-version": "1.6.6",
     "auto-update": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.foobar2000.org/download",
             "regex": "foobar2000 v([\\d.]+)"
         }
@@ -12,25 +12,25 @@
     "1.6.5": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": []
     },
     "1.6.6": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": []
     }
 }

@@ -5,9 +5,9 @@
   "5.1": {
     "url": "https://go.microsoft.com/fwlink/?LinkId=287166",
     "file-type": ".msi",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
+    "iswitches": ["/qn", "/quiet", "/norestart"],
+    "uswitches": ["/qn", "/quiet", "/norestart"],
+    "clswitch": "INSTALLDIR=",
     "dependencies": []
   }
 }

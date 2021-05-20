@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://files.maxto.net/releases/<version>/MaxTo-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://maxto.net/en/release",
                 "regex": "MaxTo-([\\d.]+)\\.zip"
             }

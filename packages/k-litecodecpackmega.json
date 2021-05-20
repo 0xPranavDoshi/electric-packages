@@ -5,11 +5,11 @@
     "16.0.5": {
         "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1605_Mega.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/VERYSILENT"
         ],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": [],
         "checksum": "F4789368CDD1ACB2E5007360C4046DF165511A1F57D68B01E6D3DA209D355FB3"
     }

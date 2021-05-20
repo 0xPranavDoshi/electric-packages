@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://github.com/wkhtmltopdf/packaging/releases/download/$version/wkhtmltox-$version.mxe-cross-win64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/wkhtmltopdf/packaging/releases",
                 "regex": "/wkhtmltox-([\\d.-]+)\\.mxe-cross-"
             }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/<version>/AudioSwitcher.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://audioswit.ch"
             }
         }

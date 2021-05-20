@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.fosshub.com/Synfig.html/SynfigStudio-$version-stable-$matchDate-win64-$matchSha.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.fosshub.com/Synfig.html",
                 "regex": "SynfigStudio-([\\d.]+)-stable-(?<date>[\\d.]+)-win64-(?<sha>[\\da-f]+)"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.typesafe.com/scala/<version>/scala-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.scala-lang.org/download/",
                 "regex": "scala-([\\d.]+)\\.zip"
             }

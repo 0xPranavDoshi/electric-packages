@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://rakudo.org/dl/star/rakudo-star-$version-win-x86_64-(JIT).msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rakudo.org/downloads/star",
                 "regex": "rakudo-star-([\\d.-]+)-win-x86_64-\\(JIT\\)\\.msi"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/direnv/direnv/releases/download/v$version/direnv.windows-amd64.exe#/direnv.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://direnv.net"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/<version>/Windows/codeblocks-<version>mingw-nosetup.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/codeblocks/files/Binaries/",
                 "regex": "Binaries/([\\d.]+)"
             }

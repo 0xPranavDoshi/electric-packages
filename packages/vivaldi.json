@@ -8,18 +8,18 @@
         "valid-uninstall-exit-codes": [
             19
         ],
-        "install-switches": [
+        "iswitches": [
             "--vivaldi-silent",
             "--do-not-launch-chrome",
             "--system-level"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "--uninstall",
             "--system-level",
             "--vivaldi",
             "--force-uninstall"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "74F8B0BF6BC90C86C1C478BF48736ACAB051AA233F6F1936DBCE61169CCBD813"
     }

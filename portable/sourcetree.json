@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/RELEASES",
                 "regex": "SourceTree-([\\d.]+)-full\\.nupkg"
             }

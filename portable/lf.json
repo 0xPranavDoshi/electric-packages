@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://godoc.org/github.com/gokcehan/lf",
                 "regex": "tag/(r[\\d]+)"
             }

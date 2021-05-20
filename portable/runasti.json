@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI64.exe#/RunAsTI.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI.au3",
                 "regex": "#AutoIt3Wrapper_Res_Fileversion=([\\d.]+)"
             }

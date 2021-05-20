@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://dl.gitea.io/gitea/$version/gitea-$version-windows-4.0-amd64.exe.xz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://blog.gitea.io/",
                 "regex": "Gitea.*?([\\d.]+)"
             }

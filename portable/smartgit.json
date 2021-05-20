@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-$underscoreVersion.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.syntevo.com/smartgit/download/",
                 "regex": "smartgit-portable-(\\d+)_(\\d+)_(\\d+)\\.7z"
             }

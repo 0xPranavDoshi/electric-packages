@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Code52/carnac/releases/download/<version>/carnac-<version>-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://carnackeys.com/"
             }
         }

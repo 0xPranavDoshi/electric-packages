@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-x86_64-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://texlab.netlify.com"
             }
         }

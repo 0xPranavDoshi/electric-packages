@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kanryu/quickviewer/releases/download/v$version/QuickViewer-portable-$version-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kanryu.github.io/quickviewer/"
             }
         }

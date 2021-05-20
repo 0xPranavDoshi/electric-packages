@@ -5,7 +5,7 @@
     "1.56.0": {
         "url": "https://az764295.vo.msecnd.net/insider/08c3c088ba8e0dfaf9b6c9df64e33d6176070752/VSCodeSetup-x64-1.56.0-insider.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,7 +14,7 @@
             "/FORCECLOSEAPPLICATIONS",
             "/MERGETASKS=!runcode"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -22,7 +22,7 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "17D0AF4D5EDE05F3399866EA596A9CF78CBABDEC8ABC13E5E41A9101D07A6B6F"
     }

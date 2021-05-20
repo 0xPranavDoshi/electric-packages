@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Chhekur/colon-ide/releases/download/v<version>/Colon-Setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chhekur.github.io/colon-ide/"
             }
         }

@@ -5,7 +5,7 @@
     "6.1.2": {
         "url": "http://files.jrsoftware.org/is/6/innosetup-6.1.2.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,13 +14,13 @@
             "/FORCECLOSEAPPLICATIONS"
         ],
         "default-install-dir": "C:\\Program Files (x86)\\Inno Setup 6",
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
         "add-path": "<install-directory>",
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "A3CE1C40EF9C71A92691AAFF0F413F530C8C9E3C766BE481BC63CA7CC74E35E7"
     }

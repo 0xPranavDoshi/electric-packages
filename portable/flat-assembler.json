@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://flatassembler.net/fasmw$cleanVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://flatassembler.net/download.php",
                 "regex": "flat assembler ([\\d.]+) for Windows"
             }

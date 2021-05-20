@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://rakudo.org/dl/rakudo/rakudo-moar-$version-win-x86_64-msvc.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rakudo.org/downloads/rakudo",
                 "regex": "rakudo-moar-([\\d.-]+)-win-x86_64-msvc\\.zip"
             }

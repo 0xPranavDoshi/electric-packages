@@ -40,7 +40,7 @@
         },
         "auto-update": {
             "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-$version-signed.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://downloads.mongodb.org.s3.amazonaws.com/current.json"
             }
         }

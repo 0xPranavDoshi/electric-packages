@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://files.lhmouse.com/nano-win/nano-win_$matchBuild_v<version>-$matchCommit.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://files.lhmouse.com/nano-win/?C=N&O=D",
                 "regex": "nano-win_(?<build>\\d+)_v([\\d.-]+)-(?<commit>\\w+)\\.7z"
             }

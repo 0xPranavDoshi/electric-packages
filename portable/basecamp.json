@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://bc3-desktop.s3.amazonaws.com/windows/basecamp3-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://bc3-desktop.s3.amazonaws.com/windows/RELEASES",
                 "regex": "basecamp3-([\\d.]+)-full\\.nupkg"
             }

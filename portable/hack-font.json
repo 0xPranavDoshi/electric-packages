@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/source-foundry/Hack-windows-installer/releases/download/v<version>/HackFontsWindowsInstaller.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourcefoundry.org/hack/"
             }
         }

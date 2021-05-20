@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://services.gradle.org/distributions/gradle-<version>-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gradle.org/install/",
                 "regex": "The current Gradle release is version ([\\d.]+)"
             }

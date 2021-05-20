@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://languagetool.org/download/LanguageTool-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://languagetool.org/download/",
                 "regex": "LanguageTool-([\\d.]+)\\.zip"
             }

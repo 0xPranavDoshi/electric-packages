@@ -25,7 +25,7 @@
         },
         "auto-update": {
             "url": "https://chatterino.com/download/$version/Chatterino%20Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://chatterino.com/download/",
                 "regex": ">([\\d.-]+)/<"
             }

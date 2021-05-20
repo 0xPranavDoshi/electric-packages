@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://packages.riot.im/desktop/update/win32/x64/element-desktop-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://packages.riot.im/desktop/update/win32/x64/RELEASES",
                 "regex": "desktop-([\\d.]+)-full\\."
             }

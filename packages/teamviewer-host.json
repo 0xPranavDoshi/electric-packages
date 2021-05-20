@@ -5,13 +5,13 @@
     "15.15.5.0": {
         "url": "https://download.teamviewer.com/download/version_15x/TeamViewer_Host_Setup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/S"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/S"
         ],
-        "custom-location": "/D=",
+        "clswitch": "/D=",
         "dependencies": [],
         "checksum": "54F86B562C93C1041E0099A247D940B160ED5714D57963F183EDBBA1E866D81F"
     }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download1.rstudio.org/desktop/windows/RStudio-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://rstudio.com/products/rstudio/download/",
                 "regex": ">RStudio Desktop ([\\d.]+)<"
             }

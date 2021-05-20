@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/keeweb/keeweb/releases/download/v$version/KeeWeb-$version.win.x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://keeweb.info"
             }
         }

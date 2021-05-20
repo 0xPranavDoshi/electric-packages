@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "http://www.clifford.at/yosys/nogit/win32/yosys-win32-mxebin-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.clifford.at/yosys/download.html",
                 "regex": "yosys-win32-mxebin-([\\d.]+)\\.zip"
             }

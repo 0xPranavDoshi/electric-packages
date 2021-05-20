@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sass-lang.com/dart-sass"
             }
         }

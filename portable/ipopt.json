@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/coin-or/Ipopt/releases/download/releases%2F$version/Ipopt-$version-win64-msvs2019-md.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://coin-or.github.io/Ipopt/",
                 "regex": "download/releases%2F([\\d.]+)"
             }

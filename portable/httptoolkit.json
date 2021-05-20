@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v$version/HttpToolkit-win-x64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://httptoolkit.tech"
             }
         }

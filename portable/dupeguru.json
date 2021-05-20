@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/arsenetar/dupeguru/releases/download/$version/dupeGuru_win64_$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dupeguru.voltaicideas.net"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.fosshub.com/CudaText.html/cudatext-win-x64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.fosshub.com/CudaText.html",
                 "regex": "cudatext-win-x64-([\\d.]+)\\.zip"
             }

@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-$version-x86_64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kicad.org/download/windows/",
                 "regex": "kicad-([\\d._]+)-"
             }

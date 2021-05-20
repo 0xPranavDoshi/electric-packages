@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/srecord/srecord-win32/<version>/srecord-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/srecord/rss?path=/",
                 "regex": "srecord-([\\d.]+)-win32"
             }

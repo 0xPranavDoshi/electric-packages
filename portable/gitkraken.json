@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://release.gitkraken.com/win64/gitkraken-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://release.gitkraken.com/win64/RELEASES?id=gitkraken&localVersion=0&arch=amd64",
                 "regex": "gitkraken-([\\d.]+)-full\\.nupkg"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/visualfc/liteide/releases/download/x$matchHead/liteidex<version>.windows-qt$matchQtver.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://liteide.org",
                 "regex": "liteidex([\\d.-]+)\\.windows-qt(?<qtver>[\\d.]+)\\.zip"
             }

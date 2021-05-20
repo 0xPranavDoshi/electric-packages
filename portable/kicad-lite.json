@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-$version-x86_64-lite.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kicad-downloads.s3.cern.ch/?delimiter=/&prefix=windows/stable/",
                 "regex": "<Key>windows/stable/kicad-([\\d._]+)-x86_64-lite"
             }

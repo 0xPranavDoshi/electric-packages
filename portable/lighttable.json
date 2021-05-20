@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/LightTable/LightTable/releases/download/<version>/lighttable-<version>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.lighttable.com/"
             }
         }

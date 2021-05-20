@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.sweethome3d.com/SweetHome3DUpdates.xml",
                 "regex": "id=\"SweetHome3D#Portable\"\\s+version=\"([\\d.]+)\""
             }

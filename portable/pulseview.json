@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://sigrok.org/download/binary/pulseview/pulseview-$version-64bit-static-release-installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sigrok.org/download/binary/pulseview/?C=M;O=D",
                 "regex": "pulseview-([\\d.]+)-64bit-static-release-installer\\.exe"
             }

@@ -78,7 +78,7 @@
         },
         "auto-update": {
             "url": "https://github.com/TASVideos/BizHawk/releases/download/$version/BizHawk-$version-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://tasvideos.org/BizHawk.html"
             }
         }

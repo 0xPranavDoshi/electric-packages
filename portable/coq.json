@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://github.com/coq/coq/releases/download/V$version/coq-$version-installer-windows-x86_64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://coq.inria.fr/"
             }
         }

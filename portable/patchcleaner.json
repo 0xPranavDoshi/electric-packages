@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/patchcleaner/PatchCleaner_Portable/v<version>/PatchCleanerPortable_$underscoreVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/patchcleaner/rss?path=/",
                 "regex": "PatchCleaner_([\\d.]+)\\.exe"
             }

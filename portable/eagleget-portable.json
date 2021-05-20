@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "http://dl.eagleget.com/latest/EagleGetProtable_<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.eagleget.com/download-eagleget-portable/",
                 "regex": "EagleGet Portable v([\\d.]+)"
             }

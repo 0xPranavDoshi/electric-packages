@@ -39,7 +39,7 @@
         },
         "auto-update": {
             "url": "https://github.com/syncthing/discosrv/releases/download/v$version/stdiscosrv-windows-amd64-v$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://syncthing.net/"
             }
         }

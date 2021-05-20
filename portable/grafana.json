@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://dl.grafana.com/oss/release/grafana-$version.windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://grafana.com/grafana/download?platform=windows",
                 "regex": "grafana-([\\d.]+)\\.windows"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/claudiodangelis/qrcp/releases/download/$version/qrcp_$version_Windows_x86_64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://claudiodangelis.com/qrcp/"
             }
         }

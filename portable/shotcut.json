@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mltframework/shotcut/releases/download/v$version/shotcut-win64-$cleanVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.shotcut.org"
             }
         }

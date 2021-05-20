@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/pawelsalawa/sqlitestudio/releases/download/<version>/SQLiteStudio-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sqlitestudio.pl/index.rvt"
             }
         }

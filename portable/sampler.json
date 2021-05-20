@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sqshq/sampler/releases/download/v$version/sampler-$version-windows-amd64.exe#/sampler.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sampler.dev"
             }
         }

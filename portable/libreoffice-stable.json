@@ -61,7 +61,7 @@
         },
         "auto-update": {
             "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/<version>.2/portable/LibreOfficePortable_<version>_MultilingualStandard.paf.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.documentfoundation.org/libreoffice/portable/?C=M;O=D",
                 "regex": ">([\\d.]+)/<"
             }

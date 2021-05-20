@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/nextdns/nextdns/releases/download/v$version/nextdns_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nextdns.io/cli"
             }
         }

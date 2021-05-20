@@ -6,9 +6,9 @@
     "url": "https://builds.cdn.getgo.com/builds/g2m/19228/G2MSetup10.15.19228_IT.msi?c_prod=g2mwt&c_cmp=care?c_prod=g2mwt&c_cmp=care",
     "file-type": ".msi",
     "checksum": "ED6E4CB0E96043E9F746C18BBED528DA93BC1C7A96E1D9060687358180548123",
-    "install-switches": ["/qn", "/quiet", "/norestart"],
-    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "INSTALLDIR=",
+    "iswitches": ["/qn", "/quiet", "/norestart"],
+    "uswitches": ["/qn", "/quiet", "/norestart"],
+    "clswitch": "INSTALLDIR=",
     "dependencies": []
   }
 }

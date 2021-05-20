@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fsharp/FAKE/releases/download/$version/fake-dotnetcore-win7-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fake.build"
             }
         }

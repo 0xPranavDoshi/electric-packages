@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_($version).zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://multicommander.com/updates/version.xml"
             }
         }

@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://artifacts.elastic.co/downloads/logstash/logstash-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.elastic.co/downloads/logstash",
                 "regex": "logstash-([\\d.]+)\\.zip"
             }

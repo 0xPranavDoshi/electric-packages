@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.den4b.com/download/renamer/portable/<version>?token=scoop#/dl.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.den4b.com/changelogs/renamer",
                 "regex": "id=\"v([\\d.]+)\""
             }

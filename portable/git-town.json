@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/git-town/git-town/releases/download/v$version/git-town_$version_windows_intel_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.git-town.com"
             }
         }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/grails/grails-core/releases/download/v<version>/grails-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/grails/grails-core/releases",
                 "regex": "/grails-([\\d.]+)\\.zip"
             }

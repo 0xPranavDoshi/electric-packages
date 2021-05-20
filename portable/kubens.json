@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ahmetb/kubectx/releases/download/v$version/kubens_v$version_windows_x86_64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kubectx.dev"
             }
         }

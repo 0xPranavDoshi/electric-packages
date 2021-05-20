@@ -49,7 +49,7 @@
         },
         "auto-update": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
                 "regex": "\\[(\\d+)\\]"
             }

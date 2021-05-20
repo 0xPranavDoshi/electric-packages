@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://releases.fontba.se/win/FontBase-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fontba.se/updates",
                 "regex": "([\\d.]+)</a"
             }

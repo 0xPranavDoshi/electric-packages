@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/cnr-isti-vclab/meshlab/releases/download/Meshlab-$version/MeshLab$version-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.meshlab.net",
                 "regex": "tag/Meshlab-([\\d.]+)"
             }

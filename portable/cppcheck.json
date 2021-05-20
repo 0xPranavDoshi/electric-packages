@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/danmar/cppcheck/releases/download/$version/cppcheck-$version-x64-Setup.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://cppcheck.sourceforge.net/"
             }
         }

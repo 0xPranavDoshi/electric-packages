@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://bin.equinox.io/a/$matchDir/forego-$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dl.equinox.io/ddollar/forego/stable/archive",
                 "regex": "https://bin.equinox.io/a/(?<dir>\\w+)/forego-(\\d+)-windows-amd64.zip"
             }

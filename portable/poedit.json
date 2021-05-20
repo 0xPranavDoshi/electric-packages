@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://download.poedit.net/Poedit-<version>-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://poedit.net/download",
                 "regex": "Poedit-([\\d.]+)-setup"
             }

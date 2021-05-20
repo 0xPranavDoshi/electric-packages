@@ -6,7 +6,7 @@
         "url": "https://wingware.com/pub/wingpro/7.2.9.0/wingpro-7.2.9.0.exe",
         "file-type": ".exe",
         "checksum": "45ACFD6E751EF961F82A90244F618E1C952474C3F0544C58685BE0AE67334E17",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,12 +14,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

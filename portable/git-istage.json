@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.nuget.org/api/v2/package/git-istage/<version>",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://api.nuget.org/v3-flatcontainer/git-istage/index.json"
             }
         }

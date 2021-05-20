@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://download.nirsoft.net/nirsoft_package_enc_<version>.zip#/nirlauncher.enc",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://launcher.nirsoft.net/downloads/index.html",
                 "regex": "nirsoft_package_enc_([\\d.]+)\\.zip"
             }

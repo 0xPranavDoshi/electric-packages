@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/swig/swigwin/swigwin-<version>/swigwin-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.swig.org/download.html",
                 "regex": "swigwin-([\\d.]+)\\.zip"
             }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/$version/qpdf-$version-bin-mingw64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://qpdf.sourceforge.net/",
                 "regex": "qpdf-([\\d.]+)-"
             }

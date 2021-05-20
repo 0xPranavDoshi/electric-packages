@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://github.com/containerd/containerd/releases/download/v$version/containerd-$version-windows-amd64.tar.gz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://containerd.io"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/BoostIO/boost-releases/releases/download/v$version/boost-$version-full.nupkg",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://boostnote.io"
             }
         }

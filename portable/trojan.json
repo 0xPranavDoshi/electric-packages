@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://trojan-gfw.github.io/trojan/"
             }
         }

@@ -41,7 +41,7 @@
         },
         "auto-update": {
             "url": "https://dist.torproject.org/torbrowser/$matchBrowser/tor-win64-$version.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.torproject.org/download/tor/",
                 "regex": "torbrowser/(?<browser>[\\d.]+)/tor-win32-(?<version>[\\d.]+)\\.zip"
             }

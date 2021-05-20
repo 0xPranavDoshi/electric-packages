@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://7-zip.org/a/7z$cleanVersion-x64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.7-zip.org/download.html",
                 "regex": "Download 7-Zip ([\\d.]+)"
             }

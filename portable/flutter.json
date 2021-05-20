@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_$matchHead$matchDelim$matchBuild-stable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
                 "regex": "windows_(v?[\\d.]+)(?<delim>[-+]?)(?<build>[\\w.]*)-stable"
             }

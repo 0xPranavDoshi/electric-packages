@@ -19,7 +19,7 @@
         },
         "auto-update": {
             "url": "https://www.sqlite.org/$matchYear/sqlite-tools-win32-x86-$matchClean.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.sqlite.org/download.html",
                 "regex": "(?sm)64-bit DLL \\(x64\\) for SQLite version ([\\d.]+)\\..*?(?<year>\\d+)/sqlite-tools-win32-x86-(?<clean>\\d+)"
             }

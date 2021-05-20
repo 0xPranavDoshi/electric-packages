@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://www.microsip.org/download/MicroSIP-Lite-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.microsip.org/downloads",
                 "regex": "MicroSIP-Lite-([\\d.]+)\\.zip"
             }

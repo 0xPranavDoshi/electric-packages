@@ -5,17 +5,17 @@
     "1.0.2778.0": {
         "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWrxrH",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "93D873A663FF661FE0239210F98452FC181B813A64B8EF5E0DE3F8DA136C9938"
     }

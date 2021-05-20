@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/manojVivek/responsively-app/releases/download/v$version/ResponsivelyApp-Setup-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://manojvivek.github.io/responsively-app/"
             }
         }

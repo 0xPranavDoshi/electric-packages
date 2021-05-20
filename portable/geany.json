@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://download.geany.org/geany-<version>_setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.geany.org/",
                 "regex": "LATEST-IS-([\\d.]+)"
             }

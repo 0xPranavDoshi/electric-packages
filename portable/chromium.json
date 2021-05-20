@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-2_Win64.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.chromium.org",
                 "regex": "v([\\d.]+)-r(?<build>\\d+)-Win64"
             }

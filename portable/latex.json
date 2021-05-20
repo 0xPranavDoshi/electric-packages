@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-$version-x64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://miktex.org/download",
                 "regex": "basic-miktex-([\\d.]+)\\.exe"
             }

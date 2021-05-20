@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://mark0.net/download/triddefs.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.mark0.net/soft-trid-e.html",
                 "regex": "(?smi)Win32.*?TrID v([\\d\\.]*).*?(\\d{2})\\/(\\d{2})\\/(\\d{2})"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://desktop.icons8.com/lunacy/LunacySetup_<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.icons8.com/release-notes/",
                 "regex": "LunacySetup_([\\d.]+)\\.exe\">here"
             }

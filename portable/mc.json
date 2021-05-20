@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/mcwin32/mcwin32-build$matchBuild-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/mcwin32/files/",
                 "regex": "Latest Build\\s+([\\d.]+)\\s+(?<build>[\\d]+)"
             }

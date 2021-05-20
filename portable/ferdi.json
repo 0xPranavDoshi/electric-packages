@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/getferdi/ferdi/releases/download/v<version>/Ferdi-Setup-<version>.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://getferdi.com/"
             }
         }

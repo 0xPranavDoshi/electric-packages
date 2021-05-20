@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://github.com/elixir-lang/elixir/releases/download/v<version>/Precompiled.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://elixir-lang.org/"
             }
         }

@@ -5,7 +5,7 @@
     "1.55.1": {
         "url": "https://az764295.vo.msecnd.net/stable/08a217c4d27a02a5bcde898fd7981bda5b49391b/VSCodeSetup-x64-1.55.1.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,7 +14,7 @@
             "/FORCECLOSEAPPLICATIONS",
             "/MERGETASKS=!runcode"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -22,7 +22,7 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "02369BFDFEA9EE251FC8077E4921E96307D2088364AFA7091FBC27B1A1DC65C6"
     }

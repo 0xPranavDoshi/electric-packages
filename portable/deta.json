@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/deta/deta-cli/releases/download/v$version/deta-x86_64-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/deta/deta-cli",
                 "regex": "tag/v([\\w.-]+)\""
             }

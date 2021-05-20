@@ -8,7 +8,7 @@
         "latest-version": "7.76.1",
         "auto-update": {
             "url": "https://curl.se/windows/dl-<version>/curl-<version>-win64-mingw.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://curl.se/windows/",
                 "regex": "curl ([\\d.]+) for Windows"
             }

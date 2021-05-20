@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/martpie/museeks/releases/download/<version>/museeks-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://museeks.io"
             }
         }

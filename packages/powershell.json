@@ -6,17 +6,17 @@
         "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.3/PowerShell-7.1.3-win-x64.msi",
         "file-type": ".msi",
         "checksum": "459642D8B6D69F643794DF8394F28191F43E5ED35472899C4F0D8424F6D1317C",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     }
 }

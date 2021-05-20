@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-win-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
                 "regex": "(?s)(?<rtv>[\\d.]+)[^\\d]*?([\\d.]+)[^\\d]*?(?:current|lts)"
             }

@@ -49,7 +49,7 @@
         },
         "auto-update": {
             "url": "https://github.com/msys2/msys2-installer/releases/download/$version/msys2-base-x86_64-$matchYear$matchMonth$matchDay.tar.xz",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/msys2/msys2-installer",
                 "regex": "/releases/tag/(?<version>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2}))"
             }

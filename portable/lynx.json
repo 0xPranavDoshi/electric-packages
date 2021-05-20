@@ -38,7 +38,7 @@
         },
         "auto-update": {
             "url": "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://lynx.invisible-island.net/current/CHANGES",
                 "regex": "[\\d-]{10}\\s+\\(([\\w.]+)\\)"
             }

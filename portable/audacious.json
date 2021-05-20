@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://distfiles.audacious-media-player.org/audacious-<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://audacious-media-player.org/download",
                 "regex": "Current stable release: ([\\d.]+)"
             }

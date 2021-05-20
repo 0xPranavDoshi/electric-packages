@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://download.openmpt.org/archive/openmpt/$majorVersion.$minorVersion/OpenMPT-$version-Setup-x64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://update.openmpt.org/check/1.29.00.00-win64-unknown/anonymous",
                 "regex": "^update\\s+([\\d.]+)"
             }

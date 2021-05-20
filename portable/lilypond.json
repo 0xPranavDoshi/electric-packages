@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "http://lilypond.org/download/binaries/mingw/lilypond-<version>.mingw.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://lilypond.org/windows.html",
                 "regex": "/lilypond-([\\d.-]+).mingw\\.exe"
             }

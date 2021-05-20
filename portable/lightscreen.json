@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/ckaiser/Lightscreen/releases/download/v<version>/LightscreenSetup-<version>.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://lightscreen.com.ar"
             }
         }

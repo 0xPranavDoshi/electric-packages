@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://www.geeks3d.com/downloads/$matchYearp/FurMark_<version>_Setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://geeks3d.com/furmark/downloads/",
                 "regex": "<b>Version ([\\d.]+) - (?<year>\\d+)-\\d+-\\d+</b>"
             }

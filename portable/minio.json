@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.$version#/minio.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://min.io",
                 "regex": "releases/tag/RELEASE\\.([\\d-]+T[\\d-]+Z)"
             }

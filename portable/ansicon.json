@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/adoxa/ansicon/releases/download/v<version>/ansi$cleanVersion-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://ansicon.adoxa.vze.com/"
             }
         }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Gnucash/gnucash/releases/download/<version>/gnucash-$matchHead.setup.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.gnucash.org/",
                 "regex": "download/([\\w.]+)"
             }

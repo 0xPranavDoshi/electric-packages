@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/torakiki/pdfsam-visual-public/releases/download/v$version/pdfsam-visual_$version-windows_x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://pdfsam.org/pdfsam-visual/"
             }
         }

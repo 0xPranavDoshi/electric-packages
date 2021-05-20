@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://s3.amazonaws.com/jruby.org/downloads/<version>/jruby-bin-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.jruby.org/download",
                 "regex": "Current Release:\\s+JRuby\\s+([\\d.]+)"
             }

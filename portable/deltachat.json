@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://download.delta.chat/desktop/v$version/DeltaChat%20$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://delta.chat/en/download",
                 "regex": "desktop/v([\\d.]+)"
             }

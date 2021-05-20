@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kwart/jd-cli/releases/download/jd-cli-<version>/jd-cli-<version>-dist.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/kwart/jd-cli",
                 "regex": "jd-cli-([\\d.]+)\\-"
             }

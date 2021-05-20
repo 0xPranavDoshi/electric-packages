@@ -43,7 +43,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%20$majorVersion/$version/x64/AkelPad-$version-x64-bin-eng.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/akelpad/rss?path=/AkelPad%204",
                 "regex": "AkelPad-([\\d.]+)-x64-bin-eng\\.zip"
             }

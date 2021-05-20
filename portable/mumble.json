@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mumble-voip/mumble/releases/download/$version/mumble-$version.winx64.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.mumble.info/"
             }
         }

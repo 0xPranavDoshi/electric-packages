@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/720kb/ndm/releases/download/v<version>/ndm-<version>-ia32-win.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://720kb.github.io/ndm/"
             }
         }

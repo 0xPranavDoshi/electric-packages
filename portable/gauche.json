@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-64bit.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://practical-scheme.net/gauche/",
                 "regex": "mingw-([\\d.]+)-\\d+bit\\.msi"
             }

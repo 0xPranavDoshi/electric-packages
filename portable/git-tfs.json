@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/git-tfs/git-tfs/releases/download/v<version>/GitTfs-<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://git-tfs.com"
             }
         }

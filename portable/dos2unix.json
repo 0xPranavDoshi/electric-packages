@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://waterlan.home.xs4all.nl/dos2unix.html",
                 "regex": "Stable version:\\s+([\\d.]+)"
             }

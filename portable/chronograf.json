@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://dl.influxdata.com/chronograf/releases/chronograf-$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://portal.influxdata.com/downloads",
                 "regex": ">Chronograf v([\\d.]+)<"
             }

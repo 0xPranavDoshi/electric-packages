@@ -6,7 +6,7 @@
         "latest-version": "4.28",
         "auto-update": {
             "url": "https://download.sysinternals.com/files/BGInfo.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo",
                 "regex": "BgInfo v([\\d.]+)"
             }

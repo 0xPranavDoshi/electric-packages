@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "http://downloads.dlang.org/releases/$majorVersion.x/<version>/dmd.<version>.windows.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://downloads.dlang.org/releases/LATEST",
                 "regex": "([\\d.]+)"
             }

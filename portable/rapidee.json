@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://www.rapidee.com/download/RapidEEx64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.rapidee.com/en/about",
                 "regex": "([\\d.]+) build ([\\d]+)"
             }

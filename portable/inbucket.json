@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/inbucket/inbucket/releases/download/v$version/inbucket_$version_windows_amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.inbucket.org/binaries/",
                 "regex": "inbucket_([\\d.]+)_windows"
             }

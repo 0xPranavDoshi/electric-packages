@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-$version.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://picard.musicbrainz.org/downloads/",
                 "regex": "picard-setup-([\\d.]+)\\.exe"
             }

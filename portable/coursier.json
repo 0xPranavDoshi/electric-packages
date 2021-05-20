@@ -65,7 +65,7 @@
         },
         "auto-update": {
             "url": "https://github.com/coursier/coursier/releases/download/v<version>/coursier#/coursier.jar",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/coursier/coursier/releases",
                 "regex": "tag/v([\\w\\.-]+)"
             }

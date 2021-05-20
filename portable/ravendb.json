@@ -31,7 +31,7 @@
         },
         "auto-update": {
             "url": "https://daily-builds.s3.amazonaws.com/RavenDB-$version-windows-x64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://ravendb.net/download",
                 "regex": "Latest STABLE <span class=\"text-primary\">([\\d.]+)</span></h1>"
             }

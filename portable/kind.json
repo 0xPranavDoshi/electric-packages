@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/kubernetes-sigs/kind/releases/download/v$version/kind-windows-amd64#/kind.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://kind.sigs.k8s.io/docs/user/quick-start"
             }
         }

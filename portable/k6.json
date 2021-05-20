@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/loadimpact/k6/releases/download/v$version/k6-v$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://k6.io"
             }
         }

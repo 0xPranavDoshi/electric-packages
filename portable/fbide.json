@@ -32,7 +32,7 @@
         },
         "auto-update": {
             "url": "http://downloads.sourceforge.net/project/fbide/fbide%20$majorVersion.$minorVersion/fbide%20$matchMain%20$matchRelease/FBIde<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fbide.freebasic.net/download",
                 "regex": ">FBIde ((?<main>[\\d.]+)(?<release>r\\d))<"
             }

@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/dvorka/mindforger/releases/download/$version/mindforger-windows-installer-$version.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mindforger.com"
             }
         }

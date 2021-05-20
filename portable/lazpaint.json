@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/bgrabitmap/lazpaint/releases/download/v$version/lazpaint$version_win64_no_install.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://lazpaint.github.io/"
             }
         }

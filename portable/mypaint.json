@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/mypaint/mypaint/releases/download/v$version/mypaint-w64-$version-standalone.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://mypaint.org"
             }
         }

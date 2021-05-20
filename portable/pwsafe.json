@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/pwsafe/pwsafe/releases/download/$version/pwsafe64-$version-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/pwsafe/pwsafe/releases",
                 "regex": "pwsafe64-([\\d.]+).msi"
             }

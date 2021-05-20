@@ -5,12 +5,12 @@
     "16.0.5": {
         "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1605_Full.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "/VERYSILENT",
             "/NORESTART"
         ],
-        "uninstall-switches": [],
-        "custom-location": "/DIR=",
+        "uswitches": [],
+        "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "8477DD87091C65EBD50406FB0F9D035D6477DB5DE8871007029391208004F93D"
     }

@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/gpodder/gpodder/releases/download/<version>/windows-gpodder-<version>-portable.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://gpodder.org/"
             }
         }

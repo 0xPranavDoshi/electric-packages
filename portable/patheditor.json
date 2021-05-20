@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-64bit.exe#/PathEditor.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://archive.codeplex.com/?p=patheditor2"
             }
         }

@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nasm.us/doc/nasmdocc.html",
                 "regex": "version ([\\d.]+)"
             }

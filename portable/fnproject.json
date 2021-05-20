@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fnproject/cli/releases/download/$version/fn.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fnproject.io/"
             }
         }

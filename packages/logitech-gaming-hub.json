@@ -6,9 +6,9 @@
         "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
         "file-type": ".exe",
         "run-test": true,
-        "install-switches": [],
-        "uninstall-switches": [],
-        "custom-location": "",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
         "dependencies": [],
         "checksum": "11DF8473AD50489423CBE25737B8F5B0FCFE0A98E15E85B5E43A6A53B6D9B376"
     }

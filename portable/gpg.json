@@ -29,7 +29,7 @@
         },
         "auto-update": {
             "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-<version>_$matchDate.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.gnupg.org/download/index.html",
                 "regex": "gnupg-w32-([\\d.]+)_(?<date>\\d+)\\.exe"
             }

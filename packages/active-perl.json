@@ -4,7 +4,7 @@
     "latest-version": "5.28",
     "auto-update": {
         "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://www.activestate.com/products/perl/downloads/",
             "regex": "\\d\\.\\d{2}"
         }
@@ -12,37 +12,37 @@
     "5.26": {
         "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.26.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart",
             "PERL_PATH=Yes",
             "PERL_EXT=Yes"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     },
     "5.28": {
         "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart",
             "PERL_PATH=Yes",
             "PERL_EXT=Yes"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": []
     }
 }

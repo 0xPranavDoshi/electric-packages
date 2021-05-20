@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://www.digimezzo.com/content/software/dopamine/Dopamine%20<version>%20(Release)%20-%20Portable.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.digimezzo.com/software/dopamine/"
             }
         }

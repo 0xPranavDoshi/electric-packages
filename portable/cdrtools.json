@@ -30,7 +30,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/tumagcc/schily-cdrtools-<version>.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sourceforge.net/projects/tumagcc/files/",
                 "regex": "schily-cdrtools-([\\w.]+)\\.7z"
             }

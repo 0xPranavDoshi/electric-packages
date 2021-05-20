@@ -32,7 +32,7 @@
         },
         "auto-update": {
             "url": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-<version>-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nextcloud.com/install/",
                 "regex": "Latest stable version: ([\\d.]+)"
             }

@@ -5,17 +5,17 @@
     "41.4.3.19": {
         "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex.msi",
         "file-type": ".msi",
-        "install-switches": [
+        "iswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/qn",
             "/quiet",
             "/norestart"
         ],
-        "custom-location": "INSTALLDIR=",
+        "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "A61837879A0D7E9A838D8CD3B16A312CF86FA261ADCEBAD11E0D0358ABAC0CA1"
     }

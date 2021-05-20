@@ -28,7 +28,7 @@
         },
         "auto-update": {
             "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-installer.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.freecadweb.org",
                 "regex": "releases/download/([\\d.]+)/FreeCAD-(?<build>[\\w.]+)-WIN"
             }

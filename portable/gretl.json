@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-64.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://gretl.sourceforge.net/ChangeLog.html",
                 "regex": "Version (\\w+)"
             }

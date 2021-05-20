@@ -27,7 +27,7 @@
         },
         "auto-update": {
             "url": "https://mirror.racket-lang.org/installers/$version/racket-$version-x86_64-win32.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://download.racket-lang.org/",
                 "regex": "Version ([\\d.]+)"
             }

@@ -6,7 +6,7 @@
         "url": "https://github.com/peazip/PeaZip/releases/download/7.8.0/peazip-7.8.0.WIN64.exe",
         "file-type": ".exe",
         "checksum": "1d89648ffa4e2ce0682c6b748c96c575df832097313865a6805d93ad51c261a6",
-        "install-switches": [
+        "iswitches": [
             "/SP-",
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
@@ -14,12 +14,12 @@
             "/NORESTART",
             "/FORCECLOSEAPPLICATIONS"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
         ],
-        "custom-location": "/DIR=",
+        "clswitch": "/DIR=",
         "dependencies": []
     }
 }

@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/fsprojects/Paket/releases/download/<version>/paket.exe",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://fsprojects.github.io/Paket/"
             }
         }

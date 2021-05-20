@@ -35,7 +35,7 @@
         },
         "auto-update": {
             "url": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://d2td7dqidlhjx7.cloudfront.net/prod/dub/windows/WorkSpacesAppCast.xml",
                 "regex": "title>Version ([\\d.]+)</"
             }

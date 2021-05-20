@@ -36,7 +36,7 @@
         },
         "auto-update": {
             "url": "https://nmap.org/dist/nmap-<version>-setup.exe#/dl.7z",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://nmap.org/download.html",
                 "regex": "nmap-([\\d.]+)-setup\\.exe"
             }

@@ -26,7 +26,7 @@
         },
         "auto-update": {
             "url": "https://github.com/sabnzbd/sabnzbd/releases/download/$version/SABnzbd-$version-win64-bin.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://sabnzbd.org"
             }
         }

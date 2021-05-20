@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://get.helm.sh/helm-v$version-windows-amd64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://github.com/kubernetes/helm/releases",
                 "regex": "/tag/v(3\\.[\\d.]+)\""
             }

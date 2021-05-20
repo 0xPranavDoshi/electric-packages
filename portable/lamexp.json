@@ -41,7 +41,7 @@
         },
         "auto-update": {
             "url": "https://downloads.sourceforge.net/project/lamexp/LameXP.$matchRelease.Release-Static.Build-$patchVersion.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://muldersoft.com",
                 "regex": "\\[(?<release>[\\d-]+)\\]&nbsp;LameXP v([\\d.]+) Final \\(Build #(\\d+)\\)"
             }

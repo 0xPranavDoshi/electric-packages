@@ -18,7 +18,7 @@
         },
         "auto-update": {
             "url": "https://downloads.python.org/pypy/pypy$matchPy-v<version>-win32.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.pypy.org/download.html",
                 "regex": "pypy(?<py>3[\\d.]+)-v([\\d.]+)"
             }

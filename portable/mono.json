@@ -15,7 +15,7 @@
         },
         "auto-update": {
             "url": "https://download.mono-project.com/archive/$matchShort/windows-installer/mono-$version-x64-0.msi",
-            "vercheck": {
+            "version-check": {
                 "webpage": "http://www.mono-project.com/download/stable/",
                 "regex": "(?<short>[\\d.]+)/windows-installer/(?<file>mono-(?<version>[\\d.]+).*win32.*)\\.msi"
             }

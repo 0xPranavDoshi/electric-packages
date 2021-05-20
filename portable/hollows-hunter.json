@@ -21,7 +21,7 @@
         },
         "auto-update": {
             "url": "https://github.com/hasherezade/hollows_hunter/releases/download/v$version/hollows_hunter64.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://hshrzd.wordpress.com/pe-sieve/"
             }
         }

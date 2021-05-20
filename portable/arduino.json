@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://downloads.arduino.cc/arduino-<version>-windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.arduino.cc/en/Main/Software",
                 "regex": "Arduino IDE ([\\d.]+)<"
             }

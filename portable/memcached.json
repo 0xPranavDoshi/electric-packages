@@ -17,7 +17,7 @@
         },
         "auto-update": {
             "url": "https://github.com/nono303/memcached/archive/<version>.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://raw.githubusercontent.com/nono303/memcached/master/README.md",
                 "regex": "version\\s+\\[([\\d.]+)\\]"
             }

@@ -8,7 +8,7 @@
         "latest-version": "3.4.0.0",
         "auto-update": {
             "url": "https://downloads.haskell.org/cabal/cabal-install-<version>/cabal-install-<version>-x86_64-windows.zip" ,
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://www.haskell.org/cabal/download.html",
                 "regex": "Cabal library \\(version ([\\d.]+)\\)"
             }

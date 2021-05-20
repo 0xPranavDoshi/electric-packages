@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://github.com/Qalculate/libqalculate/releases/download/v<version>/qalculate-<version>-i386.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://qalculate.github.io/"
             }
         }

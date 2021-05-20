@@ -23,7 +23,7 @@
         },
         "auto-update": {
             "url": "https://raw.githubusercontent.com/technomancy/leiningen/<version>/bin/lein.bat",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://leiningen.org/"
             }
         }

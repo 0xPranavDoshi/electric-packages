@@ -20,7 +20,7 @@
         },
         "auto-update": {
             "url": "https://github.com/alexanderepstein/Sandman/releases/download/v$version/Sandman.Version.$version.64.Bit.Windows.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://alexanderepstein.github.io/Sandman/"
             }
         }

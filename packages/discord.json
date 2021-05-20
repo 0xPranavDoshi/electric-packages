@@ -4,7 +4,7 @@
     "latest-version": "0.0.309",
     "auto-update": {
         "url": "https://dl.discordapp.net/apps/win/<version>/DiscordSetup.exe",
-        "vercheck": {
+        "version-check": {
             "webpage": "https://discordapp.com/api/updates/stable/RELEASES",
             "regex": "Discord-([\\d.]+)"
         }
@@ -12,14 +12,14 @@
     "0.0.309": {
         "url": "https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe",
         "file-type": ".exe",
-        "install-switches": [
+        "iswitches": [
             "-s"
         ],
-        "uninstall-switches": [
+        "uswitches": [
             "-s",
             "--uninstall"
         ],
-        "custom-location": "",
+        "clswitch": "",
         "dependencies": [],
         "checksum": "FE6097BAB95CF9CE30F0819C64864986043795941C99F6DBA5763C67E4313B8E"
     }

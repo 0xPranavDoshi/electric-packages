@@ -22,7 +22,7 @@
         },
         "auto-update": {
             "url": "https://mh-nexus.de/downloads/HxDPortableSetup.zip",
-            "vercheck": {
+            "version-check": {
                 "webpage": "https://mh-nexus.de/en/hxd/changelog.php",
                 "regex": "v_([\\d.]+)"
             }
