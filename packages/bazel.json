@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "Bazel",
         "package-name": "bazel",
-        "latest-version": "4.0.0",
+        "latest-version": "4.1.0",
         "auto-update": {
             "url": "https://github.com/bazelbuild/bazel/releases/download/<version>/bazel-<version>-windows-x86_64.zip",
             "version-check": {
@@ -28,7 +28,16 @@
             "bin": [
                 "bazel.exe"
             ],
-            "checksum": "0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5"        
+            "checksum": "0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5"
+        },
+        "4.1.0": {
+            "checksum": "4F317BA6EBDD6F13AA0B164CE77E41D42413AA8992BB05925374A110016238C9",
+            "url": "https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-windows-x86_64.zip",
+            "file-type": ".zip",
+            "extract-dir": "bazel",
+            "bin": [
+                "bazel.exe"
+            ]
         }
     }
 }
