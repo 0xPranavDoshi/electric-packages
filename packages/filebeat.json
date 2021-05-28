@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "FileBeat",
         "package-name": "filebeat",
-        "latest-version": "7.12.1",
+        "latest-version": "7.13.0",
         "auto-update": {
             "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-<version>-windows-x86_64.zip",
             "version-check": {
@@ -25,6 +25,15 @@
         "7.12.1": {
             "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.12.1-windows-x86_64.zip",
             "checksum": "3989B0C6CB00EECDE89A4445496203E30919608EC8E42F5617116D0A20607770",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "7.13.0": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.13.0-windows-x86_64.zip",
+            "checksum": "8F4EE96E3AF763A54A97897FD6C1D68F03FAC2AA952170F37138C48C3E012C0A",
             "file-type": ".zip",
             "extract-dir": "filebeat",
             "bin": [
