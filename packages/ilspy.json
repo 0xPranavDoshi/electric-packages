@@ -5,7 +5,14 @@
     "portable": {
         "display-name": "ILSpy",
         "package-name": "ilspy",
-        "latest-version": "6.2.1",
+        "latest-version": "7.0.0.6488",
+        "auto-update": {
+            "url": "https://github.com/icsharpcode/ILSpy/releases/download/v<major-version>.<minor-version>.<patch-version>/ILSpy_binaries_<version>.zip",
+            "version-check": {
+                "webpage": "https://github.com/icsharpcode/ILSpy/releases/latest",
+                "regex": "ILSpy_binaries_([\\d.]+).zip"
+            }
+        },
         "6.2.1": {
             "url": "https://github.com/icsharpcode/ILSpy/releases/download/v6.2.1/ILSpy_binaries_6.2.1.6137.zip",
             "file-type": ".zip",
@@ -16,7 +23,17 @@
                 }
             ],
             "dependencies": []
+        },
+        "7.0.0.6488": {
+            "url": "https://github.com/icsharpcode/ILSpy/releases/download/v7.0.0/ILSpy_binaries_7.0.0.6488.zip",
+            "file-type": ".zip",
+            "shortcuts": [
+                {
+                    "shortcut-name": "ILSpy",
+                    "file-name": "ILSpy.exe"
+                }
+            ],
+            "dependencies": []
         }
     }
-    
 }
