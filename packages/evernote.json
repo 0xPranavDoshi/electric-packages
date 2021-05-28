@@ -1,7 +1,7 @@
 {
     "display-name": "Evernote",
     "package-name": "evernote",
-    "latest-version": "10.13.4",
+    "latest-version": "10.14.6",
     "auto-update": {
         "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-<version>-win-ddl-ga-<2>-setup.exe",
         "version-check": {
@@ -35,5 +35,18 @@
         "clswitch": "/D=",
         "dependencies": [],
         "checksum": "44D52227C6A4E93E8581BA41125906203B354D34C0AD145A84204992BD3A1CDB"
+    },
+    "10.14.6": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.14.6-win-ddl-ga-2651-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "9A303DC064DA293BD0311DB00C1B78D4ECC91BF43B9B654285DCC531BC789C0B"
     }
 }
