@@ -1,7 +1,7 @@
 {
     "display-name": "AWS Command Line Interface v2",
     "package-name": "awscli",
-    "latest-version": "2.2.5",
+    "latest-version": "2.2.7",
     "auto-update": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-<version>.msi",
         "version-check": {
@@ -110,6 +110,22 @@
     },
     "2.2.5": {
         "url": "https://awscli.amazonaws.com/AWSCLIV2-2.2.5.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "2.2.7": {
+        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.2.7.msi",
         "file-type": ".msi",
         "iswitches": [
             "/passive",
