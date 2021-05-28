@@ -15,7 +15,8 @@ setup(
     packages=find_packages(),
     scripts=[os.path.join(os.path.abspath(os.getcwd()), 'au.py')],
     install_requires=[
-        'click'
+        'click',
+        'pygments'
     ],
     entry_points='''
         [console_scripts]

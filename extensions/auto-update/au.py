@@ -119,9 +119,9 @@ def update(
 
         latest_version = data['latest-version']
 
-        webpage = data['auto-update']['vercheck']['webpage']
-        dt = data['auto-update']['vercheck']['type'] if 'type' in list(
-            data['auto-update']['vercheck'].keys()) else False
+        webpage = data['auto-update']['version-check']['webpage']
+        dt = data['auto-update']['version-check']['type'] if 'type' in list(
+            data['auto-update']['version-check'].keys()) else False
 
         # FINE
 
@@ -234,7 +234,7 @@ def update(
             idx = 1
             res_tup = []
 
-            result = re.findall(data['auto-update']['vercheck']['regex'], html)
+            result = re.findall(data['auto-update']['version-check']['regex'], html)
 
             try:
                 web_version = result[0]
@@ -242,8 +242,8 @@ def update(
                 print(f'{Fore.RED}No Matches Found!{Fore.RESET}')
                 exit()
 
-            if 'reverse' in list(data['auto-update']['vercheck'].keys()):
-                if data['auto-update']['vercheck']['reverse'] == True:
+            if 'reverse' in list(data['auto-update']['version-check'].keys()):
+                if data['auto-update']['version-check']['reverse'] == True:
                     web_version = result[-1]
 
             if isinstance(web_version, tuple):
@@ -254,8 +254,8 @@ def update(
             result = web_version
             replace = result
 
-            if 'replace' in list(data['auto-update']['vercheck'].keys()):
-                replace = data['auto-update']['vercheck']['replace']
+            if 'replace' in list(data['auto-update']['version-check'].keys()):
+                replace = data['auto-update']['version-check']['replace']
 
                 for value in res_tup:
                     replace = replace.replace(
@@ -365,12 +365,12 @@ def update(
                     if 'auto-update' not in list(data.keys()):
                         sys.exit()
 
-                    webpage = data['portable']['auto-update']['vercheck']['webpage']
+                    webpage = data['portable']['auto-update']['version-check']['webpage']
 
                     print(
                         f'{Fore.LIGHTGREEN_EX}Sending Request To {webpage}{Fore.RESET}')
-                    dt = data['portable']['auto-update']['vercheck']['type'] if 'type' in list(
-                        data['portable']['auto-update']['vercheck'].keys()) else False
+                    dt = data['portable']['auto-update']['version-check']['type'] if 'type' in list(
+                        data['portable']['auto-update']['version-check'].keys()) else False
 
                     if 'github.com' in webpage and dt:
                         if webpage.endswith('/'):
@@ -453,7 +453,7 @@ def update(
                         res_tup = []
 
                         result = re.findall(
-                            data['portable']['auto-update']['vercheck']['regex'], html)
+                            data['portable']['auto-update']['version-check']['regex'], html)
 
                         try:
                             web_version = result[0]
@@ -461,8 +461,8 @@ def update(
                             print(f'{Fore.RED}No Matches Found!{Fore.RESET}')
                             exit()
 
-                        if 'reverse' in list(data['auto-update']['vercheck'].keys()):
-                            if data['auto-update']['vercheck']['reverse'] == True:
+                        if 'reverse' in list(data['auto-update']['version-check'].keys()):
+                            if data['auto-update']['version-check']['reverse'] == True:
                                 web_version = result[-1]
 
                         for value in web_version:
@@ -471,8 +471,8 @@ def update(
 
                         result = web_version
 
-                        if 'replace' in list(data['portable']['auto-update']['vercheck'].keys()):
-                            replace = data['portable']['auto-update']['vercheck']['replace']
+                        if 'replace' in list(data['portable']['auto-update']['version-check'].keys()):
+                            replace = data['portable']['auto-update']['version-check']['replace']
 
                             for value in res_tup:
                                 replace = replace.replace(
@@ -558,11 +558,11 @@ def update(
         if 'auto-update' not in list(data['portable'].keys()):
             sys.exit()
 
-        webpage = data['portable']['auto-update']['vercheck']['webpage']
+        webpage = data['portable']['auto-update']['version-check']['webpage']
 
         try:
-            dt = data['portable']['auto-update']['vercheck']['type'] if 'type' in list(
-                data['portable']['auto-update']['vercheck'].keys()) else False
+            dt = data['portable']['auto-update']['version-check']['type'] if 'type' in list(
+                data['portable']['auto-update']['version-check'].keys()) else False
         except:
             dt = False
 
@@ -645,7 +645,7 @@ def update(
             res_tup = []
 
             result = re.findall(
-                data['portable']['auto-update']['vercheck']['regex'], html)
+                data['portable']['auto-update']['version-check']['regex'], html)
 
             try:
                 web_version = result[0]
@@ -653,8 +653,8 @@ def update(
                 print(f'{Fore.RED}No Matches Found!{Fore.RESET}')
                 exit()
 
-            if 'reverse' in list(data['portable']['auto-update']['vercheck'].keys()):
-                if data['portable']['auto-update']['vercheck']['reverse'] == True:
+            if 'reverse' in list(data['portable']['auto-update']['version-check'].keys()):
+                if data['portable']['auto-update']['version-check']['reverse'] == True:
                     web_version = result[-1]
 
             for value in web_version:
@@ -664,8 +664,8 @@ def update(
             result = web_version
             replace = result
 
-            if 'replace' in list(data['portable']['auto-update']['vercheck'].keys()):
-                replace = data['portable']['auto-update']['vercheck']['replace']
+            if 'replace' in list(data['portable']['auto-update']['version-check'].keys()):
+                replace = data['portable']['auto-update']['version-check']['replace']
 
                 for value in res_tup:
                     replace = replace.replace(
