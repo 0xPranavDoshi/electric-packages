@@ -8,7 +8,7 @@
             "regex": "&nbsp;([\\d.]+)</li>"
         }
     },
-    "latest-version": "5.6.1.617",
+    "latest-version": "5.6.6.961",
     "5.5.12494.0204": {
         "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
         "file-type": ".msi",
@@ -42,5 +42,22 @@
         "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "1C8E0F3DC13C2ED71A001B0ACB0B393CA2307198E7C4D1865697B3EF00CF083D"
+    },
+    "5.6.6.961": {
+        "url": "https://zoom.us/client/5.6.6.961/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "6E36C5EB8643DC56C6EBA357C2B1E0012F6B32B17C602205764040C10DE935BD"
     }
 }
