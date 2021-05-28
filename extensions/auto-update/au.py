@@ -234,7 +234,8 @@ def update(
             idx = 1
             res_tup = []
 
-            result = re.findall(data['auto-update']['version-check']['regex'], html)
+            result = re.findall(data['auto-update']
+                                ['version-check']['regex'], html)
 
             try:
                 web_version = result[0]
