@@ -1,7 +1,7 @@
 {
     "display-name": "JetBrains dotPeek 2021.1.1",
     "package-name": "dotpeek",
-    "latest-version": "2021.1.2",
+    "latest-version": "2021.1.3",
     "auto-update": {
         "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.<version>/JetBrains.dotPeek.<version>.web.exe",
         "version-check": {
@@ -42,5 +42,22 @@
         "clswitch": "",
         "dependencies": [],
         "checksum": "AFCD5502404CF2CA65DD801A65D4CDEE0A3824ADEE7E0707D6A84C7112288296"
+    },
+    "2021.1.3": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.3/JetBrains.dotPeek.2021.1.3.web.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "70D54A6AA694DBBC41744EC976EF832EB992A8730EAC8466D7D76EB91D2962A5"
     }
 }
