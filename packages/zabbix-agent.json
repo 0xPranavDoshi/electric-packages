@@ -1,7 +1,7 @@
 {
     "display-name": "Zabbix Agent",
     "package-name": "zabbix-agent",
-    "latest-version": "5.4.0",
+    "latest-version": "5.0.12",
     "auto-update": {
         "url": "https://cdn.zabbix.com/zabbix/binaries/stable/<major-version>.<minor-version>/<version>/zabbix_agent-<version>-windows-amd64-openssl.msi",
         "version-check": {
@@ -59,5 +59,22 @@
         "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "9DC35A86C4C0DC5BEE476B8607095A8371676363E26E93FDF6B8CBDC2AC6C984"
+    },
+    "5.0.12": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.0/5.0.12/zabbix_agent-5.0.12-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "B387AA7E4D3C8869EEF65803D4E74F17C27BFC68DB97A4A58CF6CA8CA9B42C0A"
     }
 }
